@@ -1,7 +1,7 @@
 import { type ButtonHTMLAttributes, forwardRef } from "react";
 import { cn } from "@/lib/cn";
 
-type ButtonVariant = "primary" | "secondary" | "onDark";
+export type ButtonVariant = "primary" | "secondary" | "onDark";
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: ButtonVariant;
@@ -18,11 +18,13 @@ const variants: Record<ButtonVariant, string> = {
     "bg-transparent text-white border border-white hover:bg-white/10",
 };
 
+export function buttonClasses(variant: ButtonVariant = "primary", className?: string) {
+  return cn(base, variants[variant], className);
+}
+
 export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
   ({ className, variant = "primary", ...props }, ref) => {
-    return (
-      <button ref={ref} className={cn(base, variants[variant], className)} {...props} />
-    );
+    return <button ref={ref} className={buttonClasses(variant, className)} {...props} />;
   },
 );
 

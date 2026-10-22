@@ -93,3 +93,31 @@ body {
 .bg-hero-gradient {
   background-image: var(--gradient-hero);
 }
+
+@keyframes hero-fill {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+.animate-hero-fill {
+  transform-origin: left;
+  animation: hero-fill 6s linear forwards;
+}
+
+@keyframes float-y {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-float {
+  animation: float-y 4s ease-in-out infinite;
+}
