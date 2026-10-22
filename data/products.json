@@ -1,0 +1,203 @@
+[
+  {
+    "id": "zenbook-a14",
+    "nombre": "ASUS Zenbook A14 (UX3407)",
+    "linea": "zenbook",
+    "referencia": "UX3407QA-QD232W",
+    "pantallaPulgadas": 14,
+    "imagen": "/products/zenbook-a14.svg",
+    "perfiles": ["trabajo", "estudiantes", "hogar"],
+    "specs": [
+      {
+        "etiqueta": "Sistema operativo",
+        "valorTecnico": "Windows 11 Home",
+        "valorCliente": "Viene listo para usar, con todo lo que ya conoces de Windows."
+      },
+      {
+        "etiqueta": "Procesador",
+        "valorTecnico": "Snapdragon X X1-26-100",
+        "valorCliente": "Es rápido para el día a día y gasta muy poca batería."
+      },
+      {
+        "etiqueta": "Gráficos",
+        "valorTecnico": "Qualcomm Adreno",
+        "valorCliente": "Se ve fluido en videollamadas, oficina y videos, sin recalentarse."
+      },
+      {
+        "etiqueta": "Inteligencia artificial (NPU)",
+        "valorTecnico": "NPU Qualcomm Hexagon, hasta 45 TOPS",
+        "valorCliente": "Trae un chip extra de IA que mejora tus videollamadas y te ayuda con tareas de Windows, sin gastar batería de más."
+      },
+      {
+        "etiqueta": "Pantalla",
+        "valorTecnico": "14\" WUXGA (1920x1200) 16:10, 60 Hz, 400 nits, OLED",
+        "valorCliente": "Pantalla OLED de 14 pulgadas con colores muy vivos, ideal para ver series, fotos y trabajar cómodo."
+      },
+      {
+        "etiqueta": "Almacenamiento",
+        "valorTecnico": "SSD 1 TB M.2 NVMe PCIe 4.0",
+        "valorCliente": "1 TB de espacio bien rápido: guarda miles de fotos, videos y programas sin que el equipo se vuelva lento."
+      }
+    ],
+    "metricas": {
+      "bateria": 9,
+      "rendimiento": 6,
+      "ia": 8,
+      "portabilidad": 9,
+      "pantalla": 8
+    },
+    "argumentosVenta": [
+      "Dura todo el día de trabajo sin que tengas que cargarlo a cada rato.",
+      "Tiene un chip de IA que mejora tus videollamadas y hace tu equipo más inteligente, sin gastar batería.",
+      "Es liviano y delgado: perfecto para llevarlo a todas partes."
+    ],
+    "verificar": true
+  },
+  {
+    "id": "zenbook-a16",
+    "nombre": "ASUS Zenbook A16 (UX3607)",
+    "linea": "zenbook",
+    "referencia": "UX3607OA-SQ013W",
+    "pantallaPulgadas": 16,
+    "imagen": "/products/zenbook-a16.svg",
+    "perfiles": ["trabajo", "creadores", "estudiantes"],
+    "specs": [
+      {
+        "etiqueta": "Sistema operativo",
+        "valorTecnico": "Windows 11 Home",
+        "valorCliente": "Viene listo para usar, con todo lo que ya conoces de Windows."
+      },
+      {
+        "etiqueta": "Procesador",
+        "valorTecnico": "Snapdragon X2 Elite Extreme X2E94100",
+        "valorCliente": "Mucha más potencia que el modelo A14, pero sigue cuidando la batería."
+      },
+      {
+        "etiqueta": "Gráficos",
+        "valorTecnico": "Qualcomm Adreno",
+        "valorCliente": "Mueve bien videos, fotos y varias ventanas abiertas a la vez."
+      },
+      {
+        "etiqueta": "Pantalla",
+        "valorTecnico": "16\" 3K (2880x1800) 16:10, 120 Hz, 500 nits, OLED",
+        "valorCliente": "Pantalla grande en alta definición, con colores de cine y movimiento muy fluido."
+      },
+      {
+        "etiqueta": "Almacenamiento",
+        "valorTecnico": "SSD 1 TB M.2 NVMe PCIe 4.0",
+        "valorCliente": "1 TB de espacio bien rápido: guarda miles de fotos, videos y programas sin que el equipo se vuelva lento."
+      }
+    ],
+    "metricas": {
+      "bateria": 8,
+      "rendimiento": 7,
+      "ia": 8,
+      "portabilidad": 7,
+      "pantalla": 9
+    },
+    "argumentosVenta": [
+      "Pantalla grande en 3K con colores de cine, ideal para ver y crear contenido.",
+      "Más potencia que el A14, pero con batería que dura todo el día.",
+      "Es un Copilot+ PC: trae IA integrada para que tu cliente trabaje más rápido."
+    ],
+    "verificar": true
+  },
+  {
+    "id": "gaming-v16",
+    "nombre": "ASUS Gaming V16 (V3607)",
+    "linea": "gaming",
+    "referencia": "V3607VH-RP007W",
+    "pantallaPulgadas": 16,
+    "imagen": "/products/gaming-v16.svg",
+    "perfiles": ["gamers", "hogar", "estudiantes"],
+    "specs": [
+      {
+        "etiqueta": "Sistema operativo",
+        "valorTecnico": "Windows 11 Home",
+        "valorCliente": "Viene listo para usar, con todo lo que ya conoces de Windows."
+      },
+      {
+        "etiqueta": "Procesador",
+        "valorTecnico": "Intel Core 5 210H",
+        "valorCliente": "Procesador con buen desempeño para jugar y hacer varias cosas a la vez."
+      },
+      {
+        "etiqueta": "Tarjeta de video",
+        "valorTecnico": "NVIDIA GeForce RTX 5050 para portátil",
+        "valorCliente": "Tiene tarjeta de video dedicada: corre juegos y programas pesados de verdad."
+      },
+      {
+        "etiqueta": "Pantalla",
+        "valorTecnico": "16\" WUXGA (1920x1200) 16:10, 144 Hz, 300 nits",
+        "valorCliente": "Pantalla de 144 Hz: se ve súper fluida en juegos y videos de acción."
+      },
+      {
+        "etiqueta": "Almacenamiento",
+        "valorTecnico": "SSD 1 TB M.2 NVMe PCIe 4.0",
+        "valorCliente": "1 TB de espacio bien rápido: guarda miles de fotos, videos y programas sin que el equipo se vuelva lento."
+      }
+    ],
+    "metricas": {
+      "bateria": 5,
+      "rendimiento": 8,
+      "ia": 4,
+      "portabilidad": 5,
+      "pantalla": 7
+    },
+    "argumentosVenta": [
+      "Tiene tarjeta de video dedicada NVIDIA: corre juegos y programas pesados de verdad.",
+      "Pantalla de 144 Hz, ideal para juegos y contenido de acción.",
+      "Es la opción perfecta para el cliente que quiere jugar y también usar el PC para todo lo demás."
+    ],
+    "verificar": true
+  },
+  {
+    "id": "zenbook-duo",
+    "nombre": "ASUS Zenbook DUO (UX8407)",
+    "linea": "zenbook",
+    "referencia": "UX8407AA-SN434W",
+    "pantallaPulgadas": 14,
+    "imagen": "/products/zenbook-duo.svg",
+    "perfiles": ["creadores", "trabajo", "hogar"],
+    "specs": [
+      {
+        "etiqueta": "Sistema operativo",
+        "valorTecnico": "Windows 11 Home",
+        "valorCliente": "Viene listo para usar, con todo lo que ya conoces de Windows."
+      },
+      {
+        "etiqueta": "Procesador",
+        "valorTecnico": "Intel Core Ultra X7 358H",
+        "valorCliente": "Procesador potente, pensado para manejar dos pantallas y varias tareas a la vez."
+      },
+      {
+        "etiqueta": "Gráficos",
+        "valorTecnico": "Intel Arc",
+        "valorCliente": "Mueve bien edición de fotos, videos y varias ventanas abiertas."
+      },
+      {
+        "etiqueta": "Pantalla",
+        "valorTecnico": "Doble pantalla 14\" 3K (2880x1800) 16:10, 144 Hz, 500 nits, OLED táctil",
+        "valorCliente": "Trae dos pantallas OLED táctiles: una para ver, otra para trabajar al mismo tiempo."
+      },
+      {
+        "etiqueta": "Almacenamiento",
+        "valorTecnico": "SSD 1 TB M.2 NVMe PCIe 4.0",
+        "valorCliente": "1 TB de espacio bien rápido: guarda miles de fotos, videos y programas sin que el equipo se vuelva lento."
+      }
+    ],
+    "metricas": {
+      "bateria": 6,
+      "rendimiento": 8,
+      "ia": 7,
+      "portabilidad": 6,
+      "pantalla": 10
+    },
+    "argumentosVenta": [
+      "Trae dos pantallas OLED: una para ver, otra para trabajar al mismo tiempo.",
+      "Las dos pantallas son táctiles: puedes dibujar, anotar o tocar directo sobre ellas.",
+      "Es ideal para el cliente creador de contenido o que necesita multitarea de verdad."
+    ],
+    "verificar": true
+  }
+]

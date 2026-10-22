@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+:root {
+  /* ASUS corporativo */
+  --asus-blue: #006ce1; /* principal: logo, botón primario, acentos */
+  --asus-blue-deep: #003a78; /* fondos oscuros: hero, secciones, footer */
+  --asus-blue-accent: #0073e6; /* links, hover, estados activos */
+  --asus-blue-hover: #005bb8; /* hover del botón primario */
+  --asus-blue-soft: #eef3f8; /* fondos de sección suaves */
+  --asus-silver: #cccccc; /* bordes, divisores */
+  --asus-dark: #181818; /* texto principal */
+  --text-soft: #5a5a5a; /* texto secundario */
+  --text-faint: #8a8a8a; /* códigos de referencia, notas */
+  --bg: #ffffff;
+  --border: #e2e8ef;
+
+  /* Líneas de producto (solo chips, etiquetas y comparador) */
+  --line-zenbook: #3b3a36;
+  --line-vivobook: #006ce1;
+  --line-proart: #1a1a1a;
+  --line-rog: #cd0000;
+  --line-tuf: #ffd700;
+  --line-gaming: #0a2a4d; /* línea ASUS Gaming (no ROG): azul oscuro neutro */
+
+  /* Estados y gamificación */
+  --success: #2d8659;
+  --warning: #f5a623;
+  --danger: #d63838;
+  --gold: #f5a623;
+
+  /* Sombras (azuladas, suaves) */
+  --shadow-card: 0 4px 16px rgba(0, 32, 77, 0.08);
+  --shadow-elev: 0 12px 32px rgba(0, 32, 77, 0.12);
+
+  /* Radios */
+  --radius-btn: 4px;
+  --radius-card: 8px;
+  --radius-chip: 999px;
+
+  /* Gradiente de hero */
+  --gradient-hero: linear-gradient(135deg, #006ce1 0%, #003a78 100%);
+}
+
+@theme inline {
+  /* Colores */
+  --color-background: var(--bg);
+  --color-foreground: var(--asus-dark);
+  --color-border: var(--border);
+  --color-muted: var(--text-soft);
+  --color-faint: var(--text-faint);
+
+  --color-asus-blue: var(--asus-blue);
+  --color-asus-blue-deep: var(--asus-blue-deep);
+  --color-asus-blue-accent: var(--asus-blue-accent);
+  --color-asus-blue-hover: var(--asus-blue-hover);
+  --color-asus-blue-soft: var(--asus-blue-soft);
+  --color-asus-silver: var(--asus-silver);
+  --color-asus-dark: var(--asus-dark);
+
+  --color-line-zenbook: var(--line-zenbook);
+  --color-line-vivobook: var(--line-vivobook);
+  --color-line-proart: var(--line-proart);
+  --color-line-rog: var(--line-rog);
+  --color-line-tuf: var(--line-tuf);
+  --color-line-gaming: var(--line-gaming);
+
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-danger: var(--danger);
+  --color-gold: var(--gold);
+
+  /* Radios */
+  --radius-btn: var(--radius-btn);
+  --radius-card: var(--radius-card);
+  --radius-chip: var(--radius-chip);
+
+  /* Sombras */
+  --shadow-card: var(--shadow-card);
+  --shadow-elev: var(--shadow-elev);
+
+  /* Tipografía */
+  --font-display: var(--font-saira);
+  --font-sans: var(--font-roboto);
+  --font-mono: var(--font-roboto-mono);
+}
+
+body {
+  background: var(--bg);
+  color: var(--asus-dark);
+  font-family: var(--font-roboto), Arial, Helvetica, sans-serif;
+}
+
+.bg-hero-gradient {
+  background-image: var(--gradient-hero);
+}
