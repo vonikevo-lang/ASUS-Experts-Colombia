@@ -15,7 +15,7 @@ const ranking = rankingData as AsesorRanking[];
 const PODIUM_STYLES = [
   { place: 1, height: "h-28", tone: "bg-gold", text: "text-white", order: "order-2" },
   { place: 2, height: "h-20", tone: "bg-asus-silver", text: "text-asus-dark", order: "order-1" },
-  { place: 3, height: "h-16", tone: "bg-[#C98A4B]", text: "text-white", order: "order-3" },
+  { place: 3, height: "h-16", tone: "bg-bronze", text: "text-white", order: "order-3" },
 ];
 
 export default function RankingPage() {

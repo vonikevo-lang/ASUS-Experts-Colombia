@@ -129,7 +129,7 @@ export default function MarcaPage() {
                   <button
                     type="button"
                     onClick={() => toggleSort(key)}
-                    className="font-sans text-xs font-medium uppercase tracking-[0.04em] text-muted hover:text-asus-dark inline-flex items-center gap-1"
+                    className="font-sans text-xs font-medium uppercase tracking-[0.04em] text-muted hover:text-asus-dark inline-flex items-center gap-1 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-asus-blue"
                   >
                     {label}
                     {sort.key === key && <span>{sort.dir === "asc" ? "↑" : "↓"}</span>}

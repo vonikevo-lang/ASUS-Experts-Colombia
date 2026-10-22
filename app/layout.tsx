@@ -20,10 +20,34 @@ const robotoMono = Roboto_Mono({
   weight: ["400"],
 });
 
+const siteUrl = process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "http://localhost:3000";
+
+const title = "ASUS Experts Colombia – Concepto";
+const description =
+  "Concepto de plataforma de entrenamiento para asesores de venta ASUS en Colombia: módulos cortos, comparador, recomendador y gamificación. Propuesta de Kaisen Design Studio, no es un sitio oficial de ASUS.";
+
 export const metadata: Metadata = {
-  title: "ASUS Experts Colombia",
-  description:
-    "Plataforma de entrenamiento para asesores de venta ASUS en Colombia.",
+  metadataBase: new URL(siteUrl),
+  title: {
+    default: title,
+    template: "%s | ASUS Experts Colombia",
+  },
+  description,
+  openGraph: {
+    title,
+    description,
+    locale: "es_CO",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title,
+    description,
+  },
+  robots: {
+    index: false,
+    follow: false,
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

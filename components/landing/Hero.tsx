@@ -160,20 +160,22 @@ export function Hero() {
             aria-label={`Ir al slide ${i + 1}: ${s.title}`}
             aria-current={i === index}
             onClick={() => setIndex(i)}
-            className="h-1 flex-1 max-w-[120px] rounded-chip bg-white/25 overflow-hidden"
+            className="flex-1 max-w-[120px] py-2.5 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
           >
-            <div
-              className={
-                i === index
-                  ? reduced
-                    ? "h-full w-full bg-white"
-                    : "h-full w-full bg-white animate-hero-fill"
-                  : i < index
-                    ? "h-full w-full bg-white"
-                    : "h-full w-0 bg-white"
-              }
-              style={i === index && !reduced ? { animationPlayState: paused ? "paused" : "running" } : undefined}
-            />
+            <div className="h-1 w-full rounded-chip bg-white/25 overflow-hidden">
+              <div
+                className={
+                  i === index
+                    ? reduced
+                      ? "h-full w-full bg-white"
+                      : "h-full w-full bg-white animate-hero-fill"
+                    : i < index
+                      ? "h-full w-full bg-white"
+                      : "h-full w-0 bg-white"
+                }
+                style={i === index && !reduced ? { animationPlayState: paused ? "paused" : "running" } : undefined}
+              />
+            </div>
           </button>
         ))}
       </div>

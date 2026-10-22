@@ -58,8 +58,8 @@ function AppShell({ children }: { children: React.ReactNode }) {
                 key={item.href}
                 href={item.href}
                 className={cn(
-                  "flex items-center gap-3 px-3 h-11 rounded-btn font-sans text-sm font-medium",
-                  active ? "bg-asus-blue-soft text-asus-blue" : "text-asus-dark hover:bg-asus-blue-soft/60",
+                  "flex items-center gap-3 px-3 h-11 rounded-btn font-sans text-sm font-medium focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-asus-blue",
+                  active ? "bg-asus-blue-soft text-asus-blue-hover" : "text-asus-dark hover:bg-asus-blue-soft/60",
                 )}
               >
                 <Icon className="h-5 w-5" />
@@ -80,7 +80,7 @@ function AppShell({ children }: { children: React.ReactNode }) {
               logout();
               router.replace("/app");
             }}
-            className="font-sans text-xs text-muted hover:text-asus-dark mt-3 underline"
+            className="font-sans text-xs text-muted hover:text-asus-dark mt-3 underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-asus-blue"
           >
             Cerrar sesión
           </button>
@@ -97,7 +97,7 @@ function AppShell({ children }: { children: React.ReactNode }) {
             <Link
               key={item.href}
               href={item.href}
-              className="flex-1 flex flex-col items-center justify-center gap-0.5 py-2.5"
+              className="flex-1 flex flex-col items-center justify-center gap-0.5 py-2.5 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-asus-blue"
             >
               <Icon className={cn("h-5 w-5", active ? "text-asus-blue" : "text-muted")} />
               <span className={cn("font-sans text-[10px]", active ? "text-asus-blue font-medium" : "text-muted")}>

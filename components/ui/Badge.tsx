@@ -8,11 +8,11 @@ interface BadgeProps extends HTMLAttributes<HTMLSpanElement> {
 }
 
 const toneClass: Record<BadgeTone, string> = {
-  neutral: "bg-asus-blue-soft text-asus-blue",
+  neutral: "bg-asus-blue-soft text-asus-blue-hover",
   success: "bg-success/10 text-success",
-  warning: "bg-warning/10 text-warning",
+  warning: "bg-warning/10 text-warning-text",
   danger: "bg-danger/10 text-danger",
-  gold: "bg-gold/10 text-gold",
+  gold: "bg-gold/10 text-warning-text",
 };
 
 export function Badge({ className, tone = "neutral", children, ...props }: BadgeProps) {

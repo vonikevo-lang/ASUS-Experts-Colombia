@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
 import { useReducedMotion } from "@/hooks/useReducedMotion";
+import { cn } from "@/lib/cn";
 
 // Testimonios de ejemplo — reemplazar por testimonios reales de asesores.
 const TESTIMONIALS = [
@@ -48,7 +49,7 @@ export function Testimonials() {
   return (
     <section className="bg-asus-blue-soft">
       <div className="mx-auto max-w-3xl px-4 sm:px-6 py-20 text-center">
-        <p className="font-sans text-xs uppercase tracking-[0.04em] text-asus-blue font-medium">
+        <p className="font-sans text-xs uppercase tracking-[0.04em] text-asus-blue-hover font-medium">
           Lo que dicen los asesores
         </p>
 
@@ -87,8 +88,15 @@ export function Testimonials() {
               aria-label={`Testimonio de ${item.name}`}
               aria-current={i === index}
               onClick={() => setIndex(i)}
-              className={i === index ? "h-2 w-6 rounded-chip bg-asus-blue" : "h-2 w-2 rounded-chip bg-asus-silver"}
-            />
+              className="p-2 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-asus-blue"
+            >
+              <span
+                className={cn(
+                  "block rounded-chip",
+                  i === index ? "h-2 w-6 bg-asus-blue" : "h-2 w-2 bg-asus-silver",
+                )}
+              />
+            </button>
           ))}
         </div>
       </div>

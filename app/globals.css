@@ -10,7 +10,7 @@
   --asus-silver: #cccccc; /* bordes, divisores */
   --asus-dark: #181818; /* texto principal */
   --text-soft: #5a5a5a; /* texto secundario */
-  --text-faint: #8a8a8a; /* códigos de referencia, notas */
+  --text-faint: #707070; /* códigos de referencia, notas (AA 4.5:1 sobre blanco) */
   --bg: #ffffff;
   --border: #e2e8ef;
 
@@ -27,6 +27,8 @@
   --warning: #f5a623;
   --danger: #d63838;
   --gold: #f5a623;
+  --bronze: #c98a4b;
+  --warning-text: #8a5a00; /* texto accesible sobre bg-warning/10 y bg-gold/10 (AA) */
 
   /* Sombras (azuladas, suaves) */
   --shadow-card: 0 4px 16px rgba(0, 32, 77, 0.08);
@@ -68,6 +70,8 @@
   --color-warning: var(--warning);
   --color-danger: var(--danger);
   --color-gold: var(--gold);
+  --color-bronze: var(--bronze);
+  --color-warning-text: var(--warning-text);
 
   /* Radios */
   --radius-btn: var(--radius-btn);

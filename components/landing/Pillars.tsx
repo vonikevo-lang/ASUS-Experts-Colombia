@@ -99,7 +99,7 @@ export function Pillars() {
                     <p
                       className={
                         isActive
-                          ? "font-display text-base font-semibold text-asus-blue"
+                          ? "font-display text-base font-semibold text-asus-blue-hover"
                           : "font-display text-base font-semibold text-asus-dark"
                       }
                     >

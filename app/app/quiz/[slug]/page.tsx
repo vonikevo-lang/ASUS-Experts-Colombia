@@ -15,6 +15,7 @@ import { useDemoUser } from "@/lib/demoUser";
 import { useReducedMotion } from "@/hooks/useReducedMotion";
 import { IconArrowLeft, IconTrophy } from "@/components/icons";
 import { cn } from "@/lib/cn";
+import { BRAND_COLORS } from "@/lib/tokens";
 
 const quizzes = quizzesData as Quiz[];
 const modules = modulesData as Modulo[];
@@ -160,7 +161,7 @@ export default function QuizPage() {
                     }
                     transition={{ duration: 0.4 }}
                     className={cn(
-                      "w-full text-left rounded-card border px-4 py-3.5 font-sans text-sm transition-colors",
+                      "w-full text-left rounded-card border px-4 py-3.5 font-sans text-sm transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-asus-blue",
                       showCorrect
                         ? "border-success bg-success/10 text-success font-medium"
                         : showWrong
@@ -224,7 +225,7 @@ function ResultScreen({
       delay: Math.random() * 0.4,
       duration: 1.6 + Math.random() * 0.8,
       rotate: Math.random() * 360,
-      color: ["#006CE1", "#F5A623", "#2D8659", "#00A3E7"][i % 4],
+      color: [BRAND_COLORS.blue, BRAND_COLORS.gold, BRAND_COLORS.success, BRAND_COLORS.blueAccent][i % 4],
     })),
   );
 
@@ -261,7 +262,17 @@ function ResultScreen({
           className="mt-8"
         >
           <motion.div
-            animate={reduced ? {} : { boxShadow: ["0 0 0px #F5A623", "0 0 28px #F5A623", "0 0 0px #F5A623"] }}
+            animate={
+              reduced
+                ? {}
+                : {
+                    boxShadow: [
+                      `0 0 0px ${BRAND_COLORS.gold}`,
+                      `0 0 28px ${BRAND_COLORS.gold}`,
+                      `0 0 0px ${BRAND_COLORS.gold}`,
+                    ],
+                  }
+            }
             transition={{ duration: 1.8, repeat: reduced ? 0 : Infinity, repeatDelay: 0.6 }}
             className="h-20 w-20 rounded-full bg-gold flex items-center justify-center mx-auto"
           >
