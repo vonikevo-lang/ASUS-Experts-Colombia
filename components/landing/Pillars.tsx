@@ -11,14 +11,14 @@ const PILLARS = [
     id: "entrenamiento",
     icon: IconBook,
     label: "Entrenamiento",
-    description: "Módulos cortos por producto, con videos e interactivos.",
+    description: "Módulos de 5 minutos por producto, videos e interactivos, desde el celular.",
     image: "/products/zenbook-a14.svg",
   },
   {
     id: "comparador",
     icon: IconCompare,
     label: "Comparador",
-    description: "Modo técnico y modo cliente, para explicar como tú quieras.",
+    description: "Compara modelos ASUS en modo técnico o en modo cliente, con palabras simples.",
     image: "/products/zenbook-a16.svg",
   },
   {
@@ -32,7 +32,7 @@ const PILLARS = [
     id: "premios",
     icon: IconGift,
     label: "Premios",
-    description: "Puntos, badges, merch ASUS y concursos.",
+    description: "Puntos, badges, merch ASUS y concursos mensuales.",
     image: "/products/zenbook-duo.svg",
   },
 ];
@@ -84,7 +84,7 @@ export function Pillars() {
                   setActive(pillar.id);
                   setUserInteracted(true);
                 }}
-                className="relative shrink-0 w-56 md:w-full text-left p-4 rounded-card focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-asus-blue"
+                className="relative shrink-0 w-56 md:w-full text-left p-4 rounded-card overflow-hidden focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-asus-blue"
               >
                 {isActive && (
                   <motion.div
@@ -93,18 +93,28 @@ export function Pillars() {
                     transition={reduced ? { duration: 0 } : { type: "spring", stiffness: 380, damping: 32 }}
                   />
                 )}
-                <div className="relative flex items-center gap-3">
-                  <Icon className={isActive ? "h-6 w-6 text-asus-blue shrink-0" : "h-6 w-6 text-muted shrink-0"} />
-                  <p
-                    className={
-                      isActive
-                        ? "font-display text-base font-semibold text-asus-blue"
-                        : "font-display text-base font-semibold text-asus-dark"
-                    }
-                  >
-                    {pillar.label}
-                  </p>
+                <div className="relative flex items-start gap-3">
+                  <Icon className={isActive ? "h-6 w-6 text-asus-blue shrink-0 mt-0.5" : "h-6 w-6 text-muted shrink-0 mt-0.5"} />
+                  <div className="min-w-0">
+                    <p
+                      className={
+                        isActive
+                          ? "font-display text-base font-semibold text-asus-blue"
+                          : "font-display text-base font-semibold text-asus-dark"
+                      }
+                    >
+                      {pillar.label}
+                    </p>
+                    <p className="font-sans text-xs text-muted mt-0.5 line-clamp-1">{pillar.description}</p>
+                  </div>
                 </div>
+                {isActive && !userInteracted && !reduced && (
+                  <div
+                    key={pillar.id}
+                    className="absolute left-0 bottom-0 h-0.5 w-full bg-asus-blue animate-hero-fill"
+                    style={{ animationDuration: `${AUTOPLAY_MS}ms` }}
+                  />
+                )}
               </button>
             );
           })}
