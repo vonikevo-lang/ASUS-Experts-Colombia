@@ -1,0 +1,34 @@
+[
+  {
+    "slug": "zenbook-a14",
+    "titulo": "Zenbook A14: la portátil con IA que dura todo el día",
+    "productoId": "zenbook-a14",
+    "pantallas": [
+      {
+        "dato": "Es un Copilot+ PC",
+        "explicacion": "Trae un chip especial para tareas de inteligencia artificial, algo que la mayoría de portátiles todavía no tiene.",
+        "imagen": "/products/zenbook-a14.svg"
+      },
+      {
+        "dato": "NPU Qualcomm Hexagon, hasta 45 TOPS",
+        "explicacion": "Esa IA le ayuda a mejorar sus videollamadas y a hacer tareas de Windows más rápido, sin gastar batería extra.",
+        "imagen": "/products/zenbook-a14.svg"
+      },
+      {
+        "dato": "Procesador Snapdragon X X1-26-100",
+        "explicacion": "Es un procesador pensado para que el equipo dure conectado todo el día, sin tener que cargarlo a cada rato.",
+        "imagen": "/products/zenbook-a14.svg"
+      },
+      {
+        "dato": "Pantalla OLED de 14\", 400 nits",
+        "explicacion": "Los colores se ven más vivos y el contraste es mejor que en una pantalla normal: ideal para fotos y videos.",
+        "imagen": "/products/zenbook-a14.svg"
+      },
+      {
+        "dato": "SSD de 1 TB",
+        "explicacion": "Tiene espacio de sobra para fotos, videos y programas, y todo carga muy rápido.",
+        "imagen": "/products/zenbook-a14.svg"
+      }
+    ]
+  }
+]

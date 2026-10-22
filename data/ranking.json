@@ -1,0 +1,17 @@
+[
+  { "id": 1, "nombre": "Camila V.", "tienda": "Alkosto Av. 68", "puntos": 2080 },
+  { "id": 2, "nombre": "Carlos R.", "tienda": "Éxito Calle 80", "puntos": 1960 },
+  { "id": 3, "nombre": "Daniela G.", "tienda": "Falabella Unicentro", "puntos": 1875 },
+  { "id": 4, "nombre": "Andrés P.", "tienda": "Jumbo Santa Fe", "puntos": 1700 },
+  { "id": 5, "nombre": "Juan D.", "tienda": "Éxito Calle 80", "puntos": 1610 },
+  { "id": 6, "nombre": "Valentina S.", "tienda": "Falabella Unicentro", "puntos": 1540 },
+  { "id": 7, "nombre": "Santiago L.", "tienda": "Jumbo Santa Fe", "puntos": 1480 },
+  { "id": 8, "nombre": "Mariana T.", "tienda": "Alkosto Av. 68", "puntos": 1390 },
+  { "id": 9, "nombre": "Felipe O.", "tienda": "Éxito Calle 80", "puntos": 1320 },
+  { "id": 10, "nombre": "Laura M.", "tienda": "Alkosto Av. 68", "puntos": 1240, "esUsuarioDemo": true },
+  { "id": 11, "nombre": "Isabella N.", "tienda": "Falabella Unicentro", "puntos": 1150 },
+  { "id": 12, "nombre": "Sebastián H.", "tienda": "Jumbo Santa Fe", "puntos": 1040 },
+  { "id": 13, "nombre": "Paula M.", "tienda": "Alkosto Av. 68", "puntos": 950 },
+  { "id": 14, "nombre": "Diego A.", "tienda": "Éxito Calle 80", "puntos": 860 },
+  { "id": 15, "nombre": "Natalia R.", "tienda": "Falabella Unicentro", "puntos": 720 }
+]

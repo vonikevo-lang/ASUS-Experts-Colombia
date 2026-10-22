@@ -1,0 +1,17 @@
+{
+  "tiendas": [
+    { "tienda": "Alkosto Av. 68", "ciudad": "Bogotá", "asesores": 4, "completado": 72, "puntajePromedio": 1340 },
+    { "tienda": "Éxito Calle 80", "ciudad": "Bogotá", "asesores": 4, "completado": 85, "puntajePromedio": 1690 },
+    { "tienda": "Falabella Unicentro", "ciudad": "Bogotá", "asesores": 4, "completado": 64, "puntajePromedio": 1310 },
+    { "tienda": "Jumbo Santa Fe", "ciudad": "Medellín", "asesores": 3, "completado": 58, "puntajePromedio": 1130 }
+  ],
+  "evolucionSemanal": [
+    { "semana": "Sem 1", "completado": 38 },
+    { "semana": "Sem 2", "completado": 45 },
+    { "semana": "Sem 3", "completado": 52 },
+    { "semana": "Sem 4", "completado": 58 },
+    { "semana": "Sem 5", "completado": 65 },
+    { "semana": "Sem 6", "completado": 69 }
+  ],
+  "modulosCompletadosMes": 184
+}

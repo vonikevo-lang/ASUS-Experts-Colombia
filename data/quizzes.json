@@ -1,0 +1,63 @@
+[
+  {
+    "slug": "zenbook-a14",
+    "moduloSlug": "zenbook-a14",
+    "preguntas": [
+      {
+        "pregunta": "¿Qué hace especial a un Copilot+ PC como el Zenbook A14?",
+        "opciones": [
+          "Trae un chip de IA (NPU) integrado",
+          "Es más barato que los demás portátiles",
+          "No necesita cargador",
+          "Viene sin Windows instalado"
+        ],
+        "correctaIndex": 0,
+        "explicacion": "Los Copilot+ PC tienen un NPU dedicado para tareas de inteligencia artificial."
+      },
+      {
+        "pregunta": "¿Para qué le sirve al cliente el NPU de hasta 45 TOPS?",
+        "opciones": [
+          "Para jugar videojuegos en 4K",
+          "Para mejorar videollamadas y tareas de Windows sin gastar batería extra",
+          "Para cargar el equipo más rápido",
+          "Para aumentar el almacenamiento"
+        ],
+        "correctaIndex": 1,
+        "explicacion": "El NPU acelera tareas de IA como las videollamadas, sin consumir batería de más."
+      },
+      {
+        "pregunta": "¿Qué ventaja le cuentas al cliente sobre el procesador Snapdragon X?",
+        "opciones": [
+          "Que el equipo dura conectado todo el día sin cargarlo tanto",
+          "Que solo sirve para diseño gráfico pesado",
+          "Que no soporta aplicaciones de Windows",
+          "Que es más pesado que otros portátiles"
+        ],
+        "correctaIndex": 0,
+        "explicacion": "Los procesadores Snapdragon están hechos para una autonomía de batería muy larga."
+      },
+      {
+        "pregunta": "¿Qué le dices al cliente sobre la pantalla OLED de 400 nits?",
+        "opciones": [
+          "Que es una pantalla táctil",
+          "Que los colores se ven más vivos y con mejor contraste",
+          "Que es una pantalla 4K",
+          "Que no se puede ver bien al sol"
+        ],
+        "correctaIndex": 1,
+        "explicacion": "El panel OLED mejora el color y el contraste frente a una pantalla LCD normal."
+      },
+      {
+        "pregunta": "¿Qué beneficio tiene para el cliente el SSD de 1 TB?",
+        "opciones": [
+          "Espacio de sobra y carga muy rápida de archivos y programas",
+          "Permite jugar videojuegos pesados sin tarjeta de video",
+          "Aumenta la duración de la batería",
+          "Mejora la señal wifi"
+        ],
+        "correctaIndex": 0,
+        "explicacion": "Un SSD de 1 TB da bastante espacio y velocidades de carga mucho más altas que un disco duro tradicional."
+      }
+    ]
+  }
+]
