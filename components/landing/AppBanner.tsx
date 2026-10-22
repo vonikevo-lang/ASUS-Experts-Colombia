@@ -3,7 +3,7 @@
 import { motion } from "motion/react";
 import { useReducedMotion } from "@/hooks/useReducedMotion";
 import { revealContainer, revealItem } from "@/lib/motion";
-import { IconPhone } from "./icons";
+import { IconPhone } from "@/components/icons";
 
 export function AppBanner() {
   const reduced = useReducedMotion();

@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import { AnimatePresence, motion } from "motion/react";
 import { useReducedMotion } from "@/hooks/useReducedMotion";
-import { IconBook, IconCompare, IconGamepad, IconGift } from "./icons";
+import { IconBook, IconCompare, IconGamepad, IconGift } from "@/components/icons";
 
 const PILLARS = [
   {

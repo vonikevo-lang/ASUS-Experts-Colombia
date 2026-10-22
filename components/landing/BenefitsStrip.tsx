@@ -3,7 +3,7 @@
 import { motion } from "motion/react";
 import { useReducedMotion } from "@/hooks/useReducedMotion";
 import { revealContainer, revealItem } from "@/lib/motion";
-import { IconClock, IconPhone, IconStar, IconGift } from "./icons";
+import { IconClock, IconPhone, IconStar, IconGift } from "@/components/icons";
 
 const BENEFITS = [
   { icon: IconClock, label: "5 min por módulo" },

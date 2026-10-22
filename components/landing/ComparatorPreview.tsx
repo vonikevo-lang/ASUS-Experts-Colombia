@@ -4,22 +4,16 @@ import { useState } from "react";
 import Link from "next/link";
 import { motion } from "motion/react";
 import productsData from "@/data/products.json";
-import type { Producto, Metricas } from "@/types/product";
+import type { Producto } from "@/types/product";
 import { Chip } from "@/components/ui/Chip";
 import { buttonClasses } from "@/components/ui/Button";
 import { ModeToggle, type CompareMode } from "@/components/product/ModeToggle";
+import { ProductSelect } from "@/components/product/ProductSelect";
 import { useReducedMotion } from "@/hooks/useReducedMotion";
 import { DURATION, EASE_STANDARD } from "@/lib/motion";
+import { METRIC_ROWS } from "@/lib/compare";
 
 const products = productsData as Producto[];
-
-const METRIC_ROWS: { key: keyof Metricas; tecnico: string; cliente: string }[] = [
-  { key: "bateria", tecnico: "Batería (autonomía)", cliente: "Qué tanto dura la batería" },
-  { key: "rendimiento", tecnico: "Rendimiento (CPU/GPU)", cliente: "Qué tan rápido es" },
-  { key: "ia", tecnico: "IA / NPU (TOPS)", cliente: "Qué tan inteligente es" },
-  { key: "portabilidad", tecnico: "Portabilidad (peso y grosor)", cliente: "Qué tan fácil es cargarlo" },
-  { key: "pantalla", tecnico: "Pantalla (resolución y brillo)", cliente: "Qué tan buena se ve la pantalla" },
-];
 
 export function ComparatorPreview() {
   const [idA, setIdA] = useState(products[0].id);
@@ -45,8 +39,8 @@ export function ComparatorPreview() {
       </div>
 
       <div className="grid grid-cols-2 gap-4 mb-8 max-w-xl">
-        <ProductSelect value={idA} onChange={setIdA} exclude={idB} />
-        <ProductSelect value={idB} onChange={setIdB} exclude={idA} />
+        <ProductSelect value={idA} onChange={(id) => id && setIdA(id)} exclude={[idB]} />
+        <ProductSelect value={idB} onChange={(id) => id && setIdB(id)} exclude={[idA]} />
       </div>
 
       <div className="rounded-card border border-border p-6 md:p-8 bg-white">
@@ -75,32 +69,6 @@ export function ComparatorPreview() {
         </div>
       </div>
     </section>
-  );
-}
-
-function ProductSelect({
-  value,
-  onChange,
-  exclude,
-}: {
-  value: string;
-  onChange: (id: string) => void;
-  exclude: string;
-}) {
-  return (
-    <select
-      value={value}
-      onChange={(e) => onChange(e.target.value)}
-      className="h-11 rounded-btn border border-border px-3 font-sans text-sm bg-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-asus-blue"
-    >
-      {products
-        .filter((p) => p.id !== exclude || p.id === value)
-        .map((p) => (
-          <option key={p.id} value={p.id}>
-            {p.nombre}
-          </option>
-        ))}
-    </select>
   );
 }
 

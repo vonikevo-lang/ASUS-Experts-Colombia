@@ -4,7 +4,7 @@ import { motion } from "motion/react";
 import { Counter } from "@/components/ui/Counter";
 import { useReducedMotion } from "@/hooks/useReducedMotion";
 import { revealContainer, revealItem } from "@/lib/motion";
-import { IconTrophy } from "./icons";
+import { IconTrophy } from "@/components/icons";
 
 export function Stats() {
   const reduced = useReducedMotion();
