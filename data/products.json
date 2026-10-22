@@ -24,7 +24,7 @@
         "valorCliente": "Se ve fluido en videollamadas, oficina y videos, sin recalentarse."
       },
       {
-        "etiqueta": "Inteligencia artificial (NPU)",
+        "etiqueta": "Inteligencia artificial (IA)",
         "valorTecnico": "NPU Qualcomm Hexagon, hasta 45 TOPS",
         "valorCliente": "Trae un chip extra de IA que mejora tus videollamadas y te ayuda con tareas de Windows, sin gastar batería de más."
       },
@@ -37,6 +37,16 @@
         "etiqueta": "Almacenamiento",
         "valorTecnico": "SSD 1 TB M.2 NVMe PCIe 4.0",
         "valorCliente": "1 TB de espacio bien rápido: guarda miles de fotos, videos y programas sin que el equipo se vuelva lento."
+      },
+      {
+        "etiqueta": "Batería",
+        "valorTecnico": "Hasta 14 horas de uso típico (estimado, sin confirmar)",
+        "valorCliente": "Le rinde casi todo el día de trabajo sin buscar un tomacorriente."
+      },
+      {
+        "etiqueta": "Portabilidad",
+        "valorTecnico": "Aprox. 1.2 kg, 1.5 cm de grosor (estimado, sin confirmar)",
+        "valorCliente": "Es súper liviano: lo carga en el bolso sin notar el peso."
       }
     ],
     "metricas": {
@@ -86,6 +96,21 @@
         "etiqueta": "Almacenamiento",
         "valorTecnico": "SSD 1 TB M.2 NVMe PCIe 4.0",
         "valorCliente": "1 TB de espacio bien rápido: guarda miles de fotos, videos y programas sin que el equipo se vuelva lento."
+      },
+      {
+        "etiqueta": "Inteligencia artificial (IA)",
+        "valorTecnico": "NPU Qualcomm Hexagon integrada (Copilot+ PC)",
+        "valorCliente": "También trae el chip de IA que mejora videollamadas y tareas de Windows."
+      },
+      {
+        "etiqueta": "Batería",
+        "valorTecnico": "Hasta 12 horas de uso típico (estimado, sin confirmar)",
+        "valorCliente": "Le dura una jornada larga de trabajo sin cargador a la mano."
+      },
+      {
+        "etiqueta": "Portabilidad",
+        "valorTecnico": "Aprox. 1.5 kg, 1.7 cm de grosor (estimado, sin confirmar)",
+        "valorCliente": "Es grande pero se deja llevar bien, no pesa de más."
       }
     ],
     "metricas": {
@@ -135,6 +160,21 @@
         "etiqueta": "Almacenamiento",
         "valorTecnico": "SSD 1 TB M.2 NVMe PCIe 4.0",
         "valorCliente": "1 TB de espacio bien rápido: guarda miles de fotos, videos y programas sin que el equipo se vuelva lento."
+      },
+      {
+        "etiqueta": "Inteligencia artificial (IA)",
+        "valorTecnico": "Sin NPU dedicada; no es Copilot+ PC",
+        "valorCliente": "No tiene el chip especial de IA, pero su tarjeta de video ayuda con tareas pesadas como edición."
+      },
+      {
+        "etiqueta": "Batería",
+        "valorTecnico": "Hasta 6 horas de uso típico (estimado, sin confirmar)",
+        "valorCliente": "Rinde varias horas de juego, pero es mejor tenerlo cerca de un tomacorriente."
+      },
+      {
+        "etiqueta": "Portabilidad",
+        "valorTecnico": "Aprox. 2.3 kg, 2.4 cm de grosor (estimado, sin confirmar)",
+        "valorCliente": "Es un portátil gamer: pesa más, pensado para quedarse en un mismo lugar."
       }
     ],
     "metricas": {
@@ -184,6 +224,21 @@
         "etiqueta": "Almacenamiento",
         "valorTecnico": "SSD 1 TB M.2 NVMe PCIe 4.0",
         "valorCliente": "1 TB de espacio bien rápido: guarda miles de fotos, videos y programas sin que el equipo se vuelva lento."
+      },
+      {
+        "etiqueta": "Inteligencia artificial (IA)",
+        "valorTecnico": "NPU Intel AI Boost integrada (Copilot+ PC)",
+        "valorCliente": "Trae el mismo tipo de chip de IA: mejora videollamadas y tareas de Windows."
+      },
+      {
+        "etiqueta": "Batería",
+        "valorTecnico": "Hasta 8 horas de uso típico con las dos pantallas activas (estimado, sin confirmar)",
+        "valorCliente": "Dura varias horas aunque uses las dos pantallas a la vez."
+      },
+      {
+        "etiqueta": "Portabilidad",
+        "valorTecnico": "Aprox. 1.65 kg, 1.9 cm de grosor (estimado, sin confirmar)",
+        "valorCliente": "Pesa un poco más por las dos pantallas, pero sigue siendo fácil de cargar."
       }
     ],
     "metricas": {

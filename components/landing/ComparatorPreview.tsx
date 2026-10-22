@@ -2,16 +2,16 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { motion } from "motion/react";
+import { AnimatePresence, motion } from "motion/react";
 import productsData from "@/data/products.json";
 import type { Producto } from "@/types/product";
 import { Chip } from "@/components/ui/Chip";
+import { Badge } from "@/components/ui/Badge";
 import { buttonClasses } from "@/components/ui/Button";
 import { ModeToggle, type CompareMode } from "@/components/product/ModeToggle";
 import { ProductSelect } from "@/components/product/ProductSelect";
 import { useReducedMotion } from "@/hooks/useReducedMotion";
-import { DURATION, EASE_STANDARD } from "@/lib/motion";
-import { METRIC_ROWS } from "@/lib/compare";
+import { findSpec, METRIC_ROWS } from "@/lib/compare";
 
 const products = productsData as Producto[];
 
@@ -23,6 +23,7 @@ export function ComparatorPreview() {
 
   const productA = products.find((p) => p.id === idA) ?? products[0];
   const productB = products.find((p) => p.id === idB) ?? products[1];
+  const comboKey = `${idA}-${idB}`;
 
   return (
     <section className="mx-auto max-w-7xl px-4 sm:px-6 py-20">
@@ -38,9 +39,9 @@ export function ComparatorPreview() {
         <ModeToggle value={mode} onChange={setMode} />
       </div>
 
-      <div className="grid grid-cols-2 gap-4 mb-8 max-w-xl">
-        <ProductSelect value={idA} onChange={(id) => id && setIdA(id)} exclude={[idB]} />
-        <ProductSelect value={idB} onChange={(id) => id && setIdB(id)} exclude={[idA]} />
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8 max-w-xl">
+        <ProductSelect value={idA} onChange={(id) => id && setIdA(id)} exclude={[idB]} label="Producto A" />
+        <ProductSelect value={idB} onChange={(id) => id && setIdB(id)} exclude={[idA]} label="Producto B" />
       </div>
 
       <div className="rounded-card border border-border p-6 md:p-8 bg-white">
@@ -49,14 +50,17 @@ export function ComparatorPreview() {
           <ProductHeading product={productB} align="right" />
         </div>
 
-        <div className="space-y-6">
+        <div className="space-y-7">
           {METRIC_ROWS.map((row) => (
             <MetricRow
               key={row.key}
-              label={mode === "tecnico" ? row.tecnico : row.cliente}
+              titulo={row.titulo}
+              specA={findSpec(productA, row.etiqueta)}
+              specB={findSpec(productB, row.etiqueta)}
               valueA={productA.metricas[row.key]}
               valueB={productB.metricas[row.key]}
-              comboKey={`${idA}-${idB}`}
+              mode={mode}
+              comboKey={comboKey}
               reduced={reduced}
             />
           ))}
@@ -78,29 +82,41 @@ function ProductHeading({ product, align }: { product: Producto; align: "left" |
       <Chip line={product.linea}>{product.pantallaPulgadas}&quot;</Chip>
       <p className="font-display text-lg font-semibold text-asus-dark mt-2">{product.nombre}</p>
       <p className="font-mono text-xs text-faint">{product.referencia}</p>
+      {product.verificar && (
+        <Badge tone="warning" className="mt-2">
+          Datos en verificación
+        </Badge>
+      )}
     </div>
   );
 }
 
 function MetricRow({
-  label,
+  titulo,
+  specA,
+  specB,
   valueA,
   valueB,
+  mode,
   comboKey,
   reduced,
 }: {
-  label: string;
+  titulo: string;
+  specA: { valorTecnico: string; valorCliente: string } | undefined;
+  specB: { valorTecnico: string; valorCliente: string } | undefined;
   valueA: number;
   valueB: number;
+  mode: CompareMode;
   comboKey: string;
   reduced: boolean;
 }) {
   const aWins = valueA > valueB;
   const bWins = valueB > valueA;
+  const springTransition = reduced ? { duration: 0 } : { type: "spring" as const, stiffness: 260, damping: 26 };
 
   return (
     <div>
-      <p className="font-sans text-xs text-muted text-center mb-2">{label}</p>
+      <p className="font-sans text-xs text-muted text-center mb-2">{titulo}</p>
       <div className="grid grid-cols-[1fr_auto_1fr] items-center gap-3">
         <div className="flex justify-end h-3 rounded-chip bg-asus-blue-soft overflow-hidden">
           <motion.div
@@ -109,7 +125,7 @@ function MetricRow({
             initial={{ width: 0 }}
             whileInView={{ width: `${valueA * 10}%` }}
             viewport={{ once: true, amount: 0.6 }}
-            transition={reduced ? { duration: 0 } : { duration: DURATION.section, ease: EASE_STANDARD }}
+            transition={springTransition}
           />
         </div>
         <span className="font-mono text-xs text-faint w-12 text-center">
@@ -122,9 +138,35 @@ function MetricRow({
             initial={{ width: 0 }}
             whileInView={{ width: `${valueB * 10}%` }}
             viewport={{ once: true, amount: 0.6 }}
-            transition={reduced ? { duration: 0 } : { duration: DURATION.section, ease: EASE_STANDARD }}
+            transition={springTransition}
           />
         </div>
+      </div>
+      <div className="grid grid-cols-2 gap-3 mt-2">
+        <AnimatePresence mode="wait">
+          <motion.p
+            key={`${comboKey}-a-${mode}`}
+            initial={reduced ? { opacity: 1 } : { opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={reduced ? { opacity: 1 } : { opacity: 0 }}
+            transition={{ duration: reduced ? 0 : 0.25 }}
+            className="font-sans text-xs text-muted text-right"
+          >
+            {specA ? (mode === "tecnico" ? specA.valorTecnico : specA.valorCliente) : "—"}
+          </motion.p>
+        </AnimatePresence>
+        <AnimatePresence mode="wait">
+          <motion.p
+            key={`${comboKey}-b-${mode}`}
+            initial={reduced ? { opacity: 1 } : { opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={reduced ? { opacity: 1 } : { opacity: 0 }}
+            transition={{ duration: reduced ? 0 : 0.25 }}
+            className="font-sans text-xs text-muted text-left"
+          >
+            {specB ? (mode === "tecnico" ? specB.valorTecnico : specB.valorCliente) : "—"}
+          </motion.p>
+        </AnimatePresence>
       </div>
     </div>
   );

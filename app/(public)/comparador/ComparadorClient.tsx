@@ -119,9 +119,7 @@ export function ComparadorClient() {
                   const maxValue = Math.max(...activeProducts.map((p) => p.metricas[row.key]));
                   return (
                     <div key={row.key}>
-                      <p className="font-sans text-xs text-muted mb-1.5">
-                        {mode === "tecnico" ? row.tecnico : row.cliente}
-                      </p>
+                      <p className="font-sans text-xs text-muted mb-1.5">{row.titulo}</p>
                       <CompareBar
                         value={value}
                         highlight={value === maxValue}

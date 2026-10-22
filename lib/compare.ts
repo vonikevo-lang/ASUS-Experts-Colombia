@@ -1,9 +1,19 @@
-import type { Metricas } from "@/types/product";
+import type { Metricas, Producto, Spec } from "@/types/product";
 
-export const METRIC_ROWS: { key: keyof Metricas; tecnico: string; cliente: string }[] = [
-  { key: "bateria", tecnico: "Batería (autonomía)", cliente: "Qué tanto dura la batería" },
-  { key: "rendimiento", tecnico: "Rendimiento (CPU/GPU)", cliente: "Qué tan rápido es" },
-  { key: "ia", tecnico: "IA / NPU (TOPS)", cliente: "Qué tan inteligente es" },
-  { key: "portabilidad", tecnico: "Portabilidad (peso y grosor)", cliente: "Qué tan fácil es cargarlo" },
-  { key: "pantalla", tecnico: "Pantalla (resolución y brillo)", cliente: "Qué tan buena se ve la pantalla" },
+export interface MetricRowDef {
+  key: keyof Metricas;
+  titulo: string;
+  etiqueta: string;
+}
+
+export const METRIC_ROWS: MetricRowDef[] = [
+  { key: "bateria", titulo: "Batería", etiqueta: "Batería" },
+  { key: "rendimiento", titulo: "Rendimiento", etiqueta: "Procesador" },
+  { key: "ia", titulo: "Inteligencia artificial", etiqueta: "Inteligencia artificial (IA)" },
+  { key: "portabilidad", titulo: "Portabilidad", etiqueta: "Portabilidad" },
+  { key: "pantalla", titulo: "Pantalla", etiqueta: "Pantalla" },
 ];
+
+export function findSpec(product: Producto, etiqueta: string): Spec | undefined {
+  return product.specs.find((s) => s.etiqueta === etiqueta);
+}
