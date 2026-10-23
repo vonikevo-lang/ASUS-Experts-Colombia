@@ -1,0 +1,54 @@
+[
+  {
+    "id": "vivobook",
+    "nombre": "Vivobook",
+    "mensaje": "El equipo de todos los días: hogar, estudio y trabajo de oficina, a buen precio.",
+    "color": "#006CE1",
+    "orden": [
+      "vivobook-go-15-ryzen3-7320u",
+      "vivobook-go-15-ryzen5-7520u",
+      "vivobook-15-x1504ma-bq919w",
+      "vivobook-15-i3-bq3904w",
+      "vivobook-15-core5-120u-8gb",
+      "vivobook-15-core5-120u-tactil-16gb",
+      "vivobook-14-snapdragon-x1-16gb",
+      "vivobook-16-ryzenai5-16gb",
+      "vivobook-16-i5-13420h-1tb",
+      "vivobook-s14-snapdragon-x1-oled",
+      "vivobook-s14-coreultra5-oled"
+    ]
+  },
+  {
+    "id": "zenbook",
+    "nombre": "Zenbook",
+    "mensaje": "Diseño premium, portabilidad y lo último en IA para quien trabaja y crea en movimiento.",
+    "color": "#3B3A36",
+    "orden": [
+      "zenbook-a14",
+      "zenbook-a16",
+      "zenbook-duo"
+    ]
+  },
+  {
+    "id": "tuf",
+    "nombre": "TUF Gaming",
+    "mensaje": "Gaming resistente y con buen rendimiento, sin pagar el precio de un equipo tope de gama.",
+    "color": "#FFD700",
+    "orden": [
+      "tuf-gaming-16-fx610jh-rtx5050",
+      "tuf-gaming-16-fx610jm-rtx5060",
+      "tuf-gaming-16-fx610jp-rtx5070"
+    ]
+  },
+  {
+    "id": "rog",
+    "nombre": "ROG",
+    "mensaje": "Lo más potente del catálogo: para el gamer o creador que no quiere ceder nada.",
+    "color": "#CD0000",
+    "orden": [
+      "rog-strix-g16-rtx5070ti",
+      "rog-strix-scar18-rtx5080",
+      "rog-strix-scar18-rtx5090"
+    ]
+  }
+]

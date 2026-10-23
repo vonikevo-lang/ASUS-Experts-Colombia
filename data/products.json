@@ -6,7 +6,11 @@
     "referencia": "UX3407QA-QD232W",
     "pantallaPulgadas": 14,
     "imagen": "/products/zenbook-a14.svg",
-    "perfiles": ["trabajo", "estudiantes", "hogar"],
+    "perfiles": [
+      "trabajo",
+      "estudiantes",
+      "hogar"
+    ],
     "specs": [
       {
         "etiqueta": "Sistema operativo",
@@ -61,7 +65,102 @@
       "Tiene un chip de IA que mejora tus videollamadas y hace tu equipo más inteligente, sin gastar batería.",
       "Es liviano y delgado: perfecto para llevarlo a todas partes."
     ],
-    "verificar": true
+    "verificar": true,
+    "ganchosCard": [
+      {
+        "cliente": "Necesita batería que dure toda la jornada",
+        "frase": "Dura todo el día de trabajo sin que tengas que cargarlo a cada rato."
+      },
+      {
+        "cliente": "Pregunta por IA integrada",
+        "frase": "Tiene un chip de IA que mejora tus videollamadas y hace tu equipo más inteligente, sin gastar batería."
+      },
+      {
+        "cliente": "Quiere algo liviano para cargar todos los días",
+        "frase": "Es liviano y delgado: perfecto para llevarlo a todas partes."
+      }
+    ],
+    "objeciones": [
+      {
+        "objecion": "¿Corre todos mis programas?",
+        "respuesta": "La mayoría de apps de uso diario sí; para programas muy específicos de Windows antiguo, se revisa antes."
+      },
+      {
+        "objecion": "¿Por qué es tan liviano, no se sentirá frágil?",
+        "respuesta": "El chasis está pensado para ser liviano sin sacrificar resistencia; aun así se recomienda cargarlo en una funda."
+      }
+    ],
+    "clienteIdeal": "Quien necesita batería que dure todo el día y algo liviano para trabajar en movimiento.",
+    "graficos": {
+      "tipo": "integrados",
+      "comoDecirlo": "Gráficos integrados: le alcanza para oficina, edición liviana de fotos y video, y varias ventanas abiertas a la vez."
+    },
+    "bateria": {
+      "horasEstimadas": 14,
+      "comoDecirlo": "Le rinde casi todo el día de trabajo sin buscar un tomacorriente."
+    },
+    "portabilidad": {
+      "pesoKg": 1.2,
+      "grosorCm": 1.5,
+      "comoDecirlo": "Es súper liviano: lo carga en el bolso sin notar el peso."
+    },
+    "conectividad": {
+      "wifi": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "puertos": [
+        "USB-C x2 (Thunderbolt)",
+        "USB-A",
+        "HDMI",
+        "Jack combo 3.5mm"
+      ],
+      "comoDecirlo": "Conexión rápida y estable, con puertos USB-C de alta velocidad para monitores y accesorios."
+    },
+    "camara": {
+      "resolucion": "HD 720p",
+      "obturadorFisico": true,
+      "comoDecirlo": "Trae cámara para videollamadas, con una tapa física para cuidar su privacidad."
+    },
+    "comparaciones": {
+      "abajo": null,
+      "arriba": {
+        "id": "zenbook-a16",
+        "diferencias": [
+          "Más potencia y pantalla más grande (16\" vs. 14\")",
+          "Un poco menos de batería"
+        ]
+      }
+    },
+    "procesador": {
+      "marca": "Qualcomm",
+      "modelo": "Snapdragon X X1-26-100",
+      "serie": "Snapdragon X",
+      "nucleos": 8,
+      "hilos": 8,
+      "frecuenciaMax": "3.4 GHz (hasta 4.0 GHz boost)",
+      "npuTops": 45,
+      "queSignifica": "Chip ARM con NPU dedicada que habilita Copilot+ PC con muy bajo consumo.",
+      "comoDecirlo": "Es rápido para el día a día y gasta muy poca batería; trae el chip de IA que mejora videollamadas y tareas de Windows.",
+      "paraQueAlcanza": [
+        "Trabajo de oficina con batería larga",
+        "Videollamadas con mejoras de IA",
+        "Multitarea liviana"
+      ]
+    },
+    "memoria": {
+      "ram": "16 GB",
+      "tipoRam": "LPDDR5",
+      "almacenamiento": "1 TB SSD",
+      "caso": "soldada",
+      "comoDecirlo": "16GB le da mucha fluidez para tener varias apps abiertas a la vez; la memoria viene soldada, sin ranura para subirla."
+    },
+    "pantalla": {
+      "pulgadas": 14,
+      "resolucion": "1920x1200 (WUXGA)",
+      "tipo": "OLED",
+      "hz": 60,
+      "nits": 400,
+      "comoDecirlo": "Pantalla OLED de 14 pulgadas con colores muy vivos, ideal para ver series, fotos y trabajar cómodo."
+    }
   },
   {
     "id": "zenbook-a16",
@@ -70,7 +169,11 @@
     "referencia": "UX3607OA-SQ013W",
     "pantallaPulgadas": 16,
     "imagen": "/products/zenbook-a16.svg",
-    "perfiles": ["trabajo", "creadores", "estudiantes"],
+    "perfiles": [
+      "trabajo",
+      "creadores",
+      "estudiantes"
+    ],
     "specs": [
       {
         "etiqueta": "Sistema operativo",
@@ -125,7 +228,108 @@
       "Más potencia que el A14, pero con batería que dura todo el día.",
       "Es un Copilot+ PC: trae IA integrada para que tu cliente trabaje más rápido."
     ],
-    "verificar": true
+    "verificar": true,
+    "ganchosCard": [
+      {
+        "cliente": "Necesita más potencia que el A14",
+        "frase": "Más potencia que el A14, pero con batería que dura todo el día."
+      },
+      {
+        "cliente": "Busca pantalla grande para crear contenido",
+        "frase": "Pantalla grande en 3K con colores de cine, ideal para ver y crear contenido."
+      },
+      {
+        "cliente": "Pregunta por lo último en IA de Windows",
+        "frase": "Es un Copilot+ PC: trae IA integrada para que tu cliente trabaje más rápido."
+      }
+    ],
+    "objeciones": [
+      {
+        "objecion": "¿Por qué pesa un poco más que el A14?",
+        "respuesta": "Por la pantalla más grande, de 16\" en 3K; a cambio rinde más y se ve mejor."
+      },
+      {
+        "objecion": "¿Vale la pena el salto de precio frente al A14?",
+        "respuesta": "Si el cliente necesita más potencia y pantalla más grande para crear contenido, sí vale la pena."
+      }
+    ],
+    "clienteIdeal": "Quien necesita más potencia que el A14 y pantalla grande para crear contenido, sin perder batería.",
+    "graficos": {
+      "tipo": "integrados",
+      "comoDecirlo": "Gráficos integrados: le alcanza para oficina, edición liviana de fotos y video, y varias ventanas abiertas a la vez."
+    },
+    "bateria": {
+      "horasEstimadas": 12,
+      "comoDecirlo": "Le dura una jornada larga de trabajo sin cargador a la mano."
+    },
+    "portabilidad": {
+      "pesoKg": 1.5,
+      "grosorCm": 1.7,
+      "comoDecirlo": "Es grande pero se deja llevar bien, no pesa de más."
+    },
+    "conectividad": {
+      "wifi": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "puertos": [
+        "USB-C x2 (Thunderbolt)",
+        "USB-A",
+        "HDMI",
+        "Jack combo 3.5mm"
+      ],
+      "comoDecirlo": "Conexión rápida y estable, con puertos USB-C de alta velocidad para monitores y accesorios."
+    },
+    "camara": {
+      "resolucion": "HD 720p",
+      "obturadorFisico": true,
+      "comoDecirlo": "Trae cámara para videollamadas, con una tapa física para cuidar su privacidad."
+    },
+    "comparaciones": {
+      "abajo": {
+        "id": "zenbook-a14",
+        "diferencias": [
+          "Pantalla más chica (14\")",
+          "Un poco más de batería"
+        ]
+      },
+      "arriba": {
+        "id": "zenbook-duo",
+        "diferencias": [
+          "Cambia a doble pantalla OLED táctil y procesador Intel",
+          "Menos batería por tener dos pantallas activas"
+        ]
+      }
+    },
+    "procesador": {
+      "marca": "Qualcomm",
+      "modelo": "Snapdragon X2 Elite Extreme X2E94100",
+      "serie": "Snapdragon X2 Elite",
+      "nucleos": 18,
+      "hilos": 18,
+      "frecuenciaMax": "5.0 GHz [VERIFICAR]",
+      "npuTops": 80,
+      "queSignifica": "Chip ARM de gama alta con NPU muy por encima del mínimo de Copilot+ PC [VERIFICAR TOPS exactos].",
+      "comoDecirlo": "Mucha más potencia que el modelo A14, pero sigue cuidando la batería; también es Copilot+ PC.",
+      "paraQueAlcanza": [
+        "Multitarea pesada con batería larga",
+        "Edición liviana de fotos y video",
+        "Funciones de IA de Windows (Copilot+)"
+      ]
+    },
+    "memoria": {
+      "ram": "32 GB",
+      "tipoRam": "LPDDR5",
+      "almacenamiento": "1 TB SSD",
+      "caso": "soldada",
+      "comoDecirlo": "32GB le da mucha fluidez incluso con programas pesados abiertos a la vez; la memoria viene soldada, sin ranura para subirla."
+    },
+    "pantalla": {
+      "pulgadas": 16,
+      "resolucion": "2880x1800 (3K)",
+      "tipo": "OLED",
+      "hz": 120,
+      "nits": 500,
+      "comoDecirlo": "Pantalla grande en alta definición, con colores de cine y movimiento muy fluido."
+    }
   },
   {
     "id": "gaming-v16",
@@ -134,7 +338,11 @@
     "referencia": "V3607VH-RP007W",
     "pantallaPulgadas": 16,
     "imagen": "/products/gaming-v16.svg",
-    "perfiles": ["gamers", "hogar", "estudiantes"],
+    "perfiles": [
+      "gamers",
+      "hogar",
+      "estudiantes"
+    ],
     "specs": [
       {
         "etiqueta": "Sistema operativo",
@@ -198,7 +406,11 @@
     "referencia": "UX8407AA-SN434W",
     "pantallaPulgadas": 14,
     "imagen": "/products/zenbook-duo.svg",
-    "perfiles": ["creadores", "trabajo", "hogar"],
+    "perfiles": [
+      "creadores",
+      "trabajo",
+      "hogar"
+    ],
     "specs": [
       {
         "etiqueta": "Sistema operativo",
@@ -253,6 +465,3338 @@
       "Las dos pantallas son táctiles: puedes dibujar, anotar o tocar directo sobre ellas.",
       "Es ideal para el cliente creador de contenido o que necesita multitarea de verdad."
     ],
-    "verificar": true
+    "verificar": true,
+    "ganchosCard": [
+      {
+        "cliente": "Necesita multitarea real con dos pantallas",
+        "frase": "Trae dos pantallas OLED: una para ver, otra para trabajar al mismo tiempo."
+      },
+      {
+        "cliente": "Quiere anotar o dibujar directo en pantalla",
+        "frase": "Las dos pantallas son táctiles: puedes dibujar, anotar o tocar directo sobre ellas."
+      },
+      {
+        "cliente": "Es creador de contenido o necesita multitarea",
+        "frase": "Es ideal para el cliente creador de contenido o que necesita multitarea de verdad."
+      }
+    ],
+    "objeciones": [
+      {
+        "objecion": "¿Para quién es este equipo?",
+        "respuesta": "Para el cliente creador de contenido o que necesita multitarea real: dos pantallas táctiles en un solo equipo."
+      },
+      {
+        "objecion": "¿No es muy pesado por las dos pantallas?",
+        "respuesta": "Pesa un poco más que un Zenbook de una sola pantalla, pero sigue siendo fácil de cargar."
+      }
+    ],
+    "clienteIdeal": "Creador de contenido o profesional que necesita multitarea real con dos pantallas.",
+    "graficos": {
+      "tipo": "integrados",
+      "comoDecirlo": "Gráficos integrados: le alcanza para oficina, edición liviana de fotos y video, y varias ventanas abiertas a la vez."
+    },
+    "bateria": {
+      "horasEstimadas": 8,
+      "comoDecirlo": "Dura varias horas aunque uses las dos pantallas a la vez."
+    },
+    "portabilidad": {
+      "pesoKg": 1.65,
+      "grosorCm": 1.9,
+      "comoDecirlo": "Pesa un poco más por las dos pantallas, pero sigue siendo fácil de cargar."
+    },
+    "conectividad": {
+      "wifi": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "puertos": [
+        "USB-C x2 (Thunderbolt)",
+        "USB-A",
+        "HDMI",
+        "Jack combo 3.5mm"
+      ],
+      "comoDecirlo": "Conexión rápida y estable, con puertos USB-C de alta velocidad para monitores y accesorios."
+    },
+    "camara": {
+      "resolucion": "HD 720p",
+      "obturadorFisico": true,
+      "comoDecirlo": "Trae cámara para videollamadas, con una tapa física para cuidar su privacidad."
+    },
+    "comparaciones": {
+      "abajo": {
+        "id": "zenbook-a16",
+        "diferencias": [
+          "Una sola pantalla",
+          "Más sencillo y con más batería"
+        ]
+      },
+      "arriba": null
+    },
+    "procesador": {
+      "marca": "Intel",
+      "modelo": "Core Ultra X7 358H",
+      "serie": "Intel Core Ultra (Series 2)",
+      "nucleos": 16,
+      "hilos": 22,
+      "frecuenciaMax": "5.0 GHz [VERIFICAR]",
+      "npuTops": 13,
+      "queSignifica": "Trae NPU Intel AI Boost integrada que habilita Copilot+ PC [VERIFICAR TOPS exactos].",
+      "comoDecirlo": "Procesador potente, pensado para manejar dos pantallas y varias tareas a la vez; también es Copilot+ PC.",
+      "paraQueAlcanza": [
+        "Multitarea real con dos pantallas",
+        "Edición de fotos y video",
+        "Funciones de IA de Windows (Copilot+)"
+      ]
+    },
+    "memoria": {
+      "ram": "32 GB",
+      "tipoRam": "LPDDR5X",
+      "almacenamiento": "1 TB SSD",
+      "caso": "soldada",
+      "comoDecirlo": "32GB para manejar dos pantallas y multitarea real a la vez; la memoria viene soldada, sin ranura para subirla."
+    },
+    "pantalla": {
+      "pulgadas": 14,
+      "resolucion": "2880x1800 (3K)",
+      "tipo": "OLED táctil (doble pantalla)",
+      "hz": 144,
+      "nits": 500,
+      "comoDecirlo": "Trae dos pantallas OLED táctiles de 14\": una para ver, otra para trabajar al mismo tiempo."
+    }
+  },
+  {
+    "id": "vivobook-go-15-ryzen3-7320u",
+    "nombre": "ASUS Vivobook Go 15 (E1504FA)",
+    "linea": "vivobook",
+    "familia": "vivobook-go",
+    "referencia": "E1504FA-NJ323W",
+    "slug": "e1504fa-ryzen3-7320u",
+    "pantallaPulgadas": 15.6,
+    "imagen": "/products/vivobook-go-15-ryzen3.svg",
+    "perfiles": [
+      "hogar",
+      "estudiantes"
+    ],
+    "specs": [
+      {
+        "etiqueta": "Sistema operativo",
+        "valorTecnico": "Windows 11 Home",
+        "valorCliente": "Viene listo para usar, con todo lo que ya conoces de Windows."
+      },
+      {
+        "etiqueta": "Procesador",
+        "valorTecnico": "AMD Ryzen 3 7320U",
+        "valorCliente": "Le rinde bien para lo básico: internet, Office, videollamadas y streaming, sin trabarse."
+      },
+      {
+        "etiqueta": "Gráficos",
+        "valorTecnico": "AMD Radeon integrados",
+        "valorCliente": "Mueve bien video y fotos para el día a día."
+      },
+      {
+        "etiqueta": "Inteligencia artificial (IA)",
+        "valorTecnico": "Sin NPU dedicada; no es Copilot+ PC",
+        "valorCliente": "No trae el chip especial de IA, pero no lo necesita para tareas básicas."
+      },
+      {
+        "etiqueta": "Pantalla",
+        "valorTecnico": "15.6\" Full HD (1920x1080), 60 Hz, 250 nits, IPS (estimado, sin confirmar)",
+        "valorCliente": "Pantalla grande de 15.6 pulgadas, cómoda para ver series y trabajar sin forzar la vista."
+      },
+      {
+        "etiqueta": "Almacenamiento",
+        "valorTecnico": "SSD 512 GB M.2 NVMe",
+        "valorCliente": "512GB bien rápidos: suficiente para fotos, documentos y programas del día a día."
+      },
+      {
+        "etiqueta": "Batería",
+        "valorTecnico": "Hasta 10 horas de uso típico (estimado, sin confirmar)",
+        "valorCliente": "Le rinde una jornada completa de estudio o trabajo liviano."
+      },
+      {
+        "etiqueta": "Portabilidad",
+        "valorTecnico": "Aprox. 1.6 kg, 1.9 cm de grosor (estimado, sin confirmar)",
+        "valorCliente": "Fácil de cargar en el bolso todos los días."
+      }
+    ],
+    "metricas": {
+      "bateria": 7,
+      "rendimiento": 4,
+      "ia": 2,
+      "portabilidad": 7,
+      "pantalla": 6
+    },
+    "argumentosVenta": [
+      "Es liviano y cómodo para lo básico: internet, Office y streaming.",
+      "Pantalla grande de 15.6 pulgadas a buen precio.",
+      "Perfecto como primer portátil para el hogar o el estudio."
+    ],
+    "verificar": true,
+    "procesador": {
+      "marca": "AMD",
+      "modelo": "Ryzen 3 7320U",
+      "serie": "Ryzen 3 7000",
+      "nucleos": 4,
+      "hilos": 8,
+      "frecuenciaMax": "4.1 GHz",
+      "npuTops": null,
+      "queSignifica": "Procesador de 4 núcleos y 8 hilos pensado para tareas cotidianas de oficina e internet.",
+      "comoDecirlo": "Le rinde bien para lo básico: internet, Office, videollamadas y streaming, sin trabarse.",
+      "paraQueAlcanza": [
+        "Navegar y redes sociales",
+        "Office y correo",
+        "Videollamadas",
+        "Streaming de series"
+      ]
+    },
+    "memoria": {
+      "ram": "8 GB",
+      "tipoRam": "LPDDR5",
+      "almacenamiento": "512 GB SSD",
+      "comoDecirlo": "8GB le alcanza para varias pestañas y programas livianos a la vez; el SSD de 512GB es bien rápido para guardar tus cosas.",
+      "caso": "soldada"
+    },
+    "pantalla": {
+      "pulgadas": 15.6,
+      "resolucion": "1920x1080 (Full HD)",
+      "tipo": "IPS",
+      "hz": 60,
+      "nits": 250,
+      "comoDecirlo": "Pantalla grande de 15.6 pulgadas, cómoda para ver series y trabajar sin forzar la vista."
+    },
+    "extras": [
+      "NumberPad (teclado numérico)",
+      "Wi-Fi 5",
+      "Webcam HD",
+      "Teclado retroiluminado (verificar)"
+    ],
+    "enLaCaja": [
+      "Portátil",
+      "Cargador",
+      "Guía rápida",
+      "Garantía"
+    ],
+    "ganchos": [
+      "¿Buscas algo liviano para lo básico sin gastar de más? Este es tu equipo.",
+      "Pantalla grande de 15.6 pulgadas para ver tus series y trabajar cómodo.",
+      "Ideal para el hogar o para el estudiante que está empezando."
+    ],
+    "objeciones": [
+      {
+        "objecion": "¿Le alcanza para varias cosas a la vez?",
+        "respuesta": "Sí, para lo básico: navegar, Office, redes y streaming sin trabarse. Si necesita edición pesada, te muestro otro modelo."
+      },
+      {
+        "objecion": "¿Por qué no tiene más RAM?",
+        "respuesta": "8GB alcanza bien para el uso diario; si el cliente edita video o usa muchos programas pesados, lo subimos a un Vivobook con 16GB."
+      }
+    ],
+    "clienteIdeal": "Estudiante o alguien del hogar que necesita un portátil liviano para internet, Office y streaming.",
+    "notasTodo": [
+      "Confirmar sufijo exacto de referencia (código de 4-5 dígitos)",
+      "Batería, peso y nits son estimados",
+      "Confirmar Wi-Fi 5/6 y si trae lector de huella"
+    ],
+    "ganchosCard": [
+      {
+        "cliente": "Busca su primer portátil, sin gastar de más",
+        "frase": "¿Buscas algo liviano para lo básico sin gastar de más? Este es tu equipo."
+      },
+      {
+        "cliente": "Quiere ver series y trabajar cómodo",
+        "frase": "Pantalla grande de 15.6 pulgadas para ver tus series y trabajar cómodo."
+      },
+      {
+        "cliente": "Es estudiante y recién está empezando",
+        "frase": "Ideal para el hogar o para el estudiante que está empezando."
+      }
+    ],
+    "graficos": {
+      "tipo": "integrados",
+      "comoDecirlo": "Gráficos integrados: suficientes para oficina, estudio, streaming y edición liviana, pero no para juegos exigentes."
+    },
+    "bateria": {
+      "horasEstimadas": 10,
+      "comoDecirlo": "Le rinde una jornada completa de estudio o trabajo liviano."
+    },
+    "portabilidad": {
+      "pesoKg": 1.6,
+      "grosorCm": 1.9,
+      "comoDecirlo": "Fácil de cargar en el bolso todos los días."
+    },
+    "conectividad": {
+      "wifi": "Wi-Fi 5 (802.11ac)",
+      "bluetooth": "5.0",
+      "puertos": [
+        "USB-C",
+        "USB-A x2",
+        "HDMI",
+        "Lector microSD",
+        "Jack combo 3.5mm"
+      ],
+      "comoDecirlo": "Tiene todas las conexiones básicas: internet, un puerto USB-C y dos USB-A, HDMI para un monitor externo."
+    },
+    "camara": {
+      "resolucion": "HD 720p",
+      "obturadorFisico": false,
+      "comoDecirlo": "Trae cámara para videollamadas."
+    },
+    "comparaciones": {
+      "abajo": null,
+      "arriba": {
+        "id": "vivobook-go-15-ryzen5-7520u",
+        "diferencias": [
+          "Mismo precio casi igual",
+          "Más fluido con varias apps abiertas a la vez"
+        ]
+      }
+    }
+  },
+  {
+    "id": "vivobook-go-15-ryzen5-7520u",
+    "nombre": "ASUS Vivobook Go 15 (E1504FA)",
+    "linea": "vivobook",
+    "familia": "vivobook-go",
+    "referencia": "E1504FA-NJ523W",
+    "slug": "e1504fa-ryzen5-7520u",
+    "pantallaPulgadas": 15.6,
+    "imagen": "/products/vivobook-go-15-ryzen5.svg",
+    "perfiles": [
+      "hogar",
+      "estudiantes",
+      "trabajo"
+    ],
+    "specs": [
+      {
+        "etiqueta": "Sistema operativo",
+        "valorTecnico": "Windows 11 Home",
+        "valorCliente": "Viene listo para usar, con todo lo que ya conoces de Windows."
+      },
+      {
+        "etiqueta": "Procesador",
+        "valorTecnico": "AMD Ryzen 5 7520U",
+        "valorCliente": "Un poco más de potencia que el Ryzen 3: se siente más fluido con varias pestañas y programas abiertos."
+      },
+      {
+        "etiqueta": "Gráficos",
+        "valorTecnico": "AMD Radeon integrados",
+        "valorCliente": "Mueve bien video, fotos y edición liviana."
+      },
+      {
+        "etiqueta": "Inteligencia artificial (IA)",
+        "valorTecnico": "Sin NPU dedicada; no es Copilot+ PC",
+        "valorCliente": "No trae el chip especial de IA, pero rinde bien para multitarea básica."
+      },
+      {
+        "etiqueta": "Pantalla",
+        "valorTecnico": "15.6\" Full HD (1920x1080), 60 Hz, 250 nits, IPS (estimado, sin confirmar)",
+        "valorCliente": "Pantalla grande de 15.6 pulgadas, cómoda para ver series y trabajar sin forzar la vista."
+      },
+      {
+        "etiqueta": "Almacenamiento",
+        "valorTecnico": "SSD 512 GB M.2 NVMe",
+        "valorCliente": "512GB bien rápidos: suficiente para fotos, documentos y programas del día a día."
+      },
+      {
+        "etiqueta": "Batería",
+        "valorTecnico": "Hasta 10 horas de uso típico (estimado, sin confirmar)",
+        "valorCliente": "Le rinde una jornada completa de estudio o trabajo liviano."
+      },
+      {
+        "etiqueta": "Portabilidad",
+        "valorTecnico": "Aprox. 1.6 kg, 1.9 cm de grosor (estimado, sin confirmar)",
+        "valorCliente": "Fácil de cargar en el bolso todos los días."
+      }
+    ],
+    "metricas": {
+      "bateria": 7,
+      "rendimiento": 5,
+      "ia": 2,
+      "portabilidad": 7,
+      "pantalla": 6
+    },
+    "argumentosVenta": [
+      "Más potencia que el Ryzen 3, ideal si el cliente abre varias cosas a la vez.",
+      "Pantalla grande de 15.6 pulgadas a buen precio.",
+      "Buen equilibrio entre precio y desempeño para el hogar o el estudio."
+    ],
+    "verificar": true,
+    "procesador": {
+      "marca": "AMD",
+      "modelo": "Ryzen 5 7520U",
+      "serie": "Ryzen 5 7000",
+      "nucleos": 4,
+      "hilos": 8,
+      "frecuenciaMax": "4.3 GHz",
+      "npuTops": null,
+      "queSignifica": "Procesador de 4 núcleos y 8 hilos con mayor frecuencia que el Ryzen 3, para multitarea más fluida.",
+      "comoDecirlo": "Un poco más de potencia que el Ryzen 3: se siente más fluido con varias pestañas y programas abiertos.",
+      "paraQueAlcanza": [
+        "Multitarea liviana",
+        "Office y correo",
+        "Videollamadas",
+        "Edición básica de fotos"
+      ]
+    },
+    "memoria": {
+      "ram": "8 GB",
+      "tipoRam": "LPDDR5",
+      "almacenamiento": "512 GB SSD",
+      "comoDecirlo": "8GB le alcanza para varias pestañas y programas livianos a la vez; el SSD de 512GB es bien rápido para guardar tus cosas.",
+      "caso": "soldada"
+    },
+    "pantalla": {
+      "pulgadas": 15.6,
+      "resolucion": "1920x1080 (Full HD)",
+      "tipo": "IPS",
+      "hz": 60,
+      "nits": 250,
+      "comoDecirlo": "Pantalla grande de 15.6 pulgadas, cómoda para ver series y trabajar sin forzar la vista."
+    },
+    "extras": [
+      "NumberPad (teclado numérico)",
+      "Wi-Fi 5",
+      "Webcam HD",
+      "Teclado retroiluminado (verificar)"
+    ],
+    "enLaCaja": [
+      "Portátil",
+      "Cargador",
+      "Guía rápida",
+      "Garantía"
+    ],
+    "ganchos": [
+      "Un paso arriba del Ryzen 3: más fluidez sin subir mucho el precio.",
+      "Pantalla grande de 15.6 pulgadas para ver tus series y trabajar cómodo.",
+      "Para el cliente que quiere un poco más de potencia en casa o en el estudio."
+    ],
+    "objeciones": [
+      {
+        "objecion": "¿En qué se nota la diferencia con el Ryzen 3?",
+        "respuesta": "En que abre más cosas a la vez sin trabarse: varias pestañas, Office y videollamadas juntas."
+      },
+      {
+        "objecion": "¿Sirve para editar video?",
+        "respuesta": "Para cortes y ediciones livianas sí; para edición profesional te muestro un Zenbook o ProArt."
+      }
+    ],
+    "clienteIdeal": "Quien quiere un poco más de fluidez que el modelo básico, sin pasarse de presupuesto.",
+    "notasTodo": [
+      "Confirmar sufijo exacto de referencia (código de 4-5 dígitos)",
+      "Batería, peso y nits son estimados",
+      "Confirmar Wi-Fi 5/6 y si trae lector de huella"
+    ],
+    "ganchosCard": [
+      {
+        "cliente": "Quiere un poco más de fluidez que la entrada",
+        "frase": "Un paso arriba del Ryzen 3: más fluidez sin subir mucho el precio."
+      },
+      {
+        "cliente": "Quiere ver series y trabajar cómodo",
+        "frase": "Pantalla grande de 15.6 pulgadas para ver tus series y trabajar cómodo."
+      },
+      {
+        "cliente": "Busca algo más de potencia en casa o estudio",
+        "frase": "Para el cliente que quiere un poco más de potencia en casa o en el estudio."
+      }
+    ],
+    "graficos": {
+      "tipo": "integrados",
+      "comoDecirlo": "Gráficos integrados: suficientes para oficina, estudio, streaming y edición liviana, pero no para juegos exigentes."
+    },
+    "bateria": {
+      "horasEstimadas": 10,
+      "comoDecirlo": "Le rinde una jornada completa de estudio o trabajo liviano."
+    },
+    "portabilidad": {
+      "pesoKg": 1.6,
+      "grosorCm": 1.9,
+      "comoDecirlo": "Fácil de cargar en el bolso todos los días."
+    },
+    "conectividad": {
+      "wifi": "Wi-Fi 5 (802.11ac)",
+      "bluetooth": "5.0",
+      "puertos": [
+        "USB-C",
+        "USB-A x2",
+        "HDMI",
+        "Lector microSD",
+        "Jack combo 3.5mm"
+      ],
+      "comoDecirlo": "Tiene todas las conexiones básicas: internet, un puerto USB-C y dos USB-A, HDMI para un monitor externo."
+    },
+    "camara": {
+      "resolucion": "HD 720p",
+      "obturadorFisico": false,
+      "comoDecirlo": "Trae cámara para videollamadas."
+    },
+    "comparaciones": {
+      "abajo": {
+        "id": "vivobook-go-15-ryzen3-7320u",
+        "diferencias": [
+          "Mismo precio casi igual",
+          "Menos fluido en multitarea"
+        ]
+      },
+      "arriba": {
+        "id": "vivobook-15-x1504ma-bq919w",
+        "diferencias": [
+          "Cambia a procesador Intel",
+          "Suma un chip de IA (NPU), aunque no es Copilot+"
+        ]
+      }
+    }
+  },
+  {
+    "id": "vivobook-15-i3-bq3904w",
+    "nombre": "ASUS Vivobook 15 (X1504VA)",
+    "linea": "vivobook",
+    "familia": "vivobook",
+    "referencia": "X1504VA-BQ3904W",
+    "slug": "x1504va-bq3904w",
+    "pantallaPulgadas": 15.6,
+    "imagen": "/products/vivobook-15-i3-1tb.svg",
+    "perfiles": [
+      "hogar",
+      "trabajo",
+      "estudiantes"
+    ],
+    "specs": [
+      {
+        "etiqueta": "Sistema operativo",
+        "valorTecnico": "Windows 11 Home",
+        "valorCliente": "Viene listo para usar, con todo lo que ya conoces de Windows."
+      },
+      {
+        "etiqueta": "Procesador",
+        "valorTecnico": "Intel Core i3 (13va Gen.)",
+        "valorCliente": "Es confiable para trabajo de oficina, internet y estudio."
+      },
+      {
+        "etiqueta": "Gráficos",
+        "valorTecnico": "Intel UHD integrados",
+        "valorCliente": "Mueve bien video, fotos y navegación."
+      },
+      {
+        "etiqueta": "Inteligencia artificial (IA)",
+        "valorTecnico": "Sin NPU dedicada; no es Copilot+ PC",
+        "valorCliente": "No trae el chip especial de IA, pero no lo necesita para tareas de oficina."
+      },
+      {
+        "etiqueta": "Pantalla",
+        "valorTecnico": "15.6\" Full HD (1920x1080), 60 Hz, 250 nits, IPS (estimado, sin confirmar)",
+        "valorCliente": "Pantalla grande y clara para trabajar y ver contenido."
+      },
+      {
+        "etiqueta": "Almacenamiento",
+        "valorTecnico": "SSD 1 TB M.2 NVMe",
+        "valorCliente": "1TB es un montón de espacio: guarda miles de fotos, videos y documentos sin preocuparse."
+      },
+      {
+        "etiqueta": "Batería",
+        "valorTecnico": "Hasta 10 horas de uso típico (estimado, sin confirmar)",
+        "valorCliente": "Le rinde una jornada completa de trabajo u estudio."
+      },
+      {
+        "etiqueta": "Portabilidad",
+        "valorTecnico": "Aprox. 1.7 kg, 2 cm de grosor (estimado, sin confirmar)",
+        "valorCliente": "Fácil de llevar al trabajo o a la universidad."
+      }
+    ],
+    "metricas": {
+      "bateria": 7,
+      "rendimiento": 4,
+      "ia": 2,
+      "portabilidad": 6,
+      "pantalla": 6
+    },
+    "argumentosVenta": [
+      "1 Terabyte de espacio: guarda de todo sin quedarse corto.",
+      "Confiable para la oficina y el estudio del día a día.",
+      "Buen precio para quien necesita hartísimo almacenamiento."
+    ],
+    "verificar": true,
+    "procesador": {
+      "marca": "Intel",
+      "modelo": "Core i3-1315U",
+      "serie": "Intel Core i3 (13th Gen)",
+      "nucleos": 6,
+      "hilos": 8,
+      "frecuenciaMax": "4.5 GHz",
+      "npuTops": null,
+      "queSignifica": "Procesador Intel de nivel inicial con buen desempeño en tareas de oficina.",
+      "comoDecirlo": "Es confiable para trabajo de oficina, internet y estudio, con hartísimo espacio para guardar archivos.",
+      "paraQueAlcanza": [
+        "Office y estudio",
+        "Internet y redes",
+        "Guardar muchos archivos (1TB)"
+      ]
+    },
+    "memoria": {
+      "ram": "8 GB",
+      "tipoRam": "DDR4",
+      "almacenamiento": "1 TB SSD",
+      "comoDecirlo": "1TB es un montón de espacio: guarda miles de fotos, videos y documentos sin preocuparse.",
+      "caso": "se-suma"
+    },
+    "pantalla": {
+      "pulgadas": 15.6,
+      "resolucion": "1920x1080 (Full HD)",
+      "tipo": "IPS",
+      "hz": 60,
+      "nits": 250,
+      "comoDecirlo": "Pantalla grande y clara para trabajar y ver contenido."
+    },
+    "extras": [
+      "NumberPad (teclado numérico)",
+      "Wi-Fi 5",
+      "Webcam HD",
+      "Teclado retroiluminado (verificar)"
+    ],
+    "enLaCaja": [
+      "Portátil",
+      "Cargador",
+      "Guía rápida",
+      "Garantía"
+    ],
+    "ganchos": [
+      "¿Necesita guardar muchísimo sin quedarse sin espacio? Este trae 1 Terabyte.",
+      "Ideal para el cliente que trabaja con muchos documentos o fotos.",
+      "Confiable para la oficina y el estudio del día a día."
+    ],
+    "objeciones": [
+      {
+        "objecion": "¿Por qué tan poca RAM si tiene tanto almacenamiento?",
+        "respuesta": "El fuerte de este equipo es el espacio: 1TB para guardar de todo. Para multitarea pesada, te muestro el de 16GB."
+      },
+      {
+        "objecion": "¿Sirve para trabajar desde casa?",
+        "respuesta": "Sí, para Office, correo y videollamadas va muy bien."
+      }
+    ],
+    "clienteIdeal": "Quien necesita guardar muchos archivos (fotos, documentos, videos) sin gastar de más.",
+    "notasTodo": [
+      "Confirmar modelo exacto de Core i3 (se asumió i3-1315U)",
+      "Batería, peso y nits son estimados"
+    ],
+    "ganchosCard": [
+      {
+        "cliente": "Necesita guardar muchísimo sin quedarse sin espacio",
+        "frase": "¿Necesita guardar muchísimo sin quedarse sin espacio? Este trae 1 Terabyte."
+      },
+      {
+        "cliente": "Trabaja con muchos documentos o fotos",
+        "frase": "Ideal para el cliente que trabaja con muchos documentos o fotos."
+      },
+      {
+        "cliente": "Necesita algo confiable para oficina y estudio",
+        "frase": "Confiable para la oficina y el estudio del día a día."
+      }
+    ],
+    "graficos": {
+      "tipo": "integrados",
+      "comoDecirlo": "Gráficos integrados: suficientes para oficina, estudio, streaming y edición liviana, pero no para juegos exigentes."
+    },
+    "bateria": {
+      "horasEstimadas": 10,
+      "comoDecirlo": "Le rinde una jornada completa de trabajo u estudio."
+    },
+    "portabilidad": {
+      "pesoKg": 1.7,
+      "grosorCm": 2,
+      "comoDecirlo": "Fácil de llevar al trabajo o a la universidad."
+    },
+    "conectividad": {
+      "wifi": "Wi-Fi 5 (802.11ac)",
+      "bluetooth": "5.0",
+      "puertos": [
+        "USB-C",
+        "USB-A x2",
+        "HDMI",
+        "Lector microSD",
+        "Jack combo 3.5mm"
+      ],
+      "comoDecirlo": "Tiene todas las conexiones básicas: internet, un puerto USB-C y dos USB-A, HDMI para un monitor externo."
+    },
+    "camara": {
+      "resolucion": "HD 720p",
+      "obturadorFisico": false,
+      "comoDecirlo": "Trae cámara para videollamadas."
+    },
+    "comparaciones": {
+      "abajo": {
+        "id": "vivobook-15-x1504ma-bq919w",
+        "diferencias": [
+          "Menos almacenamiento (512GB vs. 1TB)",
+          "El X1504MA trae NPU y este no"
+        ]
+      },
+      "arriba": {
+        "id": "vivobook-15-core5-120u-8gb",
+        "diferencias": [
+          "Mismo tamaño de pantalla",
+          "Procesador más rápido en multitarea",
+          "La mitad del almacenamiento (512GB)"
+        ]
+      }
+    }
+  },
+  {
+    "id": "vivobook-15-core5-120u-8gb",
+    "nombre": "ASUS Vivobook 15 (X1504VA)",
+    "linea": "vivobook",
+    "familia": "vivobook",
+    "referencia": "X1504VA-BQ598W",
+    "slug": "x1504va-bq598w",
+    "pantallaPulgadas": 15.6,
+    "imagen": "/products/vivobook-15-core5-8gb.svg",
+    "perfiles": [
+      "hogar",
+      "trabajo",
+      "estudiantes"
+    ],
+    "specs": [
+      {
+        "etiqueta": "Sistema operativo",
+        "valorTecnico": "Windows 11 Home",
+        "valorCliente": "Viene listo para usar, con todo lo que ya conoces de Windows."
+      },
+      {
+        "etiqueta": "Procesador",
+        "valorTecnico": "Intel Core 5 120U",
+        "valorCliente": "Buen equilibrio entre precio y desempeño: rápido para el día a día y la multitarea ligera."
+      },
+      {
+        "etiqueta": "Gráficos",
+        "valorTecnico": "Intel UHD integrados",
+        "valorCliente": "Mueve bien video, fotos y varias ventanas abiertas."
+      },
+      {
+        "etiqueta": "Inteligencia artificial (IA)",
+        "valorTecnico": "Sin NPU dedicada; no es Copilot+ PC",
+        "valorCliente": "No trae el chip especial de IA, pero rinde muy bien para multitarea de oficina."
+      },
+      {
+        "etiqueta": "Pantalla",
+        "valorTecnico": "15.6\" Full HD (1920x1080), 60 Hz, 250 nits, IPS (estimado, sin confirmar)",
+        "valorCliente": "Pantalla grande y clara para trabajar y ver contenido."
+      },
+      {
+        "etiqueta": "Almacenamiento",
+        "valorTecnico": "SSD 512 GB M.2 NVMe",
+        "valorCliente": "512GB bien rápidos: suficiente para fotos, documentos y programas del día a día."
+      },
+      {
+        "etiqueta": "Batería",
+        "valorTecnico": "Hasta 11 horas de uso típico (estimado, sin confirmar)",
+        "valorCliente": "Le rinde una jornada completa de trabajo u estudio."
+      },
+      {
+        "etiqueta": "Portabilidad",
+        "valorTecnico": "Aprox. 1.7 kg, 2 cm de grosor (estimado, sin confirmar)",
+        "valorCliente": "Fácil de llevar al trabajo o a la universidad."
+      }
+    ],
+    "metricas": {
+      "bateria": 7,
+      "rendimiento": 6,
+      "ia": 2,
+      "portabilidad": 6,
+      "pantalla": 6
+    },
+    "argumentosVenta": [
+      "Buen equilibrio entre precio y desempeño para el día a día.",
+      "Rápido para multitarea de oficina, correo y videollamadas.",
+      "Pantalla grande y cómoda para trabajar."
+    ],
+    "verificar": true,
+    "procesador": {
+      "marca": "Intel",
+      "modelo": "Core 5 120U",
+      "serie": "Intel Core 5 (Series 1)",
+      "nucleos": 6,
+      "hilos": 8,
+      "frecuenciaMax": "4.9 GHz",
+      "npuTops": null,
+      "queSignifica": "Procesador Intel de nivel medio con buen balance de potencia y eficiencia.",
+      "comoDecirlo": "Buen equilibrio entre precio y desempeño: rápido para el día a día y multitarea ligera.",
+      "paraQueAlcanza": [
+        "Office y multitarea",
+        "Streaming y video en HD",
+        "Videollamadas"
+      ]
+    },
+    "memoria": {
+      "ram": "8 GB",
+      "tipoRam": "DDR4",
+      "almacenamiento": "512 GB SSD",
+      "comoDecirlo": "8GB le alcanza bien para el día a día, con un SSD de 512GB bien rápido.",
+      "caso": "se-suma"
+    },
+    "pantalla": {
+      "pulgadas": 15.6,
+      "resolucion": "1920x1080 (Full HD)",
+      "tipo": "IPS",
+      "hz": 60,
+      "nits": 250,
+      "comoDecirlo": "Pantalla grande y clara para trabajar y ver contenido."
+    },
+    "extras": [
+      "NumberPad (teclado numérico)",
+      "Wi-Fi 6",
+      "Webcam HD",
+      "Teclado retroiluminado (verificar)"
+    ],
+    "enLaCaja": [
+      "Portátil",
+      "Cargador",
+      "Guía rápida",
+      "Garantía"
+    ],
+    "ganchos": [
+      "Buen punto medio entre precio y potencia para el día a día.",
+      "Rápido para multitarea de oficina y videollamadas.",
+      "Pantalla grande y cómoda para trabajar todo el día."
+    ],
+    "objeciones": [
+      {
+        "objecion": "¿Es mucho mejor que el de Core i3?",
+        "respuesta": "Sí, el Core 5 rinde más en multitarea y se siente más fluido con varias apps abiertas."
+      },
+      {
+        "objecion": "¿Debería llevar el de 16GB en vez de este?",
+        "respuesta": "Si el cliente abre muchas apps pesadas a la vez, sí; para uso normal de oficina, 8GB le alcanza bien."
+      }
+    ],
+    "clienteIdeal": "Quien quiere un portátil confiable para trabajo y estudio, con buen balance de precio y desempeño.",
+    "notasTodo": [
+      "Batería, peso y nits son estimados",
+      "Confirmar Wi-Fi 6 en esta referencia específica"
+    ],
+    "ganchosCard": [
+      {
+        "cliente": "Busca equilibrio entre precio y potencia",
+        "frase": "Buen punto medio entre precio y potencia para el día a día."
+      },
+      {
+        "cliente": "Hace multitarea de oficina y videollamadas",
+        "frase": "Rápido para multitarea de oficina y videollamadas."
+      },
+      {
+        "cliente": "Quiere pantalla grande y cómoda",
+        "frase": "Pantalla grande y cómoda para trabajar todo el día."
+      }
+    ],
+    "graficos": {
+      "tipo": "integrados",
+      "comoDecirlo": "Gráficos integrados: suficientes para oficina, estudio, streaming y edición liviana, pero no para juegos exigentes."
+    },
+    "bateria": {
+      "horasEstimadas": 11,
+      "comoDecirlo": "Le rinde una jornada completa de trabajo u estudio."
+    },
+    "portabilidad": {
+      "pesoKg": 1.7,
+      "grosorCm": 2,
+      "comoDecirlo": "Fácil de llevar al trabajo o a la universidad."
+    },
+    "conectividad": {
+      "wifi": "Wi-Fi 5 (802.11ac)",
+      "bluetooth": "5.0",
+      "puertos": [
+        "USB-C",
+        "USB-A x2",
+        "HDMI",
+        "Lector microSD",
+        "Jack combo 3.5mm"
+      ],
+      "comoDecirlo": "Tiene todas las conexiones básicas: internet, un puerto USB-C y dos USB-A, HDMI para un monitor externo."
+    },
+    "camara": {
+      "resolucion": "HD 720p",
+      "obturadorFisico": false,
+      "comoDecirlo": "Trae cámara para videollamadas."
+    },
+    "comparaciones": {
+      "abajo": {
+        "id": "vivobook-15-i3-bq3904w",
+        "diferencias": [
+          "Menos potencia de procesador",
+          "El doble de almacenamiento"
+        ]
+      },
+      "arriba": {
+        "id": "vivobook-15-core5-120u-tactil-16gb",
+        "diferencias": [
+          "Mismo procesador",
+          "Pantalla táctil",
+          "El doble de RAM"
+        ]
+      }
+    }
+  },
+  {
+    "id": "vivobook-15-core5-120u-tactil-16gb",
+    "nombre": "ASUS Vivobook 15 táctil (X1504VA)",
+    "linea": "vivobook",
+    "familia": "vivobook",
+    "referencia": "X1504VA (táctil) — confirmar sufijo",
+    "slug": "x1504va-tactil-16gb",
+    "pantallaPulgadas": 15.6,
+    "imagen": "/products/vivobook-15-core5-tactil-16gb.svg",
+    "perfiles": [
+      "hogar",
+      "trabajo",
+      "estudiantes"
+    ],
+    "specs": [
+      {
+        "etiqueta": "Sistema operativo",
+        "valorTecnico": "Windows 11 Home",
+        "valorCliente": "Viene listo para usar, con todo lo que ya conoces de Windows."
+      },
+      {
+        "etiqueta": "Procesador",
+        "valorTecnico": "Intel Core 5 120U",
+        "valorCliente": "Buen equilibrio entre precio y desempeño, ahora con pantalla táctil y más RAM."
+      },
+      {
+        "etiqueta": "Gráficos",
+        "valorTecnico": "Intel UHD integrados",
+        "valorCliente": "Mueve bien video, fotos y varias ventanas abiertas."
+      },
+      {
+        "etiqueta": "Inteligencia artificial (IA)",
+        "valorTecnico": "Sin NPU dedicada; no es Copilot+ PC",
+        "valorCliente": "No trae el chip especial de IA, pero rinde muy bien para multitarea de oficina."
+      },
+      {
+        "etiqueta": "Pantalla",
+        "valorTecnico": "15.6\" Full HD (1920x1080) táctil, 60 Hz, 250 nits, IPS (estimado, sin confirmar)",
+        "valorCliente": "Pantalla táctil: puedes tocarla directo para navegar, firmar o anotar."
+      },
+      {
+        "etiqueta": "Almacenamiento",
+        "valorTecnico": "SSD 512 GB M.2 NVMe",
+        "valorCliente": "512GB bien rápidos: suficiente para fotos, documentos y programas del día a día."
+      },
+      {
+        "etiqueta": "Batería",
+        "valorTecnico": "Hasta 10 horas de uso típico (estimado, sin confirmar)",
+        "valorCliente": "Le rinde una jornada completa de trabajo u estudio."
+      },
+      {
+        "etiqueta": "Portabilidad",
+        "valorTecnico": "Aprox. 1.8 kg, 2 cm de grosor (estimado, sin confirmar)",
+        "valorCliente": "Fácil de llevar, un poco más pesado por la pantalla táctil."
+      }
+    ],
+    "metricas": {
+      "bateria": 7,
+      "rendimiento": 6,
+      "ia": 2,
+      "portabilidad": 6,
+      "pantalla": 7
+    },
+    "argumentosVenta": [
+      "Pantalla táctil: toca directo para navegar, firmar documentos o anotar.",
+      "16GB de RAM: multitarea más fluida que el modelo de 8GB.",
+      "Buen equilibrio entre precio y desempeño para el día a día."
+    ],
+    "verificar": true,
+    "procesador": {
+      "marca": "Intel",
+      "modelo": "Core 5 120U",
+      "serie": "Intel Core 5 (Series 1)",
+      "nucleos": 6,
+      "hilos": 8,
+      "frecuenciaMax": "4.9 GHz",
+      "npuTops": null,
+      "queSignifica": "Procesador Intel de nivel medio con buen balance de potencia y eficiencia.",
+      "comoDecirlo": "Buen equilibrio entre precio y desempeño: rápido para el día a día y multitarea ligera.",
+      "paraQueAlcanza": [
+        "Office y multitarea",
+        "Streaming y video en HD",
+        "Videollamadas",
+        "Anotar o firmar sobre la pantalla"
+      ]
+    },
+    "memoria": {
+      "ram": "16 GB",
+      "tipoRam": "DDR4",
+      "almacenamiento": "512 GB SSD",
+      "comoDecirlo": "16GB le da mucha más fluidez para tener varias apps abiertas a la vez, sin trabarse.",
+      "caso": "se-suma"
+    },
+    "pantalla": {
+      "pulgadas": 15.6,
+      "resolucion": "1920x1080 (Full HD)",
+      "tipo": "IPS táctil",
+      "hz": 60,
+      "nits": 250,
+      "comoDecirlo": "Pantalla táctil: puedes tocarla directo para navegar, firmar o anotar."
+    },
+    "extras": [
+      "Pantalla táctil",
+      "NumberPad (teclado numérico)",
+      "Wi-Fi 6",
+      "Webcam HD"
+    ],
+    "enLaCaja": [
+      "Portátil",
+      "Cargador",
+      "Guía rápida",
+      "Garantía"
+    ],
+    "ganchos": [
+      "¿Quiere tocar la pantalla directo, como en el celular? Este Vivobook es táctil.",
+      "Con 16GB de RAM, todo se siente más fluido.",
+      "Ideal para quien firma documentos o anota seguido."
+    ],
+    "objeciones": [
+      {
+        "objecion": "¿La pantalla táctil sirve para algo en un portátil normal?",
+        "respuesta": "Sí: para firmar documentos, navegar rápido o anotar sobre PDFs, sin necesitar mouse."
+      },
+      {
+        "objecion": "¿Vale la pena pagar más por el táctil?",
+        "respuesta": "Si el cliente firma documentos o usa apps táctiles seguido, sí vale la pena."
+      }
+    ],
+    "clienteIdeal": "Quien quiere la comodidad de tocar la pantalla directo, con más RAM para multitarea.",
+    "notasTodo": [
+      "Confirmar sufijo exacto de referencia para esta variante táctil",
+      "Batería, peso y nits son estimados"
+    ],
+    "ganchosCard": [
+      {
+        "cliente": "Quiere tocar la pantalla como en el celular",
+        "frase": "¿Quiere tocar la pantalla directo, como en el celular? Este Vivobook es táctil."
+      },
+      {
+        "cliente": "Quiere que todo se sienta fluido",
+        "frase": "Con 16GB de RAM, todo se siente más fluido."
+      },
+      {
+        "cliente": "Firma documentos o anota seguido",
+        "frase": "Ideal para quien firma documentos o anota seguido."
+      }
+    ],
+    "graficos": {
+      "tipo": "integrados",
+      "comoDecirlo": "Gráficos integrados: suficientes para oficina, estudio, streaming y edición liviana, pero no para juegos exigentes."
+    },
+    "bateria": {
+      "horasEstimadas": 10,
+      "comoDecirlo": "Le rinde una jornada completa de trabajo u estudio."
+    },
+    "portabilidad": {
+      "pesoKg": 1.8,
+      "grosorCm": 2,
+      "comoDecirlo": "Fácil de llevar, un poco más pesado por la pantalla táctil."
+    },
+    "conectividad": {
+      "wifi": "Wi-Fi 5 (802.11ac)",
+      "bluetooth": "5.0",
+      "puertos": [
+        "USB-C",
+        "USB-A x2",
+        "HDMI",
+        "Lector microSD",
+        "Jack combo 3.5mm"
+      ],
+      "comoDecirlo": "Tiene todas las conexiones básicas: internet, un puerto USB-C y dos USB-A, HDMI para un monitor externo."
+    },
+    "camara": {
+      "resolucion": "HD 720p",
+      "obturadorFisico": false,
+      "comoDecirlo": "Trae cámara para videollamadas."
+    },
+    "comparaciones": {
+      "abajo": {
+        "id": "vivobook-15-core5-120u-8gb",
+        "diferencias": [
+          "Misma pantalla y procesador",
+          "Sin táctil",
+          "La mitad de RAM"
+        ]
+      },
+      "arriba": {
+        "id": "vivobook-14-snapdragon-x1-16gb",
+        "diferencias": [
+          "Cambia de tamaño (14\")",
+          "Suma Copilot+ PC con batería mucho más larga",
+          "Pierde la pantalla táctil"
+        ]
+      }
+    }
+  },
+  {
+    "id": "vivobook-14-snapdragon-x1-16gb",
+    "nombre": "ASUS Vivobook 14 (X1407QA)",
+    "linea": "vivobook",
+    "familia": "vivobook",
+    "referencia": "X1407QA-NJ323W",
+    "slug": "x1407qa-snapdragon-x1",
+    "pantallaPulgadas": 14,
+    "imagen": "/products/vivobook-14-snapdragon-x1.svg",
+    "perfiles": [
+      "hogar",
+      "trabajo",
+      "estudiantes"
+    ],
+    "specs": [
+      {
+        "etiqueta": "Sistema operativo",
+        "valorTecnico": "Windows 11 Home",
+        "valorCliente": "Viene listo para usar, con todo lo que ya conoces de Windows."
+      },
+      {
+        "etiqueta": "Procesador",
+        "valorTecnico": "Snapdragon X X1-26-100",
+        "valorCliente": "Es un Copilot+ PC: rápido para el día a día y gasta muy poca batería."
+      },
+      {
+        "etiqueta": "Gráficos",
+        "valorTecnico": "Qualcomm Adreno",
+        "valorCliente": "Se ve fluido en videollamadas, oficina y videos, sin recalentarse."
+      },
+      {
+        "etiqueta": "Inteligencia artificial (IA)",
+        "valorTecnico": "NPU Qualcomm Hexagon, hasta 45 TOPS (Copilot+ PC)",
+        "valorCliente": "Trae un chip extra de IA que mejora tus videollamadas y te ayuda con tareas de Windows, sin gastar batería de más."
+      },
+      {
+        "etiqueta": "Pantalla",
+        "valorTecnico": "14\" Full HD (1920x1080), 60 Hz, 300 nits, IPS (estimado, sin confirmar)",
+        "valorCliente": "Pantalla cómoda de 14 pulgadas, fácil de llevar a todas partes."
+      },
+      {
+        "etiqueta": "Almacenamiento",
+        "valorTecnico": "SSD 512 GB M.2 NVMe",
+        "valorCliente": "512GB bien rápidos: suficiente para fotos, documentos y programas del día a día."
+      },
+      {
+        "etiqueta": "Batería",
+        "valorTecnico": "Hasta 13 horas de uso típico (estimado, sin confirmar)",
+        "valorCliente": "Le dura casi todo el día sin buscar un tomacorriente."
+      },
+      {
+        "etiqueta": "Portabilidad",
+        "valorTecnico": "Aprox. 1.5 kg, 1.8 cm de grosor (estimado, sin confirmar)",
+        "valorCliente": "Liviano y fácil de cargar todos los días."
+      }
+    ],
+    "metricas": {
+      "bateria": 9,
+      "rendimiento": 6,
+      "ia": 8,
+      "portabilidad": 8,
+      "pantalla": 6
+    },
+    "argumentosVenta": [
+      "Es un Copilot+ PC: lo último en IA de Windows, directo en un Vivobook.",
+      "La batería le dura muchísimo gracias a su chip ARM.",
+      "Liviano y moderno, ideal para llevarlo a todas partes."
+    ],
+    "verificar": true,
+    "procesador": {
+      "marca": "Qualcomm",
+      "modelo": "Snapdragon X X1-26-100",
+      "serie": "Snapdragon X",
+      "nucleos": 8,
+      "hilos": 8,
+      "frecuenciaMax": "3.4 GHz (hasta 4.0 GHz boost)",
+      "npuTops": 45,
+      "queSignifica": "Chip ARM con NPU dedicada que habilita funciones de Copilot+ con muy bajo consumo.",
+      "comoDecirlo": "Es un Copilot+ PC: tiene un chip especial de IA que mejora videollamadas, fotos y tareas de Windows, y la batería dura muchísimo.",
+      "paraQueAlcanza": [
+        "Multitarea liviana con mucha batería",
+        "Funciones de IA de Windows (Copilot+)",
+        "Videollamadas con mejoras automáticas"
+      ]
+    },
+    "memoria": {
+      "ram": "16 GB",
+      "tipoRam": "LPDDR5",
+      "almacenamiento": "512 GB SSD",
+      "comoDecirlo": "16GB le da mucha fluidez para tener varias apps abiertas a la vez.",
+      "caso": "soldada"
+    },
+    "pantalla": {
+      "pulgadas": 14,
+      "resolucion": "1920x1080 (Full HD)",
+      "tipo": "IPS",
+      "hz": 60,
+      "nits": 300,
+      "comoDecirlo": "Pantalla cómoda de 14 pulgadas, fácil de llevar a todas partes."
+    },
+    "extras": [
+      "Copilot+ PC",
+      "Tecla Copilot dedicada",
+      "Wi-Fi 6",
+      "Lector de huella (verificar)"
+    ],
+    "enLaCaja": [
+      "Portátil",
+      "Cargador",
+      "Guía rápida",
+      "Garantía"
+    ],
+    "ganchos": [
+      "Es un Copilot+ PC: lo último en IA de Windows, directo en un Vivobook.",
+      "La batería le dura muchísimo gracias a su chip ARM.",
+      "Ideal para el cliente que quiere algo moderno y liviano."
+    ],
+    "objeciones": [
+      {
+        "objecion": "¿Corre todos mis programas?",
+        "respuesta": "La mayoría de apps de uso diario sí; algunos programas muy específicos de Windows antiguo pueden necesitar revisión. Para esos casos, te muestro un Vivobook Intel o AMD."
+      },
+      {
+        "objecion": "¿Qué es un Copilot+ PC?",
+        "respuesta": "Es la nueva categoría de Windows con IA integrada: mejora videollamadas, fotos y búsquedas, todo sin gastar batería de más."
+      }
+    ],
+    "clienteIdeal": "Quien busca batería larga, algo moderno y liviano, con las nuevas funciones de IA de Windows.",
+    "notasTodo": [
+      "Confirmar sufijo exacto de referencia (código de 4-5 dígitos)",
+      "Batería, peso y nits son estimados",
+      "Confirmar lector de huella en esta referencia"
+    ],
+    "ganchosCard": [
+      {
+        "cliente": "Pregunta por lo último en IA de Windows",
+        "frase": "Es un Copilot+ PC: lo último en IA de Windows, directo en un Vivobook."
+      },
+      {
+        "cliente": "Necesita batería que dure muchísimo",
+        "frase": "La batería le dura muchísimo gracias a su chip ARM."
+      },
+      {
+        "cliente": "Quiere algo moderno y liviano",
+        "frase": "Ideal para el cliente que quiere algo moderno y liviano."
+      }
+    ],
+    "graficos": {
+      "tipo": "integrados",
+      "comoDecirlo": "Gráficos integrados: suficientes para oficina, estudio, streaming y edición liviana, pero no para juegos exigentes."
+    },
+    "bateria": {
+      "horasEstimadas": 13,
+      "comoDecirlo": "Le dura casi todo el día sin buscar un tomacorriente."
+    },
+    "portabilidad": {
+      "pesoKg": 1.5,
+      "grosorCm": 1.8,
+      "comoDecirlo": "Liviano y fácil de cargar todos los días."
+    },
+    "conectividad": {
+      "wifi": "Wi-Fi 6 (802.11ax)",
+      "bluetooth": "5.3",
+      "puertos": [
+        "USB-C",
+        "USB-A x2",
+        "HDMI",
+        "Lector microSD",
+        "Jack combo 3.5mm"
+      ],
+      "comoDecirlo": "Internet más rápido y estable con Wi-Fi 6, más los puertos para conectar lo que necesite."
+    },
+    "camara": {
+      "resolucion": "HD 720p",
+      "obturadorFisico": true,
+      "comoDecirlo": "Trae cámara para videollamadas, con una tapa física para cuidar su privacidad."
+    },
+    "comparaciones": {
+      "abajo": {
+        "id": "vivobook-15-core5-120u-tactil-16gb",
+        "diferencias": [
+          "Pierde la pantalla táctil",
+          "Gana Copilot+ PC y muchísima más batería"
+        ]
+      },
+      "arriba": {
+        "id": "vivobook-16-ryzenai5-16gb",
+        "diferencias": [
+          "Misma categoría Copilot+",
+          "Pantalla más grande (16\")",
+          "Corre Windows x86 nativo sin limitaciones"
+        ]
+      }
+    }
+  },
+  {
+    "id": "vivobook-16-ryzenai5-16gb",
+    "nombre": "ASUS Vivobook 16 (M1607KA)",
+    "linea": "vivobook",
+    "familia": "vivobook",
+    "referencia": "M1607KA-MB341W",
+    "slug": "m1607ka-ryzen-ai5",
+    "pantallaPulgadas": 16,
+    "imagen": "/products/vivobook-16-ryzenai5.svg",
+    "perfiles": [
+      "hogar",
+      "trabajo",
+      "creadores",
+      "estudiantes"
+    ],
+    "specs": [
+      {
+        "etiqueta": "Sistema operativo",
+        "valorTecnico": "Windows 11 Home",
+        "valorCliente": "Viene listo para usar, con todo lo que ya conoces de Windows."
+      },
+      {
+        "etiqueta": "Procesador",
+        "valorTecnico": "AMD Ryzen AI 5 340",
+        "valorCliente": "Es un Copilot+ PC de AMD: potente para multitarea y con chip de IA integrado."
+      },
+      {
+        "etiqueta": "Gráficos",
+        "valorTecnico": "AMD Radeon integrados",
+        "valorCliente": "Mueve bien video, fotos y edición liviana."
+      },
+      {
+        "etiqueta": "Inteligencia artificial (IA)",
+        "valorTecnico": "NPU AMD XDNA 2, hasta 50 TOPS (Copilot+ PC)",
+        "valorCliente": "Trae el chip de IA que mejora videollamadas y fotos, sin gastar batería de más."
+      },
+      {
+        "etiqueta": "Pantalla",
+        "valorTecnico": "16\" WUXGA (1920x1200) 16:10, 60 Hz, 300 nits, IPS (estimado, sin confirmar)",
+        "valorCliente": "Pantalla grande de 16 pulgadas, cómoda para trabajar y ver contenido."
+      },
+      {
+        "etiqueta": "Almacenamiento",
+        "valorTecnico": "SSD 512 GB M.2 NVMe",
+        "valorCliente": "512GB bien rápidos: suficiente para fotos, documentos y programas del día a día."
+      },
+      {
+        "etiqueta": "Batería",
+        "valorTecnico": "Hasta 11 horas de uso típico (estimado, sin confirmar)",
+        "valorCliente": "Le rinde una jornada completa de trabajo."
+      },
+      {
+        "etiqueta": "Portabilidad",
+        "valorTecnico": "Aprox. 1.9 kg, 2.1 cm de grosor (estimado, sin confirmar)",
+        "valorCliente": "Es grande pero se deja llevar bien, pensado para quedarse casi siempre en un mismo lugar."
+      }
+    ],
+    "metricas": {
+      "bateria": 7,
+      "rendimiento": 7,
+      "ia": 8,
+      "portabilidad": 5,
+      "pantalla": 7
+    },
+    "argumentosVenta": [
+      "Es un Copilot+ PC de AMD: potente y con IA integrada.",
+      "Pantalla grande de 16 pulgadas, ideal para trabajar cómodo.",
+      "Buen balance entre potencia y batería para el día a día."
+    ],
+    "verificar": true,
+    "procesador": {
+      "marca": "AMD",
+      "modelo": "Ryzen AI 5 340",
+      "serie": "Ryzen AI 5 300",
+      "nucleos": 6,
+      "hilos": 12,
+      "frecuenciaMax": "5.0 GHz",
+      "npuTops": 50,
+      "queSignifica": "Procesador AMD con NPU integrada (XDNA 2) que habilita funciones de IA de Windows (Copilot+).",
+      "comoDecirlo": "Es un Copilot+ PC de AMD: potente para multitarea y con chip de IA que ayuda en videollamadas y fotos.",
+      "paraQueAlcanza": [
+        "Multitarea pesada",
+        "Funciones de IA de Windows (Copilot+)",
+        "Edición liviana de fotos y video"
+      ]
+    },
+    "memoria": {
+      "ram": "16 GB",
+      "tipoRam": "LPDDR5",
+      "almacenamiento": "512 GB SSD",
+      "comoDecirlo": "16GB le da mucha fluidez para tener varias apps abiertas a la vez.",
+      "caso": "soldada"
+    },
+    "pantalla": {
+      "pulgadas": 16,
+      "resolucion": "1920x1200 (WUXGA)",
+      "tipo": "IPS",
+      "hz": 60,
+      "nits": 300,
+      "comoDecirlo": "Pantalla grande de 16 pulgadas, cómoda para trabajar y ver contenido."
+    },
+    "extras": [
+      "Copilot+ PC",
+      "Tecla Copilot dedicada",
+      "NumberPad (teclado numérico)",
+      "Wi-Fi 6"
+    ],
+    "enLaCaja": [
+      "Portátil",
+      "Cargador",
+      "Guía rápida",
+      "Garantía"
+    ],
+    "ganchos": [
+      "Pantalla grande de 16\" con procesador AMD de IA (Copilot+).",
+      "16GB de RAM para multitarea sin trabas.",
+      "Ideal para quien quiere potencia y pantalla grande en casa."
+    ],
+    "objeciones": [
+      {
+        "objecion": "¿Qué diferencia tiene con el Snapdragon?",
+        "respuesta": "Ambos son Copilot+ PC; este corre Windows x86 nativo sin ninguna limitación de compatibilidad, además de tener pantalla más grande."
+      },
+      {
+        "objecion": "¿Es muy pesado?",
+        "respuesta": "Pesa un poco más por la pantalla de 16\", pero se compensa con más pantalla y potencia."
+      }
+    ],
+    "clienteIdeal": "Quien quiere pantalla grande, potencia AMD y las funciones nuevas de IA de Windows.",
+    "notasTodo": [
+      "Confirmar modelo exacto de Ryzen AI 5 (se asumió 340)",
+      "Batería, peso y nits son estimados"
+    ],
+    "ganchosCard": [
+      {
+        "cliente": "Quiere pantalla grande con IA integrada",
+        "frase": "Pantalla grande de 16\" con procesador AMD de IA (Copilot+)."
+      },
+      {
+        "cliente": "Hace multitarea pesada",
+        "frase": "16GB de RAM para multitarea sin trabas."
+      },
+      {
+        "cliente": "Quiere potencia y pantalla grande en casa",
+        "frase": "Ideal para quien quiere potencia y pantalla grande en casa."
+      }
+    ],
+    "graficos": {
+      "tipo": "integrados",
+      "comoDecirlo": "Gráficos integrados: suficientes para oficina, estudio, streaming y edición liviana, pero no para juegos exigentes."
+    },
+    "bateria": {
+      "horasEstimadas": 11,
+      "comoDecirlo": "Le rinde una jornada completa de trabajo."
+    },
+    "portabilidad": {
+      "pesoKg": 1.9,
+      "grosorCm": 2.1,
+      "comoDecirlo": "Es grande pero se deja llevar bien, pensado para quedarse casi siempre en un mismo lugar."
+    },
+    "conectividad": {
+      "wifi": "Wi-Fi 6 (802.11ax)",
+      "bluetooth": "5.3",
+      "puertos": [
+        "USB-C",
+        "USB-A x2",
+        "HDMI",
+        "Lector microSD",
+        "Jack combo 3.5mm"
+      ],
+      "comoDecirlo": "Internet más rápido y estable con Wi-Fi 6, más los puertos para conectar lo que necesite."
+    },
+    "camara": {
+      "resolucion": "HD 720p",
+      "obturadorFisico": true,
+      "comoDecirlo": "Trae cámara para videollamadas, con una tapa física para cuidar su privacidad."
+    },
+    "comparaciones": {
+      "abajo": {
+        "id": "vivobook-14-snapdragon-x1-16gb",
+        "diferencias": [
+          "Pantalla más chica (14\")",
+          "Bastante más batería por el chip ARM"
+        ]
+      },
+      "arriba": {
+        "id": "vivobook-16-i5-13420h-1tb",
+        "diferencias": [
+          "Pierde Copilot+ PC",
+          "Gana potencia bruta (procesador serie H)",
+          "1TB de almacenamiento"
+        ]
+      }
+    }
+  },
+  {
+    "id": "vivobook-16-i5-13420h-1tb",
+    "nombre": "ASUS Vivobook 16 (X1605VA)",
+    "linea": "vivobook",
+    "familia": "vivobook",
+    "referencia": "X1605VA-MB341W",
+    "slug": "x1605va-i5-13420h",
+    "pantallaPulgadas": 16,
+    "imagen": "/products/vivobook-16-i5-13420h.svg",
+    "perfiles": [
+      "trabajo",
+      "creadores",
+      "estudiantes"
+    ],
+    "specs": [
+      {
+        "etiqueta": "Sistema operativo",
+        "valorTecnico": "Windows 11 Home",
+        "valorCliente": "Viene listo para usar, con todo lo que ya conoces de Windows."
+      },
+      {
+        "etiqueta": "Procesador",
+        "valorTecnico": "Intel Core i5-13420H",
+        "valorCliente": "Tiene más músculo que los procesadores livianos: ideal para multitarea pesada."
+      },
+      {
+        "etiqueta": "Gráficos",
+        "valorTecnico": "Intel UHD integrados",
+        "valorCliente": "Mueve bien edición liviana de fotos y video, además de multitarea exigente."
+      },
+      {
+        "etiqueta": "Inteligencia artificial (IA)",
+        "valorTecnico": "Sin NPU dedicada; no es Copilot+ PC",
+        "valorCliente": "No trae el chip especial de IA, pero compensa con más potencia bruta."
+      },
+      {
+        "etiqueta": "Pantalla",
+        "valorTecnico": "16\" WUXGA (1920x1200) 16:10, 60 Hz, 300 nits, IPS (estimado, sin confirmar)",
+        "valorCliente": "Pantalla grande de 16 pulgadas, cómoda para trabajar."
+      },
+      {
+        "etiqueta": "Almacenamiento",
+        "valorTecnico": "SSD 1 TB M.2 NVMe",
+        "valorCliente": "1TB es un montón de espacio: guarda miles de fotos, videos y documentos sin preocuparse."
+      },
+      {
+        "etiqueta": "Batería",
+        "valorTecnico": "Hasta 8 horas de uso típico (estimado, sin confirmar)",
+        "valorCliente": "Le rinde una jornada de trabajo, aunque conviene tener el cargador cerca en tareas pesadas."
+      },
+      {
+        "etiqueta": "Portabilidad",
+        "valorTecnico": "Aprox. 2 kg, 2.2 cm de grosor (estimado, sin confirmar)",
+        "valorCliente": "Es grande y con más potencia, pensado para quedarse casi siempre en un mismo lugar."
+      }
+    ],
+    "metricas": {
+      "bateria": 5,
+      "rendimiento": 8,
+      "ia": 2,
+      "portabilidad": 5,
+      "pantalla": 7
+    },
+    "argumentosVenta": [
+      "Pantalla grande de 16\" con un procesador de mayor potencia (serie H).",
+      "1TB de espacio y 16GB de RAM: multitarea sin trabas.",
+      "Para el cliente que exige más rendimiento sin pasarse a un gamer."
+    ],
+    "verificar": true,
+    "procesador": {
+      "marca": "Intel",
+      "modelo": "Core i5-13420H",
+      "serie": "Intel Core i5 (13th Gen H)",
+      "nucleos": 8,
+      "hilos": 12,
+      "frecuenciaMax": "4.6 GHz",
+      "npuTops": null,
+      "queSignifica": "Procesador de la serie H, con más núcleos y mayor consumo, pensado para tareas más demandantes.",
+      "comoDecirlo": "Tiene más músculo que los procesadores livianos: ideal para multitarea pesada y programas más exigentes.",
+      "paraQueAlcanza": [
+        "Multitarea pesada",
+        "Edición liviana de fotos y video",
+        "Hojas de cálculo grandes"
+      ]
+    },
+    "memoria": {
+      "ram": "16 GB",
+      "tipoRam": "DDR4",
+      "almacenamiento": "1 TB SSD",
+      "comoDecirlo": "16GB y 1TB: multitarea fluida y espacio de sobra para guardar todo.",
+      "caso": "se-suma"
+    },
+    "pantalla": {
+      "pulgadas": 16,
+      "resolucion": "1920x1200 (WUXGA)",
+      "tipo": "IPS",
+      "hz": 60,
+      "nits": 300,
+      "comoDecirlo": "Pantalla grande de 16 pulgadas, cómoda para trabajar."
+    },
+    "extras": [
+      "NumberPad (teclado numérico)",
+      "Wi-Fi 6",
+      "Webcam HD",
+      "MIL-STD-810H (verificar)"
+    ],
+    "enLaCaja": [
+      "Portátil",
+      "Cargador",
+      "Guía rápida",
+      "Garantía"
+    ],
+    "ganchos": [
+      "Pantalla grande de 16\" con un procesador de mayor potencia (serie H).",
+      "1TB de espacio y 16GB de RAM: multitarea sin trabas.",
+      "Para el cliente que exige más rendimiento sin pasarse a un gamer."
+    ],
+    "objeciones": [
+      {
+        "objecion": "¿Es un equipo gamer?",
+        "respuesta": "No, es un Vivobook de alto rendimiento para trabajo y estudio exigente; si busca jugar, te muestro la línea gaming o ROG."
+      },
+      {
+        "objecion": "¿Por qué pesa más que los otros Vivobook?",
+        "respuesta": "Por la pantalla de 16\" y el procesador más potente; a cambio rinde más en tareas pesadas."
+      }
+    ],
+    "clienteIdeal": "Quien necesita más potencia real para trabajo o estudio exigente, en una pantalla grande.",
+    "notasTodo": [
+      "Confirmar sufijo exacto de referencia (código de 4-5 dígitos)",
+      "Batería, peso y nits son estimados",
+      "Confirmar certificación MIL-STD-810H en esta referencia"
+    ],
+    "ganchosCard": [
+      {
+        "cliente": "Quiere pantalla grande y más potencia",
+        "frase": "Pantalla grande de 16\" con un procesador de mayor potencia (serie H)."
+      },
+      {
+        "cliente": "Necesita espacio y RAM para multitarea",
+        "frase": "1TB de espacio y 16GB de RAM: multitarea sin trabas."
+      },
+      {
+        "cliente": "Exige rendimiento sin pasar a un gamer",
+        "frase": "Para el cliente que exige más rendimiento sin pasarse a un gamer."
+      }
+    ],
+    "graficos": {
+      "tipo": "integrados",
+      "comoDecirlo": "Gráficos integrados: suficientes para oficina, estudio, streaming y edición liviana, pero no para juegos exigentes."
+    },
+    "bateria": {
+      "horasEstimadas": 8,
+      "comoDecirlo": "Le rinde una jornada de trabajo, aunque conviene tener el cargador cerca en tareas pesadas."
+    },
+    "portabilidad": {
+      "pesoKg": 2,
+      "grosorCm": 2.2,
+      "comoDecirlo": "Es grande y con más potencia, pensado para quedarse casi siempre en un mismo lugar."
+    },
+    "conectividad": {
+      "wifi": "Wi-Fi 5 (802.11ac)",
+      "bluetooth": "5.0",
+      "puertos": [
+        "USB-C",
+        "USB-A x2",
+        "HDMI",
+        "Lector microSD",
+        "Jack combo 3.5mm"
+      ],
+      "comoDecirlo": "Tiene todas las conexiones básicas: internet, un puerto USB-C y dos USB-A, HDMI para un monitor externo."
+    },
+    "camara": {
+      "resolucion": "HD 720p",
+      "obturadorFisico": false,
+      "comoDecirlo": "Trae cámara para videollamadas."
+    },
+    "comparaciones": {
+      "abajo": {
+        "id": "vivobook-16-ryzenai5-16gb",
+        "diferencias": [
+          "Pierde la pantalla más brillante y Copilot+",
+          "Gana potencia y 1TB"
+        ]
+      },
+      "arriba": {
+        "id": "vivobook-s14-snapdragon-x1-oled",
+        "diferencias": [
+          "Cambia a diseño premium con pantalla OLED",
+          "Mucha más batería",
+          "Pierde almacenamiento (512GB) y potencia bruta"
+        ]
+      }
+    }
+  },
+  {
+    "id": "vivobook-s14-snapdragon-x1-oled",
+    "nombre": "ASUS Vivobook S14 OLED (S3407QA)",
+    "linea": "vivobook",
+    "familia": "vivobook-s",
+    "referencia": "S3407QA-LC323W",
+    "slug": "s3407qa-snapdragon-x1-oled",
+    "pantallaPulgadas": 14,
+    "imagen": "/products/vivobook-s14-snapdragon-oled.svg",
+    "perfiles": [
+      "trabajo",
+      "creadores",
+      "hogar",
+      "estudiantes"
+    ],
+    "specs": [
+      {
+        "etiqueta": "Sistema operativo",
+        "valorTecnico": "Windows 11 Home",
+        "valorCliente": "Viene listo para usar, con todo lo que ya conoces de Windows."
+      },
+      {
+        "etiqueta": "Procesador",
+        "valorTecnico": "Snapdragon X X1-26-100",
+        "valorCliente": "Es un Copilot+ PC: rápido para el día a día y con batería que dura muchísimo."
+      },
+      {
+        "etiqueta": "Gráficos",
+        "valorTecnico": "Qualcomm Adreno",
+        "valorCliente": "Se ve fluido en videollamadas, oficina y videos, sin recalentarse."
+      },
+      {
+        "etiqueta": "Inteligencia artificial (IA)",
+        "valorTecnico": "NPU Qualcomm Hexagon, hasta 45 TOPS (Copilot+ PC)",
+        "valorCliente": "Trae un chip extra de IA que mejora tus videollamadas y fotos, sin gastar batería de más."
+      },
+      {
+        "etiqueta": "Pantalla",
+        "valorTecnico": "14\" 2.8K (2880x1800) 16:10, 120 Hz, 400 nits, OLED (estimado, sin confirmar)",
+        "valorCliente": "Pantalla OLED con colores muy vivos y negros profundos, ideal para ver series y trabajar con detalle."
+      },
+      {
+        "etiqueta": "Almacenamiento",
+        "valorTecnico": "SSD 512 GB M.2 NVMe",
+        "valorCliente": "512GB bien rápidos: suficiente para fotos, documentos y programas del día a día."
+      },
+      {
+        "etiqueta": "Batería",
+        "valorTecnico": "Hasta 13 horas de uso típico (estimado, sin confirmar)",
+        "valorCliente": "Le dura casi todo el día sin buscar un tomacorriente."
+      },
+      {
+        "etiqueta": "Portabilidad",
+        "valorTecnico": "Aprox. 1.4 kg, 1.5 cm de grosor (estimado, sin confirmar)",
+        "valorCliente": "Liviano y delgado, perfecto para llevarlo a todas partes."
+      }
+    ],
+    "metricas": {
+      "bateria": 9,
+      "rendimiento": 6,
+      "ia": 8,
+      "portabilidad": 9,
+      "pantalla": 9
+    },
+    "argumentosVenta": [
+      "La línea S de Vivobook: diseño más cuidado con pantalla OLED.",
+      "Es un Copilot+ PC con batería que le rinde todo el día.",
+      "Ideal para quien quiere algo bonito, liviano y con tecnología de punta."
+    ],
+    "verificar": true,
+    "procesador": {
+      "marca": "Qualcomm",
+      "modelo": "Snapdragon X X1-26-100",
+      "serie": "Snapdragon X",
+      "nucleos": 8,
+      "hilos": 8,
+      "frecuenciaMax": "3.4 GHz (hasta 4.0 GHz boost)",
+      "npuTops": 45,
+      "queSignifica": "Chip ARM con NPU dedicada que habilita funciones de Copilot+ con muy bajo consumo.",
+      "comoDecirlo": "Es un Copilot+ PC: tiene un chip especial de IA que mejora videollamadas, fotos y tareas de Windows, y la batería dura muchísimo.",
+      "paraQueAlcanza": [
+        "Multitarea liviana con mucha batería",
+        "Funciones de IA de Windows (Copilot+)",
+        "Ver contenido en pantalla OLED"
+      ]
+    },
+    "memoria": {
+      "ram": "16 GB",
+      "tipoRam": "LPDDR5",
+      "almacenamiento": "512 GB SSD",
+      "comoDecirlo": "16GB le da mucha fluidez para tener varias apps abiertas a la vez.",
+      "caso": "soldada"
+    },
+    "pantalla": {
+      "pulgadas": 14,
+      "resolucion": "2880x1800 (2.8K)",
+      "tipo": "OLED",
+      "hz": 120,
+      "nits": 400,
+      "comoDecirlo": "Pantalla OLED con colores muy vivos y negros profundos, ideal para ver series y trabajar con detalle."
+    },
+    "extras": [
+      "Copilot+ PC",
+      "Pantalla OLED",
+      "Cuerpo delgado en metal (verificar)",
+      "Wi-Fi 6"
+    ],
+    "enLaCaja": [
+      "Portátil",
+      "Cargador",
+      "Guía rápida",
+      "Garantía"
+    ],
+    "ganchos": [
+      "La línea S de Vivobook: diseño más cuidado y pantalla OLED.",
+      "Es un Copilot+ PC con batería que le rinde todo el día.",
+      "Ideal para quien quiere algo bonito, liviano y con tecnología de punta."
+    ],
+    "objeciones": [
+      {
+        "objecion": "¿Vale la pena pagar más por el OLED?",
+        "respuesta": "Sí, si al cliente le importa mucho la imagen: colores más vivos y negros más profundos que una pantalla IPS normal."
+      },
+      {
+        "objecion": "¿Corre todos mis programas?",
+        "respuesta": "La mayoría de apps de uso diario sí; para programas muy específicos de Windows antiguo, te muestro un Vivobook Intel o AMD."
+      }
+    ],
+    "clienteIdeal": "Quien busca un equipo más cuidado en diseño, liviano, con pantalla OLED y batería larga.",
+    "notasTodo": [
+      "Confirmar sufijo exacto de referencia (código de 4-5 dígitos)",
+      "Batería, peso y nits son estimados"
+    ],
+    "ganchosCard": [
+      {
+        "cliente": "Quiere diseño cuidado y pantalla OLED",
+        "frase": "La línea S de Vivobook: diseño más cuidado y pantalla OLED."
+      },
+      {
+        "cliente": "Necesita Copilot+ con batería larga",
+        "frase": "Es un Copilot+ PC con batería que le rinde todo el día."
+      },
+      {
+        "cliente": "Quiere algo bonito y con tecnología de punta",
+        "frase": "Ideal para quien quiere algo bonito, liviano y con tecnología de punta."
+      }
+    ],
+    "graficos": {
+      "tipo": "integrados",
+      "comoDecirlo": "Gráficos integrados: suficientes para oficina, estudio, streaming y edición liviana, pero no para juegos exigentes."
+    },
+    "bateria": {
+      "horasEstimadas": 13,
+      "comoDecirlo": "Le dura casi todo el día sin buscar un tomacorriente."
+    },
+    "portabilidad": {
+      "pesoKg": 1.4,
+      "grosorCm": 1.5,
+      "comoDecirlo": "Liviano y delgado, perfecto para llevarlo a todas partes."
+    },
+    "conectividad": {
+      "wifi": "Wi-Fi 6 (802.11ax)",
+      "bluetooth": "5.3",
+      "puertos": [
+        "USB-C",
+        "USB-A x2",
+        "HDMI",
+        "Lector microSD",
+        "Jack combo 3.5mm"
+      ],
+      "comoDecirlo": "Internet más rápido y estable con Wi-Fi 6, más los puertos para conectar lo que necesite."
+    },
+    "camara": {
+      "resolucion": "HD 720p",
+      "obturadorFisico": true,
+      "comoDecirlo": "Trae cámara para videollamadas, con una tapa física para cuidar su privacidad."
+    },
+    "comparaciones": {
+      "abajo": {
+        "id": "vivobook-16-i5-13420h-1tb",
+        "diferencias": [
+          "Pierde potencia bruta y almacenamiento",
+          "Gana diseño premium, pantalla OLED y más batería"
+        ]
+      },
+      "arriba": {
+        "id": "vivobook-s14-coreultra5-oled",
+        "diferencias": [
+          "Mismo diseño y pantalla OLED",
+          "Corre Windows x86 nativo sin limitaciones de compatibilidad"
+        ]
+      }
+    }
+  },
+  {
+    "id": "vivobook-s14-coreultra5-oled",
+    "nombre": "ASUS Vivobook S14 OLED (S5406A)",
+    "linea": "vivobook",
+    "familia": "vivobook-s",
+    "referencia": "S5406A-MB341W",
+    "slug": "s5406a-core-ultra5-oled",
+    "pantallaPulgadas": 14,
+    "imagen": "/products/vivobook-s14-coreultra5-oled.svg",
+    "perfiles": [
+      "trabajo",
+      "creadores",
+      "hogar",
+      "estudiantes"
+    ],
+    "specs": [
+      {
+        "etiqueta": "Sistema operativo",
+        "valorTecnico": "Windows 11 Home",
+        "valorCliente": "Viene listo para usar, con todo lo que ya conoces de Windows."
+      },
+      {
+        "etiqueta": "Procesador",
+        "valorTecnico": "Intel Core Ultra 5",
+        "valorCliente": "Es un Copilot+ PC de Intel: trae el chip de IA y buen rendimiento gráfico integrado."
+      },
+      {
+        "etiqueta": "Gráficos",
+        "valorTecnico": "Intel Arc integrados",
+        "valorCliente": "Mueve bien edición liviana de fotos y video, además de multitarea exigente."
+      },
+      {
+        "etiqueta": "Inteligencia artificial (IA)",
+        "valorTecnico": "NPU Intel AI Boost, hasta 11 TOPS (Copilot+ PC)",
+        "valorCliente": "Trae el chip de IA que mejora videollamadas, fotos y tareas de Windows."
+      },
+      {
+        "etiqueta": "Pantalla",
+        "valorTecnico": "14\" 2.8K (2880x1800) 16:10, 120 Hz, 400 nits, OLED (estimado, sin confirmar)",
+        "valorCliente": "Pantalla OLED con colores muy vivos y negros profundos, ideal para ver series y trabajar con detalle."
+      },
+      {
+        "etiqueta": "Almacenamiento",
+        "valorTecnico": "SSD 512 GB M.2 NVMe",
+        "valorCliente": "512GB bien rápidos: suficiente para fotos, documentos y programas del día a día."
+      },
+      {
+        "etiqueta": "Batería",
+        "valorTecnico": "Hasta 11 horas de uso típico (estimado, sin confirmar)",
+        "valorCliente": "Le rinde una jornada completa de trabajo."
+      },
+      {
+        "etiqueta": "Portabilidad",
+        "valorTecnico": "Aprox. 1.4 kg, 1.5 cm de grosor (estimado, sin confirmar)",
+        "valorCliente": "Liviano y delgado, perfecto para llevarlo a todas partes."
+      }
+    ],
+    "metricas": {
+      "bateria": 8,
+      "rendimiento": 7,
+      "ia": 7,
+      "portabilidad": 9,
+      "pantalla": 9
+    },
+    "argumentosVenta": [
+      "Lo último de Intel con IA integrada, en un equipo premium.",
+      "Pantalla OLED con colores de cine, ideal para crear y ver contenido.",
+      "Liviano y delgado, perfecto para llevarlo a todas partes."
+    ],
+    "verificar": true,
+    "procesador": {
+      "marca": "Intel",
+      "modelo": "Core Ultra 5 226V",
+      "serie": "Intel Core Ultra 5 (Series 2)",
+      "nucleos": 8,
+      "hilos": 8,
+      "frecuenciaMax": "4.5 GHz",
+      "npuTops": 11,
+      "queSignifica": "Procesador Intel con NPU integrada (Copilot+ PC) y buen desempeño gráfico integrado.",
+      "comoDecirlo": "Es un Copilot+ PC de Intel: trae el chip de IA, buen rendimiento gráfico integrado y pantalla OLED.",
+      "paraQueAlcanza": [
+        "Multitarea con IA integrada",
+        "Edición liviana de fotos y video",
+        "Ver contenido en pantalla OLED"
+      ]
+    },
+    "memoria": {
+      "ram": "16 GB",
+      "tipoRam": "LPDDR5",
+      "almacenamiento": "512 GB SSD",
+      "comoDecirlo": "16GB le da mucha fluidez para tener varias apps abiertas a la vez.",
+      "caso": "soldada"
+    },
+    "pantalla": {
+      "pulgadas": 14,
+      "resolucion": "2880x1800 (2.8K)",
+      "tipo": "OLED",
+      "hz": 120,
+      "nits": 400,
+      "comoDecirlo": "Pantalla OLED con colores muy vivos y negros profundos, ideal para ver series y trabajar con detalle."
+    },
+    "extras": [
+      "Copilot+ PC",
+      "Pantalla OLED",
+      "Cuerpo delgado en metal (verificar)",
+      "Wi-Fi 6"
+    ],
+    "enLaCaja": [
+      "Portátil",
+      "Cargador",
+      "Guía rápida",
+      "Garantía"
+    ],
+    "ganchos": [
+      "Lo último de Intel con IA integrada, en un equipo premium.",
+      "Pantalla OLED con colores de cine, ideal para crear y ver contenido.",
+      "Ideal para quien quiere algo bonito, liviano y con tecnología de punta."
+    ],
+    "objeciones": [
+      {
+        "objecion": "¿Vale la pena pagar más por el OLED?",
+        "respuesta": "Sí, si al cliente le importa mucho la imagen: colores más vivos y negros más profundos que una pantalla IPS normal."
+      },
+      {
+        "objecion": "¿Qué diferencia tiene con el de Snapdragon?",
+        "respuesta": "Este corre Windows x86 nativo sin ninguna limitación de compatibilidad; el Snapdragon tiene más batería."
+      }
+    ],
+    "clienteIdeal": "Quien quiere lo último de Intel con IA integrada, en un equipo premium con pantalla OLED.",
+    "notasTodo": [
+      "Confirmar modelo exacto de Core Ultra 5 (se asumió 226V) y su valor real de NPU TOPS",
+      "Confirmar sufijo exacto de referencia (código de 4-5 dígitos)",
+      "Batería, peso y nits son estimados"
+    ],
+    "ganchosCard": [
+      {
+        "cliente": "Quiere lo último de Intel con IA",
+        "frase": "Lo último de Intel con IA integrada, en un equipo premium."
+      },
+      {
+        "cliente": "Crea o ve contenido en pantalla OLED",
+        "frase": "Pantalla OLED con colores de cine, ideal para crear y ver contenido."
+      },
+      {
+        "cliente": "Quiere algo bonito y premium",
+        "frase": "Ideal para quien quiere algo bonito, liviano y con tecnología de punta."
+      }
+    ],
+    "graficos": {
+      "tipo": "integrados",
+      "comoDecirlo": "Gráficos integrados: suficientes para oficina, estudio, streaming y edición liviana, pero no para juegos exigentes."
+    },
+    "bateria": {
+      "horasEstimadas": 11,
+      "comoDecirlo": "Le rinde una jornada completa de trabajo."
+    },
+    "portabilidad": {
+      "pesoKg": 1.4,
+      "grosorCm": 1.5,
+      "comoDecirlo": "Liviano y delgado, perfecto para llevarlo a todas partes."
+    },
+    "conectividad": {
+      "wifi": "Wi-Fi 6 (802.11ax)",
+      "bluetooth": "5.3",
+      "puertos": [
+        "USB-C",
+        "USB-A x2",
+        "HDMI",
+        "Lector microSD",
+        "Jack combo 3.5mm"
+      ],
+      "comoDecirlo": "Internet más rápido y estable con Wi-Fi 6, más los puertos para conectar lo que necesite."
+    },
+    "camara": {
+      "resolucion": "HD 720p",
+      "obturadorFisico": true,
+      "comoDecirlo": "Trae cámara para videollamadas, con una tapa física para cuidar su privacidad."
+    },
+    "comparaciones": {
+      "abajo": {
+        "id": "vivobook-s14-snapdragon-x1-oled",
+        "diferencias": [
+          "Más batería por el chip ARM",
+          "El Snapdragon tiene alguna limitación de compatibilidad"
+        ]
+      },
+      "arriba": null
+    }
+  },
+  {
+    "id": "vivobook-15-x1504ma-bq919w",
+    "nombre": "ASUS Vivobook 15 (X1504MA)",
+    "linea": "vivobook",
+    "familia": "vivobook",
+    "referencia": "X1504MA-BQ919W",
+    "slug": "x1504ma-bq919w",
+    "pantallaPulgadas": 15.6,
+    "imagen": "/products/vivobook-15-x1504ma.svg",
+    "perfiles": [
+      "hogar",
+      "trabajo",
+      "estudiantes"
+    ],
+    "specs": [
+      {
+        "etiqueta": "Sistema operativo",
+        "valorTecnico": "Windows 11 Home",
+        "valorCliente": "Viene listo para usar, con todo lo que ya conoces de Windows."
+      },
+      {
+        "etiqueta": "Procesador",
+        "valorTecnico": "Intel Core 5 315",
+        "valorCliente": "Sí tiene un chip de IA que ayuda en videollamadas y filtros, pero no es Copilot+."
+      },
+      {
+        "etiqueta": "Gráficos",
+        "valorTecnico": "Intel integrados",
+        "valorCliente": "Mueve bien video, fotos y varias ventanas abiertas."
+      },
+      {
+        "etiqueta": "Inteligencia artificial (IA)",
+        "valorTecnico": "NPU integrada, hasta 15 TOPS; no es Copilot+ PC (requiere 40 TOPS)",
+        "valorCliente": "Tiene IA para videollamadas, pero no la categoría Copilot+."
+      },
+      {
+        "etiqueta": "Pantalla",
+        "valorTecnico": "15.6\" Full HD (1920x1080), 60 Hz, 250 nits, IPS-level",
+        "valorCliente": "Pantalla grande de 15.6 pulgadas en Full HD: nítida para trabajar, estudiar o ver series."
+      },
+      {
+        "etiqueta": "Almacenamiento",
+        "valorTecnico": "SSD 512 GB M.2 NVMe PCIe 4.0",
+        "valorCliente": "512GB bien rápidos: suficiente para fotos, documentos y programas del día a día."
+      },
+      {
+        "etiqueta": "Batería",
+        "valorTecnico": "42 Wh, hasta 8 horas de uso típico (estimado, sin confirmar)",
+        "valorCliente": "Le rinde varias horas de uso normal, sin estar pegado al tomacorriente."
+      },
+      {
+        "etiqueta": "Portabilidad",
+        "valorTecnico": "Aprox. 1.7 kg, 1.99 cm de grosor (estimado, sin confirmar)",
+        "valorCliente": "No es el más liviano del catálogo, pero se deja cargar sin problema todos los días."
+      }
+    ],
+    "metricas": {
+      "bateria": 6,
+      "rendimiento": 5,
+      "ia": 3,
+      "portabilidad": 5,
+      "pantalla": 6
+    },
+    "argumentosVenta": [
+      "Es el equipo ideal para empezar: pantalla grande, rápido para lo cotidiano y con la confianza de la marca ASUS.",
+      "Tranquilo, este trae una ranura disponible: si más adelante necesita más memoria, se la subimos sin cambiar de equipo.",
+      "Sí trae un chip de IA que ayuda en videollamadas; si busca lo último en IA con Copilot+, le mostramos el Vivobook S14."
+    ],
+    "verificar": true,
+    "procesador": {
+      "marca": "Intel",
+      "modelo": "Core 5 315",
+      "serie": "Intel Core Series 1 (antes Meteor Lake)",
+      "nucleos": 6,
+      "hilos": 8,
+      "frecuenciaMax": "4.5 GHz",
+      "npuTops": 15,
+      "queSignifica": "Tiene un acelerador de IA real (mejora videollamadas y filtros de Windows Studio Effects), pero no alcanza los 40 TOPS que exige Microsoft para Copilot+ PC.",
+      "comoDecirlo": "Sí tiene un chip de IA que ayuda en las videollamadas y algunos filtros de Windows, pero no es de los Copilot+ que traen lo último en IA.",
+      "paraQueAlcanza": [
+        "Navegar y redes sociales",
+        "Office y correo",
+        "Videollamadas con mejoras de IA",
+        "Streaming de series"
+      ]
+    },
+    "memoria": {
+      "ram": "8 GB",
+      "tipoRam": "DDR5",
+      "almacenamiento": "512 GB SSD",
+      "caso": "se-cambia",
+      "comoDecirlo": "Trae 8GB de memoria. Si más adelante necesita más, se la subimos a 16 o hasta 32GB, pero cambiando el módulo que ya tiene, no agregando uno nuevo, porque el equipo solo tiene una ranura."
+    },
+    "pantalla": {
+      "pulgadas": 15.6,
+      "resolucion": "1920x1080 (Full HD)",
+      "tipo": "IPS-level",
+      "hz": 60,
+      "nits": 250,
+      "comoDecirlo": "Pantalla grande de 15.6 pulgadas en Full HD: nítida para trabajar, estudiar o ver tus series."
+    },
+    "graficos": {
+      "tipo": "integrados",
+      "comoDecirlo": "Gráficos integrados: suficientes para oficina, estudio, streaming y edición liviana, pero no para juegos exigentes."
+    },
+    "bateria": {
+      "wh": 42,
+      "horasEstimadas": 8,
+      "comoDecirlo": "Le rinde varias horas de uso normal: internet, Office y videollamadas, sin estar pegado al tomacorriente."
+    },
+    "portabilidad": {
+      "pesoKg": 1.7,
+      "grosorCm": 1.99,
+      "comoDecirlo": "No es el más liviano del catálogo, pero se deja cargar sin problema todos los días."
+    },
+    "conectividad": {
+      "wifi": "Wi-Fi 5 (802.11ac)",
+      "bluetooth": "5.0",
+      "puertos": [
+        "USB-C",
+        "USB-A x2",
+        "HDMI",
+        "Lector microSD",
+        "Jack combo 3.5mm"
+      ],
+      "comoDecirlo": "Tiene todas las conexiones básicas: internet, un puerto USB-C y dos USB-A, HDMI para un monitor externo."
+    },
+    "camara": {
+      "resolucion": "HD 720p",
+      "obturadorFisico": true,
+      "comoDecirlo": "Trae cámara para videollamadas, con una tapa física para cuidar su privacidad."
+    },
+    "extras": [
+      "Teclado en español latinoamericano",
+      "Sin teclado numérico en esta variante"
+    ],
+    "enLaCaja": [
+      "Portátil ASUS Vivobook 15",
+      "Cargador de 45 W",
+      "Guía rápida de inicio",
+      "Tarjeta de garantía"
+    ],
+    "ganchosCard": [
+      {
+        "cliente": "Quiere su primer portátil para la casa",
+        "frase": "Es el equipo ideal para empezar: pantalla grande, rápido para lo cotidiano y con la confianza de la marca ASUS."
+      },
+      {
+        "cliente": "Le preocupa quedarse corto de memoria",
+        "frase": "Tranquilo, este trae una ranura disponible: si más adelante necesita más memoria, se la subimos sin cambiar de equipo."
+      },
+      {
+        "cliente": "Pregunta si tiene inteligencia artificial",
+        "frase": "Sí, trae un chip de IA que ayuda en videollamadas; si busca lo último en IA (Copilot+), te muestro el Vivobook S14."
+      },
+      {
+        "cliente": "Quiere algo liviano para cargar todos los días",
+        "frase": "Pesa poco más de kilo y medio: lo lleva al trabajo o la universidad sin esfuerzo."
+      }
+    ],
+    "objeciones": [
+      {
+        "objecion": "¿Por qué solo trae 8GB de memoria?",
+        "respuesta": "Porque está pensado para el uso diario: navegar, Office, redes y streaming. Si el cliente necesita más, se la podemos subir más adelante."
+      },
+      {
+        "objecion": "¿Es un Copilot+ PC?",
+        "respuesta": "No. Tiene un chip de IA (NPU) que ayuda en tareas puntuales, pero no llega a los 40 TOPS que exige Microsoft para esa categoría."
+      },
+      {
+        "objecion": "¿Le puedo agregar más memoria después?",
+        "respuesta": "Sí, pero no se 'suma': como solo tiene una ranura, hay que cambiar el módulo de 8GB por uno más grande."
+      },
+      {
+        "objecion": "¿Sirve para trabajar con muchos programas abiertos a la vez?",
+        "respuesta": "Para el día a día sí. Si abre muchísimos programas pesados a la vez, lo ideal es subirle la memoria o mostrarle un equipo con más RAM de fábrica."
+      }
+    ],
+    "clienteIdeal": "Alguien que compra su primer portátil (o lo está renovando) para uso en el hogar o el estudio: navegar, Office, streaming y videollamadas, sin gastar de más.",
+    "notasTodo": [
+      "No se encontró ficha oficial para el sufijo exacto BQ919W",
+      "Batería, peso, puertos y contenido de la caja son estimados"
+    ],
+    "comparaciones": {
+      "abajo": {
+        "id": "vivobook-go-15-ryzen5-7520u",
+        "diferencias": [
+          "Sube a procesador Intel con NPU de 15 TOPS",
+          "La RAM sigue siendo de 8GB"
+        ]
+      },
+      "arriba": {
+        "id": "vivobook-15-i3-bq3904w",
+        "diferencias": [
+          "Mismo tamaño de pantalla",
+          "Cuadriplica el almacenamiento a 1TB"
+        ]
+      }
+    }
+  },
+  {
+    "linea": "tuf",
+    "familia": "tuf",
+    "pantallaPulgadas": 16,
+    "perfiles": [
+      "gamers",
+      "hogar",
+      "estudiantes"
+    ],
+    "pantalla": {
+      "pulgadas": 16,
+      "resolucion": "1920x1200 (WUXGA)",
+      "tipo": "IPS",
+      "hz": 144,
+      "nits": 300,
+      "comoDecirlo": "Pantalla de 16 pulgadas a 144Hz: se ve fluida en juegos y contenido de acción."
+    },
+    "memoria": {
+      "ram": "16 GB",
+      "tipoRam": "DDR5",
+      "almacenamiento": "512 GB SSD",
+      "caso": "se-suma",
+      "comoDecirlo": "Trae 16GB de memoria en dos ranuras; si el cliente necesita más, se le puede sumar otro módulo sin quitar el actual."
+    },
+    "bateria": {
+      "comoDecirlo": "Como todo equipo gamer, rinde mejor conectado al tomacorriente en sesiones largas de juego."
+    },
+    "portabilidad": {
+      "pesoKg": 2.2,
+      "comoDecirlo": "Pesa 2.2kg: pensado para quedarse casi siempre en un mismo lugar, no para cargarlo todo el día."
+    },
+    "conectividad": {
+      "wifi": "Wi-Fi 6 (802.11ax)",
+      "bluetooth": "5.3",
+      "puertos": [
+        "USB-C",
+        "USB-A x3",
+        "HDMI 2.1",
+        "Ethernet RJ45",
+        "Jack combo 3.5mm"
+      ],
+      "comoDecirlo": "Trae Ethernet para conexión estable mientras se juega, además de Wi-Fi 6 y varios puertos USB."
+    },
+    "camara": {
+      "resolucion": "HD 720p",
+      "obturadorFisico": false,
+      "comoDecirlo": "Trae cámara para videollamadas."
+    },
+    "extras": [
+      "Teclado retroiluminado RGB (por tecla) [VERIFICAR]",
+      "Refrigeración dual-fan",
+      "Chasis con certificación militar MIL-STD-810H [VERIFICAR]"
+    ],
+    "enLaCaja": [
+      "Portátil ASUS TUF Gaming 16",
+      "Cargador de 150 W",
+      "Guía rápida de inicio",
+      "Tarjeta de garantía"
+    ],
+    "verificar": true,
+    "notasTodo": [
+      "No hay ficha oficial de asus.com/co todavía para esta familia (TUF Gaming 16 / FX610J)",
+      "Procesador, RAM de fábrica, almacenamiento y puertos son estimados"
+    ],
+    "id": "tuf-gaming-16-fx610jh-rtx5050",
+    "nombre": "ASUS TUF Gaming 16 — RTX 5050",
+    "referencia": "FX610JH",
+    "slug": "fx610jh-rtx5050",
+    "imagen": "/products/tuf-gaming-16-rtx5050.svg",
+    "specs": [
+      {
+        "etiqueta": "Sistema operativo",
+        "valorTecnico": "Windows 11 Home",
+        "valorCliente": "Viene listo para usar, con todo lo que ya conoces de Windows."
+      },
+      {
+        "etiqueta": "Procesador",
+        "valorTecnico": "Intel Core i7 (14ª/15ª Gen) [VERIFICAR]",
+        "valorCliente": "Rápido para jugar y hacer varias cosas a la vez."
+      },
+      {
+        "etiqueta": "Tarjeta de video",
+        "valorTecnico": "NVIDIA GeForce RTX 5050, 8GB GDDR7, hasta 85W TGP",
+        "valorCliente": "Corre bien los juegos actuales en 1080p con buenos gráficos."
+      },
+      {
+        "etiqueta": "Pantalla",
+        "valorTecnico": "16\" WUXGA (1920x1200), 144 Hz, 300 nits",
+        "valorCliente": "Pantalla de 144Hz: se ve fluida en juegos y contenido de acción."
+      },
+      {
+        "etiqueta": "Almacenamiento",
+        "valorTecnico": "SSD 512 GB M.2 NVMe PCIe 4.0",
+        "valorCliente": "512GB bien rápidos para instalar varios juegos."
+      },
+      {
+        "etiqueta": "Batería",
+        "valorTecnico": "Autonomía variable según uso (estimado, sin confirmar)",
+        "valorCliente": "Rinde mejor conectado al tomacorriente en sesiones largas."
+      },
+      {
+        "etiqueta": "Portabilidad",
+        "valorTecnico": "Aprox. 2.2 kg (confirmado por prensa regional)",
+        "valorCliente": "Pensado para quedarse casi siempre en un mismo lugar."
+      }
+    ],
+    "metricas": {
+      "bateria": 4,
+      "rendimiento": 7,
+      "ia": 2,
+      "portabilidad": 3,
+      "pantalla": 7
+    },
+    "argumentosVenta": [
+      "Entra al mundo gamer de ASUS sin pagar por una tarjeta que no vas a aprovechar todavía.",
+      "Para 1080p con buenos gráficos corre bien la mayoría de juegos actuales.",
+      "Mismo chasis y pantalla que los demás TUF 16: solo cambia la potencia de la GPU."
+    ],
+    "procesador": {
+      "marca": "Intel",
+      "modelo": "Core i7 (14ª/15ª Gen)",
+      "serie": "Intel Core HX",
+      "nucleos": 14,
+      "hilos": 20,
+      "frecuenciaMax": "5.0 GHz",
+      "npuTops": null,
+      "queSignifica": "Procesador de gama alta para gaming; no trae NPU dedicada de IA.",
+      "comoDecirlo": "Rápido para jugar y hacer varias cosas a la vez; la IA la mueve la tarjeta de video, no un chip aparte.",
+      "paraQueAlcanza": [
+        "Gaming en 1080p",
+        "Streaming mientras juega",
+        "Multitarea pesada"
+      ]
+    },
+    "graficos": {
+      "tipo": "dedicados",
+      "modelo": "NVIDIA GeForce RTX 5050",
+      "vram": "8GB GDDR7",
+      "escalaPosicion": 1,
+      "comoDecirlo": "Es la entrada de la escala 5050→5090. Mueve bien juegos actuales en 1080p con ajustes altos. (hasta 85W de TGP)"
+    },
+    "ganchosCard": [
+      {
+        "cliente": "Quiere entrar al gaming sin gastar de más",
+        "frase": "Entra al mundo gamer de ASUS sin pagar por una tarjeta que no vas a aprovechar todavía."
+      },
+      {
+        "cliente": "Pregunta si le alcanza para los juegos del momento",
+        "frase": "Para 1080p con buenos gráficos sí corre bien la mayoría de juegos actuales."
+      },
+      {
+        "cliente": "Duda entre TUF y ROG de entrada",
+        "frase": "Mismo chasis y pantalla que los demás TUF 16: solo cambia la potencia de la GPU, así que puedes subir de gama después."
+      }
+    ],
+    "objeciones": [
+      {
+        "objecion": "¿Le alcanza para los juegos del momento?",
+        "respuesta": "Para 1080p con buenos gráficos sí corre bien la mayoría de juegos actuales; para 1440p o 4K hay que subir de GPU."
+      },
+      {
+        "objecion": "¿Por qué no llevar directo el 5060?",
+        "respuesta": "Si el presupuesto es ajustado, el 5050 ya corre bien en 1080p; el salto a 5060 se siente más en juegos exigentes o 1440p."
+      }
+    ],
+    "clienteIdeal": "Quien quiere entrar al gaming con un equipo ASUS confiable, jugando en 1080p, sin pagar de más por potencia que no va a usar.",
+    "comparaciones": {
+      "abajo": null,
+      "arriba": {
+        "id": "tuf-gaming-16-fx610jm-rtx5060",
+        "diferencias": [
+          "Mismo chasis y pantalla",
+          "GPU más potente para 1080p a tope o empezar en 1440p"
+        ]
+      }
+    }
+  },
+  {
+    "linea": "tuf",
+    "familia": "tuf",
+    "pantallaPulgadas": 16,
+    "perfiles": [
+      "gamers",
+      "hogar",
+      "estudiantes"
+    ],
+    "pantalla": {
+      "pulgadas": 16,
+      "resolucion": "1920x1200 (WUXGA)",
+      "tipo": "IPS",
+      "hz": 144,
+      "nits": 300,
+      "comoDecirlo": "Pantalla de 16 pulgadas a 144Hz: se ve fluida en juegos y contenido de acción."
+    },
+    "memoria": {
+      "ram": "16 GB",
+      "tipoRam": "DDR5",
+      "almacenamiento": "512 GB SSD",
+      "caso": "se-suma",
+      "comoDecirlo": "Trae 16GB de memoria en dos ranuras; si el cliente necesita más, se le puede sumar otro módulo sin quitar el actual."
+    },
+    "bateria": {
+      "comoDecirlo": "Como todo equipo gamer, rinde mejor conectado al tomacorriente en sesiones largas de juego."
+    },
+    "portabilidad": {
+      "pesoKg": 2.2,
+      "comoDecirlo": "Pesa 2.2kg: pensado para quedarse casi siempre en un mismo lugar, no para cargarlo todo el día."
+    },
+    "conectividad": {
+      "wifi": "Wi-Fi 6 (802.11ax)",
+      "bluetooth": "5.3",
+      "puertos": [
+        "USB-C",
+        "USB-A x3",
+        "HDMI 2.1",
+        "Ethernet RJ45",
+        "Jack combo 3.5mm"
+      ],
+      "comoDecirlo": "Trae Ethernet para conexión estable mientras se juega, además de Wi-Fi 6 y varios puertos USB."
+    },
+    "camara": {
+      "resolucion": "HD 720p",
+      "obturadorFisico": false,
+      "comoDecirlo": "Trae cámara para videollamadas."
+    },
+    "extras": [
+      "Teclado retroiluminado RGB (por tecla) [VERIFICAR]",
+      "Refrigeración dual-fan",
+      "Chasis con certificación militar MIL-STD-810H [VERIFICAR]"
+    ],
+    "enLaCaja": [
+      "Portátil ASUS TUF Gaming 16",
+      "Cargador de 150 W",
+      "Guía rápida de inicio",
+      "Tarjeta de garantía"
+    ],
+    "verificar": true,
+    "notasTodo": [
+      "No hay ficha oficial de asus.com/co todavía para esta familia (TUF Gaming 16 / FX610J)",
+      "Procesador, RAM de fábrica, almacenamiento y puertos son estimados"
+    ],
+    "id": "tuf-gaming-16-fx610jm-rtx5060",
+    "nombre": "ASUS TUF Gaming 16 — RTX 5060",
+    "referencia": "FX610JM",
+    "slug": "fx610jm-rtx5060",
+    "imagen": "/products/tuf-gaming-16-rtx5060.svg",
+    "specs": [
+      {
+        "etiqueta": "Sistema operativo",
+        "valorTecnico": "Windows 11 Home",
+        "valorCliente": "Viene listo para usar, con todo lo que ya conoces de Windows."
+      },
+      {
+        "etiqueta": "Procesador",
+        "valorTecnico": "Intel Core i7 (14ª/15ª Gen) [VERIFICAR]",
+        "valorCliente": "Rápido para jugar y hacer varias cosas a la vez."
+      },
+      {
+        "etiqueta": "Tarjeta de video",
+        "valorTecnico": "NVIDIA GeForce RTX 5060, 8GB GDDR7, hasta 85W TGP",
+        "valorCliente": "Buen balance precio/rendimiento: corre casi todo en 1080p a tope."
+      },
+      {
+        "etiqueta": "Pantalla",
+        "valorTecnico": "16\" WUXGA (1920x1200), 144 Hz, 300 nits",
+        "valorCliente": "Pantalla de 144Hz: se ve fluida en juegos y contenido de acción."
+      },
+      {
+        "etiqueta": "Almacenamiento",
+        "valorTecnico": "SSD 512 GB o 1 TB M.2 NVMe PCIe 4.0 [VERIFICAR capacidad exacta]",
+        "valorCliente": "Espacio de sobra para instalar varios juegos."
+      },
+      {
+        "etiqueta": "Batería",
+        "valorTecnico": "Autonomía variable según uso (estimado, sin confirmar)",
+        "valorCliente": "Rinde mejor conectado al tomacorriente en sesiones largas."
+      },
+      {
+        "etiqueta": "Portabilidad",
+        "valorTecnico": "Aprox. 2.2 kg (confirmado por prensa regional)",
+        "valorCliente": "Pensado para quedarse casi siempre en un mismo lugar."
+      }
+    ],
+    "metricas": {
+      "bateria": 4,
+      "rendimiento": 8,
+      "ia": 2,
+      "portabilidad": 3,
+      "pantalla": 7
+    },
+    "argumentosVenta": [
+      "El punto medio del gaming TUF: corre casi todo en 1080p a tope y empieza a moverse bien en 1440p.",
+      "Más FPS que el 5050 en los mismos juegos, con el mismo chasis y pantalla.",
+      "Buen balance entre precio y rendimiento para jugar en serio sin pasarse a gama alta."
+    ],
+    "procesador": {
+      "marca": "Intel",
+      "modelo": "Core i7 (14ª/15ª Gen)",
+      "serie": "Intel Core HX",
+      "nucleos": 14,
+      "hilos": 20,
+      "frecuenciaMax": "5.0 GHz",
+      "npuTops": null,
+      "queSignifica": "Procesador de gama alta para gaming; no trae NPU dedicada de IA.",
+      "comoDecirlo": "Rápido para jugar y hacer varias cosas a la vez; la IA la mueve la tarjeta de video, no un chip aparte.",
+      "paraQueAlcanza": [
+        "Gaming en 1080p a tope",
+        "Empezar a jugar en 1440p",
+        "Streaming mientras juega"
+      ]
+    },
+    "graficos": {
+      "tipo": "dedicados",
+      "modelo": "NVIDIA GeForce RTX 5060",
+      "vram": "8GB GDDR7",
+      "escalaPosicion": 2,
+      "comoDecirlo": "Un escalón arriba del 5050, buen balance precio/rendimiento. (hasta 85W de TGP)"
+    },
+    "ganchosCard": [
+      {
+        "cliente": "Busca el punto medio entre precio y potencia gamer",
+        "frase": "El punto medio del gaming TUF: corre casi todo en 1080p a tope y empieza a moverse bien en 1440p."
+      },
+      {
+        "cliente": "Duda entre el 5050 y el 5060",
+        "frase": "Más FPS en los mismos juegos; el resto del equipo (pantalla, chasis, batería) es igual."
+      },
+      {
+        "cliente": "Quiere jugar en serio sin pasarse a gama alta",
+        "frase": "Buen balance entre precio y rendimiento para jugar en serio sin pasarse a gama alta."
+      }
+    ],
+    "objeciones": [
+      {
+        "objecion": "¿En qué se nota la diferencia con el 5050?",
+        "respuesta": "Más FPS en los mismos juegos y mejor margen para 1440p; el resto del equipo es igual."
+      },
+      {
+        "objecion": "¿Por qué no llevar directo el 5070?",
+        "respuesta": "Si el presupuesto es ajustado, el 5060 ya rinde muy bien; el 5070 se nota más en juegos muy exigentes en 1440p."
+      }
+    ],
+    "clienteIdeal": "Quien juega en serio y quiere buen rendimiento en 1080p (empezando en 1440p) sin pasarse a gama alta.",
+    "comparaciones": {
+      "abajo": {
+        "id": "tuf-gaming-16-fx610jh-rtx5050",
+        "diferencias": [
+          "Mismo chasis",
+          "GPU de entrada"
+        ]
+      },
+      "arriba": {
+        "id": "tuf-gaming-16-fx610jp-rtx5070",
+        "diferencias": [
+          "Mismo chasis",
+          "GPU tope de este segmento",
+          "Lista para 1440p sin bajar muchos ajustes"
+        ]
+      }
+    }
+  },
+  {
+    "linea": "tuf",
+    "familia": "tuf",
+    "pantallaPulgadas": 16,
+    "perfiles": [
+      "gamers",
+      "hogar",
+      "estudiantes"
+    ],
+    "pantalla": {
+      "pulgadas": 16,
+      "resolucion": "1920x1200 (WUXGA)",
+      "tipo": "IPS",
+      "hz": 144,
+      "nits": 300,
+      "comoDecirlo": "Pantalla de 16 pulgadas a 144Hz: se ve fluida en juegos y contenido de acción."
+    },
+    "memoria": {
+      "ram": "16 GB",
+      "tipoRam": "DDR5",
+      "almacenamiento": "512 GB SSD",
+      "caso": "se-suma",
+      "comoDecirlo": "Trae 16GB de memoria en dos ranuras; si el cliente necesita más, se le puede sumar otro módulo sin quitar el actual."
+    },
+    "bateria": {
+      "comoDecirlo": "Como todo equipo gamer, rinde mejor conectado al tomacorriente en sesiones largas de juego."
+    },
+    "portabilidad": {
+      "pesoKg": 2.2,
+      "comoDecirlo": "Pesa 2.2kg: pensado para quedarse casi siempre en un mismo lugar, no para cargarlo todo el día."
+    },
+    "conectividad": {
+      "wifi": "Wi-Fi 6 (802.11ax)",
+      "bluetooth": "5.3",
+      "puertos": [
+        "USB-C",
+        "USB-A x3",
+        "HDMI 2.1",
+        "Ethernet RJ45",
+        "Jack combo 3.5mm"
+      ],
+      "comoDecirlo": "Trae Ethernet para conexión estable mientras se juega, además de Wi-Fi 6 y varios puertos USB."
+    },
+    "camara": {
+      "resolucion": "HD 720p",
+      "obturadorFisico": false,
+      "comoDecirlo": "Trae cámara para videollamadas."
+    },
+    "extras": [
+      "Teclado retroiluminado RGB (por tecla) [VERIFICAR]",
+      "Refrigeración dual-fan",
+      "Chasis con certificación militar MIL-STD-810H [VERIFICAR]"
+    ],
+    "enLaCaja": [
+      "Portátil ASUS TUF Gaming 16",
+      "Cargador de 150 W",
+      "Guía rápida de inicio",
+      "Tarjeta de garantía"
+    ],
+    "verificar": true,
+    "notasTodo": [
+      "No hay ficha oficial de asus.com/co todavía para esta familia (TUF Gaming 16 / FX610J)",
+      "Procesador, RAM de fábrica, almacenamiento y puertos son estimados"
+    ],
+    "id": "tuf-gaming-16-fx610jp-rtx5070",
+    "nombre": "ASUS TUF Gaming 16 — RTX 5070",
+    "referencia": "FX610JP",
+    "slug": "fx610jp-rtx5070",
+    "imagen": "/products/tuf-gaming-16-rtx5070.svg",
+    "specs": [
+      {
+        "etiqueta": "Sistema operativo",
+        "valorTecnico": "Windows 11 Home",
+        "valorCliente": "Viene listo para usar, con todo lo que ya conoces de Windows."
+      },
+      {
+        "etiqueta": "Procesador",
+        "valorTecnico": "Intel Core i7 (14ª/15ª Gen) [VERIFICAR]",
+        "valorCliente": "Rápido para jugar y hacer varias cosas a la vez."
+      },
+      {
+        "etiqueta": "Tarjeta de video",
+        "valorTecnico": "NVIDIA GeForce RTX 5070, 8GB GDDR7, hasta 85W TGP",
+        "valorCliente": "Lo más potente de la línea TUF, listo para 1440p."
+      },
+      {
+        "etiqueta": "Pantalla",
+        "valorTecnico": "16\" WUXGA (1920x1200), 144 Hz, 300 nits",
+        "valorCliente": "Pantalla de 144Hz: se ve fluida en juegos y contenido de acción."
+      },
+      {
+        "etiqueta": "Almacenamiento",
+        "valorTecnico": "SSD 1 TB M.2 NVMe PCIe 4.0 [VERIFICAR]",
+        "valorCliente": "Espacio de sobra para instalar muchos juegos."
+      },
+      {
+        "etiqueta": "Batería",
+        "valorTecnico": "Autonomía variable según uso (estimado, sin confirmar)",
+        "valorCliente": "Rinde mejor conectado al tomacorriente en sesiones largas."
+      },
+      {
+        "etiqueta": "Portabilidad",
+        "valorTecnico": "Aprox. 2.2 kg (confirmado por prensa regional)",
+        "valorCliente": "Pensado para quedarse casi siempre en un mismo lugar."
+      }
+    ],
+    "metricas": {
+      "bateria": 4,
+      "rendimiento": 9,
+      "ia": 2,
+      "portabilidad": 3,
+      "pantalla": 7
+    },
+    "argumentosVenta": [
+      "Lo más potente de la línea TUF, antes de pasar a ROG.",
+      "Rinde muy bien en 1440p, con el mismo chasis resistente de toda la línea TUF.",
+      "Mejor relación precio/rendimiento antes de dar el salto a un equipo ROG."
+    ],
+    "procesador": {
+      "marca": "Intel",
+      "modelo": "Core i7 (14ª/15ª Gen)",
+      "serie": "Intel Core HX",
+      "nucleos": 14,
+      "hilos": 20,
+      "frecuenciaMax": "5.0 GHz",
+      "npuTops": null,
+      "queSignifica": "Procesador de gama alta para gaming; no trae NPU dedicada de IA.",
+      "comoDecirlo": "Rápido para jugar y hacer varias cosas a la vez; la IA la mueve la tarjeta de video, no un chip aparte.",
+      "paraQueAlcanza": [
+        "Gaming en 1440p",
+        "Streaming mientras juega",
+        "Multitarea muy pesada"
+      ]
+    },
+    "graficos": {
+      "tipo": "dedicados",
+      "modelo": "NVIDIA GeForce RTX 5070",
+      "vram": "8GB GDDR7",
+      "escalaPosicion": 3,
+      "comoDecirlo": "El tope de gama dentro de TUF; para subir más, el siguiente escalón ya es ROG. (hasta 85W de TGP)"
+    },
+    "ganchosCard": [
+      {
+        "cliente": "Quiere lo más potente de TUF antes de pasar a ROG",
+        "frase": "Lo más potente de la línea TUF, antes de pasar a ROG."
+      },
+      {
+        "cliente": "Quiere rendimiento en 1440p sin pagar precio de ROG",
+        "frase": "Rinde muy bien en 1440p, con el mismo chasis resistente de toda la línea TUF."
+      },
+      {
+        "cliente": "Duda entre este y un ROG de entrada",
+        "frase": "Si el presupuesto es ajustado, este 5070 ya rinde muy bien en 1440p."
+      }
+    ],
+    "objeciones": [
+      {
+        "objecion": "¿Por qué no llevar directamente un ROG?",
+        "respuesta": "Si el presupuesto es ajustado, este 5070 ya rinde muy bien en 1440p; ROG suma pantalla y refrigeración todavía mejores, pero a otro precio."
+      },
+      {
+        "objecion": "¿Para qué me sirve tener 1TB en este modelo?",
+        "respuesta": "Para instalar muchos juegos pesados sin tener que desinstalar uno para meter otro."
+      }
+    ],
+    "clienteIdeal": "Quien quiere el máximo rendimiento gamer dentro de TUF, listo para 1440p, sin pasarse al precio de un ROG.",
+    "comparaciones": {
+      "abajo": {
+        "id": "tuf-gaming-16-fx610jm-rtx5060",
+        "diferencias": [
+          "Menos FPS",
+          "Mismo chasis"
+        ]
+      },
+      "arriba": {
+        "id": "rog-strix-g16-rtx5070ti",
+        "diferencias": [
+          "Sube de GPU (RTX 5070 Ti)",
+          "Sube de calidad de pantalla y chasis",
+          "Mejor refrigeración"
+        ]
+      }
+    }
+  },
+  {
+    "familia": "rog",
+    "perfiles": [
+      "gamers",
+      "creadores"
+    ],
+    "conectividad": {
+      "wifi": "Wi-Fi 7 (802.11be) [VERIFICAR]",
+      "bluetooth": "5.4 [VERIFICAR]",
+      "puertos": [
+        "USB-C x2 (Thunderbolt 5)",
+        "USB-A x2",
+        "HDMI 2.1",
+        "Ethernet RJ45",
+        "Jack combo 3.5mm"
+      ],
+      "comoDecirlo": "Trae Thunderbolt 5, Wi-Fi 7 y Ethernet: lo más rápido disponible para conectar monitores, discos externos o la red."
+    },
+    "camara": {
+      "resolucion": "HD 1080p [VERIFICAR]",
+      "obturadorFisico": false,
+      "comoDecirlo": "Trae cámara para videollamadas o transmisiones."
+    },
+    "extras": [
+      "Teclado retroiluminado RGB por tecla (Aura Sync)",
+      "Refrigeración avanzada (vapor chamber + varios ventiladores)",
+      "Pantalla secundaria / logo iluminado ROG [VERIFICAR si esta variante lo trae]"
+    ],
+    "enLaCaja": [
+      "Portátil ASUS ROG",
+      "Cargador de alta potencia",
+      "Guía rápida de inicio",
+      "Tarjeta de garantía"
+    ],
+    "verificar": true,
+    "id": "rog-strix-g16-rtx5070ti",
+    "nombre": "ASUS ROG Strix G16 — RTX 5070 Ti",
+    "linea": "rog",
+    "referencia": "G615 [VERIFICAR sufijo exacto]",
+    "slug": "strix-g16-rtx5070ti",
+    "pantallaPulgadas": 16,
+    "imagen": "/products/rog-strix-g16-rtx5070ti.svg",
+    "specs": [
+      {
+        "etiqueta": "Sistema operativo",
+        "valorTecnico": "Windows 11 Home",
+        "valorCliente": "Viene listo para usar, con todo lo que ya conoces de Windows."
+      },
+      {
+        "etiqueta": "Procesador",
+        "valorTecnico": "Intel Core Ultra 9 HX (familia Arrow Lake-HX) [VERIFICAR modelo exacto]",
+        "valorCliente": "Procesador de gama muy alta, pensado para gaming exigente."
+      },
+      {
+        "etiqueta": "Tarjeta de video",
+        "valorTecnico": "NVIDIA GeForce RTX 5070 Ti para portátil [VERIFICAR TGP]",
+        "valorCliente": "Un escalón arriba del TUF 5070: más FPS y mejor manejo de 1440p."
+      },
+      {
+        "etiqueta": "Inteligencia artificial (IA)",
+        "valorTecnico": "NPU integrada en el procesador, no llega a 40 TOPS [VERIFICAR]",
+        "valorCliente": "No es Copilot+ PC; para IA pesada usa la tarjeta de video."
+      },
+      {
+        "etiqueta": "Pantalla",
+        "valorTecnico": "16\" Mini-LED 240Hz, 2560x1600 (2.5K) [VERIFICAR para esta variante]",
+        "valorCliente": "Pantalla de alta gama: colores muy vivos y movimiento súper fluido."
+      },
+      {
+        "etiqueta": "Almacenamiento",
+        "valorTecnico": "SSD 1 TB M.2 NVMe PCIe 4.0 [VERIFICAR]",
+        "valorCliente": "Espacio de sobra para muchos juegos."
+      },
+      {
+        "etiqueta": "Batería",
+        "valorTecnico": "Autonomía variable según uso (estimado, sin confirmar)",
+        "valorCliente": "Rinde mejor conectado al tomacorriente en sesiones largas."
+      },
+      {
+        "etiqueta": "Portabilidad",
+        "valorTecnico": "Aprox. 2.5 kg (estimado, sin confirmar)",
+        "valorCliente": "Pensado para quedarse casi siempre en un mismo lugar."
+      }
+    ],
+    "metricas": {
+      "bateria": 3,
+      "rendimiento": 9,
+      "ia": 2,
+      "portabilidad": 2,
+      "pantalla": 9
+    },
+    "argumentosVenta": [
+      "El salto de TUF a ROG: mejor pantalla, mejor refrigeración y una GPU más arriba en la escala.",
+      "Pantalla Mini-LED mucho más vistosa que la línea TUF.",
+      "Rendimiento sostenido en sesiones largas gracias a la refrigeración ROG."
+    ],
+    "procesador": {
+      "marca": "Intel",
+      "modelo": "Core Ultra 9 HX",
+      "serie": "Intel Core Ultra (Arrow Lake-HX)",
+      "nucleos": 24,
+      "hilos": 24,
+      "frecuenciaMax": "5.4 GHz [VERIFICAR]",
+      "npuTops": 13,
+      "queSignifica": "Trae NPU integrada, pero no llega a los 40 TOPS que exige Copilot+ PC; para IA pesada el equipo usa la GPU.",
+      "comoDecirlo": "Procesador de gama muy alta para gaming exigente; la IA pesada la mueve la tarjeta de video, no la NPU.",
+      "paraQueAlcanza": [
+        "Gaming en 1440p/4K liviano",
+        "Streaming y edición de video",
+        "Multitarea extrema"
+      ]
+    },
+    "memoria": {
+      "ram": "32 GB",
+      "tipoRam": "DDR5-5600",
+      "almacenamiento": "1 TB SSD",
+      "caso": "se-suma",
+      "comoDecirlo": "Trae 32GB en dos módulos; si hay ranura libre se puede sumar más memoria sin reemplazar la actual."
+    },
+    "pantalla": {
+      "pulgadas": 16,
+      "resolucion": "2560x1600 (2.5K)",
+      "tipo": "Mini-LED",
+      "hz": 240,
+      "nits": 500,
+      "comoDecirlo": "Pantalla Mini-LED de alta gama: colores muy vivos, negros profundos y movimiento súper fluido."
+    },
+    "graficos": {
+      "tipo": "dedicados",
+      "modelo": "NVIDIA GeForce RTX 5070 Ti",
+      "vram": "12GB GDDR7 [VERIFICAR]",
+      "escalaPosicion": 4,
+      "comoDecirlo": "El escalón justo arriba del TUF RTX 5070: más FPS y mejor manejo de 1440p/4K liviano. (hasta 115W de TGP)"
+    },
+    "bateria": {
+      "comoDecirlo": "Como todo equipo gamer de gama alta, rinde mejor conectado al tomacorriente en sesiones largas."
+    },
+    "portabilidad": {
+      "pesoKg": 2.5,
+      "comoDecirlo": "Pensado para quedarse casi siempre en un mismo lugar, no para cargarlo todo el día."
+    },
+    "ganchosCard": [
+      {
+        "cliente": "Quiere el salto de TUF a ROG",
+        "frase": "El salto de TUF a ROG: mejor pantalla, mejor refrigeración y una GPU más arriba en la escala."
+      },
+      {
+        "cliente": "Le importa mucho la calidad de imagen",
+        "frase": "Pantalla Mini-LED mucho más vistosa que la línea TUF."
+      },
+      {
+        "cliente": "Juega sesiones largas y le preocupa el calor",
+        "frase": "Rendimiento sostenido en sesiones largas gracias a la refrigeración ROG."
+      }
+    ],
+    "objeciones": [
+      {
+        "objecion": "¿Por qué pagar más que el TUF 5070 si la GPU no es tan distinta?",
+        "respuesta": "No es solo la GPU: la pantalla Mini-LED, el chasis y la refrigeración de ROG dan más rendimiento sostenido en sesiones largas."
+      },
+      {
+        "objecion": "¿Es Copilot+ PC por tener tanta potencia?",
+        "respuesta": "No. Su NPU no llega a los 40 TOPS que exige Microsoft; la IA pesada la mueve la tarjeta de video, no la NPU."
+      }
+    ],
+    "clienteIdeal": "Gamer o creador que quiere dar el salto de TUF a ROG: mejor pantalla y refrigeración, sin llegar todavía al tope de gama.",
+    "notasTodo": [
+      "No se confirmó el SKU exacto de ROG Strix G16 con RTX 5070 Ti para Colombia",
+      "Procesador, RAM de fábrica, peso y puertos son estimados"
+    ],
+    "comparaciones": {
+      "abajo": {
+        "id": "tuf-gaming-16-fx610jp-rtx5070",
+        "diferencias": [
+          "Mismo nivel de GPU",
+          "Chasis y pantalla TUF, más económico"
+        ]
+      },
+      "arriba": {
+        "id": "rog-strix-scar18-rtx5080",
+        "diferencias": [
+          "Sube a pantalla de 18\"",
+          "Más RAM",
+          "GPU notablemente más potente"
+        ]
+      }
+    }
+  },
+  {
+    "familia": "rog",
+    "perfiles": [
+      "gamers",
+      "creadores"
+    ],
+    "conectividad": {
+      "wifi": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "5.4 [VERIFICAR]",
+      "puertos": [
+        "USB-C x2 (Thunderbolt 5)",
+        "USB-A x2",
+        "HDMI 2.1",
+        "Ethernet RJ45",
+        "Jack combo 3.5mm"
+      ],
+      "comoDecirlo": "Trae Thunderbolt 5, Wi-Fi 7 y Ethernet: lo más rápido disponible para conectar monitores, discos externos o la red."
+    },
+    "camara": {
+      "resolucion": "HD 1080p [VERIFICAR]",
+      "obturadorFisico": false,
+      "comoDecirlo": "Trae cámara para videollamadas o transmisiones."
+    },
+    "extras": [
+      "Teclado retroiluminado RGB por tecla (Aura Sync)",
+      "Refrigeración avanzada (vapor chamber + varios ventiladores)",
+      "Pantalla secundaria / logo iluminado ROG [VERIFICAR si esta variante lo trae]"
+    ],
+    "enLaCaja": [
+      "Portátil ASUS ROG",
+      "Cargador de alta potencia",
+      "Guía rápida de inicio",
+      "Tarjeta de garantía"
+    ],
+    "verificar": true,
+    "id": "rog-strix-scar18-rtx5080",
+    "nombre": "ASUS ROG Strix SCAR 18 — RTX 5080",
+    "linea": "rog",
+    "referencia": "G835LX [VERIFICAR sufijo exacto Colombia]",
+    "slug": "strix-scar18-rtx5080",
+    "pantallaPulgadas": 18,
+    "imagen": "/products/rog-strix-scar18-rtx5080.svg",
+    "specs": [
+      {
+        "etiqueta": "Sistema operativo",
+        "valorTecnico": "Windows 11 Home",
+        "valorCliente": "Viene listo para usar, con todo lo que ya conoces de Windows."
+      },
+      {
+        "etiqueta": "Procesador",
+        "valorTecnico": "Intel Core Ultra 9 275HX",
+        "valorCliente": "Uno de los procesadores más potentes del catálogo para gaming."
+      },
+      {
+        "etiqueta": "Tarjeta de video",
+        "valorTecnico": "NVIDIA GeForce RTX 5080 para portátil",
+        "valorCliente": "Mueve casi cualquier juego al máximo en pantalla grande."
+      },
+      {
+        "etiqueta": "Inteligencia artificial (IA)",
+        "valorTecnico": "NPU integrada, no llega a 40 TOPS",
+        "valorCliente": "No es Copilot+ PC a pesar de ser gama muy alta; la IA pesada la mueve la GPU."
+      },
+      {
+        "etiqueta": "Pantalla",
+        "valorTecnico": "18\" Mini-LED 240Hz, 2560x1600 (2.5K)",
+        "valorCliente": "Pantalla Mini-LED gigante: máxima inmersión para jugar."
+      },
+      {
+        "etiqueta": "Almacenamiento",
+        "valorTecnico": "SSD 2 TB M.2 NVMe PCIe 4.0 [VERIFICAR capacidad exacta]",
+        "valorCliente": "Espacio de sobra para una librería grande de juegos."
+      },
+      {
+        "etiqueta": "Conectividad",
+        "valorTecnico": "Wi-Fi 7, Thunderbolt 5 [VERIFICAR variante Colombia]",
+        "valorCliente": "Lo más rápido disponible para conectar monitores y accesorios."
+      },
+      {
+        "etiqueta": "Portabilidad",
+        "valorTecnico": "Aprox. 3 kg (estimado, sin confirmar)",
+        "valorCliente": "Un equipo grande, pensado para quedarse en un mismo lugar."
+      }
+    ],
+    "metricas": {
+      "bateria": 2,
+      "rendimiento": 10,
+      "ia": 2,
+      "portabilidad": 1,
+      "pantalla": 10
+    },
+    "argumentosVenta": [
+      "Pantalla Mini-LED de 18 pulgadas y una GPU que mueve casi cualquier juego al máximo.",
+      "Refrigeración de gama muy alta para sesiones largas sin perder rendimiento.",
+      "Es de las configuraciones más potentes que vende ASUS, confirmada para su lanzamiento 2025."
+    ],
+    "procesador": {
+      "marca": "Intel",
+      "modelo": "Core Ultra 9 275HX",
+      "serie": "Intel Core Ultra (Arrow Lake-HX)",
+      "nucleos": 24,
+      "hilos": 24,
+      "frecuenciaMax": "5.4 GHz",
+      "npuTops": 13,
+      "queSignifica": "Trae NPU integrada, pero no llega a los 40 TOPS que exige Copilot+ PC; para IA pesada el equipo usa la GPU.",
+      "comoDecirlo": "Es de los procesadores más potentes para gaming del catálogo; la IA pesada la mueve la GPU, no la NPU.",
+      "paraQueAlcanza": [
+        "Gaming en 1440p/4K a tope",
+        "Streaming y edición de video pesada",
+        "Multitarea extrema"
+      ]
+    },
+    "memoria": {
+      "ram": "32 GB",
+      "tipoRam": "DDR5-5600",
+      "almacenamiento": "2 TB SSD",
+      "caso": "se-suma",
+      "comoDecirlo": "Trae 32GB de fábrica; si no viene al tope de RAM soportada, se puede sumar más memoria sin reemplazar la actual."
+    },
+    "pantalla": {
+      "pulgadas": 18,
+      "resolucion": "2560x1600 (2.5K)",
+      "tipo": "Mini-LED",
+      "hz": 240,
+      "nits": 600,
+      "comoDecirlo": "Pantalla Mini-LED de 18 pulgadas: máxima inmersión, colores muy vivos y movimiento súper fluido."
+    },
+    "graficos": {
+      "tipo": "dedicados",
+      "modelo": "NVIDIA GeForce RTX 5080",
+      "vram": "16GB GDDR7 [VERIFICAR]",
+      "escalaPosicion": 5,
+      "comoDecirlo": "Mueve casi cualquier juego al máximo, incluso en pantallas grandes y resoluciones altas. (hasta 175W de TGP)"
+    },
+    "bateria": {
+      "comoDecirlo": "Como todo equipo gamer de gama muy alta, rinde mejor conectado al tomacorriente."
+    },
+    "portabilidad": {
+      "pesoKg": 3,
+      "comoDecirlo": "Es un equipo grande: pensado para quedarse en un mismo lugar, no para cargarlo a diario."
+    },
+    "ganchosCard": [
+      {
+        "cliente": "Quiere la pantalla más grande e inmersiva",
+        "frase": "Pantalla Mini-LED de 18 pulgadas y una GPU que mueve casi cualquier juego al máximo."
+      },
+      {
+        "cliente": "Juega sesiones muy largas",
+        "frase": "Refrigeración de gama muy alta para sesiones largas sin perder rendimiento."
+      },
+      {
+        "cliente": "Quiere algo confirmado y real, no un rumor",
+        "frase": "Es de las configuraciones más potentes que vende ASUS, confirmada para su lanzamiento 2025."
+      }
+    ],
+    "objeciones": [
+      {
+        "objecion": "¿Vale la pena el salto de 16\" a 18\"?",
+        "respuesta": "Para quien juega sentado en un mismo lugar, sí: más inmersión y mejor disipación de calor por el chasis más grande."
+      },
+      {
+        "objecion": "¿Es Copilot+ PC por ser tan potente?",
+        "respuesta": "No. Su NPU no llega a los 40 TOPS que exige Microsoft, aunque la GPU sea mucho más potente que la de un Copilot+ PC típico."
+      }
+    ],
+    "clienteIdeal": "Gamer o creador que quiere pantalla grande e inmersiva con rendimiento de gama muy alta, sin llegar todavía al tope absoluto.",
+    "notasTodo": [
+      "Sufijo exacto de la variante Colombia sin confirmar",
+      "RAM, almacenamiento y peso de la configuración local son estimados"
+    ],
+    "comparaciones": {
+      "abajo": {
+        "id": "rog-strix-g16-rtx5070ti",
+        "diferencias": [
+          "Pantalla más chica (16\")",
+          "GPU un escalón más abajo"
+        ]
+      },
+      "arriba": {
+        "id": "rog-strix-scar18-rtx5090",
+        "diferencias": [
+          "Mismo chasis y pantalla",
+          "La GPU más potente que vende ASUS"
+        ]
+      }
+    }
+  },
+  {
+    "familia": "rog",
+    "perfiles": [
+      "gamers",
+      "creadores"
+    ],
+    "conectividad": {
+      "wifi": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "5.4 [VERIFICAR]",
+      "puertos": [
+        "USB-C x2 (Thunderbolt 5)",
+        "USB-A x2",
+        "HDMI 2.1",
+        "Ethernet RJ45",
+        "Jack combo 3.5mm"
+      ],
+      "comoDecirlo": "Trae Thunderbolt 5, Wi-Fi 7 y Ethernet: lo más rápido disponible para conectar monitores, discos externos o la red."
+    },
+    "camara": {
+      "resolucion": "HD 1080p [VERIFICAR]",
+      "obturadorFisico": false,
+      "comoDecirlo": "Trae cámara para videollamadas o transmisiones."
+    },
+    "extras": [
+      "Teclado retroiluminado RGB por tecla (Aura Sync)",
+      "Refrigeración avanzada (vapor chamber + varios ventiladores)",
+      "Pantalla secundaria / logo iluminado ROG [VERIFICAR si esta variante lo trae]"
+    ],
+    "enLaCaja": [
+      "Portátil ASUS ROG",
+      "Cargador de alta potencia",
+      "Guía rápida de inicio",
+      "Tarjeta de garantía"
+    ],
+    "verificar": true,
+    "id": "rog-strix-scar18-rtx5090",
+    "nombre": "ASUS ROG Strix SCAR 18 — RTX 5090",
+    "linea": "rog",
+    "referencia": "G835LX-SA009W",
+    "slug": "strix-scar18-rtx5090",
+    "pantallaPulgadas": 18,
+    "imagen": "/products/rog-strix-scar18-rtx5090.svg",
+    "specs": [
+      {
+        "etiqueta": "Sistema operativo",
+        "valorTecnico": "Windows 11 Home",
+        "valorCliente": "Viene listo para usar, con todo lo que ya conoces de Windows."
+      },
+      {
+        "etiqueta": "Procesador",
+        "valorTecnico": "Intel Core Ultra 9 275HX [VERIFICAR si la unidad en piso trae 290HX]",
+        "valorCliente": "El procesador más potente para gaming del catálogo."
+      },
+      {
+        "etiqueta": "Tarjeta de video",
+        "valorTecnico": "NVIDIA GeForce RTX 5090 para portátil, hasta 175W TGP",
+        "valorCliente": "La GPU más potente de todo el catálogo ASUS."
+      },
+      {
+        "etiqueta": "Inteligencia artificial (IA)",
+        "valorTecnico": "NPU integrada, no llega a 40 TOPS",
+        "valorCliente": "No es Copilot+ PC a pesar de ser el equipo más potente; la IA pesada la mueve la GPU."
+      },
+      {
+        "etiqueta": "Pantalla",
+        "valorTecnico": "18\" Mini-LED 240Hz, 2560x1600 (2.5K)",
+        "valorCliente": "Pantalla Mini-LED gigante: la mejor experiencia visual del catálogo."
+      },
+      {
+        "etiqueta": "Almacenamiento",
+        "valorTecnico": "SSD 2 TB M.2 NVMe PCIe 4.0",
+        "valorCliente": "Espacio de sobra para una librería grande de juegos."
+      },
+      {
+        "etiqueta": "Conectividad",
+        "valorTecnico": "Wi-Fi 7, Thunderbolt 5",
+        "valorCliente": "Lo más rápido disponible para conectar monitores y accesorios."
+      },
+      {
+        "etiqueta": "Portabilidad",
+        "valorTecnico": "Aprox. 3 kg (estimado, sin confirmar)",
+        "valorCliente": "Un equipo grande, pensado para quedarse en un mismo lugar."
+      }
+    ],
+    "metricas": {
+      "bateria": 2,
+      "rendimiento": 10,
+      "ia": 2,
+      "portabilidad": 1,
+      "pantalla": 10
+    },
+    "argumentosVenta": [
+      "El equipo más potente de todo el catálogo: para el cliente que no quiere ceder nada.",
+      "GPU RTX 5090: la más potente que vende ASUS en portátil.",
+      "Pantalla Mini-LED de 18 pulgadas y refrigeración pensada para sesiones muy largas."
+    ],
+    "procesador": {
+      "marca": "Intel",
+      "modelo": "Core Ultra 9 275HX",
+      "serie": "Intel Core Ultra (Arrow Lake-HX)",
+      "nucleos": 24,
+      "hilos": 24,
+      "frecuenciaMax": "5.4 GHz",
+      "npuTops": 13,
+      "queSignifica": "Trae NPU integrada, pero no llega a los 40 TOPS que exige Copilot+ PC; para IA pesada el equipo usa la GPU más potente del catálogo.",
+      "comoDecirlo": "Es el procesador más potente del catálogo para gaming; la IA pesada la mueve la GPU, no la NPU.",
+      "paraQueAlcanza": [
+        "Gaming en 4K a tope",
+        "Streaming y edición de video profesional",
+        "Renders y multitarea extrema"
+      ]
+    },
+    "memoria": {
+      "ram": "64 GB",
+      "tipoRam": "DDR5-6400",
+      "almacenamiento": "2 TB SSD",
+      "caso": "se-suma",
+      "comoDecirlo": "Trae hasta 64GB de fábrica en esta configuración; si no viene al tope soportado, se puede sumar más memoria sin reemplazar la actual."
+    },
+    "pantalla": {
+      "pulgadas": 18,
+      "resolucion": "2560x1600 (2.5K)",
+      "tipo": "Mini-LED",
+      "hz": 240,
+      "nits": 600,
+      "comoDecirlo": "Pantalla Mini-LED de 18 pulgadas: la mejor experiencia visual del catálogo."
+    },
+    "graficos": {
+      "tipo": "dedicados",
+      "modelo": "NVIDIA GeForce RTX 5090",
+      "vram": "24GB GDDR7 [VERIFICAR]",
+      "escalaPosicion": 6,
+      "comoDecirlo": "La GPU más potente de todo el catálogo ASUS en portátil: el tope absoluto de la escala. (hasta 175W de TGP)"
+    },
+    "bateria": {
+      "comoDecirlo": "Como todo equipo gamer tope de gama, rinde mejor conectado al tomacorriente."
+    },
+    "portabilidad": {
+      "pesoKg": 3,
+      "comoDecirlo": "Es un equipo grande: pensado para quedarse en un mismo lugar, no para cargarlo a diario."
+    },
+    "ganchosCard": [
+      {
+        "cliente": "No quiere ceder nada en rendimiento",
+        "frase": "El equipo más potente de todo el catálogo: para el cliente que no quiere ceder nada."
+      },
+      {
+        "cliente": "Pregunta por la GPU más potente disponible",
+        "frase": "GPU RTX 5090: la más potente que vende ASUS en portátil."
+      },
+      {
+        "cliente": "Hace sesiones muy largas de juego o trabajo",
+        "frase": "Pantalla Mini-LED de 18 pulgadas y refrigeración pensada para sesiones muy largas."
+      }
+    ],
+    "objeciones": [
+      {
+        "objecion": "¿Para quién es justificable este equipo?",
+        "respuesta": "Para gamers o creadores que exigen el máximo rendimiento posible y para quienes el precio no es el criterio principal."
+      },
+      {
+        "objecion": "¿Es Copilot+ PC?",
+        "respuesta": "No, aunque es muy potente, su NPU no llega a los 40 TOPS que exige Microsoft para esa certificación."
+      }
+    ],
+    "clienteIdeal": "Gamer o creador que exige el máximo rendimiento posible, sin que el precio sea el criterio principal.",
+    "notasTodo": [
+      "RAM, almacenamiento y peso de la configuración local son estimados",
+      "Confirmar si la unidad en piso trae Core Ultra 9 275HX o 290HX"
+    ],
+    "comparaciones": {
+      "abajo": {
+        "id": "rog-strix-scar18-rtx5080",
+        "diferencias": [
+          "Misma pantalla y chasis",
+          "Un escalón menos de GPU",
+          "Mejor relación precio/rendimiento"
+        ]
+      },
+      "arriba": null
+    }
   }
 ]

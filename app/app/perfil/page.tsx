@@ -1,38 +1,29 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import quizzesData from "@/data/quizzes.json";
-import modulesData from "@/data/modules.json";
-import productsData from "@/data/products.json";
-import type { Quiz, Modulo } from "@/types/platform";
-import type { Producto } from "@/types/product";
+import segmentosData from "@/data/segmentos.json";
+import type { Segmento } from "@/types/platform";
 import { ProgressBar } from "@/components/ui/ProgressBar";
 import { Button } from "@/components/ui/Button";
 import { useDemoUser, levelFor, levelProgress } from "@/lib/demoUser";
-import { QUIZ_PASS_THRESHOLD } from "@/lib/quiz";
+import { badgeNombre, progresoSegmento, segmentoCompleto } from "@/lib/segments";
 import { IconLock, IconTrophy, IconUser } from "@/components/icons";
 import { cn } from "@/lib/cn";
 
-const quizzes = quizzesData as Quiz[];
-const modules = modulesData as Modulo[];
-const products = productsData as Producto[];
+const segmentos = segmentosData as Segmento[];
 
 export default function PerfilPage() {
   const router = useRouter();
   const { state, logout } = useDemoUser();
   const { user, completedModules, quizResults } = state;
 
-  const badges = quizzes.map((quiz) => {
-    const modulo = modules.find((m) => m.slug === quiz.moduloSlug);
-    const producto = modulo ? products.find((p) => p.id === modulo.productoId) : undefined;
-    const resultado = quizResults[quiz.slug];
-    const earned = Boolean(resultado && resultado.score / resultado.total >= QUIZ_PASS_THRESHOLD);
-    return {
-      id: quiz.slug,
-      nombre: producto ? `Experto ${producto.nombre}` : `Experto ${quiz.slug}`,
-      earned,
-    };
-  });
+  const badges = segmentos.map((segmento) => ({
+    id: segmento.id,
+    nombre: badgeNombre(segmento),
+    earned: segmentoCompleto(quizResults, segmento),
+    progreso: progresoSegmento(quizResults, segmento),
+    color: segmento.color,
+  }));
 
   return (
     <main className="mx-auto max-w-2xl px-4 sm:px-6 py-8 space-y-6">
@@ -98,6 +89,11 @@ export default function PerfilPage() {
               >
                 {badge.nombre}
               </p>
+              {!badge.earned && (
+                <p className="font-sans text-[11px] text-faint">
+                  {badge.progreso.done}/{badge.progreso.total}
+                </p>
+              )}
             </div>
           ))}
         </div>

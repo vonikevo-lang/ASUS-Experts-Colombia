@@ -1,15 +1,65 @@
-export interface PantallaModulo {
-  dato: string;
-  explicacion: string;
+export interface Segmento {
+  id: string;
+  nombre: string;
+  mensaje: string;
+  color: string;
+  /** Ids de producto, de entrada a tope. */
+  orden: string[];
+}
+
+/** Las 13 slides del módulo de cada referencia (punto 8 de la guía general).
+ * Se generan en runtime con `lib/buildSlides.ts` a partir de `Producto` +
+ * `Segmento`; no se guardan como JSON porque son el mismo molde para las
+ * 20 referencias. */
+export interface SlideTexto {
+  tipo: "texto";
+  titulo: string;
+  queEs: string;
+  queSignifica: string;
+  comoDecirlo: string;
   imagen: string;
 }
 
-export interface Modulo {
-  slug: string;
-  titulo: string;
-  productoId: string;
-  pantallas: PantallaModulo[];
+export interface SlideIA {
+  tipo: "ia";
+  npuTops: number | null;
+  copilotPlus: boolean;
+  comoDecirlo: string;
+  imagen: string;
 }
+
+export interface SlideRam {
+  tipo: "ram";
+  caso: "soldada" | "se-cambia" | "se-suma";
+  ram: string;
+  comoDecirlo: string;
+  imagen: string;
+}
+
+export interface SlideGanchos {
+  tipo: "ganchos";
+  ganchos: { cliente: string; frase: string }[];
+}
+
+export interface SlideObjeciones {
+  tipo: "objeciones";
+  objeciones: { objecion: string; respuesta: string }[];
+}
+
+export interface SlideComparacionVecino {
+  id: string;
+  nombre: string;
+  imagen: string;
+  diferencias: string[];
+}
+
+export interface SlideComparacion {
+  tipo: "comparacion";
+  abajo: SlideComparacionVecino | null;
+  arriba: SlideComparacionVecino | null;
+}
+
+export type Slide = SlideTexto | SlideIA | SlideRam | SlideGanchos | SlideObjeciones | SlideComparacion;
 
 export interface PreguntaQuiz {
   pregunta: string;

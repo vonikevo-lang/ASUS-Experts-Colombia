@@ -1,21 +1,36 @@
 "use client";
 
+import { useMemo, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "motion/react";
 import productsData from "@/data/products.json";
+import segmentosData from "@/data/segmentos.json";
 import type { Producto } from "@/types/product";
+import type { Segmento } from "@/types/platform";
 import { Card } from "@/components/ui/Card";
 import { Chip } from "@/components/ui/Chip";
 import { buttonClasses } from "@/components/ui/Button";
 import { useReducedMotion } from "@/hooks/useReducedMotion";
 import { revealContainer, revealItem } from "@/lib/motion";
 import { LINE_LABELS } from "@/lib/lineLabels";
+import { cn } from "@/lib/cn";
 
 const products = productsData as Producto[];
+const segmentos = segmentosData as Segmento[];
 
 export function ProductGrid() {
   const reduced = useReducedMotion();
+  const [filtro, setFiltro] = useState<string | null>(null);
+
+  const filtrados = useMemo(() => {
+    if (!filtro) return products;
+    const segmento = segmentos.find((s) => s.id === filtro);
+    if (!segmento) return products;
+    return segmento.orden
+      .map((id) => products.find((p) => p.id === id))
+      .filter((p): p is Producto => Boolean(p));
+  }, [filtro]);
 
   return (
     <motion.section
@@ -28,12 +43,48 @@ export function ProductGrid() {
       <p className="font-sans text-xs uppercase tracking-[0.04em] text-asus-blue font-medium">
         Portafolio
       </p>
-      <h2 className="font-display text-[32px] font-semibold text-asus-dark mt-2 mb-10">
+      <h2 className="font-display text-[32px] font-semibold text-asus-dark mt-2">
         El portafolio que vas a dominar
       </h2>
+      <p className="font-sans text-sm text-muted mt-2">
+        Organizado en 4 segmentos, cada uno con su propia escalera de referencias.
+      </p>
+
+      <div className="flex flex-wrap gap-2 mt-6 mb-10">
+        <button
+          type="button"
+          onClick={() => setFiltro(null)}
+          className={cn(
+            "h-9 px-4 rounded-chip font-sans text-sm font-medium border transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-asus-blue",
+            filtro === null
+              ? "bg-asus-dark text-white border-asus-dark"
+              : "bg-white text-asus-dark border-border hover:border-asus-dark",
+          )}
+        >
+          Todos
+        </button>
+        {segmentos.map((segmento) => {
+          const active = filtro === segmento.id;
+          return (
+            <button
+              key={segmento.id}
+              type="button"
+              onClick={() => setFiltro(segmento.id)}
+              className="h-9 px-4 rounded-chip font-sans text-sm font-medium border transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-asus-blue"
+              style={
+                active
+                  ? { backgroundColor: segmento.color, borderColor: segmento.color, color: "#ffffff" }
+                  : { borderColor: segmento.color, color: segmento.color }
+              }
+            >
+              {segmento.nombre}
+            </button>
+          );
+        })}
+      </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-        {products.map((product) => (
+        {filtrados.map((product) => (
           <motion.div key={product.id} variants={revealItem(reduced)}>
             <Card className="h-full flex flex-col overflow-hidden group">
               <div className="aspect-[4/3] overflow-hidden bg-asus-blue-soft">

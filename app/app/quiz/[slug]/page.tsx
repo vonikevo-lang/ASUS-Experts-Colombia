@@ -5,10 +5,9 @@ import Link from "next/link";
 import { useParams } from "next/navigation";
 import { AnimatePresence, motion } from "motion/react";
 import quizzesData from "@/data/quizzes.json";
-import modulesData from "@/data/modules.json";
 import productsData from "@/data/products.json";
-import type { Quiz } from "@/types/platform";
-import type { Modulo } from "@/types/platform";
+import segmentosData from "@/data/segmentos.json";
+import type { Quiz, Segmento } from "@/types/platform";
 import type { Producto } from "@/types/product";
 import { Button, buttonClasses } from "@/components/ui/Button";
 import { Counter } from "@/components/ui/Counter";
@@ -18,19 +17,22 @@ import { IconArrowLeft, IconTrophy } from "@/components/icons";
 import { cn } from "@/lib/cn";
 import { BRAND_COLORS } from "@/lib/tokens";
 import { POINTS_PER_CORRECT, QUIZ_PASS_THRESHOLD } from "@/lib/quiz";
+import { badgeNombre, progresoSegmento, referenciaDominada, segmentoDe, siguienteReferencia } from "@/lib/segments";
 
 const quizzes = quizzesData as Quiz[];
-const modules = modulesData as Modulo[];
 const products = productsData as Producto[];
+const segmentos = segmentosData as Segmento[];
 
 export default function QuizPage() {
   const params = useParams<{ slug: string }>();
   const reduced = useReducedMotion();
-  const { addPoints, recordQuizResult } = useDemoUser();
+  const { state, addPoints, recordQuizResult } = useDemoUser();
 
   const quiz = quizzes.find((q) => q.slug === params.slug);
-  const modulo = modules.find((m) => m.slug === params.slug);
-  const producto = modulo ? products.find((p) => p.id === modulo.productoId) : undefined;
+  const isGeneral = params.slug === "general";
+  const producto = !isGeneral ? products.find((p) => p.id === quiz?.moduloSlug) : undefined;
+  const segmento = producto ? segmentoDe(producto, segmentos) : null;
+  const moduloHref = isGeneral ? "/app/modulos/general" : segmento && producto ? `/app/modulos/${segmento.id}/${producto.id}` : "/app/modulos";
 
   const [index, setIndex] = useState(0);
   const [selected, setSelected] = useState<number | null>(null);
@@ -38,7 +40,7 @@ export default function QuizPage() {
   const [sessionPoints, setSessionPoints] = useState(0);
   const [finished, setFinished] = useState(false);
 
-  if (!quiz || !modulo || !producto) {
+  if (!quiz || (!isGeneral && (!producto || !segmento))) {
     return (
       <main className="mx-auto max-w-xl px-4 py-10">
         <p className="font-sans text-sm text-muted">Quiz no encontrado.</p>
@@ -78,12 +80,15 @@ export default function QuizPage() {
     return (
       <ResultScreen
         producto={producto}
-        moduloSlug={modulo.slug}
+        segmento={segmento}
+        isGeneral={isGeneral}
+        moduloHref={moduloHref}
         score={score}
         total={quiz.preguntas.length}
         passed={passed}
         pointsEarned={sessionPoints}
         reduced={reduced}
+        quizResults={state.quizResults}
         onRetry={() => {
           setIndex(0);
           setSelected(null);
@@ -101,7 +106,7 @@ export default function QuizPage() {
         <div className="mx-auto max-w-xl px-4 h-14 flex items-center justify-between gap-3">
           <div className="flex items-center gap-3">
             <Link
-              href={`/app/modulos/${modulo.slug}`}
+              href={moduloHref}
               aria-label="Salir del quiz"
               className="h-9 w-9 -ml-2 flex items-center justify-center rounded-btn focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-asus-blue"
             >
@@ -203,21 +208,27 @@ export default function QuizPage() {
 
 function ResultScreen({
   producto,
-  moduloSlug,
+  segmento,
+  isGeneral,
+  moduloHref,
   score,
   total,
   passed,
   pointsEarned,
   reduced,
+  quizResults,
   onRetry,
 }: {
-  producto: Producto;
-  moduloSlug: string;
+  producto: Producto | undefined;
+  segmento: Segmento | null;
+  isGeneral: boolean;
+  moduloHref: string;
   score: number;
   total: number;
   passed: boolean;
   pointsEarned: number;
   reduced: boolean;
+  quizResults: Record<string, { score: number; total: number }>;
   onRetry: () => void;
 }) {
   const [confettiPieces] = useState(() =>
@@ -231,9 +242,19 @@ function ResultScreen({
     })),
   );
 
+  // El badge de segmento solo se desbloquea cuando ESTA referencia pasa y
+  // todas las demás del segmento ya estaban dominadas (punto 11 de la guía).
+  const otrasDominadas = segmento && producto
+    ? segmento.orden.filter((id) => id !== producto.id).every((id) => referenciaDominada(quizResults, id))
+    : false;
+  const badgeDesbloqueado = passed && !isGeneral && otrasDominadas;
+
+  const progreso = segmento ? progresoSegmento(quizResults, segmento) : null;
+  const siguiente = segmento ? siguienteReferencia(quizResults, segmento) : null;
+
   return (
     <main className="min-h-dvh flex flex-col items-center justify-center px-6 py-10 text-center relative overflow-hidden">
-      {passed && !reduced && (
+      {(passed) && !reduced && (
         <div className="pointer-events-none absolute inset-0 overflow-hidden" aria-hidden="true">
           {confettiPieces.map((piece) => (
             <motion.span
@@ -258,7 +279,7 @@ function ResultScreen({
         <Counter value={pointsEarned} prefix="+" suffix=" puntos ganados" />
       </p>
 
-      {passed ? (
+      {badgeDesbloqueado && segmento ? (
         <motion.div
           initial={reduced ? { opacity: 1, y: 0 } : { opacity: 0, y: -60 }}
           animate={{ opacity: 1, y: 0 }}
@@ -282,25 +303,38 @@ function ResultScreen({
           >
             <IconTrophy className="h-10 w-10 text-white" />
           </motion.div>
-          <p className="font-display text-lg font-semibold text-asus-dark mt-4">
-            ¡Badge desbloqueado!
-          </p>
-          <p className="font-sans text-sm text-muted mt-1">Experto {producto.nombre}</p>
+          <p className="font-display text-lg font-semibold text-asus-dark mt-4">¡Badge desbloqueado!</p>
+          <p className="font-sans text-sm text-muted mt-1">{badgeNombre(segmento)}</p>
         </motion.div>
+      ) : passed ? (
+        <div className="mt-8">
+          <p className="font-display text-lg font-semibold text-asus-dark">¡Aprobado!</p>
+          {segmento && progreso && (
+            <p className="font-sans text-sm text-muted mt-1">
+              Dominas {progreso.done} de {progreso.total} en {segmento.nombre}.
+            </p>
+          )}
+          {isGeneral && <p className="font-sans text-sm text-muted mt-1">Ya conoces lo básico de todo el catálogo.</p>}
+        </div>
       ) : (
         <p className="font-sans text-sm text-muted mt-6 max-w-xs">
-          ¡Vas por buen camino! Repasa el módulo y vuelve a intentarlo para desbloquear el badge
-          (necesitas {Math.ceil(total * QUIZ_PASS_THRESHOLD)}/{total}).
+          ¡Vas por buen camino! Repasa el módulo y vuelve a intentarlo (necesitas{" "}
+          {Math.ceil(total * QUIZ_PASS_THRESHOLD)}/{total}).
         </p>
       )}
 
       <div className="flex flex-col gap-3 mt-10 w-full max-w-xs">
         {!passed && (
-          <Link href={`/app/modulos/${moduloSlug}`} className={buttonClasses("secondary")}>
+          <Link href={moduloHref} className={buttonClasses("secondary")}>
             Repasar el módulo
           </Link>
         )}
-        <Button variant="primary" onClick={onRetry}>
+        {passed && segmento && siguiente && siguiente !== producto?.id && (
+          <Link href={`/app/modulos/${segmento.id}/${siguiente}`} className={buttonClasses("primary")}>
+            Siguiente referencia
+          </Link>
+        )}
+        <Button variant={passed && segmento && siguiente && siguiente !== producto?.id ? "secondary" : "primary"} onClick={onRetry}>
           Reintentar
         </Button>
         <Link href="/app/inicio" className="font-sans text-sm text-asus-blue underline text-center">

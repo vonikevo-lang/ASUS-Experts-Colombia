@@ -59,5 +59,999 @@
         "explicacion": "El SSD de 1 TB da espacio de sobra y velocidades de carga mucho más altas que un disco duro tradicional, así que el equipo se mantiene rápido."
       }
     ]
+  },
+  {
+    "slug": "vivobook-go-15-ryzen3-7320u",
+    "moduloSlug": "vivobook-go-15-ryzen3-7320u",
+    "preguntas": [
+      {
+        "pregunta": "¿Para qué tipo de cliente es ideal el Vivobook Go 15 (Ryzen 3)?",
+        "opciones": [
+          "Quien necesita un portátil liviano para internet, Office y streaming",
+          "Un editor de video profesional",
+          "Un gamer competitivo",
+          "Alguien que necesita una estación de trabajo para 3D"
+        ],
+        "correctaIndex": 0,
+        "explicacion": "Es un equipo pensado para lo básico del hogar o el estudio: navegar, Office y streaming."
+      },
+      {
+        "pregunta": "¿Qué procesador trae este Vivobook Go 15?",
+        "opciones": [
+          "AMD Ryzen 3 7320U",
+          "Intel Core i9-13900H",
+          "Snapdragon X Elite",
+          "AMD Ryzen 9 8945HS"
+        ],
+        "correctaIndex": 0,
+        "explicacion": "Trae un AMD Ryzen 3 7320U, de 4 núcleos y 8 hilos, pensado para tareas cotidianas."
+      },
+      {
+        "pregunta": "¿Cuánta RAM y almacenamiento trae?",
+        "opciones": [
+          "8 GB de RAM y 512 GB de SSD",
+          "32 GB de RAM y 2 TB de SSD",
+          "4 GB de RAM y 128 GB de SSD",
+          "16 GB de RAM y 1 TB de SSD"
+        ],
+        "correctaIndex": 0,
+        "explicacion": "8GB de RAM le alcanza para el uso diario, con un SSD de 512GB bien rápido."
+      },
+      {
+        "pregunta": "Un cliente pregunta si le alcanza para varias cosas a la vez. ¿Qué le respondes?",
+        "opciones": [
+          "Sí, para lo básico: navegar, Office, redes y streaming sin trabarse",
+          "No, solo sirve para una tarea a la vez",
+          "Necesita instalar un programa aparte para eso",
+          "Solo funciona conectado a internet"
+        ],
+        "correctaIndex": 0,
+        "explicacion": "Para lo básico funciona bien sin trabarse; si el cliente necesita edición pesada, se recomienda otro modelo."
+      },
+      {
+        "pregunta": "¿Qué trae el Vivobook Go 15 para quienes digitan muchos números?",
+        "opciones": [
+          "NumberPad (teclado numérico)",
+          "Una calculadora física aparte",
+          "Un mouse especial para números",
+          "Nada adicional"
+        ],
+        "correctaIndex": 0,
+        "explicacion": "Trae NumberPad: un teclado numérico aparte, útil para facturación o cajero."
+      }
+    ]
+  },
+  {
+    "slug": "vivobook-go-15-ryzen5-7520u",
+    "moduloSlug": "vivobook-go-15-ryzen5-7520u",
+    "preguntas": [
+      {
+        "pregunta": "¿Qué procesador trae este Vivobook Go 15?",
+        "opciones": [
+          "AMD Ryzen 5 7520U",
+          "AMD Ryzen 3 7320U",
+          "Intel Core i5-13420H",
+          "Snapdragon X X1"
+        ],
+        "correctaIndex": 0,
+        "explicacion": "Este modelo trae un Ryzen 5 7520U, un paso arriba del Ryzen 3."
+      },
+      {
+        "pregunta": "¿En qué se nota la diferencia con el modelo de Ryzen 3?",
+        "opciones": [
+          "Abre más cosas a la vez sin trabarse: varias pestañas, Office y videollamadas juntas",
+          "Trae pantalla OLED y el otro no",
+          "Tiene el doble de almacenamiento",
+          "Es un Copilot+ PC y el otro no"
+        ],
+        "correctaIndex": 0,
+        "explicacion": "El Ryzen 5 rinde más en multitarea y se siente más fluido con varias apps abiertas."
+      },
+      {
+        "pregunta": "¿Cuánta RAM y almacenamiento trae?",
+        "opciones": [
+          "8 GB de RAM y 512 GB de SSD",
+          "16 GB de RAM y 1 TB de SSD",
+          "4 GB de RAM y 256 GB de SSD",
+          "32 GB de RAM y 2 TB de SSD"
+        ],
+        "correctaIndex": 0,
+        "explicacion": "8GB de RAM y 512GB de SSD, igual que el modelo de Ryzen 3."
+      },
+      {
+        "pregunta": "¿Sirve este equipo para editar video?",
+        "opciones": [
+          "Para cortes y ediciones livianas sí; para edición profesional se recomienda un Zenbook o ProArt",
+          "Sí, para edición profesional de cine",
+          "No sirve para ningún tipo de edición",
+          "Solo edita video en blanco y negro"
+        ],
+        "correctaIndex": 0,
+        "explicacion": "Para edición liviana funciona bien; para proyectos profesionales conviene un equipo con más potencia gráfica."
+      },
+      {
+        "pregunta": "¿Qué trae el Vivobook Go 15 para quienes digitan muchos números?",
+        "opciones": [
+          "NumberPad (teclado numérico)",
+          "Una calculadora física aparte",
+          "Un mouse especial para números",
+          "Nada adicional"
+        ],
+        "correctaIndex": 0,
+        "explicacion": "Trae NumberPad: un teclado numérico aparte, útil para facturación o cajero."
+      }
+    ]
+  },
+  {
+    "slug": "vivobook-15-i3-bq3904w",
+    "moduloSlug": "vivobook-15-i3-bq3904w",
+    "preguntas": [
+      {
+        "pregunta": "¿Qué destaca más a este Vivobook 15?",
+        "opciones": [
+          "Su 1 Terabyte de almacenamiento",
+          "Su tarjeta de video dedicada",
+          "Su pantalla OLED",
+          "Su chip de inteligencia artificial"
+        ],
+        "correctaIndex": 0,
+        "explicacion": "El fuerte de este equipo es el espacio: 1TB para guardar de todo."
+      },
+      {
+        "pregunta": "¿Qué procesador trae?",
+        "opciones": [
+          "Intel Core i3 (13va Generación)",
+          "AMD Ryzen 7",
+          "Intel Core Ultra 7",
+          "Snapdragon X Elite"
+        ],
+        "correctaIndex": 0,
+        "explicacion": "Trae un Intel Core i3 de 13va generación, confiable para oficina y estudio."
+      },
+      {
+        "pregunta": "¿Por qué tiene tan poca RAM si tiene tanto almacenamiento?",
+        "opciones": [
+          "El fuerte de este equipo es el espacio; para multitarea pesada se recomienda el de 16GB",
+          "Porque le falló la memoria de fábrica",
+          "Porque no puede tener más de 8GB nunca",
+          "Porque así es más lento a propósito"
+        ],
+        "correctaIndex": 0,
+        "explicacion": "Este modelo prioriza el almacenamiento; si el cliente necesita más multitarea, se sube a un Vivobook de 16GB."
+      },
+      {
+        "pregunta": "¿Sirve este equipo para trabajar desde casa?",
+        "opciones": [
+          "Sí, para Office, correo y videollamadas va muy bien",
+          "No, solo sirve para ver videos",
+          "Solo si se conecta a un monitor externo",
+          "No tiene Windows instalado"
+        ],
+        "correctaIndex": 0,
+        "explicacion": "Para tareas de oficina, correo y videollamadas funciona muy bien."
+      },
+      {
+        "pregunta": "¿Cuánto almacenamiento trae este Vivobook 15?",
+        "opciones": [
+          "1 TB de SSD",
+          "256 GB de SSD",
+          "512 GB de SSD",
+          "2 TB de disco duro"
+        ],
+        "correctaIndex": 0,
+        "explicacion": "Trae 1TB de SSD: espacio de sobra para fotos, documentos y videos."
+      }
+    ]
+  },
+  {
+    "slug": "vivobook-15-core5-120u-8gb",
+    "moduloSlug": "vivobook-15-core5-120u-8gb",
+    "preguntas": [
+      {
+        "pregunta": "¿Qué resume mejor a este Vivobook 15?",
+        "opciones": [
+          "Buen equilibrio entre precio y desempeño para el día a día",
+          "Es el modelo gamer más potente de la línea",
+          "Es el modelo más económico de todo el catálogo",
+          "Es exclusivo para diseño gráfico profesional"
+        ],
+        "correctaIndex": 0,
+        "explicacion": "El Core 5 120U da un buen balance de precio y desempeño para multitarea de oficina."
+      },
+      {
+        "pregunta": "¿Es mucho mejor este procesador que el del Vivobook con Core i3?",
+        "opciones": [
+          "Sí, el Core 5 rinde más en multitarea y se siente más fluido con varias apps abiertas",
+          "No, son exactamente iguales",
+          "No, el i3 es más potente",
+          "Solo cambia el color del equipo"
+        ],
+        "correctaIndex": 0,
+        "explicacion": "El Core 5 rinde más que el i3 en tareas de multitarea."
+      },
+      {
+        "pregunta": "¿Debería el cliente llevar el de 16GB en vez de este de 8GB?",
+        "opciones": [
+          "Si abre muchas apps pesadas a la vez, sí; para uso normal de oficina, 8GB le alcanza bien",
+          "Siempre debe llevar el de 16GB sin excepción",
+          "Nunca hace falta más de 8GB, bajo ninguna circunstancia",
+          "El de 16GB es exactamente igual de rápido"
+        ],
+        "correctaIndex": 0,
+        "explicacion": "8GB alcanza para uso normal de oficina; para multitarea pesada conviene el de 16GB."
+      },
+      {
+        "pregunta": "¿Qué tipo de Wi-Fi trae este modelo?",
+        "opciones": [
+          "Wi-Fi 6",
+          "Wi-Fi 4",
+          "No trae Wi-Fi",
+          "Solo se conecta por cable"
+        ],
+        "correctaIndex": 0,
+        "explicacion": "Trae Wi-Fi 6: conexión más estable y rápida, ideal para videollamadas."
+      },
+      {
+        "pregunta": "¿Cuánto almacenamiento trae este Vivobook 15?",
+        "opciones": [
+          "512 GB de SSD",
+          "1 TB de SSD",
+          "128 GB de SSD",
+          "2 TB de disco duro"
+        ],
+        "correctaIndex": 0,
+        "explicacion": "Trae un SSD de 512GB, suficiente para el uso diario."
+      }
+    ]
+  },
+  {
+    "slug": "vivobook-15-core5-120u-tactil-16gb",
+    "moduloSlug": "vivobook-15-core5-120u-tactil-16gb",
+    "preguntas": [
+      {
+        "pregunta": "¿Qué tiene de especial la pantalla de este Vivobook 15?",
+        "opciones": [
+          "Es táctil: se puede tocar directo para navegar, firmar o anotar",
+          "Es una pantalla curva",
+          "Es una pantalla plegable",
+          "Se puede desmontar del teclado"
+        ],
+        "correctaIndex": 0,
+        "explicacion": "Esta versión del Vivobook 15 trae pantalla táctil."
+      },
+      {
+        "pregunta": "¿La pantalla táctil sirve para algo en un portátil normal?",
+        "opciones": [
+          "Sí: para firmar documentos, navegar rápido o anotar sobre PDFs, sin necesitar mouse",
+          "No sirve para nada en un portátil",
+          "Solo sirve para jugar videojuegos",
+          "Solo funciona con un lápiz especial que no se incluye"
+        ],
+        "correctaIndex": 0,
+        "explicacion": "La pantalla táctil es útil para firmar, navegar y anotar sin depender del mouse o el touchpad."
+      },
+      {
+        "pregunta": "¿Cuánta RAM trae esta versión táctil?",
+        "opciones": [
+          "16 GB",
+          "8 GB",
+          "4 GB",
+          "32 GB"
+        ],
+        "correctaIndex": 0,
+        "explicacion": "Esta versión trae 16GB de RAM, más que el Vivobook 15 básico de 8GB."
+      },
+      {
+        "pregunta": "¿Vale la pena pagar más por la versión táctil?",
+        "opciones": [
+          "Si el cliente firma documentos o usa apps táctiles seguido, sí vale la pena",
+          "Nunca vale la pena pagar más por eso",
+          "Solo vale la pena si el cliente es gamer",
+          "Solo vale la pena si el cliente edita video profesional"
+        ],
+        "correctaIndex": 0,
+        "explicacion": "Para quien firma documentos o anota seguido, la pantalla táctil sí justifica el costo extra."
+      },
+      {
+        "pregunta": "¿Qué procesador trae este modelo?",
+        "opciones": [
+          "Intel Core 5 120U",
+          "Intel Core i3 (13va Gen.)",
+          "AMD Ryzen 5 7520U",
+          "Snapdragon X X1"
+        ],
+        "correctaIndex": 0,
+        "explicacion": "Trae el mismo Intel Core 5 120U que la versión no táctil, con más RAM."
+      }
+    ]
+  },
+  {
+    "slug": "vivobook-14-snapdragon-x1-16gb",
+    "moduloSlug": "vivobook-14-snapdragon-x1-16gb",
+    "preguntas": [
+      {
+        "pregunta": "¿Qué hace especial a un Copilot+ PC como el Vivobook 14?",
+        "opciones": [
+          "Trae un chip de IA (NPU) integrado",
+          "Es más barato que los demás portátiles",
+          "No necesita cargador",
+          "Viene sin Windows instalado"
+        ],
+        "correctaIndex": 0,
+        "explicacion": "Los Copilot+ PC tienen un NPU dedicado para tareas de inteligencia artificial."
+      },
+      {
+        "pregunta": "¿Para qué le sirve al cliente el NPU de hasta 45 TOPS?",
+        "opciones": [
+          "Para mejorar videollamadas y tareas de Windows sin gastar batería extra",
+          "Para jugar videojuegos en 4K",
+          "Para cargar el equipo más rápido",
+          "Para aumentar el almacenamiento"
+        ],
+        "correctaIndex": 0,
+        "explicacion": "El NPU acelera tareas de IA como las videollamadas, sin consumir batería de más."
+      },
+      {
+        "pregunta": "¿Corre este equipo todos los programas de Windows?",
+        "opciones": [
+          "La mayoría de apps de uso diario sí; algunos programas muy específicos pueden necesitar revisión",
+          "No corre ningún programa de Windows",
+          "Solo corre aplicaciones de Qualcomm",
+          "Necesita instalar Windows aparte"
+        ],
+        "correctaIndex": 0,
+        "explicacion": "Por ser un chip ARM, la mayoría de apps corren bien; para programas muy específicos conviene revisar antes."
+      },
+      {
+        "pregunta": "Un cliente quiere algo liviano que le dure toda la jornada sin cargador. ¿Qué le destacas?",
+        "opciones": [
+          "Su batería de larga duración gracias al chip ARM, y que es liviano",
+          "Que tiene tarjeta de video dedicada para videojuegos",
+          "Que pesa más de 2 kg pero rinde mucho",
+          "Que no trae SSD, solo disco duro"
+        ],
+        "correctaIndex": 0,
+        "explicacion": "El Snapdragon X cuida mucho la batería, y el diseño es liviano: justo lo que necesita alguien que lo carga todo el día."
+      },
+      {
+        "pregunta": "¿Qué es un Copilot+ PC?",
+        "opciones": [
+          "La nueva categoría de Windows con IA integrada: mejora videollamadas, fotos y búsquedas",
+          "Un portátil que solo sirve para trabajar en la nube",
+          "Un portátil sin teclado físico",
+          "Un portátil exclusivo para programadores"
+        ],
+        "correctaIndex": 0,
+        "explicacion": "Copilot+ PC es la categoría de equipos con IA integrada de bajo consumo de batería."
+      }
+    ]
+  },
+  {
+    "slug": "vivobook-16-ryzenai5-16gb",
+    "moduloSlug": "vivobook-16-ryzenai5-16gb",
+    "preguntas": [
+      {
+        "pregunta": "¿Qué hace especial a este Vivobook 16?",
+        "opciones": [
+          "Es un Copilot+ PC de AMD con pantalla grande de 16\"",
+          "Es el único Vivobook con pantalla OLED",
+          "No trae Windows instalado",
+          "Es exclusivamente para gaming"
+        ],
+        "correctaIndex": 0,
+        "explicacion": "Combina un procesador AMD Copilot+ con una pantalla grande de 16 pulgadas."
+      },
+      {
+        "pregunta": "¿Cuántos TOPS de IA tiene la NPU de este equipo?",
+        "opciones": [
+          "Hasta 50 TOPS",
+          "Hasta 5 TOPS",
+          "No tiene NPU",
+          "Hasta 200 TOPS"
+        ],
+        "correctaIndex": 0,
+        "explicacion": "Su NPU AMD XDNA 2 llega hasta 50 TOPS, habilitando funciones Copilot+."
+      },
+      {
+        "pregunta": "¿Qué diferencia tiene con el Vivobook 14 de Snapdragon?",
+        "opciones": [
+          "Ambos son Copilot+ PC; este corre Windows x86 nativo y tiene pantalla más grande",
+          "Este no es un Copilot+ PC",
+          "Este no trae NPU",
+          "Son exactamente el mismo equipo"
+        ],
+        "correctaIndex": 0,
+        "explicacion": "Los dos son Copilot+ PC, pero el Vivobook 16 AMD corre Windows nativo sin limitaciones de compatibilidad y tiene pantalla de 16\"."
+      },
+      {
+        "pregunta": "¿Es muy pesado este equipo?",
+        "opciones": [
+          "Pesa un poco más por la pantalla de 16\", pero se compensa con más pantalla y potencia",
+          "Pesa menos de 1 kg",
+          "Es el modelo más liviano del catálogo",
+          "Pesa lo mismo que un celular"
+        ],
+        "correctaIndex": 0,
+        "explicacion": "Al tener pantalla de 16\", pesa un poco más que los modelos de 14\", pero gana en pantalla y potencia."
+      },
+      {
+        "pregunta": "¿Cuánta RAM trae este Vivobook 16?",
+        "opciones": [
+          "16 GB",
+          "8 GB",
+          "4 GB",
+          "64 GB"
+        ],
+        "correctaIndex": 0,
+        "explicacion": "Trae 16GB de RAM, suficiente para multitarea sin trabas."
+      }
+    ]
+  },
+  {
+    "slug": "vivobook-16-i5-13420h-1tb",
+    "moduloSlug": "vivobook-16-i5-13420h-1tb",
+    "preguntas": [
+      {
+        "pregunta": "¿Es este Vivobook 16 un equipo gamer?",
+        "opciones": [
+          "No, es un Vivobook de alto rendimiento para trabajo y estudio exigente",
+          "Sí, es un equipo gamer con tarjeta de video dedicada",
+          "Sí, viene con la línea ROG",
+          "No, es el modelo más básico del catálogo"
+        ],
+        "correctaIndex": 0,
+        "explicacion": "Este Vivobook está pensado para trabajo y estudio exigente, no para gaming; para jugar se recomienda la línea gaming o ROG."
+      },
+      {
+        "pregunta": "¿Qué tipo de procesador trae?",
+        "opciones": [
+          "Intel Core i5-13420H, de la serie H de mayor potencia",
+          "Intel Core i3 de nivel inicial",
+          "Un procesador ARM Snapdragon",
+          "AMD Ryzen 3"
+        ],
+        "correctaIndex": 0,
+        "explicacion": "La serie H de Intel tiene más núcleos y potencia que las series U, pensada para tareas más demandantes."
+      },
+      {
+        "pregunta": "¿Por qué pesa un poco más que otros Vivobook?",
+        "opciones": [
+          "Por la pantalla de 16\" y el procesador más potente",
+          "Porque tiene una batería más grande que todos los demás",
+          "Porque trae dos discos duros",
+          "Porque incluye un cargador adicional"
+        ],
+        "correctaIndex": 0,
+        "explicacion": "La combinación de pantalla grande y procesador de la serie H añade algo de peso, a cambio de más rendimiento."
+      },
+      {
+        "pregunta": "¿Cuánto almacenamiento y RAM trae?",
+        "opciones": [
+          "16 GB de RAM y 1 TB de SSD",
+          "8 GB de RAM y 256 GB de SSD",
+          "4 GB de RAM y 512 GB de SSD",
+          "32 GB de RAM y 4 TB de SSD"
+        ],
+        "correctaIndex": 0,
+        "explicacion": "Trae 16GB de RAM y 1TB de SSD: multitarea fluida y espacio de sobra."
+      },
+      {
+        "pregunta": "¿Para qué cliente es ideal este Vivobook 16?",
+        "opciones": [
+          "Quien necesita más potencia real para trabajo o estudio exigente",
+          "Un cliente que solo navega en internet ocasionalmente",
+          "Un cliente que busca el equipo más económico posible",
+          "Un cliente que solo usa el equipo para videollamadas"
+        ],
+        "correctaIndex": 0,
+        "explicacion": "Es para clientes que necesitan más potencia de la que ofrecen los Vivobook de procesadores U."
+      }
+    ]
+  },
+  {
+    "slug": "vivobook-s14-snapdragon-x1-oled",
+    "moduloSlug": "vivobook-s14-snapdragon-x1-oled",
+    "preguntas": [
+      {
+        "pregunta": "¿Qué distingue a la línea S de Vivobook?",
+        "opciones": [
+          "Un diseño más cuidado, con pantalla OLED",
+          "Es la única línea con teclado mecánico",
+          "Es exclusiva para gaming",
+          "No trae Windows preinstalado"
+        ],
+        "correctaIndex": 0,
+        "explicacion": "La línea S es un escalón más premium dentro de Vivobook, con pantalla OLED."
+      },
+      {
+        "pregunta": "¿Es este equipo un Copilot+ PC?",
+        "opciones": [
+          "Sí, trae NPU Qualcomm Hexagon de hasta 45 TOPS",
+          "No, no tiene NPU",
+          "Solo si se compra con una tarjeta gráfica aparte",
+          "No, esa función es solo para computadores de escritorio"
+        ],
+        "correctaIndex": 0,
+        "explicacion": "Al traer el Snapdragon X X1, es un Copilot+ PC con NPU integrada."
+      },
+      {
+        "pregunta": "¿Qué ventaja tiene la pantalla OLED frente a una IPS normal?",
+        "opciones": [
+          "Colores más vivos y negros más profundos",
+          "Es más barata de producir",
+          "Dura menos tiempo encendida",
+          "No se puede usar al aire libre"
+        ],
+        "correctaIndex": 0,
+        "explicacion": "El panel OLED mejora el color y el contraste frente a una pantalla IPS normal."
+      },
+      {
+        "pregunta": "¿Vale la pena pagar más por el panel OLED?",
+        "opciones": [
+          "Sí, si al cliente le importa mucho la imagen: colores más vivos y negros más profundos",
+          "Nunca vale la pena pagar más por eso",
+          "Solo si el cliente va a jugar videojuegos todo el día",
+          "No hay diferencia real con una pantalla IPS"
+        ],
+        "correctaIndex": 0,
+        "explicacion": "Para clientes que valoran mucho la imagen (fotos, series, diseño), el OLED sí justifica el costo extra."
+      },
+      {
+        "pregunta": "¿Corre este equipo todos los programas de Windows?",
+        "opciones": [
+          "La mayoría de apps de uso diario sí; para programas muy específicos de Windows antiguo, conviene revisar",
+          "No corre ningún programa de Windows",
+          "Solo corre aplicaciones de Qualcomm",
+          "Necesita instalar Windows aparte"
+        ],
+        "correctaIndex": 0,
+        "explicacion": "Por ser un chip ARM, la mayoría de apps corren bien; para programas muy específicos conviene revisar antes."
+      }
+    ]
+  },
+  {
+    "slug": "vivobook-s14-coreultra5-oled",
+    "moduloSlug": "vivobook-s14-coreultra5-oled",
+    "preguntas": [
+      {
+        "pregunta": "¿Qué distingue a la línea S de Vivobook?",
+        "opciones": [
+          "Un diseño más cuidado, con pantalla OLED",
+          "Es la única línea con teclado mecánico",
+          "Es exclusiva para gaming",
+          "No trae Windows preinstalado"
+        ],
+        "correctaIndex": 0,
+        "explicacion": "La línea S es un escalón más premium dentro de Vivobook, con pantalla OLED."
+      },
+      {
+        "pregunta": "¿Qué trae este equipo que lo hace un Copilot+ PC?",
+        "opciones": [
+          "NPU Intel AI Boost integrada",
+          "Una tarjeta de video dedicada",
+          "Una segunda pantalla",
+          "Un disco duro mecánico"
+        ],
+        "correctaIndex": 0,
+        "explicacion": "El Intel Core Ultra 5 trae una NPU integrada (Intel AI Boost) que lo hace un Copilot+ PC."
+      },
+      {
+        "pregunta": "¿Qué ventaja tiene la pantalla OLED frente a una IPS normal?",
+        "opciones": [
+          "Colores más vivos y negros más profundos",
+          "Es más barata de producir",
+          "Dura menos tiempo encendida",
+          "No se puede usar al aire libre"
+        ],
+        "correctaIndex": 0,
+        "explicacion": "El panel OLED mejora el color y el contraste frente a una pantalla IPS normal."
+      },
+      {
+        "pregunta": "¿Vale la pena pagar más por el panel OLED?",
+        "opciones": [
+          "Sí, si al cliente le importa mucho la imagen: colores más vivos y negros más profundos",
+          "Nunca vale la pena pagar más por eso",
+          "Solo si el cliente va a jugar videojuegos todo el día",
+          "No hay diferencia real con una pantalla IPS"
+        ],
+        "correctaIndex": 0,
+        "explicacion": "Para clientes que valoran mucho la imagen (fotos, series, diseño), el OLED sí justifica el costo extra."
+      },
+      {
+        "pregunta": "¿Qué diferencia tiene con la versión Snapdragon del Vivobook S14?",
+        "opciones": [
+          "Este corre Windows x86 nativo sin limitaciones de compatibilidad; el Snapdragon tiene más batería",
+          "Este no trae pantalla OLED",
+          "Este no es un Copilot+ PC",
+          "Son exactamente el mismo equipo"
+        ],
+        "correctaIndex": 0,
+        "explicacion": "Ambos son Copilot+ PC con OLED; la diferencia está en el tipo de chip: x86 nativo (Intel) vs. ARM con más batería (Snapdragon)."
+      }
+    ]
+  },
+  {
+    "slug": "vivobook-15-x1504ma-bq919w",
+    "moduloSlug": "vivobook-15-x1504ma-bq919w",
+    "preguntas": [
+      {
+        "pregunta": "¿Este Vivobook 15 es un Copilot+ PC?",
+        "opciones": ["No, su NPU llega a 15 TOPS y se necesitan 40 TOPS", "Sí, es Copilot+ PC", "Solo si se conecta a internet", "Sí, pero solo con Windows 10"],
+        "correctaIndex": 0,
+        "explicacion": "Microsoft exige un mínimo de 40 TOPS de NPU para la certificación Copilot+ PC; este equipo trae 15 TOPS."
+      },
+      {
+        "pregunta": "¿Qué procesador trae este Vivobook 15?",
+        "opciones": ["Intel Core 5 315", "AMD Ryzen 5 7520U", "Snapdragon X X1", "Intel Core i9"],
+        "correctaIndex": 0,
+        "explicacion": "Trae un Intel Core 5 315, de la familia Intel Core Series 1."
+      },
+      {
+        "pregunta": "El cliente quiere subir la memoria RAM más adelante. ¿Qué le explicas?",
+        "opciones": ["Que hay que cambiar el módulo de 8GB por uno más grande, porque solo hay una ranura", "Que se puede agregar un segundo módulo sin problema", "Que no se puede subir la memoria nunca", "Que necesita comprar un disco duro externo"],
+        "correctaIndex": 0,
+        "explicacion": "El equipo solo tiene una ranura de memoria, así que la expansión es por reemplazo, no por suma."
+      },
+      {
+        "pregunta": "¿Para qué le alcanzan los 8GB de RAM de fábrica?",
+        "opciones": ["Para internet, Office, redes y videollamadas", "Para edición de video profesional 4K", "Para correr varias máquinas virtuales a la vez", "No le alcanza para nada"],
+        "correctaIndex": 0,
+        "explicacion": "8GB alcanza bien para el uso diario del hogar y el estudio."
+      },
+      {
+        "pregunta": "¿Cuánto almacenamiento trae este equipo?",
+        "opciones": ["512 GB de SSD", "128 GB de SSD", "1 TB de disco duro", "No trae almacenamiento interno"],
+        "correctaIndex": 0,
+        "explicacion": "Trae un SSD M.2 NVMe de 512GB."
+      },
+      {
+        "pregunta": "Un cliente pregunta si el equipo \"tiene IA\". ¿Qué le respondes?",
+        "opciones": ["Sí, tiene un chip de IA que ayuda en videollamadas y filtros, pero no es Copilot+", "No tiene ningún tipo de IA", "Sí, es exactamente igual a un Copilot+ PC", "La IA solo funciona con internet"],
+        "correctaIndex": 0,
+        "explicacion": "La NPU de 15 TOPS ayuda en tareas puntuales, pero no alcanza los 40 TOPS de Copilot+."
+      },
+      {
+        "pregunta": "¿Qué tamaño y resolución tiene la pantalla?",
+        "opciones": ["15.6\" Full HD", "14\" OLED 4K", "17\" Full HD", "13\" HD"],
+        "correctaIndex": 0,
+        "explicacion": "Pantalla de 15.6 pulgadas en Full HD (1920x1080)."
+      },
+      {
+        "pregunta": "¿Para qué tipo de cliente es ideal este Vivobook 15?",
+        "opciones": ["Quien compra su primer portátil para el hogar o el estudio", "Un diseñador gráfico profesional", "Un gamer competitivo", "Una empresa que necesita servidores"],
+        "correctaIndex": 0,
+        "explicacion": "Es el equipo de entrada ideal para el hogar o el estudio, sin gastar de más."
+      }
+    ]
+  },
+  {
+    "slug": "zenbook-a16",
+    "moduloSlug": "zenbook-a16",
+    "preguntas": [
+      {
+        "pregunta": "¿Qué procesador trae el Zenbook A16?",
+        "opciones": ["Snapdragon X2 Elite Extreme X2E94100", "Snapdragon X X1-26-100", "Intel Core Ultra X7 358H", "AMD Ryzen 9"],
+        "correctaIndex": 0,
+        "explicacion": "Trae un Snapdragon X2 Elite Extreme, más potente que el del A14."
+      },
+      {
+        "pregunta": "¿Es el Zenbook A16 un Copilot+ PC?",
+        "opciones": ["Sí, su NPU supera los 40 TOPS exigidos", "No, no tiene NPU", "Solo si se compra con teclado aparte", "No, esa función es solo de escritorio"],
+        "correctaIndex": 0,
+        "explicacion": "La familia Snapdragon X2 Elite trae NPU que supera el mínimo de 40 TOPS para Copilot+ PC."
+      },
+      {
+        "pregunta": "¿Qué pantalla trae el A16?",
+        "opciones": ["16\" 3K OLED a 120Hz", "14\" Full HD a 60Hz", "18\" Mini-LED a 240Hz", "13\" HD a 60Hz"],
+        "correctaIndex": 0,
+        "explicacion": "Pantalla de 16 pulgadas en 3K OLED a 120Hz."
+      },
+      {
+        "pregunta": "¿Por qué pesa un poco más que el A14?",
+        "opciones": ["Por la pantalla más grande, de 16\" en 3K", "Porque trae una batería del doble de tamaño", "Porque tiene tarjeta de video dedicada", "Porque viene con dos SSD"],
+        "correctaIndex": 0,
+        "explicacion": "La pantalla más grande añade algo de peso frente al A14."
+      },
+      {
+        "pregunta": "¿Para qué cliente es ideal el Zenbook A16?",
+        "opciones": ["Quien necesita más potencia que el A14 y pantalla grande para crear contenido", "Un cliente que solo navega ocasionalmente", "Un gamer competitivo", "Alguien que busca el equipo más económico"],
+        "correctaIndex": 0,
+        "explicacion": "El A16 suma potencia y pantalla más grande frente al A14, ideal para crear contenido."
+      }
+    ]
+  },
+  {
+    "slug": "zenbook-duo",
+    "moduloSlug": "zenbook-duo",
+    "preguntas": [
+      {
+        "pregunta": "¿Qué hace único al Zenbook DUO?",
+        "opciones": ["Trae dos pantallas OLED táctiles", "Es el único con tarjeta de video dedicada", "No tiene teclado físico", "Viene sin Windows instalado"],
+        "correctaIndex": 0,
+        "explicacion": "El DUO trae dos pantallas OLED táctiles de 14 pulgadas."
+      },
+      {
+        "pregunta": "¿Es el Zenbook DUO un Copilot+ PC?",
+        "opciones": ["Sí, trae NPU Intel AI Boost integrada", "No, no tiene NPU", "Solo si se usa con una sola pantalla", "No, esa función es solo para ARM"],
+        "correctaIndex": 0,
+        "explicacion": "El Core Ultra X7 358H trae NPU Intel AI Boost, lo que lo hace Copilot+ PC."
+      },
+      {
+        "pregunta": "¿Para qué cliente es ideal el Zenbook DUO?",
+        "opciones": ["Creador de contenido o profesional que necesita multitarea real", "Un estudiante que solo navega en internet", "Un gamer competitivo", "Alguien que busca el equipo más económico"],
+        "correctaIndex": 0,
+        "explicacion": "Las dos pantallas táctiles están pensadas para multitarea real y creación de contenido."
+      },
+      {
+        "pregunta": "¿Por qué tiene menos batería que el A14 y el A16?",
+        "opciones": ["Porque mantiene dos pantallas activas a la vez", "Porque no tiene batería interna", "Porque el procesador gasta el doble siempre", "Porque la pantalla es más pequeña"],
+        "correctaIndex": 0,
+        "explicacion": "Tener dos pantallas OLED activas consume más batería que una sola pantalla."
+      },
+      {
+        "pregunta": "¿Qué pueden hacer las dos pantallas del DUO?",
+        "opciones": ["Dibujar, anotar o tocar directo sobre ellas, porque son táctiles", "Solo mostrar la misma imagen duplicada", "Solo funcionan si el equipo está conectado a un monitor externo", "Solo una de las dos enciende a la vez"],
+        "correctaIndex": 0,
+        "explicacion": "Ambas pantallas son OLED táctiles e independientes."
+      }
+    ]
+  },
+  {
+    "slug": "tuf-gaming-16-fx610jh-rtx5050",
+    "moduloSlug": "tuf-gaming-16-fx610jh-rtx5050",
+    "preguntas": [
+      {
+        "pregunta": "¿Qué GPU trae este TUF Gaming 16?",
+        "opciones": ["NVIDIA GeForce RTX 5050", "NVIDIA GeForce RTX 5070", "NVIDIA GeForce RTX 5090", "No trae GPU dedicada"],
+        "correctaIndex": 0,
+        "explicacion": "Es la entrada de la escala: RTX 5050 con 8GB GDDR7."
+      },
+      {
+        "pregunta": "¿Es este equipo un Copilot+ PC?",
+        "opciones": ["No, no trae NPU dedicada; usa la GPU para tareas de IA", "Sí, es Copilot+ PC", "Solo si se conecta a internet", "Sí, pero solo en modo avión"],
+        "correctaIndex": 0,
+        "explicacion": "Los TUF Gaming de esta familia no traen NPU dedicada; la IA la mueve la GPU."
+      },
+      {
+        "pregunta": "¿Le alcanza a este equipo para los juegos actuales?",
+        "opciones": ["Sí, para 1080p con buenos gráficos corre bien la mayoría", "No corre ningún juego actual", "Solo corre juegos en 4K", "Solo sirve para juegos de hace 10 años"],
+        "correctaIndex": 0,
+        "explicacion": "La RTX 5050 rinde bien en 1080p con ajustes altos."
+      },
+      {
+        "pregunta": "¿Cuánta RAM trae de fábrica?",
+        "opciones": ["16 GB en dos ranuras", "8 GB soldados", "32 GB soldados", "4 GB"],
+        "correctaIndex": 0,
+        "explicacion": "Trae 16GB; si hay ranura libre se puede sumar más memoria."
+      },
+      {
+        "pregunta": "¿Para qué cliente es ideal este TUF?",
+        "opciones": ["Quien quiere entrar al gaming sin pagar de más por potencia que no va a usar", "Un cliente que solo navega en internet", "Un creador de contenido profesional", "Alguien que necesita la pantalla más grande del catálogo"],
+        "correctaIndex": 0,
+        "explicacion": "Es el punto de entrada del segmento gamer, pensado para 1080p."
+      }
+    ]
+  },
+  {
+    "slug": "tuf-gaming-16-fx610jm-rtx5060",
+    "moduloSlug": "tuf-gaming-16-fx610jm-rtx5060",
+    "preguntas": [
+      {
+        "pregunta": "¿Qué GPU trae este TUF Gaming 16?",
+        "opciones": ["NVIDIA GeForce RTX 5060", "NVIDIA GeForce RTX 5050", "NVIDIA GeForce RTX 5080", "No trae GPU dedicada"],
+        "correctaIndex": 0,
+        "explicacion": "Es el escalón medio: RTX 5060 con 8GB GDDR7."
+      },
+      {
+        "pregunta": "¿En qué se diferencia del modelo con RTX 5050?",
+        "opciones": ["Más FPS en los mismos juegos; el resto del equipo es igual", "Tiene una pantalla distinta", "Pesa la mitad", "Trae el doble de batería"],
+        "correctaIndex": 0,
+        "explicacion": "Solo cambia la GPU; chasis, pantalla y batería son iguales."
+      },
+      {
+        "pregunta": "¿Puede este equipo jugar en 1440p?",
+        "opciones": ["Empieza a moverse bien en 1440p", "No puede jugar en 1440p bajo ninguna circunstancia", "Solo juega en 4K", "Solo juega en modo ventana"],
+        "correctaIndex": 0,
+        "explicacion": "El RTX 5060 corre 1080p a tope y se defiende en 1440p."
+      },
+      {
+        "pregunta": "¿Es Copilot+ PC este equipo?",
+        "opciones": ["No, usa la GPU para tareas de IA en vez de una NPU dedicada", "Sí, es Copilot+ PC", "Solo con el cargador conectado", "Sí, en todas sus configuraciones"],
+        "correctaIndex": 0,
+        "explicacion": "No trae NPU dedicada; la IA la mueve la GPU."
+      },
+      {
+        "pregunta": "¿Por qué no llevar directo el modelo con RTX 5070?",
+        "opciones": ["Si el presupuesto es ajustado, el 5060 ya rinde muy bien", "Porque el 5070 no existe en este catálogo", "Porque el 5070 es más lento", "Porque el 5070 no trae pantalla"],
+        "correctaIndex": 0,
+        "explicacion": "El 5060 es un buen punto medio si el presupuesto es ajustado."
+      }
+    ]
+  },
+  {
+    "slug": "tuf-gaming-16-fx610jp-rtx5070",
+    "moduloSlug": "tuf-gaming-16-fx610jp-rtx5070",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es la GPU tope dentro del segmento TUF?",
+        "opciones": ["RTX 5070", "RTX 5050", "RTX 5080", "RTX 5090"],
+        "correctaIndex": 0,
+        "explicacion": "El RTX 5070 es el tope de gama dentro de la línea TUF; arriba de eso ya es ROG."
+      },
+      {
+        "pregunta": "¿Para qué resolución rinde bien este equipo?",
+        "opciones": ["1440p", "Solo 720p", "Solo 480p", "Ninguna, es solo para oficina"],
+        "correctaIndex": 0,
+        "explicacion": "El RTX 5070 rinde muy bien en 1440p."
+      },
+      {
+        "pregunta": "¿Por qué no llevar directamente un ROG?",
+        "opciones": ["Si el presupuesto es ajustado, este 5070 ya rinde muy bien en 1440p", "Porque ROG no tiene GPU dedicada", "Porque ROG no existe todavía", "Porque TUF siempre es más potente que ROG"],
+        "correctaIndex": 0,
+        "explicacion": "ROG suma pantalla y refrigeración mejores, pero a mayor precio."
+      },
+      {
+        "pregunta": "¿Cuánto almacenamiento trae este modelo?",
+        "opciones": ["SSD de 1 TB", "SSD de 128 GB", "Disco duro de 2 TB", "No trae almacenamiento interno"],
+        "correctaIndex": 0,
+        "explicacion": "Trae 1TB de SSD NVMe."
+      },
+      {
+        "pregunta": "¿Para qué me sirve tener 1TB en este modelo?",
+        "opciones": ["Para instalar muchos juegos pesados sin desinstalar uno para meter otro", "Para que la batería dure más", "Para que la pantalla se vea mejor", "Para que el equipo pese menos"],
+        "correctaIndex": 0,
+        "explicacion": "1TB da espacio de sobra para una librería grande de juegos."
+      }
+    ]
+  },
+  {
+    "slug": "rog-strix-g16-rtx5070ti",
+    "moduloSlug": "rog-strix-g16-rtx5070ti",
+    "preguntas": [
+      {
+        "pregunta": "¿Qué GPU trae el ROG Strix G16 de entrada?",
+        "opciones": ["RTX 5070 Ti", "RTX 5070", "RTX 5090", "RTX 5050"],
+        "correctaIndex": 0,
+        "explicacion": "Es el escalón justo arriba del TUF RTX 5070."
+      },
+      {
+        "pregunta": "¿Qué gana el cliente al pasar del TUF 5070 al ROG Strix G16?",
+        "opciones": ["Pantalla Mini-LED, mejor refrigeración y una GPU más potente", "Nada, son exactamente el mismo equipo", "Pierde la GPU dedicada", "Pierde la pantalla"],
+        "correctaIndex": 0,
+        "explicacion": "ROG suma pantalla, chasis y refrigeración mejores sobre la misma base de potencia."
+      },
+      {
+        "pregunta": "¿Es Copilot+ PC este equipo, siendo tan potente?",
+        "opciones": ["No, su NPU no llega a los 40 TOPS que exige Microsoft", "Sí, por ser tan potente es automáticamente Copilot+", "Sí, todos los Intel Core Ultra son Copilot+", "No tiene ningún tipo de IA"],
+        "correctaIndex": 0,
+        "explicacion": "La potencia de la GPU no define Copilot+ PC; eso depende de los TOPS de la NPU."
+      },
+      {
+        "pregunta": "¿Qué tipo de pantalla trae?",
+        "opciones": ["16\" Mini-LED 240Hz", "14\" OLED 60Hz", "18\" IPS 60Hz", "13\" HD 60Hz"],
+        "correctaIndex": 0,
+        "explicacion": "Trae pantalla Mini-LED de 16 pulgadas a 240Hz."
+      },
+      {
+        "pregunta": "¿Por qué pagar más que el TUF 5070 si la GPU no es tan distinta?",
+        "opciones": ["La pantalla, el chasis y la refrigeración dan más rendimiento sostenido", "No hay ninguna diferencia real", "El TUF no trae pantalla", "El ROG no trae teclado"],
+        "correctaIndex": 0,
+        "explicacion": "El plus de ROG está en la experiencia completa, no solo en la GPU."
+      }
+    ]
+  },
+  {
+    "slug": "rog-strix-scar18-rtx5080",
+    "moduloSlug": "rog-strix-scar18-rtx5080",
+    "preguntas": [
+      {
+        "pregunta": "¿Qué GPU trae el ROG Strix SCAR 18 en esta configuración?",
+        "opciones": ["RTX 5080", "RTX 5070 Ti", "RTX 5090", "RTX 5060"],
+        "correctaIndex": 0,
+        "explicacion": "Esta configuración trae RTX 5080 para portátil."
+      },
+      {
+        "pregunta": "¿Qué tamaño de pantalla trae el SCAR 18?",
+        "opciones": ["18\" Mini-LED 240Hz", "16\" IPS 144Hz", "14\" OLED 60Hz", "13\" HD 60Hz"],
+        "correctaIndex": 0,
+        "explicacion": "El SCAR 18 trae pantalla Mini-LED de 18 pulgadas a 240Hz."
+      },
+      {
+        "pregunta": "¿Vale la pena el salto de 16\" a 18\"?",
+        "opciones": ["Para quien juega sentado en un mismo lugar, sí: más inmersión y mejor disipación", "Nunca vale la pena, es solo más pesado", "Solo si el cliente va a viajar con el equipo a diario", "No cambia nada en el rendimiento"],
+        "correctaIndex": 0,
+        "explicacion": "El chasis más grande ayuda a disipar calor y da más inmersión."
+      },
+      {
+        "pregunta": "¿Es Copilot+ PC a pesar de ser tan potente?",
+        "opciones": ["No, su NPU no llega a los 40 TOPS exigidos", "Sí, siempre que tenga GPU RTX", "Sí, por tener Intel Core Ultra", "No tiene ningún tipo de IA integrada"],
+        "correctaIndex": 0,
+        "explicacion": "Ni la potencia de la GPU ni traer Core Ultra garantizan la certificación Copilot+."
+      },
+      {
+        "pregunta": "¿Qué procesador trae este equipo?",
+        "opciones": ["Intel Core Ultra 9 275HX", "Intel Core i3", "AMD Ryzen 3", "Snapdragon X X1"],
+        "correctaIndex": 0,
+        "explicacion": "Confirmado en el lanzamiento 2025 del ROG Strix SCAR 18."
+      }
+    ]
+  },
+  {
+    "slug": "rog-strix-scar18-rtx5090",
+    "moduloSlug": "rog-strix-scar18-rtx5090",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es la GPU más potente de todo el catálogo ASUS en esta escalera?",
+        "opciones": ["RTX 5090 (ROG Strix SCAR 18)", "RTX 5080", "RTX 5070 Ti", "RTX 5070"],
+        "correctaIndex": 0,
+        "explicacion": "Es el tope absoluto de la escala 5050→5090 del catálogo."
+      },
+      {
+        "pregunta": "Un cliente pregunta si este equipo es Copilot+ PC. ¿Qué le respondes?",
+        "opciones": ["No, aunque es muy potente, su NPU no llega a los 40 TOPS que exige Microsoft", "Sí, es el más Copilot+ de todos", "Sí, pero solo en modo avión", "No tiene ningún chip de IA"],
+        "correctaIndex": 0,
+        "explicacion": "Trae NPU integrada, pero no cumple el mínimo de 40 TOPS de Copilot+ PC."
+      },
+      {
+        "pregunta": "¿Para quién es justificable este equipo?",
+        "opciones": ["Gamers o creadores que exigen el máximo rendimiento, sin que el precio sea el criterio principal", "Alguien que solo navega en internet", "Un estudiante con presupuesto ajustado", "Una oficina que solo usa Office"],
+        "correctaIndex": 0,
+        "explicacion": "Es el tope de gama del catálogo, pensado para quien no quiere ceder nada."
+      },
+      {
+        "pregunta": "¿En qué se diferencia del ROG Strix SCAR 18 con RTX 5080?",
+        "opciones": ["Misma pantalla y chasis, GPU más potente", "Pantalla más chica", "Menos RAM", "No tiene Wi-Fi"],
+        "correctaIndex": 0,
+        "explicacion": "Comparten pantalla y chasis; la diferencia está en la GPU."
+      },
+      {
+        "pregunta": "¿Qué tipo de refrigeración y pantalla trae?",
+        "opciones": ["Refrigeración avanzada y pantalla Mini-LED de 18\"", "Sin ventiladores, pantalla básica", "Refrigeración líquida externa obligatoria", "Pantalla de 13\" HD"],
+        "correctaIndex": 0,
+        "explicacion": "Pensado para sesiones muy largas sin perder rendimiento."
+      }
+    ]
+  },
+  {
+    "slug": "general",
+    "moduloSlug": "general",
+    "preguntas": [
+      {
+        "pregunta": "Un papá busca el primer portátil para su hija que empieza la universidad, presupuesto ajustado. ¿Qué segmento le muestras primero?",
+        "opciones": ["Vivobook", "Zenbook", "TUF Gaming", "ROG"],
+        "correctaIndex": 0,
+        "explicacion": "Vivobook es el segmento de entrada: buen precio para hogar y estudio."
+      },
+      {
+        "pregunta": "Una diseñadora freelance quiere algo liviano, con pantalla OLED, para reuniones y trabajo creativo liviano. ¿Qué segmento le muestras?",
+        "opciones": ["Zenbook", "TUF Gaming", "ROG", "Vivobook"],
+        "correctaIndex": 0,
+        "explicacion": "Zenbook es diseño premium, portabilidad y pantallas OLED de alta gama."
+      },
+      {
+        "pregunta": "Un estudiante quiere jugar los lanzamientos del momento sin gastar en un equipo tope de gama. ¿Qué segmento le muestras?",
+        "opciones": ["TUF Gaming", "Vivobook", "Zenbook", "ROG"],
+        "correctaIndex": 0,
+        "explicacion": "TUF da buen rendimiento gamer sin pagar precio de equipo tope de gama."
+      },
+      {
+        "pregunta": "Un streamer quiere el equipo más potente del catálogo, sin importar el precio. ¿Qué segmento le muestras?",
+        "opciones": ["ROG", "TUF Gaming", "Vivobook", "Zenbook"],
+        "correctaIndex": 0,
+        "explicacion": "ROG es el tope de gama: para quien no quiere ceder nada en rendimiento."
+      },
+      {
+        "pregunta": "¿Cuántos TOPS de NPU exige Microsoft como mínimo para certificar un equipo como Copilot+ PC?",
+        "opciones": ["40 TOPS", "15 TOPS", "100 TOPS", "5 TOPS"],
+        "correctaIndex": 0,
+        "explicacion": "Microsoft exige un mínimo de 40 TOPS de NPU para la certificación Copilot+ PC."
+      },
+      {
+        "pregunta": "Un cliente quiere subir la RAM de un equipo que solo tiene una ranura ocupada, sin ranura libre. ¿Qué le explicas?",
+        "opciones": ["Que hay que cambiar el módulo actual por uno más grande, no se puede sumar uno nuevo", "Que se puede sumar un módulo nuevo sin problema", "Que ese equipo nunca podrá tener más RAM", "Que necesita comprar un disco duro externo"],
+        "correctaIndex": 0,
+        "explicacion": "Con una sola ranura ocupada y sin ranura libre, subir la RAM significa reemplazar el módulo, no sumar uno nuevo."
+      }
+    ]
   }
 ]

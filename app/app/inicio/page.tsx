@@ -4,11 +4,12 @@ import { useState } from "react";
 import Link from "next/link";
 import { motion } from "motion/react";
 import productsData from "@/data/products.json";
-import modulesData from "@/data/modules.json";
+import segmentosData from "@/data/segmentos.json";
 import quizzesData from "@/data/quizzes.json";
 import rankingData from "@/data/ranking.json";
 import type { Producto } from "@/types/product";
-import type { Modulo, Quiz, AsesorRanking } from "@/types/platform";
+import type { Segmento, Quiz, AsesorRanking } from "@/types/platform";
+import { segmentoDe, referenciaDominada } from "@/lib/segments";
 import { Counter } from "@/components/ui/Counter";
 import { ProgressBar } from "@/components/ui/ProgressBar";
 import { buttonClasses } from "@/components/ui/Button";
@@ -19,7 +20,7 @@ import { IconGift, IconTrophy } from "@/components/icons";
 import { cn } from "@/lib/cn";
 
 const products = productsData as Producto[];
-const modules = modulesData as Modulo[];
+const segmentos = segmentosData as Segmento[];
 const quizzes = quizzesData as Quiz[];
 const ranking = rankingData as AsesorRanking[];
 
@@ -32,17 +33,26 @@ export default function InicioPage() {
 
   const [retoRespuesta, setRetoRespuesta] = useState<number | null>(null);
 
-  const modulo = modules[0];
-  const producto = products.find((p) => p.id === modulo.productoId);
+  const segmentoPendiente =
+    segmentos.find((s) => s.orden.some((id) => !referenciaDominada(quizResults, id))) ?? segmentos[0];
+  const productoIdContinuar =
+    segmentoPendiente.orden.find((id) => !referenciaDominada(quizResults, id)) ?? segmentoPendiente.orden[0];
+  const producto = products.find((p) => p.id === productoIdContinuar);
   const retoPregunta = quizzes[0]?.preguntas[0];
-  const quizDone = Boolean(quizResults[modulo.slug]);
-  const moduleDone = completedModules.includes(modulo.slug);
+  const quizDone = Boolean(quizResults[productoIdContinuar]);
+  const moduleDone = completedModules.includes(productoIdContinuar);
 
-  const continuar = !moduleDone
-    ? { label: "Empezar módulo", href: `/app/modulos/${modulo.slug}`, sub: modulo.titulo }
-    : !quizDone
-      ? { label: "Hacer el quiz", href: `/app/quiz/${modulo.slug}`, sub: modulo.titulo }
-      : { label: "Repasar módulo", href: `/app/modulos/${modulo.slug}`, sub: `Último puntaje: ${quizResults[modulo.slug].score}/${quizResults[modulo.slug].total}` };
+  const continuar = producto
+    ? !moduleDone
+      ? { label: "Empezar módulo", href: `/app/modulos/${segmentoPendiente.id}/${producto.id}`, sub: producto.nombre }
+      : !quizDone
+        ? { label: "Hacer el quiz", href: `/app/quiz/${producto.id}`, sub: producto.nombre }
+        : {
+            label: "Repasar módulo",
+            href: `/app/modulos/${segmentoPendiente.id}/${producto.id}`,
+            sub: `Último puntaje: ${quizResults[producto.id].score}/${quizResults[producto.id].total}`,
+          }
+    : null;
 
   const top3 = [...ranking]
     .map((a) => (a.esUsuarioDemo ? { ...a, puntos: user.puntos } : a))
@@ -80,7 +90,7 @@ export default function InicioPage() {
         <ProgressBar value={levelProgress(user.puntos)} max={100} className="mt-2" />
       </motion.div>
 
-      {producto && (
+      {producto && continuar && (
         <motion.div variants={revealItem(reduced)}>
           <Link
             href={continuar.href}

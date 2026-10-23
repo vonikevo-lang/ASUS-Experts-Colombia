@@ -1,0 +1,143 @@
+[
+  {
+    "tipo": "hero",
+    "imagen": "[Foto de producto: Vivobook 15 X1504MA abierto, 3/4, fondo gris claro]",
+    "titulo": "ASUS Vivobook 15 (X1504MA)",
+    "subtitulo": "Es el equipo ideal para empezar: pantalla grande, rápido para lo cotidiano y con la confianza de la marca ASUS."
+  },
+  {
+    "tipo": "demoUI",
+    "titulo": "¿Tiene IA? Sí, pero no es Copilot+",
+    "descripcion": "Toca cada opción para ver qué significa en el panel de IA de Windows.",
+    "controlInicial": "npu",
+    "controles": [
+      {
+        "id": "npu",
+        "etiqueta": "NPU · 15 TOPS",
+        "imagen": "[Captura: Configuración de Windows > Sistema > IA, mostrando 'NPU disponible' con el equipo X1504MA]",
+        "notaSobreImagen": "Chip de IA activo: mejora videollamadas y filtros de Windows Studio Effects."
+      },
+      {
+        "id": "copilot",
+        "etiqueta": "Copilot+ PC · requiere 40 TOPS",
+        "imagen": "[Captura: misma pantalla de Windows, mensaje 'Este equipo no cumple los requisitos de Copilot+ PC']",
+        "notaSobreImagen": "No llega al mínimo de 40 TOPS que exige Microsoft para esa categoría."
+      }
+    ]
+  },
+  {
+    "tipo": "demoUI",
+    "titulo": "MyASUS: cancelación de ruido",
+    "descripcion": "La app MyASUS trae un filtro de audio por software. Toca para ver el antes y el después.",
+    "controlInicial": "con",
+    "controles": [
+      {
+        "id": "sin",
+        "etiqueta": "Sin cancelación de ruido",
+        "imagen": "[Captura: MyASUS, panel 'AI noise-canceling' apagado, con una forma de onda de audio ruidosa de ejemplo]",
+        "notaSobreImagen": "Se cuela el ruido de fondo: tráfico, teclado, otras voces."
+      },
+      {
+        "id": "con",
+        "etiqueta": "Con cancelación de ruido",
+        "imagen": "[Captura: MyASUS, panel 'AI noise-canceling' encendido, forma de onda limpia]",
+        "notaSobreImagen": "El micrófono filtra el ruido de fondo en videollamadas, sin hardware extra."
+      }
+    ]
+  },
+  {
+    "tipo": "demoUI",
+    "titulo": "Subir la RAM: se cambia, no se suma",
+    "descripcion": "El equipo tiene una sola ranura. Toca cada opción para ver el módulo instalado.",
+    "controlInicial": "8gb",
+    "controles": [
+      {
+        "id": "8gb",
+        "etiqueta": "8 GB de fábrica",
+        "imagen": "[Foto: parte inferior del chasis abierta, un módulo SO-DIMM de 8GB en la única ranura]",
+        "notaSobreImagen": "Así viene de fábrica: un solo módulo en la única ranura disponible."
+      },
+      {
+        "id": "16gb",
+        "etiqueta": "Actualizado a 16 GB",
+        "imagen": "[Foto: misma ranura, ahora con un módulo más grande de 16GB en el mismo espacio]",
+        "notaSobreImagen": "Se reemplaza el módulo de 8GB por uno de 16GB: no se agrega un segundo módulo."
+      },
+      {
+        "id": "32gb",
+        "etiqueta": "Actualizado a 32 GB",
+        "imagen": "[Foto: misma ranura, módulo de 32GB]",
+        "notaSobreImagen": "El tope de esta referencia: un módulo de 32GB en la misma ranura."
+      }
+    ]
+  },
+  {
+    "tipo": "escala",
+    "titulo": "Memoria RAM disponible",
+    "pasos": ["8 GB", "16 GB", "32 GB"],
+    "pasoActual": 0,
+    "comoDecirlo": "De fábrica trae 8GB: le alcanza para lo diario. Si el cliente necesita más, se sube a 16 o 32GB cambiando el módulo."
+  },
+  {
+    "tipo": "anatomia",
+    "imagen": "[Foto: X1504MA visto desde los 3 lados relevantes (frontal + ambos costados), o un collage de los 3]",
+    "puntos": [
+      { "id": "pantalla", "etiqueta": "Pantalla", "descripcion": "15.6\" Full HD, panel IPS-level, 250 nits.", "x": 50, "y": 15 },
+      { "id": "camara", "etiqueta": "Cámara", "descripcion": "HD 720p con obturador físico de privacidad [VERIFICAR].", "x": 50, "y": 5 },
+      { "id": "teclado", "etiqueta": "Teclado", "descripcion": "Español latinoamericano, sin teclado numérico en esta variante [VERIFICAR].", "x": 50, "y": 70 },
+      { "id": "usb-c", "etiqueta": "USB-C", "descripcion": "Para cargar o conectar accesorios modernos.", "x": 15, "y": 50 },
+      { "id": "usb-a", "etiqueta": "USB-A ×2", "descripcion": "Para mouse, memorias o periféricos antiguos.", "x": 85, "y": 45 },
+      { "id": "hdmi", "etiqueta": "HDMI", "descripcion": "Para conectar un monitor o TV externo.", "x": 85, "y": 55 },
+      { "id": "microsd", "etiqueta": "Lector microSD", "descripcion": "Para tarjetas de cámaras o drones.", "x": 15, "y": 60 }
+    ]
+  },
+  {
+    "tipo": "demoUI",
+    "titulo": "MyASUS: salud de la batería",
+    "descripcion": "Toca cada modo para ver cómo cambia el límite de carga en la app.",
+    "controlInicial": "equilibrado",
+    "controles": [
+      {
+        "id": "rendimiento",
+        "etiqueta": "Máximo rendimiento",
+        "imagen": "[Captura: MyASUS, panel de batería en 'Modo de rendimiento máximo', carga al 100%]",
+        "notaSobreImagen": "Carga al 100%: más autonomía por carga, pero más desgaste a largo plazo."
+      },
+      {
+        "id": "equilibrado",
+        "etiqueta": "Equilibrado (recomendado)",
+        "imagen": "[Captura: MyASUS, panel de batería en 'Modo equilibrado', carga limitada ~80%]",
+        "notaSobreImagen": "Limita la carga para cuidar la batería a largo plazo, sin perder mucha autonomía."
+      },
+      {
+        "id": "duracion",
+        "etiqueta": "Máxima duración de vida útil",
+        "imagen": "[Captura: MyASUS, panel de batería en 'Modo de máxima duración', carga limitada ~60%]",
+        "notaSobreImagen": "Ideal si el equipo casi siempre está conectado al cargador."
+      }
+    ]
+  },
+  {
+    "tipo": "articulo",
+    "titulo": "Garantía de 2 años",
+    "parrafos": [
+      {
+        "subtitulo": "¿Qué cubre?",
+        "texto": "2 años de garantía por defectos de fabricación, con cobertura a nivel nacional en los centros de servicio autorizados ASUS [VERIFICAR condiciones exactas vigentes]."
+      },
+      {
+        "subtitulo": "¿Cómo se reclama?",
+        "texto": "El cliente guarda la factura de compra y puede llevar el equipo a cualquier centro de servicio autorizado ASUS o iniciar el proceso desde la página de soporte."
+      },
+      {
+        "subtitulo": "Cómo decirlo",
+        "texto": "\"Este equipo trae 2 años de garantía por defectos de fábrica. Con la factura, lo lleva a cualquier centro autorizado ASUS.\""
+      }
+    ]
+  },
+  {
+    "tipo": "frase",
+    "texto": "No es el equipo más potente del catálogo, es el más fácil de recomendar.",
+    "autor": "Guía del asesor ASUS Experts"
+  }
+]
