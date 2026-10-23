@@ -1,17 +1,35 @@
 {
   "tiendas": [
-    { "tienda": "Alkosto Av. 68", "ciudad": "Bogotá", "asesores": 4, "completado": 72, "puntajePromedio": 1340 },
-    { "tienda": "Éxito Calle 80", "ciudad": "Bogotá", "asesores": 4, "completado": 85, "puntajePromedio": 1690 },
-    { "tienda": "Falabella Unicentro", "ciudad": "Bogotá", "asesores": 4, "completado": 64, "puntajePromedio": 1310 },
-    { "tienda": "Jumbo Santa Fe", "ciudad": "Medellín", "asesores": 3, "completado": 58, "puntajePromedio": 1130 }
+    { "tienda": "Alkosto Av. 68", "ciudad": "Bogotá", "asesores": 4, "asesoresActivos": 4, "completado": 72, "puntajePromedio": 1340, "modulosCompletados": 58 },
+    { "tienda": "Éxito Calle 80", "ciudad": "Bogotá", "asesores": 4, "asesoresActivos": 4, "completado": 85, "puntajePromedio": 1690, "modulosCompletados": 71 },
+    { "tienda": "Falabella Unicentro", "ciudad": "Bogotá", "asesores": 4, "asesoresActivos": 3, "completado": 64, "puntajePromedio": 1310, "modulosCompletados": 46 },
+    { "tienda": "Jumbo Santa Fe", "ciudad": "Medellín", "asesores": 3, "asesoresActivos": 3, "completado": 58, "puntajePromedio": 1130, "modulosCompletados": 34 },
+    { "tienda": "Éxito Unicentro Cali", "ciudad": "Cali", "asesores": 3, "asesoresActivos": 2, "completado": 61, "puntajePromedio": 1200, "modulosCompletados": 38 },
+    { "tienda": "Alkosto Poblado", "ciudad": "Medellín", "asesores": 3, "asesoresActivos": 3, "completado": 77, "puntajePromedio": 1450, "modulosCompletados": 49 },
+    { "tienda": "Falabella Buenavista", "ciudad": "Barranquilla", "asesores": 3, "asesoresActivos": 3, "completado": 69, "puntajePromedio": 1280, "modulosCompletados": 41 },
+    { "tienda": "Jumbo Viva", "ciudad": "Barranquilla", "asesores": 2, "asesoresActivos": 2, "completado": 55, "puntajePromedio": 1080, "modulosCompletados": 22 }
   ],
   "evolucionSemanal": [
-    { "semana": "Sem 1", "completado": 38 },
-    { "semana": "Sem 2", "completado": 45 },
-    { "semana": "Sem 3", "completado": 52 },
-    { "semana": "Sem 4", "completado": 58 },
-    { "semana": "Sem 5", "completado": 65 },
-    { "semana": "Sem 6", "completado": 69 }
+    { "semana": "Sem 1", "modulosCompletados": 22 },
+    { "semana": "Sem 2", "modulosCompletados": 28 },
+    { "semana": "Sem 3", "modulosCompletados": 31 },
+    { "semana": "Sem 4", "modulosCompletados": 35 },
+    { "semana": "Sem 5", "modulosCompletados": 40 },
+    { "semana": "Sem 6", "modulosCompletados": 44 },
+    { "semana": "Sem 7", "modulosCompletados": 49 },
+    { "semana": "Sem 8", "modulosCompletados": 53 }
   ],
-  "modulosCompletadosMes": 184
+  "productosEntrenados": [
+    { "producto": "Zenbook A14", "modulosCompletados": 184 },
+    { "producto": "Zenbook A16", "modulosCompletados": 97 },
+    { "producto": "Gaming V16", "modulosCompletados": 76 },
+    { "producto": "Zenbook DUO", "modulosCompletados": 52 }
+  ],
+  "modulosCompletadosMes": 359,
+  "periodoAnterior": {
+    "asesoresActivos": 21,
+    "completadoPromedio": 62,
+    "puntajePromedio": 1260,
+    "modulosCompletadosMes": 312
+  }
 }

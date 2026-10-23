@@ -36,17 +36,33 @@ export interface TiendaStats {
   tienda: string;
   ciudad: string;
   asesores: number;
+  asesoresActivos: number;
   completado: number;
   puntajePromedio: number;
+  modulosCompletados: number;
 }
 
 export interface EvolucionSemana {
   semana: string;
-  completado: number;
+  modulosCompletados: number;
+}
+
+export interface ProductoEntrenado {
+  producto: string;
+  modulosCompletados: number;
+}
+
+export interface PeriodoAnterior {
+  asesoresActivos: number;
+  completadoPromedio: number;
+  puntajePromedio: number;
+  modulosCompletadosMes: number;
 }
 
 export interface StoresData {
   tiendas: TiendaStats[];
   evolucionSemanal: EvolucionSemana[];
+  productosEntrenados: ProductoEntrenado[];
   modulosCompletadosMes: number;
+  periodoAnterior: PeriodoAnterior;
 }
