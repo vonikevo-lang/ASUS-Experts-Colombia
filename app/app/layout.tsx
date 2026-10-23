@@ -28,11 +28,11 @@ function AppShell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
   const router = useRouter();
   const { state, hydrated, logout } = useDemoUser();
-  const isLoginRoute = pathname === "/app";
+  const isLoginRoute = pathname === "/app/ingresar";
 
   useEffect(() => {
     if (!hydrated || isLoginRoute) return;
-    if (!state.loggedIn) router.replace("/app");
+    if (!state.loggedIn) router.replace("/app/ingresar");
   }, [hydrated, isLoginRoute, state.loggedIn, router]);
 
   if (isLoginRoute) {
@@ -78,7 +78,7 @@ function AppShell({ children }: { children: React.ReactNode }) {
             type="button"
             onClick={() => {
               logout();
-              router.replace("/app");
+              router.replace("/app/ingresar");
             }}
             className="font-sans text-xs text-muted hover:text-asus-dark mt-3 underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-asus-blue"
           >

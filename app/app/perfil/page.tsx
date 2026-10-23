@@ -49,7 +49,7 @@ export default function PerfilPage() {
         className="w-full"
         onClick={() => {
           logout();
-          router.replace("/app");
+          router.replace("/app/ingresar");
         }}
       >
         Cerrar sesión
