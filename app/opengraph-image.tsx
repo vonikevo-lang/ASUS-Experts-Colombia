@@ -24,7 +24,7 @@ export default function Image() {
         <div style={{ fontSize: 64, fontWeight: 700, marginTop: 16, textAlign: "center", display: "flex" }}>
           Experts Colombia
         </div>
-        <div style={{ fontSize: 28, marginTop: 24, color: "#CCE3FA", display: "flex" }}>
+        <div style={{ fontSize: 28, marginTop: 24, color: "rgba(255,255,255,0.85)", display: "flex" }}>
           Entrena, compara y gana — concepto para asesores ASUS
         </div>
       </div>
