@@ -3,7 +3,6 @@
 import { motion } from "motion/react";
 import { useReducedMotion } from "@/hooks/useReducedMotion";
 import { revealContainer, revealItem } from "@/lib/motion";
-import { IconPhone } from "@/components/icons";
 
 export function AppBanner() {
   const reduced = useReducedMotion();
@@ -27,11 +26,27 @@ export function AppBanner() {
             ninguna tienda.
           </p>
         </motion.div>
-        <motion.div
-          variants={revealItem(reduced)}
-          className="h-28 w-28 rounded-card bg-asus-blue flex items-center justify-center mx-auto md:mx-0"
-        >
-          <IconPhone className="h-14 w-14 text-white" />
+
+        <motion.div variants={revealItem(reduced)} className="mx-auto md:mx-0" aria-hidden="true">
+          {/* Mockup simple de celular — placeholder */}
+          <div className="relative h-64 w-32 rounded-[1.75rem] border-[6px] border-asus-dark bg-asus-dark shadow-elev">
+            <div className="absolute top-1.5 inset-x-0 flex justify-center">
+              <div className="h-1.5 w-10 rounded-full bg-black/40" />
+            </div>
+            <div className="absolute inset-x-0 top-4 bottom-0 rounded-b-[1.1rem] bg-white overflow-hidden flex flex-col">
+              <div className="h-10 bg-hero-gradient flex items-center px-2.5 gap-1">
+                <span className="h-1.5 w-1.5 rounded-full bg-white/70" />
+                <span className="h-1.5 w-6 rounded-full bg-white/70" />
+              </div>
+              <div className="flex-1 p-2.5 space-y-2">
+                <div className="h-2 w-3/4 rounded-chip bg-asus-blue-soft" />
+                <div className="h-2 w-1/2 rounded-chip bg-asus-blue-soft" />
+                <div className="h-12 rounded-card bg-asus-blue-soft mt-2" />
+                <div className="h-2 w-2/3 rounded-chip bg-asus-blue-soft mt-2" />
+                <div className="h-2 w-1/3 rounded-chip bg-asus-blue-soft" />
+              </div>
+            </div>
+          </div>
         </motion.div>
       </div>
     </motion.section>

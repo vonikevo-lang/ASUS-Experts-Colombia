@@ -13,6 +13,15 @@ import { revealContainer, revealItem } from "@/lib/motion";
 
 const products = productsData as Producto[];
 
+const LINE_LABELS: Record<Producto["linea"], string> = {
+  zenbook: "Zenbook",
+  vivobook: "Vivobook",
+  proart: "ProArt",
+  rog: "ROG",
+  tuf: "TUF",
+  gaming: "Gaming",
+};
+
 export function ProductGrid() {
   const reduced = useReducedMotion();
 
@@ -31,7 +40,7 @@ export function ProductGrid() {
         El portafolio que vas a dominar
       </h2>
 
-      <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {products.map((product) => (
           <motion.div key={product.id} variants={revealItem(reduced)}>
             <Card className="h-full flex flex-col overflow-hidden group">
@@ -45,16 +54,17 @@ export function ProductGrid() {
                 />
               </div>
               <div className="p-5 flex flex-col flex-1">
-                <Chip line={product.linea} className="self-start">
-                  {product.pantallaPulgadas}&quot;
-                </Chip>
+                <div className="flex items-center gap-2 flex-wrap">
+                  <Chip>{product.pantallaPulgadas}&quot;</Chip>
+                  <Chip line={product.linea}>{LINE_LABELS[product.linea]}</Chip>
+                </div>
                 <p className="font-display text-lg font-semibold text-asus-dark mt-3">
                   {product.nombre}
                 </p>
                 <p className="font-mono text-xs text-faint mt-0.5">{product.referencia}</p>
                 <ul className="font-sans text-sm text-muted mt-3 space-y-1 list-disc list-inside flex-1">
                   {product.specs.slice(0, 4).map((spec) => (
-                    <li key={spec.etiqueta}>{spec.etiqueta}</li>
+                    <li key={spec.etiqueta}>{spec.valorTecnico}</li>
                   ))}
                 </ul>
                 <div className="flex gap-3 mt-5">

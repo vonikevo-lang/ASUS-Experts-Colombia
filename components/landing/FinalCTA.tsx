@@ -31,7 +31,7 @@ export function FinalCTA() {
         </motion.p>
         <motion.div variants={revealItem(reduced)} className="mt-8">
           <Link href="/app" className={buttonClasses("primary", "!bg-white !text-asus-blue hover:!bg-white/90")}>
-            Únete y empieza a ganar
+            Unirme
           </Link>
         </motion.div>
       </div>
