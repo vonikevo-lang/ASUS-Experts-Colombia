@@ -198,6 +198,15 @@ export function IconChevronDown(props: SVGProps<SVGSVGElement>) {
   );
 }
 
+export function IconLock(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg {...common} {...props}>
+      <rect x="5" y="10.5" width="14" height="10" rx="1.5" />
+      <path d="M8 10.5V7a4 4 0 0 1 8 0v3.5" />
+    </svg>
+  );
+}
+
 export function IconArrowLeft(props: SVGProps<SVGSVGElement>) {
   return (
     <svg {...common} {...props}>

@@ -10,19 +10,18 @@ import productsData from "@/data/products.json";
 import type { Quiz } from "@/types/platform";
 import type { Modulo } from "@/types/platform";
 import type { Producto } from "@/types/product";
-import { Button } from "@/components/ui/Button";
+import { Button, buttonClasses } from "@/components/ui/Button";
+import { Counter } from "@/components/ui/Counter";
 import { useDemoUser } from "@/lib/demoUser";
 import { useReducedMotion } from "@/hooks/useReducedMotion";
 import { IconArrowLeft, IconTrophy } from "@/components/icons";
 import { cn } from "@/lib/cn";
 import { BRAND_COLORS } from "@/lib/tokens";
+import { POINTS_PER_CORRECT, QUIZ_PASS_THRESHOLD } from "@/lib/quiz";
 
 const quizzes = quizzesData as Quiz[];
 const modules = modulesData as Modulo[];
 const products = productsData as Producto[];
-
-const POINTS_PER_CORRECT = 20;
-const PASS_THRESHOLD = 0.8;
 
 export default function QuizPage() {
   const params = useParams<{ slug: string }>();
@@ -73,12 +72,13 @@ export default function QuizPage() {
     setFinished(true);
   }
 
-  const passed = score / quiz.preguntas.length >= PASS_THRESHOLD;
+  const passed = score / quiz.preguntas.length >= QUIZ_PASS_THRESHOLD;
 
   if (finished) {
     return (
       <ResultScreen
         producto={producto}
+        moduloSlug={modulo.slug}
         score={score}
         total={quiz.preguntas.length}
         passed={passed}
@@ -203,6 +203,7 @@ export default function QuizPage() {
 
 function ResultScreen({
   producto,
+  moduloSlug,
   score,
   total,
   passed,
@@ -211,6 +212,7 @@ function ResultScreen({
   onRetry,
 }: {
   producto: Producto;
+  moduloSlug: string;
   score: number;
   total: number;
   passed: boolean;
@@ -250,9 +252,11 @@ function ResultScreen({
         Resultado del quiz
       </p>
       <p className="font-display text-[56px] font-bold text-asus-dark mt-2">
-        {score}/{total}
+        <Counter value={score} />/{total}
       </p>
-      <p className="font-sans text-sm text-muted mt-1">+{pointsEarned} puntos ganados</p>
+      <p className="font-sans text-sm text-muted mt-1">
+        <Counter value={pointsEarned} prefix="+" suffix=" puntos ganados" />
+      </p>
 
       {passed ? (
         <motion.div
@@ -285,16 +289,22 @@ function ResultScreen({
         </motion.div>
       ) : (
         <p className="font-sans text-sm text-muted mt-6 max-w-xs">
-          Necesitas {Math.ceil(total * PASS_THRESHOLD)}/{total} para desbloquear el badge. ¡Vuelve a intentarlo!
+          ¡Vas por buen camino! Repasa el módulo y vuelve a intentarlo para desbloquear el badge
+          (necesitas {Math.ceil(total * QUIZ_PASS_THRESHOLD)}/{total}).
         </p>
       )}
 
       <div className="flex flex-col gap-3 mt-10 w-full max-w-xs">
+        {!passed && (
+          <Link href={`/app/modulos/${moduloSlug}`} className={buttonClasses("secondary")}>
+            Repasar el módulo
+          </Link>
+        )}
         <Button variant="primary" onClick={onRetry}>
-          Repetir quiz
+          Reintentar
         </Button>
-        <Link href="/app/modulos" className="font-sans text-sm text-asus-blue underline">
-          Volver a módulos
+        <Link href="/app/inicio" className="font-sans text-sm text-asus-blue underline text-center">
+          Volver al inicio
         </Link>
       </div>
     </main>

@@ -26,15 +26,15 @@
         "explicacion": "El NPU acelera tareas de IA como las videollamadas, sin consumir batería de más."
       },
       {
-        "pregunta": "¿Qué ventaja le cuentas al cliente sobre el procesador Snapdragon X?",
+        "pregunta": "Un cliente universitario quiere algo liviano que le dure toda la jornada sin cargador. ¿Qué le destacas del Zenbook A14?",
         "opciones": [
-          "Que el equipo dura conectado todo el día sin cargarlo tanto",
-          "Que solo sirve para diseño gráfico pesado",
-          "Que no soporta aplicaciones de Windows",
-          "Que es más pesado que otros portátiles"
+          "Su batería de larga duración y que es muy liviano y delgado",
+          "Que tiene tarjeta de video dedicada para videojuegos",
+          "Que pesa más de 2 kg pero rinde mucho",
+          "Que no trae SSD, solo disco duro"
         ],
         "correctaIndex": 0,
-        "explicacion": "Los procesadores Snapdragon están hechos para una autonomía de batería muy larga."
+        "explicacion": "El procesador Snapdragon X cuida mucho la batería, y el diseño del A14 es liviano y delgado: justo lo que necesita alguien que lo carga todo el día."
       },
       {
         "pregunta": "¿Qué le dices al cliente sobre la pantalla OLED de 400 nits?",
@@ -48,15 +48,15 @@
         "explicacion": "El panel OLED mejora el color y el contraste frente a una pantalla LCD normal."
       },
       {
-        "pregunta": "¿Qué beneficio tiene para el cliente el SSD de 1 TB?",
+        "pregunta": "Un cliente trabaja con muchos archivos y programas, y le preocupa que el equipo se ponga lento. ¿Qué le dices?",
         "opciones": [
-          "Espacio de sobra y carga muy rápida de archivos y programas",
-          "Permite jugar videojuegos pesados sin tarjeta de video",
-          "Aumenta la duración de la batería",
-          "Mejora la señal wifi"
+          "Que trae un SSD de 1 TB, con espacio de sobra y mucha velocidad",
+          "Que debe borrar archivos cada semana para que no se ponga lento",
+          "Que el equipo no tiene almacenamiento interno",
+          "Que necesita comprar un disco duro aparte"
         ],
         "correctaIndex": 0,
-        "explicacion": "Un SSD de 1 TB da bastante espacio y velocidades de carga mucho más altas que un disco duro tradicional."
+        "explicacion": "El SSD de 1 TB da espacio de sobra y velocidades de carga mucho más altas que un disco duro tradicional, así que el equipo se mantiene rápido."
       }
     ]
   }
