@@ -10,17 +10,9 @@ import { Chip } from "@/components/ui/Chip";
 import { buttonClasses } from "@/components/ui/Button";
 import { useReducedMotion } from "@/hooks/useReducedMotion";
 import { revealContainer, revealItem } from "@/lib/motion";
+import { LINE_LABELS } from "@/lib/lineLabels";
 
 const products = productsData as Producto[];
-
-const LINE_LABELS: Record<Producto["linea"], string> = {
-  zenbook: "Zenbook",
-  vivobook: "Vivobook",
-  proart: "ProArt",
-  rog: "ROG",
-  tuf: "TUF",
-  gaming: "Gaming",
-};
 
 export function ProductGrid() {
   const reduced = useReducedMotion();

@@ -2,8 +2,6 @@ import type { Metricas, PerfilUso, Producto } from "@/types/product";
 
 export type Prioridad = "bateria" | "pantalla" | "potencia" | "peso" | "precio";
 
-// "precio" no tiene métrica asociada: el catálogo no trae datos de precio
-// verificados, así que esa prioridad no pondera el puntaje.
 const PRIORITY_TO_METRIC: Partial<Record<Prioridad, keyof Metricas>> = {
   bateria: "bateria",
   pantalla: "pantalla",
@@ -16,12 +14,24 @@ export interface Recomendacion {
   alternativa: Producto | null;
 }
 
+function priorityValue(product: Producto, prioridad: Prioridad): number | null {
+  const metric = PRIORITY_TO_METRIC[prioridad];
+  if (metric) return product.metricas[metric];
+  if (prioridad === "precio") {
+    // TODO: el catálogo no tiene precio real todavía. Como proxy temporal,
+    // asumimos que a menor rendimiento, más económico tiende a ser el
+    // equipo. Reemplazar por datos de precio reales apenas existan.
+    return 10 - product.metricas.rendimiento;
+  }
+  return null;
+}
+
 function score(product: Producto, prioridades: Prioridad[]): number {
-  const metrics = prioridades
-    .map((p) => PRIORITY_TO_METRIC[p])
-    .filter((m): m is keyof Metricas => Boolean(m));
-  if (metrics.length === 0) return 0;
-  return metrics.reduce((sum, m) => sum + product.metricas[m], 0) / metrics.length;
+  const values = prioridades
+    .map((p) => priorityValue(product, p))
+    .filter((v): v is number => v !== null);
+  if (values.length === 0) return 0;
+  return values.reduce((sum, v) => sum + v, 0) / values.length;
 }
 
 export function recomendar(
