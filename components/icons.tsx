@@ -190,6 +190,14 @@ export function IconUser(props: SVGProps<SVGSVGElement>) {
   );
 }
 
+export function IconChevronDown(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg {...common} {...props}>
+      <path d="M6 9l6 6 6-6" />
+    </svg>
+  );
+}
+
 export function IconArrowLeft(props: SVGProps<SVGSVGElement>) {
   return (
     <svg {...common} {...props}>

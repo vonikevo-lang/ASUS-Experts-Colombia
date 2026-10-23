@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { ComparadorClient } from "./ComparadorClient";
 
 export const metadata: Metadata = {
-  title: "Comparador | ASUS Experts Colombia",
+  title: "Comparador",
 };
 
 export default function ComparadorPage() {
