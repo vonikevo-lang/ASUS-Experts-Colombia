@@ -8,6 +8,7 @@ import { AntesDespues } from "./AntesDespues";
 import { VidaReal } from "./VidaReal";
 import { Frase } from "./Frase";
 import { Video } from "./Video";
+import { SelectorColor } from "./SelectorColor";
 
 export function BloqueApoyoView({ bloque }: { bloque: BloqueApoyo }) {
   switch (bloque.tipo) {
@@ -29,5 +30,7 @@ export function BloqueApoyoView({ bloque }: { bloque: BloqueApoyo }) {
       return <Frase bloque={bloque} />;
     case "video":
       return <Video bloque={bloque} />;
+    case "selectorColor":
+      return <SelectorColor bloque={bloque} />;
   }
 }

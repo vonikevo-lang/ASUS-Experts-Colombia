@@ -92,6 +92,32 @@
     ]
   },
   {
+    "tipo": "selectorColor",
+    "titulo": "Elige tu color",
+    "descripcion": "El X1504MA viene en tres colores. Usa las flechas o toca un color para ver cómo se ve.",
+    "controlInicial": "quiet-blue",
+    "colores": [
+      {
+        "id": "quiet-blue",
+        "nombre": "Quiet Blue",
+        "hex": "#3C4A5C",
+        "imagen": "[Foto de producto: Vivobook 15 X1504MA cerrado, 3/4, color Quiet Blue, fondo blanco]"
+      },
+      {
+        "id": "cool-silver",
+        "nombre": "Cool Silver",
+        "hex": "#C9CBCD",
+        "imagen": "[Foto de producto: Vivobook 15 X1504MA cerrado, 3/4, color Cool Silver, fondo blanco]"
+      },
+      {
+        "id": "terra-cotta",
+        "nombre": "Terra Cotta",
+        "hex": "#B4694F",
+        "imagen": "[Foto de producto: Vivobook 15 X1504MA cerrado, 3/4, color Terra Cotta, fondo blanco]"
+      }
+    ]
+  },
+  {
     "tipo": "demoUI",
     "titulo": "MyASUS: salud de la batería",
     "descripcion": "Toca cada modo para ver cómo cambia el límite de carga en la app.",

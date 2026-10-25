@@ -215,3 +215,12 @@ export function IconArrowLeft(props: SVGProps<SVGSVGElement>) {
     </svg>
   );
 }
+
+export function IconArrowRight(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg {...common} {...props}>
+      <path d="M5 12h14" />
+      <path d="M13 6l6 6-6 6" />
+    </svg>
+  );
+}

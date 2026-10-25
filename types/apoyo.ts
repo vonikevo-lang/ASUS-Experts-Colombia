@@ -90,6 +90,22 @@ export interface BloqueVideo {
   duracionAprox?: string;
 }
 
+export interface SelectorColorOpcion {
+  id: string;
+  nombre: string;
+  /** Color aproximado para el swatch (no oficial, verificar con kit de marca). */
+  hex: string;
+  imagen: string;
+}
+
+export interface BloqueSelectorColor {
+  tipo: "selectorColor";
+  titulo: string;
+  descripcion?: string;
+  controlInicial: string;
+  colores: SelectorColorOpcion[];
+}
+
 export type BloqueApoyo =
   | BloqueHero
   | BloqueDemoUI
@@ -99,4 +115,5 @@ export type BloqueApoyo =
   | BloqueAntesDespues
   | BloqueVidaReal
   | BloqueFrase
-  | BloqueVideo;
+  | BloqueVideo
+  | BloqueSelectorColor;
