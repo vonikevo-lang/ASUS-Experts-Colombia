@@ -577,7 +577,7 @@ export function EntrenamientoTufGamingF16F15({ referenciaInicial = "f15" }: Entr
             Una pantalla normal muestra 60 imágenes por segundo; la del TUF muestra 144. El movimiento se ve más fluido y el jugador reacciona antes.
           </p>
           <div key={hzKey} className={cx(styles.hz, styles.rv, styles.d2, hzKey > 0 && styles.play)}>
-            <div className={styles.lane} role="img" aria-label="Ejemplo de movimiento a 60 Hz, a saltos">
+            <div className={cx(styles.lane, styles.s)} role="img" aria-label="Ejemplo de movimiento a 60 Hz, a saltos">
               <span className={styles.lt}>
                 <b>60 HZ</b> · pantalla común
               </span>
