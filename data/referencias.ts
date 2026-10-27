@@ -3674,6 +3674,383 @@ export const referencias: Referencia[] = [
     "imagen": "/products/tuf-gaming-16-rtx5070.svg"
   },
   {
+    "slug": "tuf-gaming-f16-fx607vjb-rtx3050",
+    "linea": "tuf",
+    "nombre": "ASUS TUF Gaming F16 — RTX 3050",
+    "codigo": "FX607VJB",
+    "tagline": "La entrada al gaming de ASUS: chasis de grado militar, sin pagar por una gráfica que no vas a aprovechar todavía.",
+    "intro": "Quien entra al PC gaming sin gastar de más, viniendo de consola o de un portátil de oficina.",
+    "ficha": [
+      {
+        "componente": "Sistema operativo",
+        "dato": "Windows 11 Home",
+        "verificar": true
+      },
+      {
+        "componente": "Procesador",
+        "dato": "Intel Core 5 210H · 8 núcleos / 12 hilos · hasta 4,8 GHz"
+      },
+      {
+        "componente": "Memoria RAM",
+        "dato": "8 o 16 GB DDR5, 2 ranuras, ampliable (varía según la tienda)",
+        "verificar": true
+      },
+      {
+        "componente": "Tarjeta de video",
+        "dato": "NVIDIA GeForce RTX 3050, 6 GB GDDR6"
+      },
+      {
+        "componente": "Pantalla",
+        "dato": "16\" FHD+ (1920x1200) 16:10, 144 Hz, IPS"
+      },
+      {
+        "componente": "Almacenamiento",
+        "dato": "SSD 512 GB M.2 NVMe PCIe 4.0",
+        "verificar": true
+      },
+      {
+        "componente": "Batería",
+        "dato": "56 Wh"
+      },
+      {
+        "componente": "Portabilidad",
+        "dato": "Aprox. 2.2 kg"
+      },
+      {
+        "componente": "Garantía",
+        "dato": "1 año",
+        "verificar": true
+      }
+    ],
+    "procesador": {
+      "marca": "Intel",
+      "modelo": "Core 5 210H",
+      "serie": "Intel Core 5",
+      "nucleos": 8,
+      "hilos": 12,
+      "frecuenciaMax": "4.8 GHz",
+      "npuTops": null,
+      "queSignifica": "Procesador de entrada para gaming; no trae NPU dedicada de IA.",
+      "comoDecirlo": "Rinde bien para jugar y la multitarea del día a día; la IA la mueve la tarjeta de video, no un chip aparte.",
+      "paraQueAlcanza": [
+        "Gaming eSports y juegos actuales en calidad media",
+        "Streaming mientras juega",
+        "Multitarea cotidiana"
+      ]
+    },
+    "memoria": {
+      "ram": "8 o 16 GB",
+      "tipoRam": "DDR5",
+      "almacenamiento": "512 GB SSD",
+      "caso": "se-suma",
+      "comoDecirlo": "Trae 2 ranuras de RAM ampliable; la cantidad de fábrica cambia según la tienda, confirma en la etiqueta del equipo en exhibición."
+    },
+    "pantallaDetalle": {
+      "pulgadas": 16,
+      "resolucion": "1920x1200 (FHD+)",
+      "tipo": "IPS",
+      "hz": 144,
+      "nits": 300,
+      "comoDecirlo": "Pantalla de 16 pulgadas en formato 16:10 a 144Hz: más alto para ver más del juego y de los documentos."
+    },
+    "clienteIdeal": "Quien entra al PC gaming sin gastar de más, viniendo de consola o de un portátil de oficina.",
+    "leAlcanzaPara": [
+      "Gaming eSports y juegos actuales en calidad media",
+      "Streaming mientras juega",
+      "Multitarea cotidiana"
+    ],
+    "noEsPara": [
+      "Jugar en calidad alta o 1440p (para eso, el TUF F15 con RTX 4060)",
+      "Quien busca el chasis premium de ROG"
+    ],
+    "ganchos": [
+      {
+        "cliente": "Su primer PC gamer",
+        "frase": "Con el F16 entras con RTX y pantalla de 144 Hz, y el chasis aguanta el trajín del día a día."
+      },
+      {
+        "cliente": "Quiere entrar al gaming sin gastar de más",
+        "frase": "La entrada al gaming de ASUS con chasis reforzado, sin pagar por potencia que no vas a usar todavía."
+      },
+      {
+        "cliente": "Duda entre TUF y ROG de entrada",
+        "frase": "Mismo grado militar MIL-STD-810H que toda la línea TUF; ROG apunta a más potencia y más precio."
+      }
+    ],
+    "objeciones": [
+      {
+        "dice": "¿Por qué no un ROG?",
+        "responde": "TUF es la entrada al gaming de ASUS con chasis reforzado. ROG apunta a más potencia y más precio; si el cliente quiere jugar bien sin pagar de más, TUF es la opción."
+      },
+      {
+        "dice": "¿Cuánto dura la batería jugando?",
+        "responde": "Para jugar, siempre conectado: ningún portátil gamer da su máxima potencia con batería. Los 56 Wh sirven para clases y trabajo."
+      },
+      {
+        "dice": "¿Se puede mejorar después?",
+        "responde": "Sí: trae 2 ranuras de RAM, así que la memoria se puede ampliar. Confirma en la ficha el máximo del equipo."
+      }
+    ],
+    "compararCon": {
+      "abajo": null,
+      "arriba": {
+        "id": "tuf-gaming-f15-fx507vv-rtx4060",
+        "diferencias": [
+          "Más núcleos e hilos (Core i7 vs Core 5)",
+          "GPU más potente (RTX 4060 vs RTX 3050), con MUX Switch",
+          "Batería más grande (90 Wh vs 56 Wh)"
+        ]
+      }
+    },
+    "quiz": [
+      {
+        "pregunta": "¿Qué GPU trae el TUF Gaming F16?",
+        "opciones": [
+          "NVIDIA GeForce RTX 3050",
+          "NVIDIA GeForce RTX 4060",
+          "NVIDIA GeForce RTX 5050",
+          "No trae GPU dedicada"
+        ],
+        "correcta": 0,
+        "explicacion": "El F16 (FX607VJB) trae RTX 3050 con 6GB GDDR6; el F15 trae RTX 4060."
+      },
+      {
+        "pregunta": "¿Qué certificación de durabilidad tiene este equipo?",
+        "opciones": [
+          "MIL-STD-810H, norma de pruebas del Departamento de Defensa de EE. UU.",
+          "Certificación IP68 de resistencia al agua",
+          "Ninguna, es exclusiva de ROG",
+          "Garantía militar de por vida"
+        ],
+        "correcta": 0,
+        "explicacion": "MIL-STD-810H prueba caídas, vibración, humedad y temperatura; hace al equipo más resistente, no indestructible."
+      },
+      {
+        "pregunta": "¿Se puede ampliar la memoria RAM más adelante?",
+        "opciones": [
+          "No, viene soldada",
+          "Sí, tiene 2 ranuras de RAM ampliable",
+          "Solo con un adaptador USB externo",
+          "Solo en centro de servicio autorizado"
+        ],
+        "correcta": 1,
+        "explicacion": "Trae 2 ranuras; la cantidad de fábrica varía según la tienda, pero siempre se puede ampliar."
+      },
+      {
+        "pregunta": "¿Para qué cliente es ideal este TUF F16?",
+        "opciones": [
+          "Quien entra al PC gaming sin gastar de más",
+          "Un creador de contenido profesional de video 8K",
+          "Quien busca el chasis premium de ROG",
+          "Alguien que solo navega en internet"
+        ],
+        "correcta": 0,
+        "explicacion": "Es el punto de entrada del segmento gamer TUF, pensado para quien viene de consola o de un portátil de oficina."
+      },
+      {
+        "pregunta": "¿Cuál es la tasa de refresco de su pantalla?",
+        "opciones": [
+          "60 Hz",
+          "90 Hz",
+          "144 Hz",
+          "240 Hz"
+        ],
+        "correcta": 2,
+        "explicacion": "Pantalla de 16\" FHD+ a 144 Hz: el movimiento se ve más fluido que en una pantalla común de 60 Hz."
+      }
+    ],
+    "duracionMin": 12,
+    "dificultad": "básico"
+  },
+  {
+    "slug": "tuf-gaming-f15-fx507vv-rtx4060",
+    "linea": "tuf",
+    "nombre": "ASUS TUF Gaming F15 — RTX 4060",
+    "codigo": "FX507VV",
+    "tagline": "El salto de rendimiento dentro de TUF: Core i7, RTX 4060 con MUX Switch y 90 Wh de batería.",
+    "intro": "Quien juega en serio y quiere rendimiento real en calidad alta, sin pasarse todavía al precio de un ROG.",
+    "ficha": [
+      {
+        "componente": "Sistema operativo",
+        "dato": "Windows 11 Home",
+        "verificar": true
+      },
+      {
+        "componente": "Procesador",
+        "dato": "Intel Core i7-13620H · 10 núcleos / 16 hilos · hasta 4,9 GHz"
+      },
+      {
+        "componente": "Memoria RAM",
+        "dato": "16 GB DDR5-4800, 2 ranuras, ampliable"
+      },
+      {
+        "componente": "Tarjeta de video",
+        "dato": "NVIDIA GeForce RTX 4060, 8 GB GDDR6, hasta 140W, con MUX Switch"
+      },
+      {
+        "componente": "Pantalla",
+        "dato": "15,6\" FHD (1920x1080), 144 Hz, 100% sRGB, G-SYNC"
+      },
+      {
+        "componente": "Almacenamiento",
+        "dato": "SSD 512 GB o 1 TB M.2 NVMe PCIe 4.0 (varía según la tienda)",
+        "verificar": true
+      },
+      {
+        "componente": "Batería",
+        "dato": "90 Wh"
+      },
+      {
+        "componente": "Portabilidad",
+        "dato": "Aprox. 2.2 kg"
+      },
+      {
+        "componente": "Garantía",
+        "dato": "1 año",
+        "verificar": true
+      }
+    ],
+    "procesador": {
+      "marca": "Intel",
+      "modelo": "Core i7-13620H",
+      "serie": "Intel Core HX",
+      "nucleos": 10,
+      "hilos": 16,
+      "frecuenciaMax": "4.9 GHz",
+      "npuTops": null,
+      "queSignifica": "Procesador de rendimiento para gaming; no trae NPU dedicada de IA.",
+      "comoDecirlo": "Rápido para jugar en calidad alta y hacer varias cosas a la vez; la IA la mueve la tarjeta de video, no un chip aparte.",
+      "paraQueAlcanza": [
+        "Gaming en calidad alta, empezando en 1440p",
+        "Streaming mientras juega",
+        "Multitarea pesada"
+      ]
+    },
+    "memoria": {
+      "ram": "16 GB",
+      "tipoRam": "DDR5-4800",
+      "almacenamiento": "512 GB o 1 TB SSD",
+      "caso": "se-suma",
+      "comoDecirlo": "Trae 16GB en dos ranuras; si el cliente necesita más, se le puede sumar otro módulo sin quitar el actual."
+    },
+    "pantallaDetalle": {
+      "pulgadas": 15.6,
+      "resolucion": "1920x1080 (Full HD)",
+      "tipo": "IPS, 100% sRGB, G-SYNC",
+      "hz": 144,
+      "nits": 300,
+      "comoDecirlo": "Pantalla de 144Hz con G-SYNC: se ve fluida y sin cortes de imagen en juegos de acción."
+    },
+    "clienteIdeal": "Quien juega en serio y quiere rendimiento real en calidad alta, sin pasarse todavía al precio de un ROG.",
+    "leAlcanzaPara": [
+      "Gaming en calidad alta, empezando en 1440p",
+      "Streaming mientras juega",
+      "Multitarea pesada"
+    ],
+    "noEsPara": [
+      "Pantalla Mini-LED o chasis premium (eso es ROG)",
+      "Quien no necesita tanta potencia gráfica (ahí rinde mejor el F16)"
+    ],
+    "ganchos": [
+      {
+        "cliente": "Juega en serio y quiere buen rendimiento",
+        "frase": "RTX 4060 con MUX Switch: la gráfica le manda la imagen directo a la pantalla, sin pasar por el procesador, para más FPS."
+      },
+      {
+        "cliente": "Pregunta si le alcanza para los juegos del momento",
+        "frase": "Para juegos actuales en calidad alta, con DLSS 3 y generación de cuadros, sí corre bien."
+      },
+      {
+        "cliente": "Duda entre TUF F15 y un ROG",
+        "frase": "Mismo grado militar MIL-STD-810H; el salto a ROG es más potencia y más precio, no más resistencia."
+      }
+    ],
+    "objeciones": [
+      {
+        "dice": "¿Por qué no un ROG?",
+        "responde": "TUF es la entrada al gaming de ASUS con chasis reforzado. ROG apunta a más potencia y más precio; si el cliente quiere rendimiento alto sin pagar de más, el F15 es la opción."
+      },
+      {
+        "dice": "¿Cuánto dura la batería jugando?",
+        "responde": "Para jugar, siempre conectado: ningún portátil gamer da su máxima potencia con batería. Los 90 Wh sirven para clases y trabajo."
+      },
+      {
+        "dice": "¿Se puede mejorar después?",
+        "responde": "Sí: trae 2 ranuras de RAM, así que la memoria se puede ampliar. Confirma en la ficha el máximo del equipo."
+      }
+    ],
+    "compararCon": {
+      "abajo": {
+        "id": "tuf-gaming-f16-fx607vjb-rtx3050",
+        "diferencias": [
+          "Menos núcleos e hilos (Core 5 vs Core i7)",
+          "GPU de entrada (RTX 3050 vs RTX 4060), sin MUX Switch",
+          "Batería más chica (56 Wh vs 90 Wh)"
+        ]
+      },
+      "arriba": null
+    },
+    "quiz": [
+      {
+        "pregunta": "¿Qué GPU trae el TUF Gaming F15?",
+        "opciones": [
+          "NVIDIA GeForce RTX 3050",
+          "NVIDIA GeForce RTX 4060",
+          "NVIDIA GeForce RTX 5070",
+          "No trae GPU dedicada"
+        ],
+        "correcta": 1,
+        "explicacion": "El F15 (FX507VV) trae RTX 4060 con 8GB GDDR6 y hasta 140W; el F16 trae RTX 3050."
+      },
+      {
+        "pregunta": "¿Qué hace el MUX Switch de este equipo?",
+        "opciones": [
+          "Manda la imagen de la gráfica directo a la pantalla, sin pasar por el procesador, para más FPS",
+          "Enfría el teclado",
+          "Cambia el color RGB del chasis",
+          "Amplía la memoria RAM"
+        ],
+        "correcta": 0,
+        "explicacion": "El MUX Switch evita que la imagen pase por el procesador integrado: se traduce en más FPS en los juegos."
+      },
+      {
+        "pregunta": "¿Cuánto dura la batería jugando?",
+        "opciones": [
+          "Todo el día jugando, sin cable",
+          "Para jugar, siempre conectado; la batería es para clases y trabajo",
+          "No tiene batería",
+          "Solo 30 minutos"
+        ],
+        "correcta": 1,
+        "explicacion": "Ningún portátil gamer da su máxima potencia con batería; los 90 Wh rinden para uso cotidiano, no para jugar desconectado."
+      },
+      {
+        "pregunta": "¿Qué certificación de durabilidad comparte con el resto de la línea TUF?",
+        "opciones": [
+          "MIL-STD-810H",
+          "IP68",
+          "Ninguna, es exclusiva de ROG",
+          "ISO 9001"
+        ],
+        "correcta": 0,
+        "explicacion": "Toda la línea TUF, incluido el F15, se prueba bajo la norma de durabilidad MIL-STD-810H."
+      },
+      {
+        "pregunta": "¿Para qué cliente es ideal este TUF F15?",
+        "opciones": [
+          "Quien juega en serio y quiere rendimiento alto sin pasarse al precio de un ROG",
+          "Alguien que solo navega en internet",
+          "Un cliente que busca el equipo más barato del catálogo",
+          "Quien necesita la pantalla más grande posible"
+        ],
+        "correcta": 0,
+        "explicacion": "Es el nivel de rendimiento dentro de TUF, un escalón arriba del F16, sin llegar al precio de ROG."
+      }
+    ],
+    "duracionMin": 12,
+    "dificultad": "intermedio"
+  },
+  {
     "slug": "rog-strix-g16-rtx5070ti",
     "linea": "rog",
     "nombre": "ASUS ROG Strix G16 — RTX 5070 Ti",

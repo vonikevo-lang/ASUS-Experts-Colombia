@@ -6,4 +6,9 @@
  * Turbopack junta el CSS sin alcance de ambas en un solo archivo y sus
  * clases genéricas (.hero, .card, etc.) chocan entre sí.
  */
-export const SLUGS_CON_MATERIAL_PROPIO = new Set(["vivobook-15-x1504ma-bq919w", "zenbook-a14"]);
+export const SLUGS_CON_MATERIAL_PROPIO = new Set([
+  "vivobook-15-x1504ma-bq919w",
+  "zenbook-a14",
+  "tuf-gaming-f16-fx607vjb-rtx3050",
+  "tuf-gaming-f15-fx507vv-rtx4060",
+]);
