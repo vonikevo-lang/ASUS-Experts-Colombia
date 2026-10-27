@@ -13,17 +13,19 @@ import { Objeciones } from "@/components/entrenamiento/Objeciones";
 import { CompararCon } from "@/components/entrenamiento/CompararCon";
 import { Cierre } from "@/components/entrenamiento/Cierre";
 import { NotasLegales } from "@/components/entrenamiento/NotasLegales";
-import { EntrenamientoVivobook15X1504 } from "@/components/entrenamiento/vivobook15x1504/EntrenamientoVivobook15X1504";
-
-/** Referencia con material de apoyo propio (scroll-story a la medida) en vez de la cadena genérica. */
-const SLUG_CON_MATERIAL_PROPIO = "vivobook-15-x1504ma-bq919w";
+import { SLUGS_CON_MATERIAL_PROPIO } from "@/lib/entrenamientoMaterialPropio";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
 }
 
 export function generateStaticParams() {
-  return referencias.map((r) => ({ slug: r.slug }));
+  // Las referencias con material propio (ver lib/entrenamientoMaterialPropio.ts) tienen su
+  // propia carpeta de ruta estática (app/entrenamientos/<slug>/page.tsx) para que Next.js les
+  // dé su propio chunk de JS/CSS: si esta ruta [slug] también las generara, Turbopack junta el
+  // CSS sin alcance de ambas páginas a la medida en un solo archivo y sus clases genéricas
+  // (.hero, .card, etc.) chocan entre sí sin importar cuál se esté mostrando.
+  return referencias.filter((r) => !SLUGS_CON_MATERIAL_PROPIO.has(r.slug)).map((r) => ({ slug: r.slug }));
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
@@ -41,10 +43,10 @@ export default async function EntrenamientoPage({ params }: PageProps) {
   const referencia = getReferencia(slug);
 
   if (!referencia) notFound();
-
-  if (referencia.slug === SLUG_CON_MATERIAL_PROPIO) {
-    return <EntrenamientoVivobook15X1504 />;
-  }
+  // Estas dos ya tienen su propia ruta estática (ver nota en generateStaticParams); si alguien
+  // entra aquí con ese slug igual (ej. en dev sin build estático), no muestres la cadena
+  // genérica por error.
+  if (SLUGS_CON_MATERIAL_PROPIO.has(referencia.slug)) notFound();
 
   const accent = ACCENT_BY_LINEA[referencia.linea] ?? "#22d3ee";
 

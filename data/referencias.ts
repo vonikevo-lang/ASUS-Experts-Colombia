@@ -2447,11 +2447,11 @@ export const referencias: Referencia[] = [
       },
       {
         "componente": "Batería",
-        "dato": "Hasta 14 horas de uso típico (estimado, sin confirmar)"
+        "dato": "Hasta 32 horas de reproducción de video"
       },
       {
         "componente": "Portabilidad",
-        "dato": "Aprox. 1.2 kg, 1.5 cm de grosor (estimado, sin confirmar)"
+        "dato": "Aprox. 0.978 kg, 1.5 cm de grosor"
       },
       {
         "componente": "Garantía",
