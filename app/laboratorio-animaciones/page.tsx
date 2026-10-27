@@ -6,6 +6,8 @@ import { BarridoColor } from "@/components/animaciones/vivobook/BarridoColor";
 import { BentoRebote } from "@/components/animaciones/vivobook/BentoRebote";
 import { StickersCaen } from "@/components/animaciones/vivobook/StickersCaen";
 import { Bisagra180, type Bisagra180Handle } from "@/components/animaciones/vivobook/Bisagra180";
+import { AperturaBienvenida } from "@/components/animaciones/vivobook/AperturaBienvenida";
+import { FichaDestacada } from "@/components/animaciones/vivobook/FichaDestacada";
 import { GlitchRgb } from "@/components/animaciones/rog/GlitchRgb";
 import { OlaRgbTeclado } from "@/components/animaciones/rog/OlaRgbTeclado";
 import { MedidorHz } from "@/components/animaciones/rog/MedidorHz";
@@ -53,6 +55,22 @@ const SAMPLE_STICKERS_CAEN = {
     { id: "peso", texto: "Solo 1.4 kg" },
     { id: "bateria", texto: "Batería para todo el día" },
   ],
+};
+
+const SAMPLE_APERTURA_BIENVENIDA = {
+  nombreProducto: "ASUS Vivobook 15",
+  clienteIdeal: "Quien quiere un portátil confiable para trabajo y estudio, con buen balance de precio y desempeño.",
+  specDestacada: "15.6\" Full HD · 8 GB LPDDR5",
+};
+
+const SAMPLE_FICHA_DESTACADA = {
+  nombreProducto: "ASUS Vivobook S14 OLED",
+  specs: [
+    { id: "pantalla", etiqueta: "Pantalla", valor: "14\" OLED 2.8K · 120 Hz" },
+    { id: "memoria", etiqueta: "Memoria", valor: "LPDDR5" },
+    { id: "procesador", etiqueta: "Procesador", valor: "Snapdragon X con NPU" },
+  ],
+  clienteIdeal: "Quien busca un equipo más cuidado en diseño, liviano, con pantalla OLED y batería larga.",
 };
 
 const TITULOS_GLITCH_RGB = ["MODO TURBO", "REFRIGERACIÓN INTELIGENTE", "PANTALLA NEBULA"];
@@ -184,6 +202,14 @@ export default function LaboratorioAnimacionesPage() {
         onAccion={() => bisagraRef.current?.reiniciar()}
       >
         {() => <Bisagra180 ref={bisagraRef} {...SAMPLE_BISAGRA_180} />}
+      </TarjetaAnimacion>
+
+      <TarjetaAnimacion id="vivobook-apertura-bienvenida">
+        {(repeticion) => <AperturaBienvenida key={repeticion} {...SAMPLE_APERTURA_BIENVENIDA} />}
+      </TarjetaAnimacion>
+
+      <TarjetaAnimacion id="vivobook-ficha-destacada">
+        {(repeticion) => <FichaDestacada key={repeticion} {...SAMPLE_FICHA_DESTACADA} />}
       </TarjetaAnimacion>
 
       <TarjetaAnimacion id="rog-glitch-rgb">

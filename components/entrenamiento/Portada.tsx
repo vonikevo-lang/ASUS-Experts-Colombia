@@ -9,6 +9,8 @@ import { IconClose } from "@/components/icons";
 import { referencias } from "@/data/referencias";
 import { StickersCaen } from "@/components/animaciones/vivobook/StickersCaen";
 import { BentoRebote, type BentoDato } from "@/components/animaciones/vivobook/BentoRebote";
+import { AperturaBienvenida } from "@/components/animaciones/vivobook/AperturaBienvenida";
+import { FichaDestacada } from "@/components/animaciones/vivobook/FichaDestacada";
 import { CorteDiagonal } from "@/components/animaciones/rog/CorteDiagonal";
 import { GlitchRgb } from "@/components/animaciones/rog/GlitchRgb";
 import { MedidorHz } from "@/components/animaciones/rog/MedidorHz";
@@ -51,13 +53,14 @@ function fichaABento(ficha: FichaItem[]): BentoDato[] {
  * el dato real que necesitan desde `data/referencias.ts`:
  * - Vivobook: Barrido de color (necesita colores de tapa reales) y Bisagra
  *   180° (usa scroll "pin" de 1.5 pantallas, no cabe en una portada) quedan
- *   fuera por ahora.
+ *   fuera; en su lugar hay 2 variantes de portada hechas a la medida
+ *   (Apertura de bienvenida, Ficha destacada) para llegar a 4 opciones.
  * - Zenbook: Destello metálico queda fuera (necesita nombre de acabado y
  *   material reales, que no existen todavía en el modelo de datos).
  * - ROG/TUF: Ola RGB de teclado y Pruebas de resistencia quedan disponibles
  *   para cuando haya una 4ª referencia en esa línea.
  */
-const ROTACION_VIVOBOOK = ["stickers", "bento"] as const;
+const ROTACION_VIVOBOOK = ["stickers", "bento", "apertura", "ficha"] as const;
 const ROTACION_ROG = ["corte", "glitch", "medidor"] as const;
 const ROTACION_ZENBOOK = ["tracking", "perfil", "telon"] as const;
 const ROTACION_TUF = ["fijacion", "sello", "placas"] as const;
@@ -76,6 +79,33 @@ export function Portada({ referencia, accent, volverHref }: PortadaProps) {
         const opcion = ROTACION_VIVOBOOK[indiceEnLinea % ROTACION_VIVOBOOK.length];
         if (opcion === "bento") {
           return <BentoRebote nombreProducto={referencia.nombre} datos={fichaABento(referencia.ficha)} />;
+        }
+        if (opcion === "apertura") {
+          return (
+            <AperturaBienvenida
+              nombreProducto={referencia.nombre}
+              clienteIdeal={referencia.clienteIdeal}
+              specDestacada={`${referencia.pantallaDetalle.pulgadas}" ${referencia.pantallaDetalle.tipo} · ${referencia.memoria.ram} ${referencia.memoria.tipoRam}`}
+              accentColor={accent}
+            />
+          );
+        }
+        if (opcion === "ficha") {
+          return (
+            <FichaDestacada
+              nombreProducto={referencia.nombre}
+              clienteIdeal={referencia.clienteIdeal}
+              specs={[
+                {
+                  id: "pantalla",
+                  etiqueta: "Pantalla",
+                  valor: `${referencia.pantallaDetalle.pulgadas}" ${referencia.pantallaDetalle.tipo} ${referencia.pantallaDetalle.resolucion}${referencia.pantallaDetalle.hz > 60 ? ` · ${referencia.pantallaDetalle.hz} Hz` : ""}`,
+                },
+                { id: "memoria", etiqueta: "Memoria", valor: `${referencia.memoria.ram} ${referencia.memoria.tipoRam}` },
+                { id: "procesador", etiqueta: "Procesador", valor: `${referencia.procesador.marca} ${referencia.procesador.modelo}` },
+              ]}
+            />
+          );
         }
         return (
           <StickersCaen

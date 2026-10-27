@@ -5,6 +5,8 @@ export type AnimacionId =
   | "vivobook-bento-rebote"
   | "vivobook-stickers-caen"
   | "vivobook-bisagra-180"
+  | "vivobook-apertura-bienvenida"
+  | "vivobook-ficha-destacada"
   | "rog-glitch-rgb"
   | "rog-ola-rgb-teclado"
   | "rog-medidor-hz"
@@ -36,6 +38,8 @@ export const ANIMACIONES_META: Record<AnimacionId, AnimacionMeta> = {
   "vivobook-bento-rebote": { linea: "vivobook", nombre: "Bento con rebote", construida: true },
   "vivobook-stickers-caen": { linea: "vivobook", nombre: "Stickers que caen", construida: true },
   "vivobook-bisagra-180": { linea: "vivobook", nombre: "Bisagra 180°", construida: true },
+  "vivobook-apertura-bienvenida": { linea: "vivobook", nombre: "Apertura de bienvenida", construida: true },
+  "vivobook-ficha-destacada": { linea: "vivobook", nombre: "Ficha destacada", construida: true },
   "rog-glitch-rgb": { linea: "rog", nombre: "Glitch RGB", construida: true },
   "rog-ola-rgb-teclado": { linea: "rog", nombre: "Ola RGB de teclado", construida: true },
   "rog-medidor-hz": { linea: "rog", nombre: "Medidor de Hz", construida: true },
