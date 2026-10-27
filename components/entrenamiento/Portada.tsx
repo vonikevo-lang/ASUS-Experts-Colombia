@@ -6,11 +6,19 @@ import { useReducedMotion } from "@/hooks/useReducedMotion";
 import { EASE_STANDARD } from "@/lib/motion";
 import { Chip } from "@/components/ui/Chip";
 import { IconClose } from "@/components/icons";
+import { referencias } from "@/data/referencias";
 import { StickersCaen } from "@/components/animaciones/vivobook/StickersCaen";
+import { BentoRebote, type BentoDato } from "@/components/animaciones/vivobook/BentoRebote";
 import { CorteDiagonal } from "@/components/animaciones/rog/CorteDiagonal";
+import { GlitchRgb } from "@/components/animaciones/rog/GlitchRgb";
+import { MedidorHz } from "@/components/animaciones/rog/MedidorHz";
 import { TrackingCierra } from "@/components/animaciones/zenbook/TrackingCierra";
+import { PerfilDelgado } from "@/components/animaciones/zenbook/PerfilDelgado";
+import { TelonParallax } from "@/components/animaciones/zenbook/TelonParallax";
 import { FijacionObjetivo } from "@/components/animaciones/tuf/FijacionObjetivo";
-import type { Referencia } from "@/types/referencia";
+import { SelloCertificacion } from "@/components/animaciones/tuf/SelloCertificacion";
+import { PlacasBlindaje } from "@/components/animaciones/tuf/PlacasBlindaje";
+import type { FichaItem, Referencia } from "@/types/referencia";
 
 interface PortadaProps {
   referencia: Referencia;
@@ -18,14 +26,57 @@ interface PortadaProps {
   volverHref: string;
 }
 
+/** Lee "Aprox. X kg, Y cm de grosor" de la ficha; null si el dato no viene en ese formato. */
+function extraerPortabilidad(ficha: FichaItem[]) {
+  const item = ficha.find((f) => f.componente === "Portabilidad");
+  const match = item?.dato.match(/([\d.,]+)\s*kg.*?([\d.,]+)\s*cm/i);
+  if (!match) return null;
+  return { pesoKg: Number(match[1].replace(",", ".")), grosorCm: Number(match[2].replace(",", ".")) };
+}
+
+/** Lee la tasa de refresco ("240Hz", "60 Hz"...) de la ficha "Pantalla"; null si no viene. */
+function extraerHz(ficha: FichaItem[]) {
+  const item = ficha.find((f) => f.componente === "Pantalla");
+  const match = item?.dato.match(/(\d+)\s*Hz/i);
+  return match ? Number(match[1]) : null;
+}
+
+function fichaABento(ficha: FichaItem[]): BentoDato[] {
+  return ficha.slice(0, 6).map((item, i) => ({ id: `${item.componente}-${i}`, etiqueta: item.componente, texto: item.dato }));
+}
+
+/**
+ * Qué animación usa cada referencia dentro de su línea, para que no se vean
+ * todas iguales. Cada lista solo incluye las animaciones que hoy tienen todo
+ * el dato real que necesitan desde `data/referencias.ts`:
+ * - Vivobook: Barrido de color (necesita colores de tapa reales) y Bisagra
+ *   180° (usa scroll "pin" de 1.5 pantallas, no cabe en una portada) quedan
+ *   fuera por ahora.
+ * - Zenbook: Destello metálico queda fuera (necesita nombre de acabado y
+ *   material reales, que no existen todavía en el modelo de datos).
+ * - ROG/TUF: Ola RGB de teclado y Pruebas de resistencia quedan disponibles
+ *   para cuando haya una 4ª referencia en esa línea.
+ */
+const ROTACION_VIVOBOOK = ["stickers", "bento"] as const;
+const ROTACION_ROG = ["corte", "glitch", "medidor"] as const;
+const ROTACION_ZENBOOK = ["tracking", "perfil", "telon"] as const;
+const ROTACION_TUF = ["fijacion", "sello", "placas"] as const;
+
 export function Portada({ referencia, accent, volverHref }: PortadaProps) {
   const reduced = useReducedMotion();
 
   const titleLines = referencia.nombre.split(" — ");
+  const indiceEnLinea = referencias.filter((r) => r.linea === referencia.linea).findIndex((r) => r.slug === referencia.slug);
 
   function renderAnimacionPortada() {
+    const imagenSrc = referencia.imagen ?? "";
+
     switch (referencia.linea) {
-      case "vivobook":
+      case "vivobook": {
+        const opcion = ROTACION_VIVOBOOK[indiceEnLinea % ROTACION_VIVOBOOK.length];
+        if (opcion === "bento") {
+          return <BentoRebote nombreProducto={referencia.nombre} datos={fichaABento(referencia.ficha)} />;
+        }
         return (
           <StickersCaen
             nombreProducto={referencia.nombre}
@@ -34,32 +85,76 @@ export function Portada({ referencia, accent, volverHref }: PortadaProps) {
             stickers={referencia.leAlcanzaPara.slice(0, 3).map((texto, i) => ({ id: `beneficio-${i}`, texto }))}
           />
         );
-      case "rog":
+      }
+
+      case "rog": {
+        const opcion = ROTACION_ROG[indiceEnLinea % ROTACION_ROG.length];
+        if (opcion === "glitch") {
+          return <GlitchRgb texto={referencia.nombre} />;
+        }
+        if (opcion === "medidor") {
+          const hz = extraerHz(referencia.ficha);
+          if (hz) {
+            return <MedidorHz valorHz={hz} opciones={Array.from(new Set([60, 144, hz])).sort((a, b) => a - b)} />;
+          }
+        }
         return (
           <CorteDiagonal
-            imagenSrc={referencia.imagen ?? ""}
+            imagenSrc={imagenSrc}
             imagenAlt={referencia.nombre}
             titulo={referencia.nombre}
             etiqueta={`${referencia.linea.toUpperCase()} · ${referencia.codigo}`}
           />
         );
-      case "zenbook":
+      }
+
+      case "zenbook": {
+        const opcion = ROTACION_ZENBOOK[indiceEnLinea % ROTACION_ZENBOOK.length];
+        let contenido = <TrackingCierra titulo={referencia.nombre} subtitulo={referencia.tagline} />;
+        if (opcion === "perfil") {
+          const portabilidad = extraerPortabilidad(referencia.ficha);
+          if (portabilidad) contenido = <PerfilDelgado nombreProducto={referencia.nombre} {...portabilidad} />;
+        } else if (opcion === "telon" && imagenSrc) {
+          contenido = (
+            <TelonParallax
+              imagenSrc={imagenSrc}
+              imagenAlt={referencia.nombre}
+              lineas={referencia.ganchos.slice(0, 3).map((g) => g.frase)}
+            />
+          );
+        }
         // Zenbook está pensado para fondo claro (tokens): se envuelve en su
         // propia tarjeta blanca al montarse sobre el hero oscuro de Portada.
-        return (
-          <div className="rounded-card bg-white p-6 shadow-elev">
-            <TrackingCierra titulo={referencia.nombre} subtitulo={referencia.tagline} />
-          </div>
-        );
-      case "tuf":
+        return <div className="rounded-card bg-white p-6 shadow-elev">{contenido}</div>;
+      }
+
+      case "tuf": {
+        const opcion = ROTACION_TUF[indiceEnLinea % ROTACION_TUF.length];
+        if (opcion === "sello") {
+          return (
+            <SelloCertificacion
+              nombreProducto={referencia.nombre}
+              caracteristicas={referencia.ficha.slice(0, 4).map((item, i) => ({ id: `${item.componente}-${i}`, texto: `${item.componente}: ${item.dato}` }))}
+            />
+          );
+        }
+        if (opcion === "placas") {
+          return <PlacasBlindaje nombreProducto={referencia.nombre} />;
+        }
         return (
           <FijacionObjetivo
             nombreProducto={referencia.nombre}
-            imagenSrc={referencia.imagen ?? ""}
+            imagenSrc={imagenSrc}
             imagenAlt={referencia.nombre}
-            lineas={["ESCANEANDO CHASIS... OK", `${referencia.codigo}: VERIFICADO`, `OBJETIVO: ${referencia.nombre.toUpperCase()}`]}
+            lineas={[
+              "ESCANEANDO CHASIS... OK",
+              `${referencia.codigo}: VERIFICADO`,
+              `OBJETIVO: ${referencia.nombre.toUpperCase()}`,
+            ]}
           />
         );
+      }
+
       default:
         return null;
     }
