@@ -3043,6 +3043,281 @@ export const referencias: Referencia[] = [
     "imagen": "/products/zenbook-duo.svg"
   },
   {
+    "slug": "zenbook-14-oled-ux3405ca",
+    "linea": "zenbook",
+    "nombre": "ASUS Zenbook 14 OLED (UX3405CA)",
+    "codigo": "UX3405CA",
+    "tagline": "Se vende con la pantalla encendida: negro real, color de cine y 70% menos luz azul.",
+    "intro": "Quien edita fotos, ve series o pasa muchas horas frente a la pantalla y quiere colores reales sin cansar la vista.",
+    "ficha": [
+      {
+        "componente": "Sistema operativo",
+        "dato": "Windows 11 Home"
+      },
+      {
+        "componente": "Procesador",
+        "dato": "Intel Core Ultra 7 255H"
+      },
+      {
+        "componente": "Memoria RAM",
+        "dato": "16 GB LPDDR5X"
+      },
+      {
+        "componente": "Gráficos",
+        "dato": "Intel Arc 140T integrados"
+      },
+      {
+        "componente": "IA / NPU",
+        "dato": "NPU Intel AI Boost + Arc 140T: hasta 96 TOPS en total (NPU 13 + GPU 74 + CPU)"
+      },
+      {
+        "componente": "Pantalla",
+        "dato": "14\" WUXGA (1920x1200) 16:10, OLED táctil, 60 Hz, 400 nits, 100% DCI-P3, 0,2 ms"
+      },
+      {
+        "componente": "Almacenamiento",
+        "dato": "SSD 512 GB M.2 NVMe PCIe 4.0"
+      },
+      {
+        "componente": "Batería",
+        "dato": "75 Wh, carga por USB-C (adaptador 65 W)"
+      },
+      {
+        "componente": "Portabilidad",
+        "dato": "1,2 kg, 14,9 mm de grosor, norma militar MIL-STD-810H"
+      },
+      {
+        "componente": "Garantía",
+        "dato": "1 año",
+        "verificar": true
+      }
+    ],
+    "procesador": {
+      "marca": "Intel",
+      "modelo": "Core Ultra 7 255H",
+      "serie": "Core Ultra 200H",
+      "nucleos": 16,
+      "hilos": 16,
+      "frecuenciaMax": "5,1 GHz",
+      "npuTops": 13,
+      "queSignifica": "Procesador de 16 núcleos con gráficos Intel Arc 140T integrados y NPU Intel AI Boost; sumando CPU, GPU y NPU la plataforma llega hasta 96 TOPS de IA.",
+      "comoDecirlo": "Es rápido para edición, multitarea y las funciones de IA de Windows (Copilot); le va a durar varios años.",
+      "paraQueAlcanza": [
+        "Edición de fotos y video liviano",
+        "Multitarea exigente",
+        "Funciones de IA en Windows (Copilot)",
+        "Trabajo y estudio todos los días"
+      ]
+    },
+    "memoria": {
+      "ram": "16 GB",
+      "tipoRam": "LPDDR5X",
+      "almacenamiento": "512 GB SSD",
+      "comoDecirlo": "16 GB en doble canal, integrados a la placa: más rápidos y eficientes que módulos sueltos, listos para multitarea.",
+      "caso": "soldada"
+    },
+    "pantallaDetalle": {
+      "pulgadas": 14,
+      "resolucion": "1920x1200 (WUXGA)",
+      "tipo": "OLED táctil",
+      "hz": 60,
+      "nits": 400,
+      "comoDecirlo": "Pantalla OLED de 14 pulgadas, táctil, con negro real y 100% del color de cine (DCI-P3): ideal para fotos, video y series."
+    },
+    "clienteIdeal": "Quien edita fotos, ve series o pasa muchas horas frente a la pantalla y quiere colores reales y buen cuidado visual, sin cansar la vista.",
+    "leAlcanzaPara": [
+      "Editar fotos y video con color real",
+      "Ver series y películas con negro real",
+      "Trabajar muchas horas seguidas sin cansar la vista",
+      "Presentar, firmar y hacer zoom con la pantalla táctil",
+      "Conectar un monitor 4K y cargar con un solo cable (Thunderbolt 4)"
+    ],
+    "noEsPara": [
+      "Juegos competitivos que necesiten 120 Hz o más (ahí recomienda TUF o ROG)",
+      "Quien necesita ampliar la RAM más adelante (viene soldada)"
+    ],
+    "ganchos": [
+      {
+        "cliente": "Pregunta si vale la pena el OLED",
+        "frase": "En esta pantalla cada punto tiene su propia luz. Cuando la imagen es negra, el punto se apaga. Por eso el negro se ve negro de verdad."
+      },
+      {
+        "cliente": "Quiere ver la diferencia con una pantalla normal",
+        "frase": "Le voy a poner un video oscuro. ¿Ve que el negro no se ve gris? Eso es OLED. En una pantalla normal esa parte brillaría."
+      },
+      {
+        "cliente": "Edita fotos o ve series",
+        "frase": "Si edita fotos o ve series, aquí ve el color como es. Cubre el 100% del estándar de cine, 1.070 millones de colores."
+      },
+      {
+        "cliente": "Pasa muchas horas frente al computador",
+        "frase": "Si pasa muchas horas frente al computador, esta pantalla emite 70% menos luz azul dañina, certificada por TÜV Rheinland, y sin volver la imagen amarilla."
+      },
+      {
+        "cliente": "Quiere algo liviano y resistente",
+        "frase": "Pesa 1,2 kilos y pasó pruebas de resistencia con norma militar. Es para llevarlo a todas partes sin miedo."
+      }
+    ],
+    "objeciones": [
+      {
+        "dice": "¿El OLED no se quema con el tiempo?",
+        "responde": "ASUS incluye ASUS OLED Care en MyASUS: mueve los píxeles levemente, oculta la barra de tareas y activa un protector de pantalla en negro. Con uso normal, no es un problema."
+      },
+      {
+        "dice": "¿Por qué 60 Hz si otros tienen 120 Hz?",
+        "responde": "Esta referencia es WUXGA a 60 Hz, ideal para estudio, oficina y series. Con 0,2 ms de respuesta el movimiento se ve limpio. Si el cliente juega competitivo, llévalo a la línea TUF o ROG."
+      },
+      {
+        "dice": "¿Para qué quiero pantalla táctil?",
+        "responde": "Para hacer zoom en fotos, firmar documentos, desplazarse rápido y presentar: es un plus que el cliente usa más de lo que cree."
+      },
+      {
+        "dice": "La RAM no se puede ampliar.",
+        "responde": "Son 16 GB LPDDR5X en doble canal, integrados: más rápidos y eficientes que módulos sueltos, y suficientes para oficina, estudio y edición ligera durante años."
+      },
+      {
+        "dice": "Está más caro que un Vivobook.",
+        "responde": "Paga por pantalla OLED de cine, 1,2 kg, norma militar, 2 Thunderbolt 4, Wi-Fi 7 y batería de 75 Wh: un equipo premium para muchos años."
+      },
+      {
+        "dice": "¿Se ve bien con luz fuerte?",
+        "responde": "Tiene 400 nits y acabado brillante: en interiores y oficinas se ve excelente. Al sol directo, como cualquier portátil, conviene buscar sombra."
+      }
+    ],
+    "compararCon": {
+      "abajo": {
+        "id": "zenbook-a14",
+        "diferencias": [
+          "Procesador Snapdragon X (ARM) en vez de Intel Core Ultra",
+          "Pantalla OLED pero sin función táctil",
+          "Más económico"
+        ]
+      },
+      "arriba": {
+        "id": "zenbook-duo",
+        "diferencias": [
+          "Trae una segunda pantalla OLED para multitarea real",
+          "Más caro y más pesado",
+          "Pensado para creadores que necesitan dos pantallas"
+        ]
+      }
+    },
+    "quiz": [
+      {
+        "pregunta": "¿Por qué una pantalla OLED muestra negro real?",
+        "opciones": [
+          "Porque tiene una lámpara más oscura",
+          "Porque cada píxel produce su propia luz y se apaga por completo",
+          "Porque usa un filtro negro encima",
+          "Porque baja el brillo general de la pantalla"
+        ],
+        "correcta": 1,
+        "explicacion": "En OLED no hay retroiluminación: el píxel negro está apagado."
+      },
+      {
+        "pregunta": "¿Qué cobertura de color tiene la pantalla del Zenbook 14 OLED?",
+        "opciones": [
+          "72% NTSC",
+          "100% sRGB",
+          "100% DCI-P3",
+          "90% Adobe RGB"
+        ],
+        "correcta": 2,
+        "explicacion": "DCI-P3 es el estándar de la industria del cine, más amplio que sRGB."
+      },
+      {
+        "pregunta": "¿Cuántos colores puede mostrar?",
+        "opciones": [
+          "16,7 millones",
+          "1.070 millones",
+          "256 mil",
+          "500 millones"
+        ],
+        "correcta": 1,
+        "explicacion": "Son 1.070 millones de colores (10 bits), contra 16,7 millones de una pantalla de 8 bits."
+      },
+      {
+        "pregunta": "¿Cuál es la relación de contraste de la pantalla?",
+        "opciones": [
+          "1.000:1",
+          "100.000:1",
+          "1.000.000:1",
+          "10.000:1"
+        ],
+        "correcta": 2,
+        "explicacion": "Al apagar el píxel por completo, el contraste llega a 1.000.000:1."
+      },
+      {
+        "pregunta": "¿Cuánto tiempo de respuesta tiene?",
+        "opciones": [
+          "0,2 ms",
+          "5 ms",
+          "16 ms",
+          "1 ms"
+        ],
+        "correcta": 0,
+        "explicacion": "0,2 ms: el movimiento se ve nítido, sin estelas."
+      },
+      {
+        "pregunta": "¿Cuánto reduce la luz azul perjudicial y cómo?",
+        "opciones": [
+          "30%, con un filtro amarillo",
+          "70%, desde el hardware y sin alterar el color",
+          "100%, apagando el azul",
+          "50%, con una app de terceros"
+        ],
+        "correcta": 1,
+        "explicacion": "ASUS OLED reduce un 70% la luz azul dañina, certificado por TÜV Rheinland, sin teñir la imagen."
+      },
+      {
+        "pregunta": "¿Qué procesador tiene esta referencia?",
+        "opciones": [
+          "Intel Core Ultra 7 255H, 16 núcleos, hasta 5,1 GHz",
+          "Intel Core i5 de 12.ª generación",
+          "AMD Ryzen 7",
+          "Snapdragon X Elite"
+        ],
+        "correcta": 0,
+        "explicacion": "Core Ultra 7 255H: 16 núcleos, 16 hilos y 24 MB de caché."
+      },
+      {
+        "pregunta": "¿Cuánta capacidad total de IA ofrece la plataforma?",
+        "opciones": [
+          "Hasta 13 TOPS",
+          "Hasta 40 TOPS",
+          "Hasta 96 TOPS",
+          "Hasta 45 TOPS"
+        ],
+        "correcta": 2,
+        "explicacion": "NPU (13) + GPU Arc 140T (74) + CPU suman hasta 96 TOPS."
+      },
+      {
+        "pregunta": "El cliente quiere conectar un monitor 4K y cargar con un solo cable. ¿Qué puerto le muestras?",
+        "opciones": [
+          "USB-A 3.2",
+          "Thunderbolt 4 (USB-C)",
+          "Audio 3,5 mm",
+          "HDMI 2.1"
+        ],
+        "correcta": 1,
+        "explicacion": "Tiene 2 Thunderbolt 4 de 40 Gbps con video y carga."
+      },
+      {
+        "pregunta": "¿Qué pantalla tiene esta referencia de retail?",
+        "opciones": [
+          "14\" WUXGA 1920×1200 OLED táctil, 16:10",
+          "15,6\" FHD IPS",
+          "14\" 4K LCD",
+          "13\" QHD OLED, 3:2"
+        ],
+        "correcta": 0,
+        "explicacion": "WUXGA OLED táctil en formato 16:10: más alto que 16:9 para documentos."
+      }
+    ],
+    "duracionMin": 12,
+    "dificultad": "intermedio"
+  },
+  {
     "slug": "tuf-gaming-16-fx610jh-rtx5050",
     "linea": "tuf",
     "nombre": "ASUS TUF Gaming 16 — RTX 5050",

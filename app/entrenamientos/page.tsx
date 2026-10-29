@@ -38,6 +38,11 @@ const TARJETA_MATERIAL_PROPIO: Record<string, { imagenSrc: string; imagenAlt: st
     imagenAlt: "ASUS TUF Gaming F16",
     fondo: "#0B0C0E",
   },
+  "zenbook-14-oled-ux3405ca": {
+    imagenSrc: "/entrenamientos/zenbook-14-oled/hero-front.webp",
+    imagenAlt: "ASUS Zenbook 14 OLED",
+    fondo: "#020306",
+  },
   "tuf-gaming-f15-fx507vv-rtx4060": {
     imagenSrc: "/entrenamientos/tuf-gaming-f16-f15/tuf-gaming-device.webp",
     imagenAlt: "ASUS TUF Gaming F15",
