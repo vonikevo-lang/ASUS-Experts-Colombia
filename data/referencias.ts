@@ -4970,6 +4970,220 @@ export const referencias: Referencia[] = [
     "duracionMin": 5,
     "dificultad": "avanzado",
     "imagen": "/products/rog-strix-scar18-rtx5090.svg"
+  },
+  {
+    "slug": "rog-xbox-ally-x20-rc74xa",
+    "linea": "rog",
+    "nombre": "ASUS ROG Xbox Ally X20",
+    "codigo": "RC74XA",
+    "tagline": "Un PC gamer completo que cabe en tus manos, con la experiencia Xbox y gafas ROG XREAL incluidas.",
+    "intro": "Gamer que quiere llevar su biblioteca de PC y Xbox a cualquier lugar, sin atarse a un televisor ni a una consola de sobremesa.",
+    "ficha": [
+      {
+        "componente": "Sistema operativo",
+        "dato": "Windows 11 Home, con experiencia Xbox integrada"
+      },
+      {
+        "componente": "Procesador",
+        "dato": "AMD Ryzen AI Z2 Extreme, 8 núcleos / 16 hilos, hasta 5.0 GHz"
+      },
+      {
+        "componente": "Memoria RAM",
+        "dato": "24 GB LPDDR5X de doble canal, soldada (no se amplía)"
+      },
+      {
+        "componente": "Gráficos",
+        "dato": "AMD Radeon integrados en el Ryzen AI Z2 Extreme",
+        "verificar": true
+      },
+      {
+        "componente": "IA / NPU",
+        "dato": "NPU integrada de hasta 50 TOPS"
+      },
+      {
+        "componente": "Pantalla",
+        "dato": "7.4\" OLED Full HD (1920x1080), 120 Hz, hasta 1400 nits HDR, 100% DCI-P3, FreeSync Premium Pro"
+      },
+      {
+        "componente": "Almacenamiento",
+        "dato": "SSD 1 TB PCIe 4.0 M.2 2280 + lector microSD Express"
+      },
+      {
+        "componente": "Batería",
+        "dato": "80 Wh (4 celdas); autonomía variable según el juego y el modo de energía"
+      },
+      {
+        "componente": "Portabilidad",
+        "dato": "756 g de peso"
+      },
+      {
+        "componente": "Garantía",
+        "dato": "1 año",
+        "verificar": true
+      }
+    ],
+    "procesador": {
+      "marca": "AMD",
+      "modelo": "Ryzen AI Z2 Extreme",
+      "serie": "AMD Ryzen AI (Zen 5)",
+      "nucleos": 8,
+      "hilos": 16,
+      "frecuenciaMax": "5.0 GHz",
+      "npuTops": 50,
+      "queSignifica": "Chip hecho para gaming portátil: une CPU, GPU y una NPU de hasta 50 TOPS en un solo paquete de bajo consumo.",
+      "comoDecirlo": "Es un PC gamer completo metido en una consola: corre los mismos juegos que un portátil, pero cabe en las manos.",
+      "paraQueAlcanza": [
+        "Jugar títulos actuales de Steam, Xbox y Epic en movimiento",
+        "Streaming en la nube y Game Pass",
+        "Usar las gafas XREAL como pantalla gigante portátil"
+      ]
+    },
+    "memoria": {
+      "ram": "24 GB",
+      "tipoRam": "LPDDR5X",
+      "almacenamiento": "1 TB SSD",
+      "caso": "soldada",
+      "comoDecirlo": "24GB de memoria rápida compartida con la gráfica; viene soldada a la placa, así que no se puede ampliar después."
+    },
+    "pantallaDetalle": {
+      "pulgadas": 7.4,
+      "resolucion": "1920x1080 (Full HD)",
+      "tipo": "OLED",
+      "hz": 120,
+      "nits": 1400,
+      "comoDecirlo": "Pantalla OLED ROG Nebula HDR: negros reales, colores de cine y mucha fluidez para jugar."
+    },
+    "clienteIdeal": "Gamer que quiere llevar su biblioteca de PC y Xbox a cualquier lugar, sin atarse a un televisor ni a una consola de sobremesa.",
+    "leAlcanzaPara": [
+      "Jugar títulos de Steam, Xbox y Epic en cualquier lugar",
+      "La experiencia Xbox y Game Pass sin estar pegado al televisor",
+      "Tener una pantalla gigante portátil con las gafas XREAL incluidas"
+    ],
+    "noEsPara": [
+      "Quien busca una consola de sobremesa sin preocuparse nunca de la batería",
+      "Quien necesita gráficos de un PC de escritorio tope de gama"
+    ],
+    "ganchos": [
+      {
+        "cliente": "Tiene juegos en Steam, Xbox o Epic y quiere jugarlos fuera de su escritorio",
+        "frase": "Es un PC con Windows: llevas tu biblioteca de juegos completa en las manos."
+      },
+      {
+        "cliente": "Juega con Game Pass y quiere la experiencia Xbox sin estar pegado al televisor",
+        "frase": "Prende directo en la experiencia Xbox, con botón Xbox y tus juegos de Game Pass."
+      },
+      {
+        "cliente": "Juega en el sofá, en la cama o de viaje y le importa la comodidad y la batería",
+        "frase": "Los mangos están hechos para jugar horas, y la batería es de 80 Wh."
+      },
+      {
+        "cliente": "Sigue la marca ROG y valora las ediciones especiales",
+        "frase": "Es la edición de los 20 años de ROG: chasis translúcido con detalles dorados, y en el bundle vienen las gafas XREAL."
+      }
+    ],
+    "objeciones": [
+      {
+        "dice": "¿Por qué no compro una consola de sobremesa?",
+        "responde": "Porque esta es un PC que va contigo. Juegas tu biblioteca de Xbox y de PC en la cama, de viaje o conectada a un monitor por USB4, y con las gafas tienes pantalla gigante en cualquier lugar."
+      },
+      {
+        "dice": "¿Cuánto dura la batería?",
+        "responde": "Depende del juego y del modo. Trae 80 Wh. En juegos exigentes rinde menos; en juegos livianos o en la nube rinde mucho más. Muéstrale los modos de energía."
+      },
+      {
+        "dice": "¿Me corren los juegos de Steam?",
+        "responde": "Sí, es Windows 11. Funciona con Steam, Xbox, Epic y otras tiendas de PC. Algunos juegos con antitrampa muy estricta pueden tener restricciones; verifícalo si el cliente juega uno en particular."
+      },
+      {
+        "dice": "¿Las gafas son de realidad virtual?",
+        "responde": "No. Muestran una pantalla virtual gigante frente a ti; no son un visor de realidad virtual que te encierra en un mundo 3D."
+      }
+    ],
+    "compararCon": {
+      "abajo": null,
+      "arriba": null
+    },
+    "quiz": [
+      {
+        "pregunta": "¿Qué procesador trae la ROG Xbox Ally X20?",
+        "opciones": [
+          "AMD Ryzen AI Z2 Extreme",
+          "Intel Core Ultra 7",
+          "Snapdragon X Elite",
+          "AMD Ryzen 7 8840HS"
+        ],
+        "correcta": 0,
+        "explicacion": "Ryzen AI Z2 Extreme: 8 núcleos, 16 hilos y NPU de hasta 50 TOPS."
+      },
+      {
+        "pregunta": "¿Cuánta memoria RAM tiene?",
+        "opciones": [
+          "16 GB",
+          "24 GB LPDDR5X",
+          "32 GB DDR4",
+          "8 GB LPDDR5"
+        ],
+        "correcta": 1,
+        "explicacion": "24 GB LPDDR5X de doble canal, soldada a la placa."
+      },
+      {
+        "pregunta": "¿Qué tipo de pantalla trae?",
+        "opciones": [
+          "LCD de 7\" a 60 Hz",
+          "OLED de 7,4\" a 120 Hz",
+          "OLED de 10\" a 90 Hz",
+          "LCD de 8\" a 144 Hz"
+        ],
+        "correcta": 1,
+        "explicacion": "Pantalla ROG Nebula HDR: OLED de 7,4\" Full HD a 120 Hz."
+      },
+      {
+        "pregunta": "¿Cuál es su brillo máximo en HDR?",
+        "opciones": [
+          "500 nits",
+          "1400 nits",
+          "3000 nits",
+          "800 nits"
+        ],
+        "correcta": 1,
+        "explicacion": "Hasta 1400 nits en HDR y 600 en SDR."
+      },
+      {
+        "pregunta": "¿Para qué sirve el D-pad transformable?",
+        "opciones": [
+          "Para cambiar entre 4 y 8 direcciones",
+          "Para cargar la consola",
+          "Para quitar los joysticks",
+          "Para conectar las gafas XREAL"
+        ],
+        "correcta": 0,
+        "explicacion": "En 8 direcciones las diagonales son más precisas."
+      },
+      {
+        "pregunta": "¿Qué ventaja tienen los joysticks TMR?",
+        "opciones": [
+          "Brillan más",
+          "Evitan el drift: no se mueven solos con el tiempo",
+          "Son desmontables",
+          "Vibran más fuerte"
+        ],
+        "correcta": 1,
+        "explicacion": "Los sensores TMR mantienen el centro exacto."
+      },
+      {
+        "pregunta": "¿Qué hacen las gafas ROG XREAL R1?",
+        "opciones": [
+          "Son un visor de realidad virtual completo",
+          "Muestran una pantalla virtual de hasta 171\"",
+          "Proyectan la imagen en la pared",
+          "Sirven de control remoto"
+        ],
+        "correcta": 1,
+        "explicacion": "Pantalla micro-OLED a 240 Hz que se ve como una pantalla gigante."
+      }
+    ],
+    "duracionMin": 12,
+    "dificultad": "intermedio"
   }
 ];
 

@@ -48,6 +48,11 @@ const TARJETA_MATERIAL_PROPIO: Record<string, { imagenSrc: string; imagenAlt: st
     imagenAlt: "ASUS TUF Gaming F15",
     fondo: "#0B0C0E",
   },
+  "rog-xbox-ally-x20-rc74xa": {
+    imagenSrc: "/entrenamientos/rog-xbox-ally-x20/device.webp",
+    imagenAlt: "ASUS ROG Xbox Ally X20",
+    fondo: "#070605",
+  },
 };
 
 function estadoDe(resultado: ResultadoEntrenamiento | undefined) {
