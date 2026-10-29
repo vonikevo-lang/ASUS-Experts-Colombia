@@ -10,7 +10,7 @@ import { cn } from "@/lib/cn";
 
 const NAV_ITEMS = [
   { href: "/app/inicio", label: "Inicio", icon: IconHome },
-  { href: "/app/modulos", label: "Módulos", icon: IconBook },
+  { href: "/entrenamientos", label: "Módulos", icon: IconBook },
   { href: "/app/recomendador", label: "Recomendador", icon: IconTarget },
   { href: "/app/ranking", label: "Ranking", icon: IconTrophy },
   { href: "/app/perfil", label: "Perfil", icon: IconUser },
