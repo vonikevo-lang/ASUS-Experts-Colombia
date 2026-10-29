@@ -224,3 +224,97 @@ export function IconArrowRight(props: SVGProps<SVGSVGElement>) {
     </svg>
   );
 }
+
+export function IconClose(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg {...common} {...props}>
+      <path d="M6 6l12 12" />
+      <path d="M18 6L6 18" />
+    </svg>
+  );
+}
+
+export function IconCheck(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg {...common} {...props}>
+      <path d="M5 12.5l4.5 4.5L19 7" />
+    </svg>
+  );
+}
+
+export function IconCross(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg {...common} {...props}>
+      <path d="M6 6l12 12" />
+      <path d="M18 6L6 18" />
+    </svg>
+  );
+}
+
+export function IconCpu(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg {...common} {...props}>
+      <rect x="7" y="7" width="10" height="10" rx="1.5" />
+      <rect x="10" y="10" width="4" height="4" />
+      <path d="M12 2.5v3M9 2.5v3M15 2.5v3M12 18.5v3M9 18.5v3M15 18.5v3M2.5 12h3M2.5 9h3M2.5 15h3M18.5 12h3M18.5 9h3M18.5 15h3" />
+    </svg>
+  );
+}
+
+export function IconMemory(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg {...common} {...props}>
+      <rect x="3" y="6" width="18" height="7" rx="1.2" />
+      <path d="M6 13v3M9 13v3M12 13v3M15 13v3M18 13v3" />
+    </svg>
+  );
+}
+
+export function IconStorage(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg {...common} {...props}>
+      <rect x="4" y="3.5" width="16" height="17" rx="2" />
+      <circle cx="12" cy="8" r="2" />
+      <path d="M8 15h8M8 18h5" />
+    </svg>
+  );
+}
+
+export function IconWifi(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg {...common} {...props}>
+      <path d="M3 9a14 14 0 0 1 18 0" />
+      <path d="M6.3 12.8a9.5 9.5 0 0 1 11.4 0" />
+      <path d="M9.6 16.4a5 5 0 0 1 4.8 0" />
+      <circle cx="12" cy="19.2" r="1" fill="currentColor" stroke="none" />
+    </svg>
+  );
+}
+
+export function IconCamera(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg {...common} {...props}>
+      <rect x="2.5" y="7" width="14" height="11" rx="2" />
+      <path d="M16.5 10.5 21 8v8l-4.5-2.5" />
+      <circle cx="9.5" cy="12.5" r="3" />
+    </svg>
+  );
+}
+
+export function IconShield(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg {...common} {...props}>
+      <path d="M12 3 5 5.5V11c0 4.8 3 8 7 9.5 4-1.5 7-4.7 7-9.5V5.5z" />
+      <path d="M9 12l2 2 4-4.5" />
+    </svg>
+  );
+}
+
+export function IconSparkles(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg {...common} {...props}>
+      <path d="M11 3l1.2 4L16 8.2 12.2 9.4 11 13.4 9.8 9.4 6 8.2 9.8 7z" />
+      <path d="M18 13l.7 2.3L21 16l-2.3.7L18 19l-.7-2.3L15 16l2.3-.7z" />
+    </svg>
+  );
+}
