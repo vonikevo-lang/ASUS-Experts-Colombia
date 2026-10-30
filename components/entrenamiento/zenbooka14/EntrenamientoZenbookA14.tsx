@@ -89,6 +89,15 @@ export function EntrenamientoZenbookA14() {
   const [tone, setTone] = useState<keyof typeof TONOS_ZENBOOK_A14>("gray");
   const [oledVal, setOledVal] = useState(50);
   const [qa, setQa] = useState<Record<number, number>>({});
+  const oledBoxRef = useRef<HTMLDivElement>(null);
+
+  function moverComparadorOled(clientX: number) {
+    const box = oledBoxRef.current;
+    if (!box) return;
+    const rect = box.getBoundingClientRect();
+    const pct = ((clientX - rect.left) / rect.width) * 100;
+    setOledVal(Math.min(95, Math.max(5, Math.round(pct))));
+  }
 
   const measure = useCallback(() => {
     const root = rootRef.current;
@@ -486,9 +495,18 @@ export function EntrenamientoZenbookA14() {
             LCD típica la luz de fondo nunca se apaga del todo.
           </p>
           <div
+            ref={oledBoxRef}
             className={cx(styles.oled, styles.fade, styles.f2)}
             role="img"
-            aria-label="Comparación ilustrativa entre negro de pantalla OLED y de pantalla LCD"
+            aria-label="Comparación ilustrativa entre negro de pantalla OLED y de pantalla LCD. Arrastra para comparar."
+            onPointerDown={(e) => {
+              e.currentTarget.setPointerCapture(e.pointerId);
+              moverComparadorOled(e.clientX);
+            }}
+            onPointerMove={(e) => {
+              if (e.buttons !== 1) return;
+              moverComparadorOled(e.clientX);
+            }}
           >
             <div className={cx(styles.layer, styles.lcd)} />
             <div className={cx(styles.layer, styles.ol)} style={{ clipPath: `inset(0 ${100 - oledVal}% 0 0)` }} />
