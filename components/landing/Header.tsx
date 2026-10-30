@@ -9,6 +9,7 @@ import { useReducedMotion } from "@/hooks/useReducedMotion";
 
 const NAV_LINKS = [
   { label: "Programa", href: "#programa" },
+  { label: "Entrenamientos", href: "/entrenamientos" },
   { label: "Comparador", href: "/comparador" },
   { label: "Recomendador", href: "/app/recomendador" },
   { label: "Premios", href: "#premios" },

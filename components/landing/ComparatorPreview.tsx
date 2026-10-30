@@ -118,12 +118,13 @@ function MetricRow({
     <div>
       <p className="font-sans text-xs text-muted text-center mb-2">{titulo}</p>
       <div className="grid grid-cols-[1fr_auto_1fr] items-center gap-3">
-        <div className="flex justify-end h-3 rounded-chip bg-asus-blue-soft overflow-hidden">
+        <div className="h-3 rounded-chip bg-asus-blue-soft overflow-hidden">
           <motion.div
             key={comboKey + "-a"}
-            className={aWins || !bWins ? "h-full rounded-chip bg-asus-blue" : "h-full rounded-chip bg-asus-silver"}
-            initial={{ width: 0 }}
-            whileInView={{ width: `${valueA * 10}%` }}
+            className={aWins || !bWins ? "h-full w-full rounded-chip bg-asus-blue" : "h-full w-full rounded-chip bg-asus-silver"}
+            style={{ transformOrigin: "right" }}
+            initial={{ scaleX: 0 }}
+            whileInView={{ scaleX: valueA / 10 }}
             viewport={{ once: true, amount: 0.6 }}
             transition={springTransition}
           />
@@ -131,12 +132,13 @@ function MetricRow({
         <span className="font-mono text-xs text-faint w-12 text-center">
           {valueA}–{valueB}
         </span>
-        <div className="flex justify-start h-3 rounded-chip bg-asus-blue-soft overflow-hidden">
+        <div className="h-3 rounded-chip bg-asus-blue-soft overflow-hidden">
           <motion.div
             key={comboKey + "-b"}
-            className={bWins || !aWins ? "h-full rounded-chip bg-asus-blue" : "h-full rounded-chip bg-asus-silver"}
-            initial={{ width: 0 }}
-            whileInView={{ width: `${valueB * 10}%` }}
+            className={bWins || !aWins ? "h-full w-full rounded-chip bg-asus-blue" : "h-full w-full rounded-chip bg-asus-silver"}
+            style={{ transformOrigin: "left" }}
+            initial={{ scaleX: 0 }}
+            whileInView={{ scaleX: valueB / 10 }}
             viewport={{ once: true, amount: 0.6 }}
             transition={springTransition}
           />

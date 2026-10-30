@@ -6,6 +6,7 @@ import Link from "next/link";
 import { motion } from "motion/react";
 import productsData from "@/data/products.json";
 import segmentosData from "@/data/segmentos.json";
+import { referencias } from "@/data/referencias";
 import type { Producto } from "@/types/product";
 import type { Segmento } from "@/types/platform";
 import { Card } from "@/components/ui/Card";
@@ -18,6 +19,7 @@ import { cn } from "@/lib/cn";
 
 const products = productsData as Producto[];
 const segmentos = segmentosData as Segmento[];
+const referenciaSlugs = new Set(referencias.map((r) => r.slug));
 
 export function ProductGrid() {
   const reduced = useReducedMotion();
@@ -37,7 +39,7 @@ export function ProductGrid() {
       className="mx-auto max-w-7xl px-4 sm:px-6 py-20"
       initial="hidden"
       whileInView="show"
-      viewport={{ once: true, amount: 0.15 }}
+      viewport={{ once: true, amount: 0 }}
       variants={revealContainer(reduced)}
     >
       <p className="font-sans text-xs uppercase tracking-[0.04em] text-asus-blue font-medium">
@@ -111,7 +113,10 @@ export function ProductGrid() {
                   ))}
                 </ul>
                 <div className="flex gap-3 mt-5">
-                  <Link href="/app" className={buttonClasses("primary", "flex-1 h-9 text-xs px-3")}>
+                  <Link
+                    href={referenciaSlugs.has(product.id) ? `/entrenamientos/${product.id}` : "/entrenamientos"}
+                    className={buttonClasses("primary", "flex-1 h-9 text-xs px-3")}
+                  >
                     Entrenarme
                   </Link>
                   <Link href="/comparador" className={buttonClasses("secondary", "flex-1 h-9 text-xs px-3")}>

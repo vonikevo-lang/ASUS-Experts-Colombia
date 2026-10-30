@@ -125,3 +125,166 @@ body {
 .animate-float {
   animation: float-y 4s ease-in-out infinite;
 }
+
+/* ---- Entrenamientos: tema por línea (data-linea) ---- */
+[data-linea="vivobook"] {
+  --entreno-from: #1b1fff;
+  --entreno-to: #7b2cff;
+  --entreno-accent: #22d3ee;
+  --entreno-glow: #ff4fd8;
+}
+
+[data-linea="zenbook"] {
+  --entreno-from: #0a1030;
+  --entreno-to: #23307a;
+  --entreno-accent: #d6dbe6;
+  --entreno-glow: #8ec5ff;
+}
+
+[data-linea="tuf"] {
+  --entreno-from: #0b0b0b;
+  --entreno-to: #1d1d1d;
+  --entreno-accent: #ffd400;
+  --entreno-glow: #ff7a00;
+}
+
+[data-linea="rog"] {
+  --entreno-from: #050505;
+  --entreno-to: #3a0008;
+  --entreno-accent: #ff1e3c;
+  --entreno-glow: #ff2fa0;
+}
+
+.entreno-galaxy {
+  position: relative;
+  background-image:
+    radial-gradient(1px 1px at 10% 20%, rgba(255, 255, 255, 0.9) 0, transparent 50%),
+    radial-gradient(1px 1px at 80% 12%, rgba(255, 255, 255, 0.7) 0, transparent 50%),
+    radial-gradient(1.5px 1.5px at 60% 70%, rgba(255, 255, 255, 0.8) 0, transparent 50%),
+    radial-gradient(1px 1px at 28% 82%, rgba(255, 255, 255, 0.55) 0, transparent 50%),
+    radial-gradient(1px 1px at 92% 55%, rgba(255, 255, 255, 0.7) 0, transparent 50%),
+    radial-gradient(1.5px 1.5px at 45% 35%, rgba(255, 255, 255, 0.9) 0, transparent 50%),
+    radial-gradient(1px 1px at 15% 55%, rgba(255, 255, 255, 0.5) 0, transparent 50%),
+    radial-gradient(1px 1px at 70% 90%, rgba(255, 255, 255, 0.6) 0, transparent 50%),
+    linear-gradient(160deg, var(--entreno-from) 0%, var(--entreno-to) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+.entreno-radial {
+  background-image: radial-gradient(
+    120% 120% at 50% 0%,
+    var(--entreno-to) 0%,
+    var(--entreno-from) 60%,
+    #0a0c2e 100%
+  );
+  color: #fff;
+}
+
+.entreno-glow {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(42% 42% at 28% 48%, var(--entreno-glow) 0%, transparent 70%);
+  opacity: 0.22;
+  pointer-events: none;
+}
+
+.entreno-check {
+  color: var(--success);
+}
+
+.entreno-cross {
+  color: var(--text-faint);
+}
+
+@keyframes ring-pulse {
+  from {
+    box-shadow: 0 0 0 0 color-mix(in srgb, var(--entreno-accent) 55%, transparent);
+  }
+  to {
+    box-shadow: 0 0 0 20px color-mix(in srgb, var(--entreno-accent) 0%, transparent);
+  }
+}
+
+.animate-ring-pulse {
+  animation: ring-pulse 0.9s ease-out 1;
+}
+
+@keyframes shimmer-sweep {
+  from {
+    transform: translateX(-120%) skewX(-15deg);
+  }
+  to {
+    transform: translateX(220%) skewX(-15deg);
+  }
+}
+
+.btn-shimmer {
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-shimmer::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  width: 40%;
+  background: linear-gradient(120deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+  transform: translateX(-120%) skewX(-15deg);
+}
+
+.btn-shimmer:hover::after {
+  animation: shimmer-sweep 0.6s ease forwards;
+}
+
+@keyframes float-soft {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+.animate-float-soft {
+  animation: float-soft 4s ease-in-out infinite;
+}
+
+.flip-card {
+  perspective: 1200px;
+}
+
+.flip-card-inner {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.flip-card:hover .flip-card-inner,
+.flip-card:focus-within .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-face {
+  backface-visibility: hidden;
+}
+
+.flip-card-back {
+  position: absolute;
+  inset: 0;
+  transform: rotateY(180deg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-float-soft,
+  .animate-ring-pulse,
+  .btn-shimmer::after {
+    animation: none !important;
+  }
+
+  .flip-card-inner {
+    transition: none;
+  }
+}
