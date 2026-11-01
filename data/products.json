@@ -5,7 +5,7 @@
     "linea": "zenbook",
     "referencia": "UX3407QA-QD232W",
     "pantallaPulgadas": 14,
-    "imagen": "/products/zenbook-a14.svg",
+    "imagen": "/entrenamientos/zenbook-a14/zenbook-a14-front.webp",
     "perfiles": [
       "trabajo",
       "estudiantes",
@@ -2508,7 +2508,7 @@
     "referencia": "X1504MA-BQ919W",
     "slug": "x1504ma-bq919w",
     "pantallaPulgadas": 15.6,
-    "imagen": "/products/vivobook-15-x1504ma.svg",
+    "imagen": "/entrenamientos/vivobook-15-x1504/vivobook-frente.webp",
     "perfiles": [
       "hogar",
       "trabajo",
