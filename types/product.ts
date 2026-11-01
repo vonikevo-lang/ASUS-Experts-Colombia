@@ -1,4 +1,4 @@
-export type LineaProducto = "zenbook" | "vivobook" | "proart" | "rog" | "tuf" | "gaming";
+export type LineaProducto = "zenbook" | "vivobook" | "proart" | "rog" | "tuf" | "gaming" | "expertbook";
 
 export type FamiliaProducto =
   | "vivobook-go"

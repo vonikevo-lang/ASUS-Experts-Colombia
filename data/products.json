@@ -3807,5 +3807,841 @@
       },
       "arriba": null
     }
+  },
+  {
+    "id": "zenbook-14-oled-ux3405ca",
+    "nombre": "ASUS Zenbook 14 OLED (UX3405CA)",
+    "linea": "zenbook",
+    "referencia": "UX3405CA",
+    "pantallaPulgadas": 14,
+    "imagen": "/entrenamientos/zenbook-14-oled/hero-front.webp",
+    "perfiles": [
+      "trabajo",
+      "creadores",
+      "hogar"
+    ],
+    "specs": [
+      {
+        "etiqueta": "Sistema operativo",
+        "valorTecnico": "Windows 11 Home",
+        "valorCliente": "Viene listo para usar, con todo lo que ya conoces de Windows."
+      },
+      {
+        "etiqueta": "Procesador",
+        "valorTecnico": "Intel Core Ultra 7 255H, 16 núcleos / 16 hilos, hasta 5,1 GHz",
+        "valorCliente": "Es rápido para edición, multitarea y las funciones de IA de Windows (Copilot); le va a durar varios años."
+      },
+      {
+        "etiqueta": "Gráficos",
+        "valorTecnico": "Intel Arc 140T integrados",
+        "valorCliente": "Se ve fluido en edición liviana de fotos y video, videollamadas y varias ventanas abiertas a la vez."
+      },
+      {
+        "etiqueta": "Inteligencia artificial (IA)",
+        "valorTecnico": "NPU Intel AI Boost + Arc 140T: hasta 96 TOPS en total (NPU 13 + GPU 74 + CPU)",
+        "valorCliente": "Suma CPU, GPU y NPU para mover las funciones de IA de Windows, aunque la NPU sola no llega al mínimo de Copilot+ PC."
+      },
+      {
+        "etiqueta": "Pantalla",
+        "valorTecnico": "14\" WUXGA (1920x1200) 16:10, OLED táctil, 60 Hz, 400 nits, 100% DCI-P3, 0,2 ms",
+        "valorCliente": "Pantalla OLED de 14 pulgadas, táctil, con negro real y 100% del color de cine: ideal para fotos, video y series."
+      },
+      {
+        "etiqueta": "Almacenamiento",
+        "valorTecnico": "SSD 512 GB M.2 NVMe PCIe 4.0",
+        "valorCliente": "Suficiente espacio y velocidad para el día a día, fotos y proyectos livianos de video."
+      },
+      {
+        "etiqueta": "Batería",
+        "valorTecnico": "75 Wh, carga por USB-C (adaptador 65 W)",
+        "valorCliente": "Le rinde casi todo el día de trabajo sin buscar un tomacorriente."
+      },
+      {
+        "etiqueta": "Portabilidad",
+        "valorTecnico": "1,2 kg, 14,9 mm de grosor, norma militar MIL-STD-810H",
+        "valorCliente": "Es súper liviano y resistente: lo carga en el bolso todos los días sin preocuparse por los golpes del trajín diario."
+      }
+    ],
+    "metricas": {
+      "bateria": 8,
+      "rendimiento": 7,
+      "ia": 6,
+      "portabilidad": 9,
+      "pantalla": 9
+    },
+    "argumentosVenta": [
+      "Negro real y 100% del color de cine (DCI-P3): se vende con la pantalla encendida.",
+      "70% menos luz azul dañina, certificado por TÜV Rheinland, para quien pasa muchas horas frente a la pantalla.",
+      "1,2 kg con norma militar MIL-STD-810H: liviano y resistente para llevarlo a todas partes."
+    ],
+    "verificar": false,
+    "ganchosCard": [
+      {
+        "cliente": "Edita fotos o ve series",
+        "frase": "Si edita fotos o ve series, aquí ve el color como es. Cubre el 100% del estándar de cine, 1.070 millones de colores."
+      },
+      {
+        "cliente": "Pasa muchas horas frente al computador",
+        "frase": "Si pasa muchas horas frente al computador, esta pantalla emite 70% menos luz azul dañina, certificada por TÜV Rheinland, y sin volver la imagen amarilla."
+      },
+      {
+        "cliente": "Quiere algo liviano y resistente",
+        "frase": "Pesa 1,2 kilos y pasó pruebas de resistencia con norma militar. Es para llevarlo a todas partes sin miedo."
+      }
+    ],
+    "objeciones": [
+      {
+        "objecion": "¿El OLED no se quema con el tiempo?",
+        "respuesta": "ASUS incluye ASUS OLED Care en MyASUS: mueve los píxeles levemente, oculta la barra de tareas y activa un protector de pantalla en negro. Con uso normal, no es un problema."
+      },
+      {
+        "objecion": "¿Por qué 60 Hz si otros tienen 120 Hz?",
+        "respuesta": "Esta referencia es WUXGA a 60 Hz, ideal para estudio, oficina y series. Con 0,2 ms de respuesta el movimiento se ve limpio. Si el cliente juega competitivo, llévalo a la línea TUF o ROG."
+      },
+      {
+        "objecion": "La RAM no se puede ampliar.",
+        "respuesta": "Son 16 GB LPDDR5X en doble canal, integrados: más rápidos y eficientes que módulos sueltos, y suficientes para oficina, estudio y edición ligera durante años."
+      }
+    ],
+    "clienteIdeal": "Quien edita fotos, ve series o pasa muchas horas frente a la pantalla y quiere colores reales y buen cuidado visual, sin cansar la vista.",
+    "graficos": {
+      "tipo": "integrados",
+      "modelo": "Intel Arc 140T",
+      "comoDecirlo": "Gráficos integrados de buen nivel: le alcanza para edición liviana de fotos y video, y varias ventanas abiertas a la vez."
+    },
+    "bateria": {
+      "wh": 75,
+      "comoDecirlo": "Le rinde casi todo el día de trabajo sin buscar un tomacorriente."
+    },
+    "portabilidad": {
+      "pesoKg": 1.2,
+      "grosorCm": 1.49,
+      "comoDecirlo": "Es súper liviano y pasó pruebas de resistencia con norma militar: lo carga en el bolso sin notar el peso."
+    },
+    "conectividad": {
+      "wifi": "Wi-Fi 7",
+      "bluetooth": "5.4",
+      "puertos": [
+        "Thunderbolt 4 (USB-C) x2",
+        "USB-A 3.2 Gen 1",
+        "HDMI 2.1",
+        "Jack combo 3.5mm"
+      ],
+      "comoDecirlo": "2 puertos Thunderbolt 4 con carga y salida de video: conecta un monitor 4K y carga el equipo con un solo cable."
+    },
+    "camara": {
+      "resolucion": "FHD 1080p",
+      "obturadorFisico": false,
+      "comoDecirlo": "Trae cámara para videollamadas con buena calidad de imagen."
+    },
+    "comparaciones": {
+      "abajo": {
+        "id": "zenbook-a14",
+        "diferencias": [
+          "Procesador Snapdragon X (ARM) en vez de Intel Core Ultra",
+          "Pantalla OLED pero sin función táctil",
+          "Más económico"
+        ]
+      },
+      "arriba": {
+        "id": "zenbook-duo",
+        "diferencias": [
+          "Trae una segunda pantalla OLED para multitarea real",
+          "Más caro y más pesado",
+          "Pensado para creadores que necesitan dos pantallas"
+        ]
+      }
+    },
+    "procesador": {
+      "marca": "Intel",
+      "modelo": "Core Ultra 7 255H",
+      "serie": "Core Ultra 200H",
+      "nucleos": 16,
+      "hilos": 16,
+      "frecuenciaMax": "5,1 GHz",
+      "npuTops": 13,
+      "queSignifica": "Procesador de 16 núcleos con gráficos Intel Arc 140T integrados y NPU Intel AI Boost; sumando CPU, GPU y NPU la plataforma llega hasta 96 TOPS de IA.",
+      "comoDecirlo": "Es rápido para edición, multitarea y las funciones de IA de Windows (Copilot); le va a durar varios años.",
+      "paraQueAlcanza": [
+        "Edición de fotos y video liviano",
+        "Multitarea exigente",
+        "Funciones de IA en Windows (Copilot)",
+        "Trabajo y estudio todos los días"
+      ]
+    },
+    "memoria": {
+      "ram": "16 GB",
+      "tipoRam": "LPDDR5X",
+      "almacenamiento": "512 GB SSD",
+      "caso": "soldada",
+      "comoDecirlo": "16 GB en doble canal, integrados a la placa: más rápidos y eficientes que módulos sueltos, listos para multitarea."
+    },
+    "pantalla": {
+      "pulgadas": 14,
+      "resolucion": "1920x1200 (WUXGA)",
+      "tipo": "OLED táctil",
+      "hz": 60,
+      "nits": 400,
+      "comoDecirlo": "Pantalla OLED de 14 pulgadas, táctil, con negro real y 100% del color de cine (DCI-P3): ideal para fotos, video y series."
+    }
+  },
+  {
+    "id": "tuf-gaming-f16-fx607vjb-rtx3050",
+    "nombre": "ASUS TUF Gaming F16 — RTX 3050",
+    "linea": "tuf",
+    "referencia": "FX607VJB",
+    "pantallaPulgadas": 16,
+    "imagen": "/entrenamientos/tuf-gaming-f16-f15/tuf-gaming-device.webp",
+    "perfiles": [
+      "gamers",
+      "estudiantes",
+      "hogar"
+    ],
+    "specs": [
+      {
+        "etiqueta": "Sistema operativo",
+        "valorTecnico": "Windows 11 Home",
+        "valorCliente": "Viene listo para usar, con todo lo que ya conoces de Windows."
+      },
+      {
+        "etiqueta": "Procesador",
+        "valorTecnico": "Intel Core 5 210H, 8 núcleos / 12 hilos, hasta 4,8 GHz",
+        "valorCliente": "Rinde bien para jugar y la multitarea del día a día."
+      },
+      {
+        "etiqueta": "Tarjeta de video",
+        "valorTecnico": "NVIDIA GeForce RTX 3050, 6 GB GDDR6",
+        "valorCliente": "La entrada al gaming de ASUS: mueve bien juegos actuales en calidad media."
+      },
+      {
+        "etiqueta": "Pantalla",
+        "valorTecnico": "16\" FHD+ (1920x1200) 16:10, 144 Hz, IPS",
+        "valorCliente": "Pantalla alta y fluida a 144Hz: se ve más del juego y de los documentos."
+      },
+      {
+        "etiqueta": "Memoria RAM",
+        "valorTecnico": "8 o 16 GB DDR5, 2 ranuras, ampliable (varía según la tienda)",
+        "valorCliente": "Trae RAM ampliable: si hace falta más adelante, se le puede sumar sin cambiar el equipo."
+      },
+      {
+        "etiqueta": "Batería",
+        "valorTecnico": "56 Wh",
+        "valorCliente": "Para jugar, siempre conectado; la batería rinde bien para clases y trabajo."
+      },
+      {
+        "etiqueta": "Portabilidad",
+        "valorTecnico": "Aprox. 2,2 kg, norma militar MIL-STD-810H",
+        "valorCliente": "No es el más liviano, pero el chasis reforzado aguanta el trajín del día a día."
+      }
+    ],
+    "metricas": {
+      "bateria": 4,
+      "rendimiento": 5,
+      "ia": 2,
+      "portabilidad": 3,
+      "pantalla": 6
+    },
+    "argumentosVenta": [
+      "Con el F16 entras con RTX y pantalla de 144 Hz, y el chasis aguanta el trajín del día a día.",
+      "La entrada al gaming de ASUS con chasis reforzado, sin pagar por potencia que no vas a usar todavía.",
+      "Mismo grado militar MIL-STD-810H que toda la línea TUF."
+    ],
+    "verificar": false,
+    "ganchosCard": [
+      {
+        "cliente": "Su primer PC gamer",
+        "frase": "Con el F16 entras con RTX y pantalla de 144 Hz, y el chasis aguanta el trajín del día a día."
+      },
+      {
+        "cliente": "Quiere entrar al gaming sin gastar de más",
+        "frase": "La entrada al gaming de ASUS con chasis reforzado, sin pagar por potencia que no vas a usar todavía."
+      },
+      {
+        "cliente": "Duda entre TUF y ROG de entrada",
+        "frase": "Mismo grado militar MIL-STD-810H que toda la línea TUF; ROG apunta a más potencia y más precio."
+      }
+    ],
+    "objeciones": [
+      {
+        "objecion": "¿Por qué no un ROG?",
+        "respuesta": "TUF es la entrada al gaming de ASUS con chasis reforzado. ROG apunta a más potencia y más precio; si el cliente quiere jugar bien sin pagar de más, TUF es la opción."
+      },
+      {
+        "objecion": "¿Cuánto dura la batería jugando?",
+        "respuesta": "Para jugar, siempre conectado: ningún portátil gamer da su máxima potencia con batería. Los 56 Wh sirven para clases y trabajo."
+      },
+      {
+        "objecion": "¿Se puede mejorar después?",
+        "respuesta": "Sí: trae 2 ranuras de RAM, así que la memoria se puede ampliar. Confirma en la ficha el máximo del equipo."
+      }
+    ],
+    "clienteIdeal": "Quien entra al PC gaming sin gastar de más, viniendo de consola o de un portátil de oficina.",
+    "graficos": {
+      "tipo": "dedicados",
+      "modelo": "NVIDIA GeForce RTX 3050",
+      "vram": "6GB GDDR6",
+      "escalaPosicion": 1,
+      "comoDecirlo": "La entrada al gaming de ASUS: mueve bien juegos actuales en 1080p con ajustes medios."
+    },
+    "bateria": {
+      "wh": 56,
+      "comoDecirlo": "Para jugar, siempre conectado; la batería rinde bien para clases y trabajo."
+    },
+    "portabilidad": {
+      "pesoKg": 2.2,
+      "comoDecirlo": "No es el más liviano, pero el chasis reforzado con norma militar aguanta el trajín del día a día."
+    },
+    "conectividad": {
+      "wifi": "Wi-Fi 6 (802.11ax)",
+      "bluetooth": "5.3",
+      "puertos": [
+        "USB-C",
+        "USB-A x2",
+        "HDMI",
+        "Ethernet RJ45",
+        "Jack combo 3.5mm"
+      ],
+      "comoDecirlo": "Trae Ethernet para conexión estable mientras se juega, además de Wi-Fi y varios puertos USB."
+    },
+    "camara": {
+      "resolucion": "HD 720p",
+      "obturadorFisico": false,
+      "comoDecirlo": "Trae cámara para videollamadas."
+    },
+    "comparaciones": {
+      "abajo": null,
+      "arriba": {
+        "id": "tuf-gaming-f15-fx507vv-rtx4060",
+        "diferencias": [
+          "Más núcleos e hilos (Core i7 vs Core 5)",
+          "GPU más potente (RTX 4060 vs RTX 3050), con MUX Switch",
+          "Batería más grande (90 Wh vs 56 Wh)"
+        ]
+      }
+    },
+    "procesador": {
+      "marca": "Intel",
+      "modelo": "Core 5 210H",
+      "serie": "Intel Core 5",
+      "nucleos": 8,
+      "hilos": 12,
+      "frecuenciaMax": "4.8 GHz",
+      "npuTops": null,
+      "queSignifica": "Procesador de entrada para gaming; no trae NPU dedicada de IA.",
+      "comoDecirlo": "Rinde bien para jugar y la multitarea del día a día; la IA la mueve la tarjeta de video, no un chip aparte.",
+      "paraQueAlcanza": [
+        "Gaming eSports y juegos actuales en calidad media",
+        "Streaming mientras juega",
+        "Multitarea cotidiana"
+      ]
+    },
+    "memoria": {
+      "ram": "8 o 16 GB",
+      "tipoRam": "DDR5",
+      "almacenamiento": "512 GB SSD",
+      "caso": "se-suma",
+      "comoDecirlo": "Trae 2 ranuras de RAM ampliable; la cantidad de fábrica cambia según la tienda, confirma en la etiqueta del equipo en exhibición."
+    },
+    "pantalla": {
+      "pulgadas": 16,
+      "resolucion": "1920x1200 (FHD+)",
+      "tipo": "IPS",
+      "hz": 144,
+      "nits": 300,
+      "comoDecirlo": "Pantalla de 16 pulgadas en formato 16:10 a 144Hz: más alto para ver más del juego y de los documentos."
+    }
+  },
+  {
+    "id": "tuf-gaming-f15-fx507vv-rtx4060",
+    "nombre": "ASUS TUF Gaming F15 — RTX 4060",
+    "linea": "tuf",
+    "referencia": "FX507VV",
+    "pantallaPulgadas": 15.6,
+    "imagen": "/entrenamientos/tuf-gaming-f16-f15/tuf-gaming-device.webp",
+    "perfiles": [
+      "gamers",
+      "estudiantes"
+    ],
+    "specs": [
+      {
+        "etiqueta": "Sistema operativo",
+        "valorTecnico": "Windows 11 Home",
+        "valorCliente": "Viene listo para usar, con todo lo que ya conoces de Windows."
+      },
+      {
+        "etiqueta": "Procesador",
+        "valorTecnico": "Intel Core i7-13620H, 10 núcleos / 16 hilos, hasta 4,9 GHz",
+        "valorCliente": "Rápido para jugar en calidad alta y hacer varias cosas a la vez."
+      },
+      {
+        "etiqueta": "Tarjeta de video",
+        "valorTecnico": "NVIDIA GeForce RTX 4060, 8 GB GDDR6, hasta 140W, con MUX Switch",
+        "valorCliente": "La gráfica le manda la imagen directo a la pantalla, sin pasar por el procesador, para más FPS."
+      },
+      {
+        "etiqueta": "Pantalla",
+        "valorTecnico": "15,6\" FHD (1920x1080), 144 Hz, 100% sRGB, G-SYNC",
+        "valorCliente": "Pantalla de 144Hz con G-SYNC: se ve fluida y sin cortes de imagen en juegos de acción."
+      },
+      {
+        "etiqueta": "Memoria RAM",
+        "valorTecnico": "16 GB DDR5-4800, 2 ranuras, ampliable",
+        "valorCliente": "Trae 16GB en dos ranuras; si el cliente necesita más, se le puede sumar otro módulo sin quitar el actual."
+      },
+      {
+        "etiqueta": "Almacenamiento",
+        "valorTecnico": "SSD 512 GB o 1 TB M.2 NVMe PCIe 4.0 (varía según la tienda)",
+        "valorCliente": "Suficiente espacio y velocidad para juegos y programas."
+      },
+      {
+        "etiqueta": "Batería",
+        "valorTecnico": "90 Wh",
+        "valorCliente": "Para jugar, siempre conectado; la batería rinde bien para clases y trabajo."
+      },
+      {
+        "etiqueta": "Portabilidad",
+        "valorTecnico": "Aprox. 2,2 kg, norma militar MIL-STD-810H",
+        "valorCliente": "No es el más liviano, pero el chasis reforzado aguanta el trajín del día a día."
+      }
+    ],
+    "metricas": {
+      "bateria": 5,
+      "rendimiento": 7,
+      "ia": 2,
+      "portabilidad": 3,
+      "pantalla": 6
+    },
+    "argumentosVenta": [
+      "RTX 4060 con MUX Switch: la gráfica le manda la imagen directo a la pantalla, sin pasar por el procesador, para más FPS.",
+      "Para juegos actuales en calidad alta, con DLSS 3 y generación de cuadros, sí corre bien.",
+      "Mismo grado militar MIL-STD-810H; el salto a ROG es más potencia y más precio, no más resistencia."
+    ],
+    "verificar": false,
+    "ganchosCard": [
+      {
+        "cliente": "Juega en serio y quiere buen rendimiento",
+        "frase": "RTX 4060 con MUX Switch: la gráfica le manda la imagen directo a la pantalla, sin pasar por el procesador, para más FPS."
+      },
+      {
+        "cliente": "Pregunta si le alcanza para los juegos del momento",
+        "frase": "Para juegos actuales en calidad alta, con DLSS 3 y generación de cuadros, sí corre bien."
+      },
+      {
+        "cliente": "Duda entre TUF F15 y un ROG",
+        "frase": "Mismo grado militar MIL-STD-810H; el salto a ROG es más potencia y más precio, no más resistencia."
+      }
+    ],
+    "objeciones": [
+      {
+        "objecion": "¿Por qué no un ROG?",
+        "respuesta": "TUF es la entrada al gaming de ASUS con chasis reforzado. ROG apunta a más potencia y más precio; si el cliente quiere rendimiento alto sin pagar de más, el F15 es la opción."
+      },
+      {
+        "objecion": "¿Cuánto dura la batería jugando?",
+        "respuesta": "Para jugar, siempre conectado: ningún portátil gamer da su máxima potencia con batería. Los 90 Wh sirven para clases y trabajo."
+      },
+      {
+        "objecion": "¿Se puede mejorar después?",
+        "respuesta": "Sí: trae 2 ranuras de RAM, así que la memoria se puede ampliar. Confirma en la ficha el máximo del equipo."
+      }
+    ],
+    "clienteIdeal": "Quien juega en serio y quiere rendimiento real en calidad alta, sin pasarse todavía al precio de un ROG.",
+    "graficos": {
+      "tipo": "dedicados",
+      "modelo": "NVIDIA GeForce RTX 4060",
+      "vram": "8GB GDDR6",
+      "escalaPosicion": 2,
+      "comoDecirlo": "Con MUX Switch: la gráfica le manda la imagen directo a la pantalla, sin pasar por el procesador, para más FPS. (hasta 140W)"
+    },
+    "bateria": {
+      "wh": 90,
+      "comoDecirlo": "Para jugar, siempre conectado; la batería rinde bien para clases y trabajo."
+    },
+    "portabilidad": {
+      "pesoKg": 2.2,
+      "comoDecirlo": "No es el más liviano, pero el chasis reforzado con norma militar aguanta el trajín del día a día."
+    },
+    "conectividad": {
+      "wifi": "Wi-Fi 6 (802.11ax)",
+      "bluetooth": "5.3",
+      "puertos": [
+        "USB-C",
+        "USB-A x2",
+        "HDMI",
+        "Ethernet RJ45",
+        "Jack combo 3.5mm"
+      ],
+      "comoDecirlo": "Trae Ethernet para conexión estable mientras se juega, además de Wi-Fi y varios puertos USB."
+    },
+    "camara": {
+      "resolucion": "HD 720p",
+      "obturadorFisico": false,
+      "comoDecirlo": "Trae cámara para videollamadas."
+    },
+    "comparaciones": {
+      "abajo": {
+        "id": "tuf-gaming-f16-fx607vjb-rtx3050",
+        "diferencias": [
+          "Menos núcleos e hilos (Core 5 vs Core i7)",
+          "GPU de entrada (RTX 3050 vs RTX 4060), sin MUX Switch",
+          "Batería más chica (56 Wh vs 90 Wh)"
+        ]
+      },
+      "arriba": null
+    },
+    "procesador": {
+      "marca": "Intel",
+      "modelo": "Core i7-13620H",
+      "serie": "Intel Core HX",
+      "nucleos": 10,
+      "hilos": 16,
+      "frecuenciaMax": "4.9 GHz",
+      "npuTops": null,
+      "queSignifica": "Procesador de rendimiento para gaming; no trae NPU dedicada de IA.",
+      "comoDecirlo": "Rápido para jugar en calidad alta y hacer varias cosas a la vez; la IA la mueve la tarjeta de video, no un chip aparte.",
+      "paraQueAlcanza": [
+        "Gaming en calidad alta, empezando en 1440p",
+        "Streaming mientras juega",
+        "Multitarea pesada"
+      ]
+    },
+    "memoria": {
+      "ram": "16 GB",
+      "tipoRam": "DDR5-4800",
+      "almacenamiento": "512 GB o 1 TB SSD",
+      "caso": "se-suma",
+      "comoDecirlo": "Trae 16GB en dos ranuras; si el cliente necesita más, se le puede sumar otro módulo sin quitar el actual."
+    },
+    "pantalla": {
+      "pulgadas": 15.6,
+      "resolucion": "1920x1080 (Full HD)",
+      "tipo": "IPS, 100% sRGB, G-SYNC",
+      "hz": 144,
+      "nits": 300,
+      "comoDecirlo": "Pantalla de 144Hz con G-SYNC: se ve fluida y sin cortes de imagen en juegos de acción."
+    }
+  },
+  {
+    "id": "rog-xbox-ally-x20-rc74xa",
+    "nombre": "ASUS ROG Xbox Ally X20",
+    "linea": "rog",
+    "referencia": "RC74XA",
+    "pantallaPulgadas": 7.4,
+    "imagen": "/entrenamientos/rog-xbox-ally-x20/device.webp",
+    "perfiles": [
+      "gamers"
+    ],
+    "specs": [
+      {
+        "etiqueta": "Sistema operativo",
+        "valorTecnico": "Windows 11 Home, con experiencia Xbox integrada",
+        "valorCliente": "Prende directo en la experiencia Xbox, con tus juegos de Game Pass a la mano."
+      },
+      {
+        "etiqueta": "Procesador",
+        "valorTecnico": "AMD Ryzen AI Z2 Extreme, 8 núcleos / 16 hilos, hasta 5,0 GHz",
+        "valorCliente": "Es un PC gamer completo metido en una consola: corre los mismos juegos que un portátil, pero cabe en las manos."
+      },
+      {
+        "etiqueta": "Memoria RAM",
+        "valorTecnico": "24 GB LPDDR5X de doble canal, soldada (no se amplía)",
+        "valorCliente": "24GB de memoria rápida compartida con la gráfica, lista para los juegos más exigentes."
+      },
+      {
+        "etiqueta": "Inteligencia artificial (IA)",
+        "valorTecnico": "NPU integrada de hasta 50 TOPS",
+        "valorCliente": "Chip de IA incluido en el mismo procesador, de los más potentes del catálogo."
+      },
+      {
+        "etiqueta": "Pantalla",
+        "valorTecnico": "7,4\" OLED Full HD (1920x1080), 120 Hz, hasta 1400 nits HDR, 100% DCI-P3, FreeSync Premium Pro",
+        "valorCliente": "Pantalla OLED ROG Nebula HDR: negros reales, colores de cine y mucha fluidez para jugar."
+      },
+      {
+        "etiqueta": "Almacenamiento",
+        "valorTecnico": "SSD 1 TB PCIe 4.0 M.2 2280 + lector microSD Express",
+        "valorCliente": "1 TB para la biblioteca de juegos, ampliable con una microSD."
+      },
+      {
+        "etiqueta": "Batería",
+        "valorTecnico": "80 Wh (4 celdas); autonomía variable según el juego y el modo de energía",
+        "valorCliente": "Depende del juego y del modo de energía: en títulos exigentes rinde menos, en juegos livianos mucho más."
+      },
+      {
+        "etiqueta": "Portabilidad",
+        "valorTecnico": "756 g de peso",
+        "valorCliente": "Cabe en las manos: la biblioteca de PC y Xbox completa para llevar a cualquier lugar."
+      }
+    ],
+    "metricas": {
+      "bateria": 5,
+      "rendimiento": 7,
+      "ia": 9,
+      "portabilidad": 10,
+      "pantalla": 9
+    },
+    "argumentosVenta": [
+      "Es un PC con Windows: llevas tu biblioteca de juegos de Steam, Xbox y Epic completa en las manos.",
+      "Prende directo en la experiencia Xbox, con botón Xbox y tus juegos de Game Pass.",
+      "Es la edición de los 20 años de ROG: chasis translúcido con detalles dorados, y en el bundle vienen las gafas XREAL."
+    ],
+    "verificar": false,
+    "ganchosCard": [
+      {
+        "cliente": "Tiene juegos en Steam, Xbox o Epic y quiere jugarlos fuera de su escritorio",
+        "frase": "Es un PC con Windows: llevas tu biblioteca de juegos completa en las manos."
+      },
+      {
+        "cliente": "Juega con Game Pass y quiere la experiencia Xbox sin estar pegado al televisor",
+        "frase": "Prende directo en la experiencia Xbox, con botón Xbox y tus juegos de Game Pass."
+      },
+      {
+        "cliente": "Juega en el sofá, en la cama o de viaje y le importa la comodidad y la batería",
+        "frase": "Los mangos están hechos para jugar horas, y la batería es de 80 Wh."
+      }
+    ],
+    "objeciones": [
+      {
+        "objecion": "¿Por qué no compro una consola de sobremesa?",
+        "respuesta": "Porque esta es un PC que va contigo. Juegas tu biblioteca de Xbox y de PC en la cama, de viaje o conectada a un monitor por USB4, y con las gafas tienes pantalla gigante en cualquier lugar."
+      },
+      {
+        "objecion": "¿Cuánto dura la batería?",
+        "respuesta": "Depende del juego y del modo. Trae 80 Wh. En juegos exigentes rinde menos; en juegos livianos o en la nube rinde mucho más. Muéstrale los modos de energía."
+      },
+      {
+        "objecion": "¿Me corren los juegos de Steam?",
+        "respuesta": "Sí, es Windows 11. Funciona con Steam, Xbox, Epic y otras tiendas de PC. Algunos juegos con antitrampa muy estricta pueden tener restricciones; verifícalo si el cliente juega uno en particular."
+      }
+    ],
+    "clienteIdeal": "Gamer que quiere llevar su biblioteca de PC y Xbox a cualquier lugar, sin atarse a un televisor ni a una consola de sobremesa.",
+    "graficos": {
+      "tipo": "integrados",
+      "modelo": "AMD Radeon (Ryzen AI Z2 Extreme)",
+      "comoDecirlo": "Gráficos integrados de alto nivel, hechos para mover juegos actuales de PC en formato portátil."
+    },
+    "bateria": {
+      "wh": 80,
+      "comoDecirlo": "Depende del juego y del modo de energía: en títulos exigentes rinde menos, en juegos livianos mucho más."
+    },
+    "portabilidad": {
+      "pesoKg": 0.756,
+      "comoDecirlo": "Cabe en las manos: la biblioteca de PC y Xbox completa para llevar a cualquier lugar."
+    },
+    "conectividad": {
+      "wifi": "Wi-Fi 6E",
+      "bluetooth": "5.4",
+      "puertos": [
+        "USB4 x1",
+        "Lector microSD Express"
+      ],
+      "comoDecirlo": "Un puerto USB4 para conectarse a un monitor o dock, y lector de microSD para ampliar el almacenamiento."
+    },
+    "camara": {
+      "resolucion": "Sin cámara",
+      "obturadorFisico": false,
+      "comoDecirlo": "No trae cámara: es un equipo de juego, no de videollamadas."
+    },
+    "comparaciones": {
+      "abajo": null,
+      "arriba": null
+    },
+    "procesador": {
+      "marca": "AMD",
+      "modelo": "Ryzen AI Z2 Extreme",
+      "serie": "AMD Ryzen AI (Zen 5)",
+      "nucleos": 8,
+      "hilos": 16,
+      "frecuenciaMax": "5.0 GHz",
+      "npuTops": 50,
+      "queSignifica": "Chip hecho para gaming portátil: une CPU, GPU y una NPU de hasta 50 TOPS en un solo paquete de bajo consumo.",
+      "comoDecirlo": "Es un PC gamer completo metido en una consola: corre los mismos juegos que un portátil, pero cabe en las manos.",
+      "paraQueAlcanza": [
+        "Jugar títulos actuales de Steam, Xbox y Epic en movimiento",
+        "Streaming en la nube y Game Pass",
+        "Usar las gafas XREAL como pantalla gigante portátil"
+      ]
+    },
+    "memoria": {
+      "ram": "24 GB",
+      "tipoRam": "LPDDR5X",
+      "almacenamiento": "1 TB SSD",
+      "caso": "soldada",
+      "comoDecirlo": "24GB de memoria rápida compartida con la gráfica; viene soldada a la placa, así que no se puede ampliar después."
+    },
+    "pantalla": {
+      "pulgadas": 7.4,
+      "resolucion": "1920x1080 (Full HD)",
+      "tipo": "OLED",
+      "hz": 120,
+      "nits": 1400,
+      "comoDecirlo": "Pantalla OLED ROG Nebula HDR: negros reales, colores de cine y mucha fluidez para jugar."
+    }
+  },
+  {
+    "id": "expertbook-b1-b1403cva",
+    "nombre": "ASUS ExpertBook B1 (B1403CVA)",
+    "linea": "expertbook",
+    "referencia": "B1403CVA",
+    "pantallaPulgadas": 14,
+    "imagen": "/entrenamientos/expertbook-b1/expertbook-b1-hero.webp",
+    "perfiles": [
+      "trabajo"
+    ],
+    "specs": [
+      {
+        "etiqueta": "Sistema operativo",
+        "valorTecnico": "Windows 11 Pro",
+        "valorCliente": "Pro está hecho para administrar equipos dentro de una empresa: se une al dominio y acepta directivas de grupo."
+      },
+      {
+        "etiqueta": "Procesador",
+        "valorTecnico": "Intel Core 5 120U, 10 núcleos / 12 hilos, hasta 5,0 GHz",
+        "valorCliente": "Es rápido para Office, ERP, navegador con muchas pestañas y videollamadas al mismo tiempo, sin gastar la batería."
+      },
+      {
+        "etiqueta": "Memoria RAM",
+        "valorTecnico": "16 GB DDR5 en 2 ranuras SO-DIMM, ampliable hasta 64 GB",
+        "valorCliente": "En módulos SO-DIMM con 2 ranuras: se amplía hasta 64 GB sin cambiar el equipo completo."
+      },
+      {
+        "etiqueta": "Seguridad",
+        "valorTecnico": "TPM 2.0, BitLocker, contraseñas de BIOS, Absolute Persistence, tapa de cámara, ranura Kensington Nano",
+        "valorCliente": "Si se pierde el equipo, nadie puede leer tus archivos: cifrado BitLocker y rastreo con Absolute desde el firmware."
+      },
+      {
+        "etiqueta": "Pantalla",
+        "valorTecnico": "14\" FHD 1920 × 1080, antirreflejo, 300 nits, 87% pantalla/cuerpo",
+        "valorCliente": "Pantalla antirreflejo cómoda para trabajar bajo las luces de oficina, con bordes delgados."
+      },
+      {
+        "etiqueta": "Almacenamiento",
+        "valorTecnico": "SSD 512 GB NVMe PCIe 4.0 (2 ranuras M.2: 2280 y 2230)",
+        "valorCliente": "Suficiente espacio y velocidad para el trabajo diario, con espacio para ampliar más adelante."
+      },
+      {
+        "etiqueta": "Conectividad",
+        "valorTecnico": "2× USB-C 3.2 Gen 2, 2× USB-A 3.2 Gen 1, RJ45 Gigabit Ethernet, HDMI 1.4, Wi-Fi 6E, Bluetooth 5.4",
+        "valorCliente": "El RJ45 integrado evita comprar un adaptador de red para la sala de juntas."
+      },
+      {
+        "etiqueta": "Batería y cargador",
+        "valorTecnico": "63 Wh (3 celdas), cargador USB-C de 65 W",
+        "valorCliente": "Pesa 1,4 kg, trae batería de 63 Wh y carga por USB-C con un cargador pequeño de 65 W."
+      },
+      {
+        "etiqueta": "Portabilidad y durabilidad",
+        "valorTecnico": "Desde 1,40 kg, 1,97 cm de grosor, 32,45 × 21,44 cm, norma MIL-STD-810H, 28% plástico reciclado",
+        "valorCliente": "Cumple la norma militar MIL-STD-810H: es una compra que dura años, incluso con uso diario de oficina."
+      }
+    ],
+    "metricas": {
+      "bateria": 7,
+      "rendimiento": 5,
+      "ia": 2,
+      "portabilidad": 7,
+      "pantalla": 5
+    },
+    "argumentosVenta": [
+      "Trae Windows 11 Pro con cifrado BitLocker: si se pierde el equipo, nadie puede leer tus archivos.",
+      "Se une al dominio o a Microsoft Entra ID, acepta directivas de grupo y se puede rastrear con Absolute.",
+      "Cumple la norma militar MIL-STD-810H y tiene memoria ampliable hasta 64 GB: es una compra que dura años."
+    ],
+    "verificar": false,
+    "ganchosCard": [
+      {
+        "cliente": "Es una PYME o un consultorio pequeño",
+        "frase": "Trae Windows 11 Pro con cifrado BitLocker: si se pierde el equipo, nadie puede leer tus archivos."
+      },
+      {
+        "cliente": "Compra para el área de TI o varios equipos a la vez",
+        "frase": "Se une al dominio o a Microsoft Entra ID, acepta directivas de grupo y se puede rastrear con Absolute."
+      },
+      {
+        "cliente": "Compra por licitación (educación o gobierno)",
+        "frase": "Cumple la norma militar MIL-STD-810H y tiene memoria ampliable hasta 64 GB: es una compra que dura años."
+      }
+    ],
+    "objeciones": [
+      {
+        "objecion": "¿Por qué no compro un portátil de hogar, que es más barato?",
+        "respuesta": "Porque el costo real está en la información y en el tiempo de TI. Windows 11 Pro, TPM 2.0, contraseñas de BIOS, RJ45, memoria ampliable y durabilidad MIL-STD-810H reducen riesgos y reemplazos."
+      },
+      {
+        "objecion": "¿16 GB alcanzan para la oficina?",
+        "respuesta": "Sí, de sobra para Office, ERP, navegador y videollamadas. Y si crece la necesidad, tiene 2 ranuras DDR5 hasta 64 GB."
+      },
+      {
+        "objecion": "¿Tiene lector de huella?",
+        "respuesta": "Esta referencia no lo incluye. Se inicia con PIN de Windows Hello; si la empresa lo exige, se puede usar un lector de huella USB."
+      }
+    ],
+    "clienteIdeal": "Empresas, PYMEs, áreas de TI, independientes y entidades públicas que compran varios equipos a la vez y necesitan que sean seguros, fáciles de administrar desde TI y resistentes al uso diario de oficina.",
+    "graficos": {
+      "tipo": "integrados",
+      "modelo": "Intel Graphics",
+      "comoDecirlo": "Gráficos integrados: le alcanza para oficina, ERP y edición liviana, no para diseño 3D ni video pesado."
+    },
+    "bateria": {
+      "wh": 63,
+      "comoDecirlo": "Pesa 1,4 kg, trae batería de 63 Wh y carga por USB-C con un cargador pequeño de 65 W."
+    },
+    "portabilidad": {
+      "pesoKg": 1.4,
+      "grosorCm": 1.97,
+      "comoDecirlo": "Cumple la norma militar MIL-STD-810H: resistente al uso diario de oficina y fácil de llevar a reuniones."
+    },
+    "conectividad": {
+      "wifi": "Wi-Fi 6E",
+      "bluetooth": "5.4",
+      "puertos": [
+        "USB-C 3.2 Gen 2 x2",
+        "USB-A 3.2 Gen 1 x2",
+        "RJ45 Gigabit Ethernet",
+        "HDMI 1.4"
+      ],
+      "comoDecirlo": "El RJ45 integrado y los 2 USB-C con salida de video evitan comprar adaptadores para la sala de juntas."
+    },
+    "camara": {
+      "resolucion": "HD 720p",
+      "obturadorFisico": true,
+      "comoDecirlo": "Trae cámara con tapa física para cuidar la privacidad en reuniones."
+    },
+    "comparaciones": {
+      "abajo": null,
+      "arriba": null
+    },
+    "procesador": {
+      "marca": "Intel",
+      "modelo": "Core 5 120U",
+      "serie": "Core 5",
+      "nucleos": 10,
+      "hilos": 12,
+      "frecuenciaMax": "5,0 GHz",
+      "npuTops": null,
+      "queSignifica": "10 núcleos (2 de rendimiento y 8 eficientes), 12 hilos, hasta 5,0 GHz y 12 MB de caché. Hecho para multitarea de oficina con bajo consumo.",
+      "comoDecirlo": "Es rápido para Office, ERP, navegador con muchas pestañas y videollamadas al mismo tiempo, sin gastar la batería.",
+      "paraQueAlcanza": [
+        "Office, ERP y herramientas de oficina",
+        "Multitarea de oficina y navegador con muchas pestañas",
+        "Videollamadas todo el día",
+        "Trabajo administrativo diario, no diseño 3D pesado"
+      ]
+    },
+    "memoria": {
+      "ram": "16 GB",
+      "tipoRam": "DDR5 (SO-DIMM)",
+      "almacenamiento": "512 GB SSD NVMe PCIe 4.0",
+      "caso": "se-suma",
+      "comoDecirlo": "En módulos SO-DIMM con 2 ranuras: se amplía hasta 64 GB sin cambiar el equipo completo."
+    },
+    "pantalla": {
+      "pulgadas": 14,
+      "resolucion": "1920x1080 (FHD)",
+      "tipo": "FHD antirreflejo",
+      "hz": 60,
+      "nits": 300,
+      "comoDecirlo": "Pantalla de 14 pulgadas Full HD antirreflejo, con 300 nits y bordes delgados: cómoda para trabajar bajo las luces de oficina."
+    }
   }
 ]

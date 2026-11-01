@@ -7,4 +7,5 @@ export const LINE_LABELS: Record<Producto["linea"], string> = {
   rog: "ROG",
   tuf: "TUF",
   gaming: "Gaming",
+  expertbook: "ExpertBook",
 };
