@@ -44,12 +44,12 @@
       },
       {
         "etiqueta": "Batería",
-        "valorTecnico": "Hasta 14 horas de uso típico (estimado, sin confirmar)",
+        "valorTecnico": "Batería de 70 Wh (3 celdas Li-ion); autonomía oficial de hasta 32 horas en reproducción de video continua con una sola carga.",
         "valorCliente": "Le rinde casi todo el día de trabajo sin buscar un tomacorriente."
       },
       {
         "etiqueta": "Portabilidad",
-        "valorTecnico": "Aprox. 1.2 kg, 1.5 cm de grosor (estimado, sin confirmar)",
+        "valorTecnico": "0.98 kg, 1.34 a 1.59 cm de grosor.",
         "valorCliente": "Es súper liviano: lo carga en el bolso sin notar el peso."
       }
     ],
@@ -65,7 +65,7 @@
       "Tiene un chip de IA que mejora tus videollamadas y hace tu equipo más inteligente, sin gastar batería.",
       "Es liviano y delgado: perfecto para llevarlo a todas partes."
     ],
-    "verificar": true,
+    "verificar": false,
     "ganchosCard": [
       {
         "cliente": "Necesita batería que dure toda la jornada",
@@ -96,12 +96,13 @@
       "comoDecirlo": "Gráficos integrados: le alcanza para oficina, edición liviana de fotos y video, y varias ventanas abiertas a la vez."
     },
     "bateria": {
-      "horasEstimadas": 14,
-      "comoDecirlo": "Le rinde casi todo el día de trabajo sin buscar un tomacorriente."
+      "horasEstimadas": 32,
+      "comoDecirlo": "Le rinde casi todo el día de trabajo sin buscar un tomacorriente.",
+      "wh": 70
     },
     "portabilidad": {
-      "pesoKg": 1.2,
-      "grosorCm": 1.5,
+      "pesoKg": 0.98,
+      "grosorCm": 1.59,
       "comoDecirlo": "Es súper liviano: lo carga en el bolso sin notar el peso."
     },
     "conectividad": {
@@ -207,12 +208,12 @@
       },
       {
         "etiqueta": "Batería",
-        "valorTecnico": "Hasta 12 horas de uso típico (estimado, sin confirmar)",
+        "valorTecnico": "Batería de 70 Wh (3 celdas Li-ion); autonomía oficial de más de 21 horas en reproducción de video.",
         "valorCliente": "Le dura una jornada larga de trabajo sin cargador a la mano."
       },
       {
         "etiqueta": "Portabilidad",
-        "valorTecnico": "Aprox. 1.5 kg, 1.7 cm de grosor (estimado, sin confirmar)",
+        "valorTecnico": "1.20 kg, 1.38 a 1.65 cm de grosor.",
         "valorCliente": "Es grande pero se deja llevar bien, no pesa de más."
       }
     ],
@@ -228,7 +229,7 @@
       "Más potencia que el A14, pero con batería que dura todo el día.",
       "Es un Copilot+ PC: trae IA integrada para que tu cliente trabaje más rápido."
     ],
-    "verificar": true,
+    "verificar": false,
     "ganchosCard": [
       {
         "cliente": "Necesita más potencia que el A14",
@@ -259,12 +260,13 @@
       "comoDecirlo": "Gráficos integrados: le alcanza para oficina, edición liviana de fotos y video, y varias ventanas abiertas a la vez."
     },
     "bateria": {
-      "horasEstimadas": 12,
-      "comoDecirlo": "Le dura una jornada larga de trabajo sin cargador a la mano."
+      "horasEstimadas": 21,
+      "comoDecirlo": "Le dura una jornada larga de trabajo sin cargador a la mano.",
+      "wh": 70
     },
     "portabilidad": {
-      "pesoKg": 1.5,
-      "grosorCm": 1.7,
+      "pesoKg": 1.2,
+      "grosorCm": 1.65,
       "comoDecirlo": "Es grande pero se deja llevar bien, no pesa de más."
     },
     "conectividad": {
@@ -376,12 +378,12 @@
       },
       {
         "etiqueta": "Batería",
-        "valorTecnico": "Hasta 6 horas de uso típico (estimado, sin confirmar)",
+        "valorTecnico": "Batería de 63 Wh (3 celdas Li-ion); en juego intensivo la autonomía baja rápido, se recomienda jugar conectado.",
         "valorCliente": "Rinde varias horas de juego, pero es mejor tenerlo cerca de un tomacorriente."
       },
       {
         "etiqueta": "Portabilidad",
-        "valorTecnico": "Aprox. 2.3 kg, 2.4 cm de grosor (estimado, sin confirmar)",
+        "valorTecnico": "1.95 kg, 1.80 a 2.20 cm de grosor.",
         "valorCliente": "Es un portátil gamer: pesa más, pensado para quedarse en un mismo lugar."
       }
     ],
@@ -397,7 +399,7 @@
       "Pantalla de 144 Hz, ideal para juegos y contenido de acción.",
       "Es la opción perfecta para el cliente que quiere jugar y también usar el PC para todo lo demás."
     ],
-    "verificar": true
+    "verificar": false
   },
   {
     "id": "zenbook-duo",
@@ -444,12 +446,12 @@
       },
       {
         "etiqueta": "Batería",
-        "valorTecnico": "Hasta 8 horas de uso típico con las dos pantallas activas (estimado, sin confirmar)",
+        "valorTecnico": "Batería de 99 Wh (4 celdas Li-ion).",
         "valorCliente": "Dura varias horas aunque uses las dos pantallas a la vez."
       },
       {
         "etiqueta": "Portabilidad",
-        "valorTecnico": "Aprox. 1.65 kg, 1.9 cm de grosor (estimado, sin confirmar)",
+        "valorTecnico": "1.65 kg, 1.96 a 2.34 cm de grosor.",
         "valorCliente": "Pesa un poco más por las dos pantallas, pero sigue siendo fácil de cargar."
       }
     ],
@@ -465,7 +467,7 @@
       "Las dos pantallas son táctiles: puedes dibujar, anotar o tocar directo sobre ellas.",
       "Es ideal para el cliente creador de contenido o que necesita multitarea de verdad."
     ],
-    "verificar": true,
+    "verificar": false,
     "ganchosCard": [
       {
         "cliente": "Necesita multitarea real con dos pantallas",
@@ -496,12 +498,12 @@
       "comoDecirlo": "Gráficos integrados: le alcanza para oficina, edición liviana de fotos y video, y varias ventanas abiertas a la vez."
     },
     "bateria": {
-      "horasEstimadas": 8,
-      "comoDecirlo": "Dura varias horas aunque uses las dos pantallas a la vez."
+      "comoDecirlo": "Dura varias horas aunque uses las dos pantallas a la vez.",
+      "wh": 99
     },
     "portabilidad": {
       "pesoKg": 1.65,
-      "grosorCm": 1.9,
+      "grosorCm": 2.34,
       "comoDecirlo": "Pesa un poco más por las dos pantallas, pero sigue siendo fácil de cargar."
     },
     "conectividad": {
@@ -598,7 +600,7 @@
       },
       {
         "etiqueta": "Pantalla",
-        "valorTecnico": "15.6\" Full HD (1920x1080), 60 Hz, 250 nits, IPS (estimado, sin confirmar)",
+        "valorTecnico": "15.6\" Full HD (1920x1080), 60 Hz, 250 nits, panel IPS-level, antirreflejo.",
         "valorCliente": "Pantalla grande de 15.6 pulgadas, cómoda para ver series y trabajar sin forzar la vista."
       },
       {
@@ -608,12 +610,12 @@
       },
       {
         "etiqueta": "Batería",
-        "valorTecnico": "Hasta 10 horas de uso típico (estimado, sin confirmar)",
+        "valorTecnico": "Batería de 42 Wh (3 celdas Li-ion).",
         "valorCliente": "Le rinde una jornada completa de estudio o trabajo liviano."
       },
       {
         "etiqueta": "Portabilidad",
-        "valorTecnico": "Aprox. 1.6 kg, 1.9 cm de grosor (estimado, sin confirmar)",
+        "valorTecnico": "1.63 kg, 1.79 cm de grosor.",
         "valorCliente": "Fácil de cargar en el bolso todos los días."
       }
     ],
@@ -629,7 +631,7 @@
       "Pantalla grande de 15.6 pulgadas a buen precio.",
       "Perfecto como primer portátil para el hogar o el estudio."
     ],
-    "verificar": true,
+    "verificar": false,
     "procesador": {
       "marca": "AMD",
       "modelo": "Ryzen 3 7320U",
@@ -657,7 +659,7 @@
     "pantalla": {
       "pulgadas": 15.6,
       "resolucion": "1920x1080 (Full HD)",
-      "tipo": "IPS",
+      "tipo": "IPS-level",
       "hz": 60,
       "nits": 250,
       "comoDecirlo": "Pantalla grande de 15.6 pulgadas, cómoda para ver series y trabajar sin forzar la vista."
@@ -714,12 +716,12 @@
       "comoDecirlo": "Gráficos integrados: suficientes para oficina, estudio, streaming y edición liviana, pero no para juegos exigentes."
     },
     "bateria": {
-      "horasEstimadas": 10,
-      "comoDecirlo": "Le rinde una jornada completa de estudio o trabajo liviano."
+      "comoDecirlo": "Le rinde una jornada completa de estudio o trabajo liviano.",
+      "wh": 42
     },
     "portabilidad": {
-      "pesoKg": 1.6,
-      "grosorCm": 1.9,
+      "pesoKg": 1.63,
+      "grosorCm": 1.79,
       "comoDecirlo": "Fácil de cargar en el bolso todos los días."
     },
     "conectividad": {
@@ -787,7 +789,7 @@
       },
       {
         "etiqueta": "Pantalla",
-        "valorTecnico": "15.6\" Full HD (1920x1080), 60 Hz, 250 nits, IPS (estimado, sin confirmar)",
+        "valorTecnico": "15.6\" Full HD (1920x1080), 60 Hz, 250 nits, panel IPS-level, antirreflejo.",
         "valorCliente": "Pantalla grande de 15.6 pulgadas, cómoda para ver series y trabajar sin forzar la vista."
       },
       {
@@ -797,12 +799,12 @@
       },
       {
         "etiqueta": "Batería",
-        "valorTecnico": "Hasta 10 horas de uso típico (estimado, sin confirmar)",
+        "valorTecnico": "Batería de 42 Wh (3 celdas Li-ion).",
         "valorCliente": "Le rinde una jornada completa de estudio o trabajo liviano."
       },
       {
         "etiqueta": "Portabilidad",
-        "valorTecnico": "Aprox. 1.6 kg, 1.9 cm de grosor (estimado, sin confirmar)",
+        "valorTecnico": "1.63 kg, 1.79 cm de grosor.",
         "valorCliente": "Fácil de cargar en el bolso todos los días."
       }
     ],
@@ -818,7 +820,7 @@
       "Pantalla grande de 15.6 pulgadas a buen precio.",
       "Buen equilibrio entre precio y desempeño para el hogar o el estudio."
     ],
-    "verificar": true,
+    "verificar": false,
     "procesador": {
       "marca": "AMD",
       "modelo": "Ryzen 5 7520U",
@@ -846,7 +848,7 @@
     "pantalla": {
       "pulgadas": 15.6,
       "resolucion": "1920x1080 (Full HD)",
-      "tipo": "IPS",
+      "tipo": "IPS-level",
       "hz": 60,
       "nits": 250,
       "comoDecirlo": "Pantalla grande de 15.6 pulgadas, cómoda para ver series y trabajar sin forzar la vista."
@@ -903,12 +905,12 @@
       "comoDecirlo": "Gráficos integrados: suficientes para oficina, estudio, streaming y edición liviana, pero no para juegos exigentes."
     },
     "bateria": {
-      "horasEstimadas": 10,
-      "comoDecirlo": "Le rinde una jornada completa de estudio o trabajo liviano."
+      "comoDecirlo": "Le rinde una jornada completa de estudio o trabajo liviano.",
+      "wh": 42
     },
     "portabilidad": {
-      "pesoKg": 1.6,
-      "grosorCm": 1.9,
+      "pesoKg": 1.63,
+      "grosorCm": 1.79,
       "comoDecirlo": "Fácil de cargar en el bolso todos los días."
     },
     "conectividad": {
@@ -982,7 +984,7 @@
       },
       {
         "etiqueta": "Pantalla",
-        "valorTecnico": "15.6\" Full HD (1920x1080), 60 Hz, 250 nits, IPS (estimado, sin confirmar)",
+        "valorTecnico": "15.6\" Full HD (1920x1080), 60 Hz, 250 nits, panel IPS-level, antirreflejo.",
         "valorCliente": "Pantalla grande y clara para trabajar y ver contenido."
       },
       {
@@ -992,12 +994,12 @@
       },
       {
         "etiqueta": "Batería",
-        "valorTecnico": "Hasta 10 horas de uso típico (estimado, sin confirmar)",
+        "valorTecnico": "Batería de 42 Wh (3 celdas Li-ion).",
         "valorCliente": "Le rinde una jornada completa de trabajo u estudio."
       },
       {
         "etiqueta": "Portabilidad",
-        "valorTecnico": "Aprox. 1.7 kg, 2 cm de grosor (estimado, sin confirmar)",
+        "valorTecnico": "1.70 kg, 1.79 cm de grosor.",
         "valorCliente": "Fácil de llevar al trabajo o a la universidad."
       }
     ],
@@ -1013,7 +1015,7 @@
       "Confiable para la oficina y el estudio del día a día.",
       "Buen precio para quien necesita hartísimo almacenamiento."
     ],
-    "verificar": true,
+    "verificar": false,
     "procesador": {
       "marca": "Intel",
       "modelo": "Core i3-1315U",
@@ -1040,7 +1042,7 @@
     "pantalla": {
       "pulgadas": 15.6,
       "resolucion": "1920x1080 (Full HD)",
-      "tipo": "IPS",
+      "tipo": "IPS-level",
       "hz": 60,
       "nits": 250,
       "comoDecirlo": "Pantalla grande y clara para trabajar y ver contenido."
@@ -1096,12 +1098,12 @@
       "comoDecirlo": "Gráficos integrados: suficientes para oficina, estudio, streaming y edición liviana, pero no para juegos exigentes."
     },
     "bateria": {
-      "horasEstimadas": 10,
-      "comoDecirlo": "Le rinde una jornada completa de trabajo u estudio."
+      "comoDecirlo": "Le rinde una jornada completa de trabajo u estudio.",
+      "wh": 42
     },
     "portabilidad": {
       "pesoKg": 1.7,
-      "grosorCm": 2,
+      "grosorCm": 1.79,
       "comoDecirlo": "Fácil de llevar al trabajo o a la universidad."
     },
     "conectividad": {
@@ -1176,7 +1178,7 @@
       },
       {
         "etiqueta": "Pantalla",
-        "valorTecnico": "15.6\" Full HD (1920x1080), 60 Hz, 250 nits, IPS (estimado, sin confirmar)",
+        "valorTecnico": "15.6\" Full HD (1920x1080), 60 Hz, 250 nits, panel IPS-level, antirreflejo.",
         "valorCliente": "Pantalla grande y clara para trabajar y ver contenido."
       },
       {
@@ -1186,12 +1188,12 @@
       },
       {
         "etiqueta": "Batería",
-        "valorTecnico": "Hasta 11 horas de uso típico (estimado, sin confirmar)",
+        "valorTecnico": "Batería de 42 Wh (3 celdas Li-ion).",
         "valorCliente": "Le rinde una jornada completa de trabajo u estudio."
       },
       {
         "etiqueta": "Portabilidad",
-        "valorTecnico": "Aprox. 1.7 kg, 2 cm de grosor (estimado, sin confirmar)",
+        "valorTecnico": "1.70 kg, 1.79 cm de grosor.",
         "valorCliente": "Fácil de llevar al trabajo o a la universidad."
       }
     ],
@@ -1207,7 +1209,7 @@
       "Rápido para multitarea de oficina, correo y videollamadas.",
       "Pantalla grande y cómoda para trabajar."
     ],
-    "verificar": true,
+    "verificar": false,
     "procesador": {
       "marca": "Intel",
       "modelo": "Core 5 120U",
@@ -1234,7 +1236,7 @@
     "pantalla": {
       "pulgadas": 15.6,
       "resolucion": "1920x1080 (Full HD)",
-      "tipo": "IPS",
+      "tipo": "IPS-level",
       "hz": 60,
       "nits": 250,
       "comoDecirlo": "Pantalla grande y clara para trabajar y ver contenido."
@@ -1290,12 +1292,12 @@
       "comoDecirlo": "Gráficos integrados: suficientes para oficina, estudio, streaming y edición liviana, pero no para juegos exigentes."
     },
     "bateria": {
-      "horasEstimadas": 11,
-      "comoDecirlo": "Le rinde una jornada completa de trabajo u estudio."
+      "comoDecirlo": "Le rinde una jornada completa de trabajo u estudio.",
+      "wh": 42
     },
     "portabilidad": {
       "pesoKg": 1.7,
-      "grosorCm": 2,
+      "grosorCm": 1.79,
       "comoDecirlo": "Fácil de llevar al trabajo o a la universidad."
     },
     "conectividad": {
@@ -1370,7 +1372,7 @@
       },
       {
         "etiqueta": "Pantalla",
-        "valorTecnico": "15.6\" Full HD (1920x1080) táctil, 60 Hz, 250 nits, IPS (estimado, sin confirmar)",
+        "valorTecnico": "15.6\" Full HD (1920x1080) táctil, 60 Hz, 250 nits, panel IPS-level táctil, antirreflejo.",
         "valorCliente": "Pantalla táctil: puedes tocarla directo para navegar, firmar o anotar."
       },
       {
@@ -1380,12 +1382,12 @@
       },
       {
         "etiqueta": "Batería",
-        "valorTecnico": "Hasta 10 horas de uso típico (estimado, sin confirmar)",
+        "valorTecnico": "Batería de 42 Wh (3 celdas Li-ion).",
         "valorCliente": "Le rinde una jornada completa de trabajo u estudio."
       },
       {
         "etiqueta": "Portabilidad",
-        "valorTecnico": "Aprox. 1.8 kg, 2 cm de grosor (estimado, sin confirmar)",
+        "valorTecnico": "1.70 kg, 1.79 cm de grosor.",
         "valorCliente": "Fácil de llevar, un poco más pesado por la pantalla táctil."
       }
     ],
@@ -1429,7 +1431,7 @@
     "pantalla": {
       "pulgadas": 15.6,
       "resolucion": "1920x1080 (Full HD)",
-      "tipo": "IPS táctil",
+      "tipo": "IPS-level táctil",
       "hz": 60,
       "nits": 250,
       "comoDecirlo": "Pantalla táctil: puedes tocarla directo para navegar, firmar o anotar."
@@ -1485,12 +1487,12 @@
       "comoDecirlo": "Gráficos integrados: suficientes para oficina, estudio, streaming y edición liviana, pero no para juegos exigentes."
     },
     "bateria": {
-      "horasEstimadas": 10,
-      "comoDecirlo": "Le rinde una jornada completa de trabajo u estudio."
+      "comoDecirlo": "Le rinde una jornada completa de trabajo u estudio.",
+      "wh": 42
     },
     "portabilidad": {
-      "pesoKg": 1.8,
-      "grosorCm": 2,
+      "pesoKg": 1.7,
+      "grosorCm": 1.79,
       "comoDecirlo": "Fácil de llevar, un poco más pesado por la pantalla táctil."
     },
     "conectividad": {
@@ -1566,7 +1568,7 @@
       },
       {
         "etiqueta": "Pantalla",
-        "valorTecnico": "14\" Full HD (1920x1080), 60 Hz, 300 nits, IPS (estimado, sin confirmar)",
+        "valorTecnico": "14\" WUXGA (1920x1200) 16:10, 60 Hz, 300 nits, panel IPS-level, antirreflejo.",
         "valorCliente": "Pantalla cómoda de 14 pulgadas, fácil de llevar a todas partes."
       },
       {
@@ -1576,12 +1578,12 @@
       },
       {
         "etiqueta": "Batería",
-        "valorTecnico": "Hasta 13 horas de uso típico (estimado, sin confirmar)",
+        "valorTecnico": "Batería de 50 Wh (3 celdas Li-ion); autonomía oficial de hasta 29 horas en reproducción de video.",
         "valorCliente": "Le dura casi todo el día sin buscar un tomacorriente."
       },
       {
         "etiqueta": "Portabilidad",
-        "valorTecnico": "Aprox. 1.5 kg, 1.8 cm de grosor (estimado, sin confirmar)",
+        "valorTecnico": "1.49 kg, 1.79 a 1.99 cm de grosor.",
         "valorCliente": "Liviano y fácil de cargar todos los días."
       }
     ],
@@ -1597,7 +1599,7 @@
       "La batería le dura muchísimo gracias a su chip ARM.",
       "Liviano y moderno, ideal para llevarlo a todas partes."
     ],
-    "verificar": true,
+    "verificar": false,
     "procesador": {
       "marca": "Qualcomm",
       "modelo": "Snapdragon X X1-26-100",
@@ -1623,8 +1625,8 @@
     },
     "pantalla": {
       "pulgadas": 14,
-      "resolucion": "1920x1080 (Full HD)",
-      "tipo": "IPS",
+      "resolucion": "1920x1200 (WUXGA)",
+      "tipo": "IPS-level",
       "hz": 60,
       "nits": 300,
       "comoDecirlo": "Pantalla cómoda de 14 pulgadas, fácil de llevar a todas partes."
@@ -1681,12 +1683,13 @@
       "comoDecirlo": "Gráficos integrados: suficientes para oficina, estudio, streaming y edición liviana, pero no para juegos exigentes."
     },
     "bateria": {
-      "horasEstimadas": 13,
-      "comoDecirlo": "Le dura casi todo el día sin buscar un tomacorriente."
+      "horasEstimadas": 29,
+      "comoDecirlo": "Le dura casi todo el día sin buscar un tomacorriente.",
+      "wh": 50
     },
     "portabilidad": {
-      "pesoKg": 1.5,
-      "grosorCm": 1.8,
+      "pesoKg": 1.49,
+      "grosorCm": 1.99,
       "comoDecirlo": "Liviano y fácil de cargar todos los días."
     },
     "conectividad": {
@@ -1762,7 +1765,7 @@
       },
       {
         "etiqueta": "Pantalla",
-        "valorTecnico": "16\" WUXGA (1920x1200) 16:10, 60 Hz, 300 nits, IPS (estimado, sin confirmar)",
+        "valorTecnico": "16\" WUXGA (1920x1200) 16:10, 60 Hz, 300 nits, panel IPS-level, antirreflejo.",
         "valorCliente": "Pantalla grande de 16 pulgadas, cómoda para trabajar y ver contenido."
       },
       {
@@ -1772,12 +1775,12 @@
       },
       {
         "etiqueta": "Batería",
-        "valorTecnico": "Hasta 11 horas de uso típico (estimado, sin confirmar)",
+        "valorTecnico": "Batería de 42 Wh (3 celdas Li-ion).",
         "valorCliente": "Le rinde una jornada completa de trabajo."
       },
       {
         "etiqueta": "Portabilidad",
-        "valorTecnico": "Aprox. 1.9 kg, 2.1 cm de grosor (estimado, sin confirmar)",
+        "valorTecnico": "1.88 kg, 1.79 a 1.99 cm de grosor.",
         "valorCliente": "Es grande pero se deja llevar bien, pensado para quedarse casi siempre en un mismo lugar."
       }
     ],
@@ -1793,7 +1796,7 @@
       "Pantalla grande de 16 pulgadas, ideal para trabajar cómodo.",
       "Buen balance entre potencia y batería para el día a día."
     ],
-    "verificar": true,
+    "verificar": false,
     "procesador": {
       "marca": "AMD",
       "modelo": "Ryzen AI 5 340",
@@ -1820,7 +1823,7 @@
     "pantalla": {
       "pulgadas": 16,
       "resolucion": "1920x1200 (WUXGA)",
-      "tipo": "IPS",
+      "tipo": "IPS-level",
       "hz": 60,
       "nits": 300,
       "comoDecirlo": "Pantalla grande de 16 pulgadas, cómoda para trabajar y ver contenido."
@@ -1876,12 +1879,12 @@
       "comoDecirlo": "Gráficos integrados: suficientes para oficina, estudio, streaming y edición liviana, pero no para juegos exigentes."
     },
     "bateria": {
-      "horasEstimadas": 11,
-      "comoDecirlo": "Le rinde una jornada completa de trabajo."
+      "comoDecirlo": "Le rinde una jornada completa de trabajo.",
+      "wh": 42
     },
     "portabilidad": {
-      "pesoKg": 1.9,
-      "grosorCm": 2.1,
+      "pesoKg": 1.88,
+      "grosorCm": 1.99,
       "comoDecirlo": "Es grande pero se deja llevar bien, pensado para quedarse casi siempre en un mismo lugar."
     },
     "conectividad": {
@@ -1956,7 +1959,7 @@
       },
       {
         "etiqueta": "Pantalla",
-        "valorTecnico": "16\" WUXGA (1920x1200) 16:10, 60 Hz, 300 nits, IPS (estimado, sin confirmar)",
+        "valorTecnico": "16\" WUXGA (1920x1200) 16:10, 60 Hz, 300 nits, panel IPS-level, antirreflejo.",
         "valorCliente": "Pantalla grande de 16 pulgadas, cómoda para trabajar."
       },
       {
@@ -1966,12 +1969,12 @@
       },
       {
         "etiqueta": "Batería",
-        "valorTecnico": "Hasta 8 horas de uso típico (estimado, sin confirmar)",
+        "valorTecnico": "Batería de 42 Wh (3 celdas Li-ion).",
         "valorCliente": "Le rinde una jornada de trabajo, aunque conviene tener el cargador cerca en tareas pesadas."
       },
       {
         "etiqueta": "Portabilidad",
-        "valorTecnico": "Aprox. 2 kg, 2.2 cm de grosor (estimado, sin confirmar)",
+        "valorTecnico": "1.88 kg, 1.99 cm de grosor.",
         "valorCliente": "Es grande y con más potencia, pensado para quedarse casi siempre en un mismo lugar."
       }
     ],
@@ -1987,7 +1990,7 @@
       "1TB de espacio y 16GB de RAM: multitarea sin trabas.",
       "Para el cliente que exige más rendimiento sin pasarse a un gamer."
     ],
-    "verificar": true,
+    "verificar": false,
     "procesador": {
       "marca": "Intel",
       "modelo": "Core i5-13420H",
@@ -2014,7 +2017,7 @@
     "pantalla": {
       "pulgadas": 16,
       "resolucion": "1920x1200 (WUXGA)",
-      "tipo": "IPS",
+      "tipo": "IPS-level",
       "hz": 60,
       "nits": 300,
       "comoDecirlo": "Pantalla grande de 16 pulgadas, cómoda para trabajar."
@@ -2071,12 +2074,12 @@
       "comoDecirlo": "Gráficos integrados: suficientes para oficina, estudio, streaming y edición liviana, pero no para juegos exigentes."
     },
     "bateria": {
-      "horasEstimadas": 8,
-      "comoDecirlo": "Le rinde una jornada de trabajo, aunque conviene tener el cargador cerca en tareas pesadas."
+      "comoDecirlo": "Le rinde una jornada de trabajo, aunque conviene tener el cargador cerca en tareas pesadas.",
+      "wh": 42
     },
     "portabilidad": {
-      "pesoKg": 2,
-      "grosorCm": 2.2,
+      "pesoKg": 1.88,
+      "grosorCm": 1.99,
       "comoDecirlo": "Es grande y con más potencia, pensado para quedarse casi siempre en un mismo lugar."
     },
     "conectividad": {
@@ -2152,7 +2155,7 @@
       },
       {
         "etiqueta": "Pantalla",
-        "valorTecnico": "14\" 2.8K (2880x1800) 16:10, 120 Hz, 400 nits, OLED (estimado, sin confirmar)",
+        "valorTecnico": "14\" WUXGA (1920x1200) 16:10, 60 Hz, 300 nits, OLED, DCI-P3 95%, antirreflejo.",
         "valorCliente": "Pantalla OLED con colores muy vivos y negros profundos, ideal para ver series y trabajar con detalle."
       },
       {
@@ -2162,12 +2165,12 @@
       },
       {
         "etiqueta": "Batería",
-        "valorTecnico": "Hasta 13 horas de uso típico (estimado, sin confirmar)",
+        "valorTecnico": "Batería de 70 Wh (3 celdas Li-ion).",
         "valorCliente": "Le dura casi todo el día sin buscar un tomacorriente."
       },
       {
         "etiqueta": "Portabilidad",
-        "valorTecnico": "Aprox. 1.4 kg, 1.5 cm de grosor (estimado, sin confirmar)",
+        "valorTecnico": "1.35 kg, 1.59 a 1.79 cm de grosor.",
         "valorCliente": "Liviano y delgado, perfecto para llevarlo a todas partes."
       }
     ],
@@ -2183,7 +2186,7 @@
       "Es un Copilot+ PC con batería que le rinde todo el día.",
       "Ideal para quien quiere algo bonito, liviano y con tecnología de punta."
     ],
-    "verificar": true,
+    "verificar": false,
     "procesador": {
       "marca": "Qualcomm",
       "modelo": "Snapdragon X X1-26-100",
@@ -2209,10 +2212,10 @@
     },
     "pantalla": {
       "pulgadas": 14,
-      "resolucion": "2880x1800 (2.8K)",
+      "resolucion": "1920x1200 (WUXGA)",
       "tipo": "OLED",
-      "hz": 120,
-      "nits": 400,
+      "hz": 60,
+      "nits": 300,
       "comoDecirlo": "Pantalla OLED con colores muy vivos y negros profundos, ideal para ver series y trabajar con detalle."
     },
     "extras": [
@@ -2266,12 +2269,12 @@
       "comoDecirlo": "Gráficos integrados: suficientes para oficina, estudio, streaming y edición liviana, pero no para juegos exigentes."
     },
     "bateria": {
-      "horasEstimadas": 13,
-      "comoDecirlo": "Le dura casi todo el día sin buscar un tomacorriente."
+      "comoDecirlo": "Le dura casi todo el día sin buscar un tomacorriente.",
+      "wh": 70
     },
     "portabilidad": {
-      "pesoKg": 1.4,
-      "grosorCm": 1.5,
+      "pesoKg": 1.35,
+      "grosorCm": 1.79,
       "comoDecirlo": "Liviano y delgado, perfecto para llevarlo a todas partes."
     },
     "conectividad": {
@@ -2346,7 +2349,7 @@
       },
       {
         "etiqueta": "Pantalla",
-        "valorTecnico": "14\" 2.8K (2880x1800) 16:10, 120 Hz, 400 nits, OLED (estimado, sin confirmar)",
+        "valorTecnico": "14\" WUXGA (1920x1200) 16:10, 60 Hz, 400 nits típico / 600 nits pico HDR, OLED, DCI-P3 100%.",
         "valorCliente": "Pantalla OLED con colores muy vivos y negros profundos, ideal para ver series y trabajar con detalle."
       },
       {
@@ -2356,12 +2359,12 @@
       },
       {
         "etiqueta": "Batería",
-        "valorTecnico": "Hasta 11 horas de uso típico (estimado, sin confirmar)",
+        "valorTecnico": "Batería de 75 Wh (4 celdas Li-ion).",
         "valorCliente": "Le rinde una jornada completa de trabajo."
       },
       {
         "etiqueta": "Portabilidad",
-        "valorTecnico": "Aprox. 1.4 kg, 1.5 cm de grosor (estimado, sin confirmar)",
+        "valorTecnico": "1.30 kg, 1.39 a 1.59 cm de grosor.",
         "valorCliente": "Liviano y delgado, perfecto para llevarlo a todas partes."
       }
     ],
@@ -2377,7 +2380,7 @@
       "Pantalla OLED con colores de cine, ideal para crear y ver contenido.",
       "Liviano y delgado, perfecto para llevarlo a todas partes."
     ],
-    "verificar": true,
+    "verificar": false,
     "procesador": {
       "marca": "Intel",
       "modelo": "Core Ultra 5 226V",
@@ -2403,9 +2406,9 @@
     },
     "pantalla": {
       "pulgadas": 14,
-      "resolucion": "2880x1800 (2.8K)",
+      "resolucion": "1920x1200 (WUXGA)",
       "tipo": "OLED",
-      "hz": 120,
+      "hz": 60,
       "nits": 400,
       "comoDecirlo": "Pantalla OLED con colores muy vivos y negros profundos, ideal para ver series y trabajar con detalle."
     },
@@ -2461,12 +2464,12 @@
       "comoDecirlo": "Gráficos integrados: suficientes para oficina, estudio, streaming y edición liviana, pero no para juegos exigentes."
     },
     "bateria": {
-      "horasEstimadas": 11,
-      "comoDecirlo": "Le rinde una jornada completa de trabajo."
+      "comoDecirlo": "Le rinde una jornada completa de trabajo.",
+      "wh": 75
     },
     "portabilidad": {
-      "pesoKg": 1.4,
-      "grosorCm": 1.5,
+      "pesoKg": 1.3,
+      "grosorCm": 1.59,
       "comoDecirlo": "Liviano y delgado, perfecto para llevarlo a todas partes."
     },
     "conectividad": {
@@ -2544,12 +2547,12 @@
       },
       {
         "etiqueta": "Batería",
-        "valorTecnico": "42 Wh, hasta 8 horas de uso típico (estimado, sin confirmar)",
+        "valorTecnico": "Batería de 42 Wh (3 celdas Li-ion).",
         "valorCliente": "Le rinde varias horas de uso normal, sin estar pegado al tomacorriente."
       },
       {
         "etiqueta": "Portabilidad",
-        "valorTecnico": "Aprox. 1.7 kg, 1.99 cm de grosor (estimado, sin confirmar)",
+        "valorTecnico": "1.70 kg, 1.79 cm de grosor.",
         "valorCliente": "No es el más liviano del catálogo, pero se deja cargar sin problema todos los días."
       }
     ],
@@ -2565,7 +2568,7 @@
       "Tranquilo, este trae una ranura disponible: si más adelante necesita más memoria, se la subimos sin cambiar de equipo.",
       "Sí trae un chip de IA que ayuda en videollamadas; si busca lo último en IA con Copilot+, le mostramos el Vivobook S14."
     ],
-    "verificar": true,
+    "verificar": false,
     "procesador": {
       "marca": "Intel",
       "modelo": "Core 5 315",
@@ -2604,12 +2607,11 @@
     },
     "bateria": {
       "wh": 42,
-      "horasEstimadas": 8,
       "comoDecirlo": "Le rinde varias horas de uso normal: internet, Office y videollamadas, sin estar pegado al tomacorriente."
     },
     "portabilidad": {
       "pesoKg": 1.7,
-      "grosorCm": 1.99,
+      "grosorCm": 1.79,
       "comoDecirlo": "No es el más liviano del catálogo, pero se deja cargar sin problema todos los días."
     },
     "conectividad": {
@@ -2722,7 +2724,8 @@
       "comoDecirlo": "Trae 16GB de memoria en dos ranuras; si el cliente necesita más, se le puede sumar otro módulo sin quitar el actual."
     },
     "bateria": {
-      "comoDecirlo": "Como todo equipo gamer, rinde mejor conectado al tomacorriente en sesiones largas de juego."
+      "comoDecirlo": "Como todo equipo gamer, rinde mejor conectado al tomacorriente en sesiones largas de juego.",
+      "wh": 90
     },
     "portabilidad": {
       "pesoKg": 2.2,
@@ -2756,7 +2759,7 @@
       "Guía rápida de inicio",
       "Tarjeta de garantía"
     ],
-    "verificar": true,
+    "verificar": false,
     "notasTodo": [
       "No hay ficha oficial de asus.com/co todavía para esta familia (TUF Gaming 16 / FX610J)",
       "Procesador, RAM de fábrica, almacenamiento y puertos son estimados"
@@ -2794,7 +2797,7 @@
       },
       {
         "etiqueta": "Batería",
-        "valorTecnico": "Autonomía variable según uso (estimado, sin confirmar)",
+        "valorTecnico": "Batería de 90 Wh (4 celdas Li-ion); en juego intensivo conviene jugar conectado.",
         "valorCliente": "Rinde mejor conectado al tomacorriente en sesiones largas."
       },
       {
@@ -2899,7 +2902,8 @@
       "comoDecirlo": "Trae 16GB de memoria en dos ranuras; si el cliente necesita más, se le puede sumar otro módulo sin quitar el actual."
     },
     "bateria": {
-      "comoDecirlo": "Como todo equipo gamer, rinde mejor conectado al tomacorriente en sesiones largas de juego."
+      "comoDecirlo": "Como todo equipo gamer, rinde mejor conectado al tomacorriente en sesiones largas de juego.",
+      "wh": 90
     },
     "portabilidad": {
       "pesoKg": 2.2,
@@ -2933,7 +2937,7 @@
       "Guía rápida de inicio",
       "Tarjeta de garantía"
     ],
-    "verificar": true,
+    "verificar": false,
     "notasTodo": [
       "No hay ficha oficial de asus.com/co todavía para esta familia (TUF Gaming 16 / FX610J)",
       "Procesador, RAM de fábrica, almacenamiento y puertos son estimados"
@@ -2971,7 +2975,7 @@
       },
       {
         "etiqueta": "Batería",
-        "valorTecnico": "Autonomía variable según uso (estimado, sin confirmar)",
+        "valorTecnico": "Batería de 90 Wh (4 celdas Li-ion); en juego intensivo conviene jugar conectado.",
         "valorCliente": "Rinde mejor conectado al tomacorriente en sesiones largas."
       },
       {
@@ -3083,7 +3087,8 @@
       "comoDecirlo": "Trae 16GB de memoria en dos ranuras; si el cliente necesita más, se le puede sumar otro módulo sin quitar el actual."
     },
     "bateria": {
-      "comoDecirlo": "Como todo equipo gamer, rinde mejor conectado al tomacorriente en sesiones largas de juego."
+      "comoDecirlo": "Como todo equipo gamer, rinde mejor conectado al tomacorriente en sesiones largas de juego.",
+      "wh": 90
     },
     "portabilidad": {
       "pesoKg": 2.2,
@@ -3117,7 +3122,7 @@
       "Guía rápida de inicio",
       "Tarjeta de garantía"
     ],
-    "verificar": true,
+    "verificar": false,
     "notasTodo": [
       "No hay ficha oficial de asus.com/co todavía para esta familia (TUF Gaming 16 / FX610J)",
       "Procesador, RAM de fábrica, almacenamiento y puertos son estimados"
@@ -3155,7 +3160,7 @@
       },
       {
         "etiqueta": "Batería",
-        "valorTecnico": "Autonomía variable según uso (estimado, sin confirmar)",
+        "valorTecnico": "Batería de 90 Wh (4 celdas Li-ion); en juego intensivo conviene jugar conectado.",
         "valorCliente": "Rinde mejor conectado al tomacorriente en sesiones largas."
       },
       {
@@ -3317,12 +3322,12 @@
       },
       {
         "etiqueta": "Batería",
-        "valorTecnico": "Autonomía variable según uso (estimado, sin confirmar)",
+        "valorTecnico": "Batería de 90 Wh (4 celdas Li-ion); en juego intensivo conviene jugar conectado.",
         "valorCliente": "Rinde mejor conectado al tomacorriente en sesiones largas."
       },
       {
         "etiqueta": "Portabilidad",
-        "valorTecnico": "Aprox. 2.5 kg (estimado, sin confirmar)",
+        "valorTecnico": "Aprox. 2.65 kg, 3.08 cm de grosor.",
         "valorCliente": "Pensado para quedarse casi siempre en un mismo lugar."
       }
     ],
@@ -3377,11 +3382,13 @@
       "comoDecirlo": "El escalón justo arriba del TUF RTX 5070: más FPS y mejor manejo de 1440p/4K liviano. (hasta 115W de TGP)"
     },
     "bateria": {
-      "comoDecirlo": "Como todo equipo gamer de gama alta, rinde mejor conectado al tomacorriente en sesiones largas."
+      "comoDecirlo": "Como todo equipo gamer de gama alta, rinde mejor conectado al tomacorriente en sesiones largas.",
+      "wh": 90
     },
     "portabilidad": {
-      "pesoKg": 2.5,
-      "comoDecirlo": "Pensado para quedarse casi siempre en un mismo lugar, no para cargarlo todo el día."
+      "pesoKg": 2.65,
+      "comoDecirlo": "Pensado para quedarse casi siempre en un mismo lugar, no para cargarlo todo el día.",
+      "grosorCm": 3.08
     },
     "ganchosCard": [
       {
@@ -3468,7 +3475,7 @@
     "id": "rog-strix-scar18-rtx5080",
     "nombre": "ASUS ROG Strix SCAR 18 — RTX 5080",
     "linea": "rog",
-    "referencia": "G835LX [VERIFICAR sufijo exacto Colombia]",
+    "referencia": "G835LW [VERIFICAR sufijo exacto Colombia]",
     "slug": "strix-scar18-rtx5080",
     "pantallaPulgadas": 18,
     "imagen": "/products/rog-strix-scar18-rtx5080.svg",
@@ -3510,7 +3517,7 @@
       },
       {
         "etiqueta": "Portabilidad",
-        "valorTecnico": "Aprox. 3 kg (estimado, sin confirmar)",
+        "valorTecnico": "Aprox. 3.30 kg, 2.35 a 3.20 cm de grosor.",
         "valorCliente": "Un equipo grande, pensado para quedarse en un mismo lugar."
       }
     ],
@@ -3568,8 +3575,9 @@
       "comoDecirlo": "Como todo equipo gamer de gama muy alta, rinde mejor conectado al tomacorriente."
     },
     "portabilidad": {
-      "pesoKg": 3,
-      "comoDecirlo": "Es un equipo grande: pensado para quedarse en un mismo lugar, no para cargarlo a diario."
+      "pesoKg": 3.3,
+      "comoDecirlo": "Es un equipo grande: pensado para quedarse en un mismo lugar, no para cargarlo a diario.",
+      "grosorCm": 3.2
     },
     "ganchosCard": [
       {
@@ -3651,7 +3659,7 @@
       "Guía rápida de inicio",
       "Tarjeta de garantía"
     ],
-    "verificar": true,
+    "verificar": false,
     "id": "rog-strix-scar18-rtx5090",
     "nombre": "ASUS ROG Strix SCAR 18 — RTX 5090",
     "linea": "rog",
@@ -3697,7 +3705,7 @@
       },
       {
         "etiqueta": "Portabilidad",
-        "valorTecnico": "Aprox. 3 kg (estimado, sin confirmar)",
+        "valorTecnico": "Aprox. 3.30 kg, 2.35 a 3.20 cm de grosor.",
         "valorCliente": "Un equipo grande, pensado para quedarse en un mismo lugar."
       }
     ],
@@ -3755,8 +3763,9 @@
       "comoDecirlo": "Como todo equipo gamer tope de gama, rinde mejor conectado al tomacorriente."
     },
     "portabilidad": {
-      "pesoKg": 3,
-      "comoDecirlo": "Es un equipo grande: pensado para quedarse en un mismo lugar, no para cargarlo a diario."
+      "pesoKg": 3.3,
+      "comoDecirlo": "Es un equipo grande: pensado para quedarse en un mismo lugar, no para cargarlo a diario.",
+      "grosorCm": 3.2
     },
     "ganchosCard": [
       {
