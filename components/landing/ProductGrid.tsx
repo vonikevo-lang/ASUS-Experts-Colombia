@@ -1,38 +1,43 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useMemo } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "motion/react";
 import productsData from "@/data/products.json";
-import segmentosData from "@/data/segmentos.json";
 import { referencias } from "@/data/referencias";
 import type { Producto } from "@/types/product";
-import type { Segmento } from "@/types/platform";
 import { Card } from "@/components/ui/Card";
 import { Chip } from "@/components/ui/Chip";
 import { buttonClasses } from "@/components/ui/Button";
 import { useReducedMotion } from "@/hooks/useReducedMotion";
 import { revealContainer, revealItem } from "@/lib/motion";
 import { LINE_LABELS } from "@/lib/lineLabels";
-import { cn } from "@/lib/cn";
 
 const products = productsData as Producto[];
-const segmentos = segmentosData as Segmento[];
 const referenciaSlugs = new Set(referencias.map((r) => r.slug));
+
+/**
+ * Vitrina del home: una referencia destacada por línea (la que tiene
+ * material propio/enriquecido en /entrenamientos), no el catálogo
+ * completo — con 26 referencias esa grilla se volvía eterna en celular.
+ * El catálogo completo vive en /entrenamientos y /comparador.
+ */
+const SLUGS_DESTACADOS = [
+  "vivobook-15-x1504ma-bq919w",
+  "zenbook-a14",
+  "tuf-gaming-f15-fx507vv-rtx4060",
+  "rog-xbox-ally-x20-rc74xa",
+  "expertbook-b1-b1403cva",
+];
 
 export function ProductGrid() {
   const reduced = useReducedMotion();
-  const [filtro, setFiltro] = useState<string | null>(null);
 
-  const filtrados = useMemo(() => {
-    if (!filtro) return products;
-    const segmento = segmentos.find((s) => s.id === filtro);
-    if (!segmento) return products;
-    return segmento.orden
-      .map((id) => products.find((p) => p.id === id))
-      .filter((p): p is Producto => Boolean(p));
-  }, [filtro]);
+  const destacados = useMemo(
+    () => SLUGS_DESTACADOS.map((id) => products.find((p) => p.id === id)).filter((p): p is Producto => Boolean(p)),
+    [],
+  );
 
   return (
     <motion.section
@@ -49,44 +54,11 @@ export function ProductGrid() {
         El portafolio que vas a dominar
       </h2>
       <p className="font-sans text-sm text-muted mt-2">
-        Organizado en 4 segmentos, cada uno con su propia escalera de referencias.
+        Una referencia destacada por línea. El catálogo completo tiene 26 referencias.
       </p>
 
-      <div className="flex flex-wrap gap-2 mt-6 mb-10">
-        <button
-          type="button"
-          onClick={() => setFiltro(null)}
-          className={cn(
-            "h-9 px-4 rounded-chip font-sans text-sm font-medium border transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-asus-blue",
-            filtro === null
-              ? "bg-asus-dark text-white border-asus-dark"
-              : "bg-white text-asus-dark border-border hover:border-asus-dark",
-          )}
-        >
-          Todos
-        </button>
-        {segmentos.map((segmento) => {
-          const active = filtro === segmento.id;
-          return (
-            <button
-              key={segmento.id}
-              type="button"
-              onClick={() => setFiltro(segmento.id)}
-              className="h-9 px-4 rounded-chip font-sans text-sm font-medium border transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-asus-blue"
-              style={
-                active
-                  ? { backgroundColor: segmento.color, borderColor: segmento.color, color: "#ffffff" }
-                  : { borderColor: segmento.color, color: segmento.color }
-              }
-            >
-              {segmento.nombre}
-            </button>
-          );
-        })}
-      </div>
-
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-        {filtrados.map((product) => (
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 mt-10">
+        {destacados.map((product) => (
           <motion.div key={product.id} variants={revealItem(reduced)}>
             <Card className="h-full flex flex-col overflow-hidden group">
               <div className="aspect-[4/3] overflow-hidden bg-asus-blue-soft">
@@ -127,6 +99,12 @@ export function ProductGrid() {
             </Card>
           </motion.div>
         ))}
+      </div>
+
+      <div className="flex justify-center mt-10">
+        <Link href="/entrenamientos" className={buttonClasses("secondary", "h-11 px-6 text-sm")}>
+          Ver catálogo completo
+        </Link>
       </div>
     </motion.section>
   );
