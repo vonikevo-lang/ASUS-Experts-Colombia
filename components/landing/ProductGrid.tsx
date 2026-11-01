@@ -61,12 +61,12 @@ export function ProductGrid() {
         {destacados.map((product) => (
           <motion.div key={product.id} variants={revealItem(reduced)}>
             <Card className="h-full flex flex-col overflow-hidden group">
-              <div className="aspect-[4/3] overflow-hidden bg-asus-blue-soft">
+              <div className="aspect-[16/9] overflow-hidden bg-asus-blue-soft">
                 <Image
                   src={product.imagen}
                   alt={product.nombre}
                   width={400}
-                  height={300}
+                  height={225}
                   className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                 />
               </div>
