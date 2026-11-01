@@ -19,9 +19,9 @@ export default function ModulosPage() {
 
   return (
     <main className="mx-auto max-w-2xl px-4 sm:px-6 py-8">
-      <h1 className="font-display text-2xl font-semibold text-asus-dark">Módulos</h1>
+      <h1 className="font-display text-2xl font-semibold text-asus-dark">Retos</h1>
       <p className="font-sans text-sm text-muted mt-1">
-        Entrena por segmento: cada uno tiene su propia escalera de referencias.
+        Repasa en tarjetas rápidas y gana puntos: cada segmento tiene su propia escalera de referencias.
       </p>
 
       <Link href="/app/modulos/general" className="block mt-6">

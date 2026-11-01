@@ -55,9 +55,9 @@ export default function ModuloReferenciaPage() {
   if (!producto || !segmento) {
     return (
       <main className="mx-auto max-w-xl px-4 py-10">
-        <p className="font-sans text-sm text-muted">Módulo no encontrado.</p>
+        <p className="font-sans text-sm text-muted">Reto no encontrado.</p>
         <Link href="/app/modulos" className="font-sans text-sm text-asus-blue underline mt-2 inline-block">
-          Volver a módulos
+          Volver a retos
         </Link>
       </main>
     );

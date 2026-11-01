@@ -45,7 +45,7 @@ export default function QuizPage() {
       <main className="mx-auto max-w-xl px-4 py-10">
         <p className="font-sans text-sm text-muted">Quiz no encontrado.</p>
         <Link href="/app/modulos" className="font-sans text-sm text-asus-blue underline mt-2 inline-block">
-          Volver a módulos
+          Volver a retos
         </Link>
       </main>
     );
@@ -318,7 +318,7 @@ function ResultScreen({
         </div>
       ) : (
         <p className="font-sans text-sm text-muted mt-6 max-w-xs">
-          ¡Vas por buen camino! Repasa el módulo y vuelve a intentarlo (necesitas{" "}
+          ¡Vas por buen camino! Repasa el reto y vuelve a intentarlo (necesitas{" "}
           {Math.ceil(total * QUIZ_PASS_THRESHOLD)}/{total}).
         </p>
       )}
@@ -326,7 +326,7 @@ function ResultScreen({
       <div className="flex flex-col gap-3 mt-10 w-full max-w-xs">
         {!passed && (
           <Link href={moduloHref} className={buttonClasses("secondary")}>
-            Repasar el módulo
+            Repasar el reto
           </Link>
         )}
         {passed && segmento && siguiente && siguiente !== producto?.id && (

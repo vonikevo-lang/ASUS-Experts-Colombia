@@ -50,7 +50,7 @@ export default function PerfilPage() {
       <div className="grid grid-cols-2 gap-4">
         <div className="rounded-card border border-border p-4 text-center">
           <p className="font-display text-2xl font-bold text-asus-blue">{completedModules.length}</p>
-          <p className="font-sans text-xs text-muted mt-1">módulos completados</p>
+          <p className="font-sans text-xs text-muted mt-1">retos completados</p>
         </div>
         <div className="rounded-card border border-border p-4 text-center">
           <p className="font-display text-2xl font-bold text-asus-blue">{Object.keys(quizResults).length}</p>

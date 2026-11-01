@@ -31,7 +31,7 @@ export default function SegmentoPage() {
       <main className="mx-auto max-w-xl px-4 py-10">
         <p className="font-sans text-sm text-muted">Segmento no encontrado.</p>
         <Link href="/app/modulos" className="font-sans text-sm text-asus-blue underline mt-2 inline-block">
-          Volver a módulos
+          Volver a retos
         </Link>
       </main>
     );
@@ -41,7 +41,10 @@ export default function SegmentoPage() {
   const completo = done === total;
 
   // De tope a entrada, para que la "escalera" se vea de arriba hacia abajo.
+  // Solo las referencias con material propio en /entrenamientos más nuevas
+  // (ver data/products.json) todavía no tienen su versión de este reto.
   const referencias = [...segmento.orden].reverse();
+  const hayReferencias = referencias.some((id) => products.some((p) => p.id === id));
 
   return (
     <main className="mx-auto max-w-2xl px-4 sm:px-6 py-8">
@@ -49,7 +52,7 @@ export default function SegmentoPage() {
         href="/app/modulos"
         className="inline-flex items-center gap-2 font-sans text-sm text-muted hover:text-asus-dark"
       >
-        <IconArrowLeft className="h-4 w-4" /> Módulos
+        <IconArrowLeft className="h-4 w-4" /> Retos
       </Link>
 
       <div
@@ -77,6 +80,16 @@ export default function SegmentoPage() {
       <p className="font-sans text-xs uppercase tracking-[0.04em] text-muted mt-6 mb-3">
         Escalera: de tope a entrada
       </p>
+
+      {!hayReferencias && (
+        <p className="font-sans text-sm text-muted mt-3">
+          Esta línea es nueva: todavía no tiene reto de tarjetas. Mientras tanto, entrénate con su ficha completa en{" "}
+          <Link href="/entrenamientos" className="text-asus-blue underline">
+            Entrenamientos
+          </Link>
+          .
+        </p>
+      )}
 
       <motion.div className="space-y-3" initial="hidden" animate="show" variants={revealContainer(reduced)}>
         {referencias.map((id, i) => {

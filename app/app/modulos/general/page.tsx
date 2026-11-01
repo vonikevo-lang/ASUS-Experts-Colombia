@@ -24,7 +24,7 @@ const SLIDES = [
     titulo: "La escalera y \"dominar\" una referencia",
     queEs: "Cada segmento tiene una escalera de referencias, de entrada a tope.",
     comoDecirlo:
-      "Dominas una referencia cuando completas su módulo y apruebas su quiz. El progreso se ve como \"Dominas X de Y\" en cada segmento.",
+      "Dominas una referencia cuando completas su reto y apruebas su quiz. El progreso se ve como \"Dominas X de Y\" en cada segmento.",
   },
   {
     titulo: "Cómo explicar la IA y Copilot+ PC",
@@ -40,7 +40,7 @@ const SLIDES = [
   },
   {
     titulo: "Usar \"¿Con cuál la comparo?\" en piso",
-    queEs: "Cada módulo termina mostrando el escalón de arriba y el de abajo en su escalera.",
+    queEs: "Cada reto termina mostrando el escalón de arriba y el de abajo en su escalera.",
     comoDecirlo:
       "Si el cliente duda entre dos opciones, usa esa comparación: son 2-3 diferencias claras que puedes decir en piso, sin ficha técnica completa.",
   },

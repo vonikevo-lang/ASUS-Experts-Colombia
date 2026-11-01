@@ -44,11 +44,11 @@ export default function InicioPage() {
 
   const continuar = producto
     ? !moduleDone
-      ? { label: "Empezar módulo", href: `/app/modulos/${segmentoPendiente.id}/${producto.id}`, sub: producto.nombre }
+      ? { label: "Jugar el reto", href: `/app/modulos/${segmentoPendiente.id}/${producto.id}`, sub: producto.nombre }
       : !quizDone
         ? { label: "Hacer el quiz", href: `/app/quiz/${producto.id}`, sub: producto.nombre }
         : {
-            label: "Repasar módulo",
+            label: "Repasar el reto",
             href: `/app/modulos/${segmentoPendiente.id}/${producto.id}`,
             sub: `Último puntaje: ${quizResults[producto.id].score}/${quizResults[producto.id].total}`,
           }
@@ -97,7 +97,7 @@ export default function InicioPage() {
             className="block rounded-card border border-border p-5 hover:border-asus-blue transition-colors"
           >
             <p className="font-sans text-xs uppercase tracking-[0.04em] text-asus-blue font-medium">
-              Continúa donde quedaste
+              Reto de puntos · continúa donde quedaste
             </p>
             <p className="font-display text-lg font-semibold text-asus-dark mt-1">{continuar.label}</p>
             <p className="font-sans text-sm text-muted mt-0.5">{continuar.sub}</p>
