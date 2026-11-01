@@ -21,6 +21,7 @@
   --line-rog: #cd0000;
   --line-tuf: #ffd700;
   --line-gaming: #0a2a4d; /* línea ASUS Gaming (no ROG): azul oscuro neutro */
+  --line-expertbook: #1e5fd9; /* línea ASUS ExpertBook (corporativa) */
 
   /* Estados y gamificación */
   --success: #2d8659;
@@ -65,6 +66,7 @@
   --color-line-rog: var(--line-rog);
   --color-line-tuf: var(--line-tuf);
   --color-line-gaming: var(--line-gaming);
+  --color-line-expertbook: var(--line-expertbook);
 
   --color-success: var(--success);
   --color-warning: var(--warning);

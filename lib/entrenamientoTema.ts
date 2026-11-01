@@ -6,4 +6,5 @@ export const ACCENT_BY_LINEA: Record<LineaEntrenamiento, string> = {
   zenbook: "#d6dbe6",
   tuf: "#ffd400",
   rog: "#ff1e3c",
+  expertbook: "#1E5FD9",
 };

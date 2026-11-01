@@ -13,4 +13,5 @@ export const SLUGS_CON_MATERIAL_PROPIO = new Set([
   "tuf-gaming-f15-fx507vv-rtx4060",
   "zenbook-14-oled-ux3405ca",
   "rog-xbox-ally-x20-rc74xa",
+  "expertbook-b1-b1403cva",
 ]);

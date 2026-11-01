@@ -53,6 +53,11 @@ const TARJETA_MATERIAL_PROPIO: Record<string, { imagenSrc: string; imagenAlt: st
     imagenAlt: "ASUS ROG Xbox Ally X20",
     fondo: "#070605",
   },
+  "expertbook-b1-b1403cva": {
+    imagenSrc: "/entrenamientos/expertbook-b1/expertbook-b1-hero.webp",
+    imagenAlt: "ASUS ExpertBook B1 (B1403CVA)",
+    fondo: "#E3E6EA",
+  },
 };
 
 function estadoDe(resultado: ResultadoEntrenamiento | undefined) {

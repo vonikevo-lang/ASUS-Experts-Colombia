@@ -1,7 +1,7 @@
 import { type HTMLAttributes } from "react";
 import { cn } from "@/lib/cn";
 
-export type ProductLine = "zenbook" | "vivobook" | "proart" | "rog" | "tuf" | "gaming";
+export type ProductLine = "zenbook" | "vivobook" | "proart" | "rog" | "tuf" | "gaming" | "expertbook";
 
 interface ChipProps extends HTMLAttributes<HTMLSpanElement> {
   line?: ProductLine;
@@ -14,6 +14,7 @@ const lineClass: Record<ProductLine, string> = {
   rog: "bg-line-rog text-white",
   tuf: "bg-line-tuf text-asus-dark",
   gaming: "bg-line-gaming text-white",
+  expertbook: "bg-line-expertbook text-white",
 };
 
 export function Chip({ className, line, children, ...props }: ChipProps) {

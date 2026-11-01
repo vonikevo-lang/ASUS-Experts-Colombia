@@ -54,5 +54,14 @@
       "rog-strix-scar18-rtx5090",
       "rog-xbox-ally-x20-rc74xa"
     ]
+  },
+  {
+    "id": "expertbook",
+    "nombre": "ExpertBook",
+    "mensaje": "La línea corporativa de ASUS: seguridad por capas, manejo centralizado desde TI y durabilidad de grado militar para la flota de la empresa.",
+    "color": "#1E5FD9",
+    "orden": [
+      "expertbook-b1-b1403cva"
+    ]
   }
 ]

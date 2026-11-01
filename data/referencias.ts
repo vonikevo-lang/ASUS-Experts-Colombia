@@ -5184,6 +5184,259 @@ export const referencias: Referencia[] = [
     ],
     "duracionMin": 12,
     "dificultad": "intermedio"
+  },
+  {
+    "slug": "expertbook-b1-b1403cva",
+    "linea": "expertbook",
+    "nombre": "ASUS ExpertBook B1 (B1403CVA)",
+    "codigo": "B1403CVA",
+    "tagline": "El portátil corporativo de ASUS: seguridad por capas, Windows 11 Pro y durabilidad militar, a precio de flota.",
+    "intro": "Empresas, PYMEs y áreas de TI que compran varios equipos a la vez y necesitan que sean seguros, fáciles de administrar y resistentes al uso diario de oficina.",
+    "ficha": [
+      {
+        "componente": "Sistema operativo",
+        "dato": "Windows 11 Pro"
+      },
+      {
+        "componente": "Procesador",
+        "dato": "Intel Core 5 120U (10 núcleos, 12 hilos, hasta 5,0 GHz)"
+      },
+      {
+        "componente": "Memoria RAM",
+        "dato": "16 GB DDR5 en 2 ranuras SO-DIMM, ampliable hasta 64 GB"
+      },
+      {
+        "componente": "Almacenamiento",
+        "dato": "SSD 512 GB NVMe PCIe 4.0 (2 ranuras M.2: 2280 y 2230)"
+      },
+      {
+        "componente": "Gráficos",
+        "dato": "Intel Graphics integrados"
+      },
+      {
+        "componente": "Pantalla",
+        "dato": "14\" FHD 1920 × 1080, antirreflejo, 300 nits, 87% pantalla/cuerpo"
+      },
+      {
+        "componente": "Seguridad",
+        "dato": "TPM 2.0, BitLocker, contraseñas de BIOS, Absolute Persistence, tapa de cámara, ranura Kensington Nano"
+      },
+      {
+        "componente": "Conectividad",
+        "dato": "2× USB-C 3.2 Gen 2, 2× USB-A 3.2 Gen 1, RJ45 Gigabit Ethernet, HDMI 1.4, Wi-Fi 6E, Bluetooth 5.4"
+      },
+      {
+        "componente": "Batería y cargador",
+        "dato": "63 Wh (3 celdas), cargador USB-C de 65 W"
+      },
+      {
+        "componente": "Portabilidad y durabilidad",
+        "dato": "Desde 1,40 kg, 1,97 cm de grosor, 32,45 × 21,44 cm, norma MIL-STD-810H, 28% plástico reciclado"
+      }
+    ],
+    "procesador": {
+      "marca": "Intel",
+      "modelo": "Core 5 120U",
+      "serie": "Core 5",
+      "nucleos": 10,
+      "hilos": 12,
+      "frecuenciaMax": "5,0 GHz",
+      "npuTops": null,
+      "queSignifica": "10 núcleos (2 de rendimiento y 8 eficientes), 12 hilos, hasta 5,0 GHz y 12 MB de caché. Hecho para multitarea de oficina con bajo consumo.",
+      "comoDecirlo": "Es rápido para Office, ERP, navegador con muchas pestañas y videollamadas al mismo tiempo, sin gastar la batería.",
+      "paraQueAlcanza": [
+        "Office, ERP y herramientas de oficina",
+        "Multitarea de oficina y navegador con muchas pestañas",
+        "Videollamadas todo el día",
+        "Trabajo administrativo diario, no diseño 3D pesado"
+      ]
+    },
+    "memoria": {
+      "ram": "16 GB",
+      "tipoRam": "DDR5 (SO-DIMM)",
+      "almacenamiento": "512 GB SSD NVMe PCIe 4.0",
+      "comoDecirlo": "En módulos SO-DIMM con 2 ranuras: se amplía hasta 64 GB sin cambiar el equipo completo.",
+      "caso": "se-suma"
+    },
+    "pantallaDetalle": {
+      "pulgadas": 14,
+      "resolucion": "1920x1080 (FHD)",
+      "tipo": "FHD antirreflejo",
+      "hz": 60,
+      "nits": 300,
+      "comoDecirlo": "Pantalla de 14 pulgadas Full HD antirreflejo, con 300 nits y bordes delgados (87% pantalla/cuerpo): cómoda para trabajar bajo las luces de oficina."
+    },
+    "clienteIdeal": "Empresas, PYMEs, áreas de TI, independientes y entidades públicas que compran varios equipos a la vez y necesitan que sean seguros, fáciles de administrar desde TI y resistentes al uso diario de oficina.",
+    "leAlcanzaPara": [
+      "Trabajo de oficina, Office y ERP todos los días",
+      "Videollamadas y navegador con muchas pestañas abiertas",
+      "Conectarse a la red cableada de la empresa sin adaptadores",
+      "Unirse al dominio o a Microsoft Entra ID y administrarse con directivas de grupo",
+      "Proteger la información con BitLocker, TPM 2.0 y Absolute Persistence"
+    ],
+    "noEsPara": [
+      "Diseño 3D o edición de video pesada (sus gráficos son integrados)",
+      "Quien necesita lector de huella de fábrica (esta referencia no lo incluye)"
+    ],
+    "ganchos": [
+      {
+        "cliente": "Es una PYME o un consultorio pequeño",
+        "frase": "Trae Windows 11 Pro con cifrado BitLocker: si se pierde el equipo, nadie puede leer tus archivos."
+      },
+      {
+        "cliente": "Compra para el área de TI o varios equipos a la vez",
+        "frase": "Se une al dominio o a Microsoft Entra ID, acepta directivas de grupo y se puede rastrear con Absolute."
+      },
+      {
+        "cliente": "Trabaja en la calle y en reuniones con clientes",
+        "frase": "Pesa 1,4 kg, trae batería de 63 Wh y carga por USB-C con un cargador pequeño de 65 W."
+      },
+      {
+        "cliente": "Compra por licitación (educación o gobierno)",
+        "frase": "Cumple la norma militar MIL-STD-810H y tiene memoria ampliable hasta 64 GB: es una compra que dura años."
+      },
+      {
+        "cliente": "Necesita conectarse rápido en la sala de juntas",
+        "frase": "Conectas el cable de red, el proyector y el mouse sin comprar adaptadores, y con un dock USB-C dejas el puesto de trabajo listo con un solo cable."
+      }
+    ],
+    "objeciones": [
+      {
+        "dice": "¿Por qué no compro un portátil de hogar, que es más barato?",
+        "responde": "Porque el costo real está en la información y en el tiempo de TI. Windows 11 Pro, TPM 2.0, contraseñas de BIOS, RJ45, memoria ampliable y durabilidad MIL-STD-810H reducen riesgos y reemplazos."
+      },
+      {
+        "dice": "¿16 GB alcanzan para la oficina?",
+        "responde": "Sí, de sobra para Office, ERP, navegador y videollamadas. Y si crece la necesidad, tiene 2 ranuras DDR5 hasta 64 GB."
+      },
+      {
+        "dice": "¿Sirve para diseño o edición de video?",
+        "responde": "Para edición liviana sí; para 3D o video pesado, no. Sus gráficos son integrados. Para esos perfiles, ofrece una línea con tarjeta gráfica dedicada."
+      },
+      {
+        "dice": "¿Tiene lector de huella?",
+        "responde": "Esta referencia no lo incluye. Se inicia con PIN de Windows Hello; si la empresa lo exige, se puede usar un lector de huella USB."
+      }
+    ],
+    "compararCon": {
+      "abajo": null,
+      "arriba": null
+    },
+    "quiz": [
+      {
+        "pregunta": "¿Cuántos núcleos e hilos tiene el procesador Intel Core 5 120U?",
+        "opciones": [
+          "4 núcleos y 8 hilos",
+          "10 núcleos y 12 hilos",
+          "16 núcleos y 16 hilos",
+          "6 núcleos y 12 hilos"
+        ],
+        "correcta": 1,
+        "explicacion": "2 núcleos de rendimiento y 8 eficientes: 10 núcleos y 12 hilos en total, hasta 5,0 GHz."
+      },
+      {
+        "pregunta": "¿Hasta cuánta memoria RAM admite el ExpertBook B1 (B1403CVA)?",
+        "opciones": [
+          "16 GB, viene soldada",
+          "32 GB en una sola ranura",
+          "64 GB en 2 ranuras DDR5",
+          "8 GB, no se puede ampliar"
+        ],
+        "correcta": 2,
+        "explicacion": "Usa módulos SO-DIMM DDR5 en 2 ranuras: se puede ampliar hasta 64 GB."
+      },
+      {
+        "pregunta": "¿Qué función de Windows 11 Pro cifra el disco completo?",
+        "opciones": [
+          "BitLocker",
+          "Windows Sandbox",
+          "Hyper-V",
+          "Windows Defender"
+        ],
+        "correcta": 0,
+        "explicacion": "BitLocker cifra el disco con la ayuda del chip TPM 2.0."
+      },
+      {
+        "pregunta": "¿Para qué sirve el chip TPM 2.0?",
+        "opciones": [
+          "Para acelerar los gráficos",
+          "Para guardar claves de cifrado y credenciales en hardware",
+          "Para mejorar el Wi-Fi",
+          "Para cargar la batería más rápido"
+        ],
+        "correcta": 1,
+        "explicacion": "Protege claves aparte del disco; es requisito de Windows 11 y de BitLocker."
+      },
+      {
+        "pregunta": "El cliente necesita conectar la red cableada de la oficina. ¿Qué puerto usa?",
+        "opciones": [
+          "HDMI 1.4",
+          "USB-A 3.2 Gen 1",
+          "RJ45 Gigabit Ethernet",
+          "Audio combo jack"
+        ],
+        "correcta": 2,
+        "explicacion": "El RJ45 integrado evita comprar un adaptador de red."
+      },
+      {
+        "pregunta": "¿Qué permite Windows 11 Pro que Windows 11 Home no permite?",
+        "opciones": [
+          "Unirse al dominio o a Microsoft Entra ID y usar directivas de grupo",
+          "Navegar en internet",
+          "Usar Microsoft Office",
+          "Conectarse a Wi-Fi"
+        ],
+        "correcta": 0,
+        "explicacion": "Pro está hecho para administrar equipos dentro de una empresa."
+      },
+      {
+        "pregunta": "¿Qué es Absolute Persistence?",
+        "opciones": [
+          "Un antivirus gratuito",
+          "Una tecnología en firmware para rastrear y bloquear el equipo si se pierde",
+          "Un modo de ahorro de batería",
+          "Una app para hacer copias de seguridad"
+        ],
+        "correcta": 1,
+        "explicacion": "Vive en el firmware y sobrevive aunque se formatee el disco."
+      },
+      {
+        "pregunta": "¿Cómo se carga el ExpertBook B1?",
+        "opciones": [
+          "Solo con un conector redondo propietario",
+          "Por USB-C con un cargador de 65 W",
+          "Por el puerto HDMI",
+          "Por RJ45"
+        ],
+        "correcta": 1,
+        "explicacion": "Sus 2 puertos USB-C 3.2 Gen 2 tienen carga y salida de video."
+      },
+      {
+        "pregunta": "¿Qué significa que el equipo cumpla la norma MIL-STD-810H?",
+        "opciones": [
+          "Que es indestructible",
+          "Que pasó pruebas de durabilidad basadas en una norma militar de EE. UU.",
+          "Que tiene garantía de por vida",
+          "Que es resistente al agua como un teléfono"
+        ],
+        "correcta": 1,
+        "explicacion": "Es más resistente al uso diario de oficina, pero no indestructible ni reemplaza la garantía."
+      },
+      {
+        "pregunta": "¿Qué ventaja tiene el Wi-Fi 6E frente al Wi-Fi 6?",
+        "opciones": [
+          "Usa la banda de 6 GHz, con menos congestión",
+          "No necesita router",
+          "Funciona sin electricidad",
+          "Tiene mayor alcance bajo el agua"
+        ],
+        "correcta": 0,
+        "explicacion": "En oficinas con muchos equipos, la banda de 6 GHz reduce la interferencia."
+      }
+    ],
+    "duracionMin": 12,
+    "dificultad": "intermedio",
+    "imagen": "/entrenamientos/expertbook-b1/expertbook-b1-hero.webp"
   }
 ];
 

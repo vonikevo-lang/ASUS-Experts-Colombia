@@ -1,6 +1,6 @@
 import type { Procesador, GanchoCard, Memoria, PantallaDetalle } from "./product";
 
-export type LineaEntrenamiento = "vivobook" | "zenbook" | "tuf" | "rog";
+export type LineaEntrenamiento = "vivobook" | "zenbook" | "tuf" | "rog" | "expertbook";
 
 export type Dificultad = "básico" | "intermedio" | "avanzado";
 
