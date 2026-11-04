@@ -699,10 +699,14 @@ export function EntrenamientoRogXboxAllyX20() {
                   type="button"
                   onPointerDown={(e) => {
                     e.preventDefault();
+                    try {
+                      e.currentTarget.setPointerCapture(e.pointerId);
+                    } catch {
+                      // algunos navegadores no soportan setPointerCapture en touch; se ignora.
+                    }
                     presionarTrigger(1);
                   }}
                   onPointerUp={() => presionarTrigger(-1)}
-                  onPointerLeave={() => presionarTrigger(-1)}
                   onPointerCancel={() => presionarTrigger(-1)}
                   onKeyDown={(e) => {
                     if (e.key === " " || e.key === "Enter") {
